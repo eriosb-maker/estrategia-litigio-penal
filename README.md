@@ -1,28 +1,56 @@
-# Estrategia de Litigio Penal
+# ⚖️ Segundo Cerebro Legal
 
-AI-powered legal strategy analysis for criminal law cases.
+> Sistema de gestión del conocimiento para abogados litigantes, basado en el método de segundo cerebro de Andrej Karpathy, con motores de análisis Bayesiano y Teoría de Juegos.
 
-## Quick Start
+## ¿Qué es esto?
+
+Un **segundo cerebro legal** que combina:
+
+1. **Vault de Obsidian** — base de conocimiento enlazada (causas, normas, jurisprudencia, libros)
+2. **Motor Bayesiano** — calcula P(Condena|Evidencia) con razones de verosimilitud
+3. **Motor de Teoría de Juegos** — identifica equilibrios Nash y ZOPA para negociaciones
+4. **Knowledge Base** — búsqueda cruzada entre causas, normas y bibliografía
+
+## Instalación
 
 ```bash
 pip install -r requirements.txt
-python src/main.py
 ```
 
-## CI/CD Pipeline
+Abrir la carpeta `vault/` como vault en [Obsidian](https://obsidian.md).
 
-GitHub Actions ejecuta automáticamente:
-- Linting (flake8, pylint, black)
-- Security scanning (bandit, safety)
-- Type checking (mypy)
-- Tests (pytest)
-- Build & deploy
+## Uso Rápido
 
-## Status
+```bash
+# Crear una causa nueva
+python scripts/nueva_causa.py --ruc "2024-1234" --nombre "Caso X" --tipo penal
 
-- ✅ Production Ready
-- ✅ v1.4 CI/CD Pipeline
-- ✅ 40x+ Performance Optimizations
+# Ver demostración de análisis completo
+python scripts/analizar_causa.py --demo
+
+# Buscar en la base de conocimiento
+python scripts/buscar.py "legítima defensa" --tipo norma
+python scripts/buscar.py --estadisticas
+```
+
+## Estructura
+
+```
+vault/          ← Vault de Obsidian (abrir con Obsidian)
+src/            ← Motores Python (bayes, teoria_juegos, causa_manager, knowledge_base)
+scripts/        ← CLI (nueva_causa, analizar_causa, buscar)
+tests/          ← 18 tests unitarios
+```
+
+## Tests
+
+```bash
+pytest tests/ -v   # 18 tests, todos pasando
+```
+
+## Plugins Obsidian Requeridos
+
+Dataview, Templater, Tasks, QuickAdd, Calendar.
 
 ## License
 

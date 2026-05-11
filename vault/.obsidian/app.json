@@ -1,0 +1,19 @@
+{
+  "defaultViewMode": "preview",
+  "foldHeading": false,
+  "showLineNumber": false,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "showFrontmatter": false,
+  "spellcheck": true,
+  "spellcheckLanguages": ["es"],
+  "useTab": false,
+  "tabSize": 2,
+  "newFileLocation": "current",
+  "attachmentFolderPath": ".attachments",
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [".git", ".github"],
+  "promptDelete": true,
+  "legacyEditor": false,
+  "livePreview": true
+}
