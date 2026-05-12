@@ -4,5 +4,11 @@
     "tipo": "penal",
     "carpeta": "2024-TEST-001",
     "fecha_creacion": "2026-05-11T23:29:35.908915"
+  },
+  "2024-DEMO-002": {
+    "nombre": "Estafa Inmobiliaria - Caso González",
+    "tipo": "penal",
+    "carpeta": "2024-DEMO-002",
+    "fecha_creacion": "2026-05-12T00:29:11.433452"
   }
 }
