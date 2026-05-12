@@ -200,6 +200,70 @@ def analisis_bayes_interactivo(ruc: str, vault_path: Path) -> AnalisisBayesiano:
     return analisis
 
 
+def analisis_juegos_interactivo(ruc: str, vault_path: Path, prob_condena: float | None = None) -> AnalisisTJ:
+    """Guía al usuario para construir un análisis de teoría de juegos."""
+    print(f"\n🎮 ANÁLISIS TEORÍA DE JUEGOS — {ruc}")
+    print("─" * 40)
+
+    manager = CausaManager(vault_path)
+    carpeta = manager.buscar_causa(ruc)
+    if not carpeta:
+        print(f"⚠️  Causa {ruc} no encontrada en el vault.")
+        sys.exit(1)
+
+    nombre = input("Nombre descriptivo de la causa: ").strip() or f"Causa {ruc}"
+    materia = input("Materia (penal/civil) [penal]: ").strip() or "penal"
+
+    if prob_condena is None:
+        prob_str = input("Probabilidad de condena estimada (0.0-1.0) [0.5]: ").strip()
+        prob_condena = float(prob_str) if prob_str else 0.5
+    else:
+        print(f"Usando P(condena) = {prob_condena:.1%} del análisis Bayesiano")
+
+    print("\n— Nuestro lado —")
+    rol = input("Rol nuestro (defensa/demandante) [defensa]: ").strip() or "defensor"
+    costo_n = float(input("Costo monetario del juicio (CLP): ").strip() or "5000000")
+    valor_ganar_n = float(input("Valor de ganar el juicio (CLP): ").strip() or "50000000")
+    valor_perder_n = float(input("Valor de perder (negativo, CLP): ").strip() or "-80000000")
+    valor_acuerdo_n = float(input("Valor del acuerdo ofrecido (CLP): ").strip() or "-20000000")
+
+    print("\n— Contraparte —")
+    rol_c = input("Rol contraparte [fiscalia]: ").strip() or "fiscalia"
+    costo_c = float(input("Costo del juicio para la contraparte (CLP): ").strip() or "2000000")
+    valor_ganar_c = float(input("Valor de ganar para ellos (CLP): ").strip() or "30000000")
+    valor_perder_c = float(input("Valor de perder para ellos (CLP): ").strip() or "-5000000")
+    valor_acuerdo_c = float(input("Valor del acuerdo para ellos (CLP): ").strip() or "15000000")
+
+    prob_ganar_nuestro = 1 - prob_condena if rol in ("defensor", "demandado") else prob_condena
+
+    nuestro = JugadorLitigio(
+        nombre="Nuestro",
+        rol=rol,
+        prob_ganar_juicio=prob_ganar_nuestro,
+        costo_juicio=costo_n,
+        valor_ganar=valor_ganar_n,
+        valor_perder=valor_perder_n,
+        valor_acuerdo_actual=valor_acuerdo_n,
+    )
+    contraparte = JugadorLitigio(
+        nombre="Contraparte",
+        rol=rol_c,
+        prob_ganar_juicio=1 - prob_ganar_nuestro,
+        costo_juicio=costo_c,
+        valor_ganar=valor_ganar_c,
+        valor_perder=valor_perder_c,
+        valor_acuerdo_actual=valor_acuerdo_c,
+    )
+
+    return AnalisisTJ(
+        nombre_causa=nombre,
+        ruc=ruc,
+        jugador_nuestro=nuestro,
+        jugador_contraparte=contraparte,
+        materia=materia,
+    )
+
+
 def main():
     parser = argparse.ArgumentParser(description="Análisis estratégico de causas legales")
     parser.add_argument("--ruc", help="RUC de la causa a analizar")
@@ -224,6 +288,8 @@ def main():
     vault_path = Path(args.vault)
     manager = CausaManager(vault_path)
 
+    prob_condena_calculada: float | None = None
+
     if args.modo in ["bayes", "completo"]:
         analisis_bayes = analisis_bayes_interactivo(args.ruc, vault_path)
         reporte_bayes = analisis_bayes.generar_reporte()
@@ -231,6 +297,15 @@ def main():
         if args.guardar:
             manager.actualizar_analisis_bayes(args.ruc, reporte_bayes)
             print(f"\n✅ Análisis Bayesiano guardado en el vault (causa {args.ruc})")
+        prob_condena_calculada = analisis_bayes.prob_posterior
+
+    if args.modo in ["juegos", "completo"]:
+        analisis_tj = analisis_juegos_interactivo(args.ruc, vault_path, prob_condena_calculada)
+        reporte_tj = analisis_tj.generar_reporte()
+        print("\n" + reporte_tj)
+        if args.guardar:
+            manager.actualizar_analisis_tj(args.ruc, reporte_tj)
+            print(f"\n✅ Análisis Teoría de Juegos guardado en el vault (causa {args.ruc})")
 
     if args.modo in ["conexiones"]:
         from knowledge_base import KnowledgeBase
