@@ -10,6 +10,7 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "templates_folder": "_Plantillas",
+  "user_scripts_folder": "_Plantillas/scripts",
   "folder_templates": [
     {
       "folder": "01-Causas",

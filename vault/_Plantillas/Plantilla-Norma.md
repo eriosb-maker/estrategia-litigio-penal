@@ -1,26 +1,49 @@
+<%*
+const nombre = await tp.system.prompt("Nombre de la norma (ej: Robo con fuerza en las cosas)");
+const cuerpo = await tp.system.suggester(
+  ["Código Penal", "Código Procesal Penal", "Código Civil", "Código del Trabajo", "CPR", "Ley especial"],
+  ["CP", "CPP", "CC", "CT", "CPR", "Ley"]
+);
+const articulo = await tp.system.prompt("Artículo (solo número, ej: 440)");
+const materia = await tp.system.suggester(
+  ["penal", "civil", "procesal", "constitucional", "laboral"],
+  ["penal", "civil", "procesal", "constitucional", "laboral"]
+);
+const favorece = await tp.system.suggester(
+  ["Defensa", "Acusación", "Neutral"],
+  ["defensa", "acusacion", "neutral"]
+);
+const hoy = tp.date.now("YYYY-MM-DD");
+const nombreSlug = nombre.replace(/[^a-zA-Z0-9áéíóúñÑ ]/g, "").replace(/\s+/g, "-");
+await tp.file.rename(`${cuerpo}-Art-${articulo}-${nombreSlug}`);
+-%>
 ---
 tipo: norma
-titulo: "{{NOMBRE DE LA NORMA}}"
-cuerpo-legal: "{{Código Penal | CPP | Código Civil | Ley XX.XXX}}"
-articulo: "{{Art. XX}}"
-materia: "{{penal | civil | procesal | constitucional}}"
+titulo: "<% nombre %>"
+cuerpo-legal: "<% cuerpo %>"
+articulo: "Art. <% articulo %>"
+materia: "<% materia %>"
+favorece: "<% favorece %>"
 vigente: true
-fecha-vigencia: {{YYYY-MM-DD}}
-fecha-modificacion-ultima: {{YYYY-MM-DD}}
-etiquetas: [norma, {{materia}}, {{cuerpo-legal}}]
+fecha-captura: <% hoy %>
+etiquetas: [norma, <% materia %>, <% cuerpo.toLowerCase() %>]
 ---
 
-# 📜 {{NOMBRE}} — {{CUERPO LEGAL}} Art. {{N}}
+# 📜 <% nombre %> — <% cuerpo %> Art. <% articulo %>
+
+> *Capturada: <% hoy %> | Favorece: <% favorece %>*
+
+---
 
 ## Texto Legal
 
-> *"{{TEXTO LITERAL DEL ARTÍCULO}}"*
+> *"Pegar aquí el texto literal del artículo"*
 
 ---
 
-## Análisis
+## Análisis del Tipo / Requisitos
 
-### Elementos del Tipo / Requisitos
+### Elementos
 1. 
 2. 
 3. 
@@ -68,14 +91,12 @@ WHERE tipo = "jurisprudencia" AND contains(normas-aplicadas, this.file.name)
 
 ```dataview
 LIST FROM "01-Causas"
-WHERE tipo = "causa" AND contains(normas-aplicables, this.file.name)
+WHERE tipo = "causa" AND contains(file.outlinks, this.file.link)
 ```
 
 ---
 
 ## Estrategias Asociadas
-
-> Véase: [[04-Estrategias/]]
 
 ### Para la Defensa
 - 
@@ -85,9 +106,7 @@ WHERE tipo = "causa" AND contains(normas-aplicables, this.file.name)
 
 ---
 
-## Notas y Observaciones
+## Notas
 
-
----
-
+*Añadida: <% hoy %>*
 *[[02-Marco-Legal/MOC-Marco-Legal|← Marco Legal]]*

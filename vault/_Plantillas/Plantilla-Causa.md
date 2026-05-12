@@ -1,206 +1,121 @@
+<%*
+// Plantilla interactiva de Causa — Templater
+const nombre = await tp.system.prompt("Nombre de la causa (ej: Robo Banco Central)");
+const ruc = await tp.system.prompt("RUC / Rol (ej: 2024-001 o C-12345-2024)");
+const materia = await tp.system.suggester(
+  ["penal", "civil", "laboral", "familia"],
+  ["penal", "civil", "laboral", "familia"]
+);
+const rolAbogado = await tp.system.suggester(
+  ["defensor", "querellante", "demandante", "demandado", "tercero"],
+  ["defensor", "querellante", "demandante", "demandado", "tercero"]
+);
+const tribunal = await tp.system.prompt("Tribunal (ej: TOP Santiago)");
+const juez = await tp.system.prompt("Juez/a (deja vacío si aún no asignado)", "");
+const fiscal = await tp.system.prompt("Fiscal o contraparte", "");
+const imputado = await tp.system.prompt("Imputado / Demandado", "");
+const victima = await tp.system.prompt("Víctima / Demandante (si aplica)", "");
+const probInicial = await tp.system.prompt("Probabilidad inicial de condena (0.0 - 1.0)", "0.5");
+
+const hoy = tp.date.now("YYYY-MM-DD");
+const audPrep = tp.user.plazos.audienciaPreparatoria(hoy);
+const limiteInvestigacion = tp.user.plazos.cierreInvestigacion(hoy);
+
+await tp.file.rename(ruc);
+-%>
 ---
 tipo: causa
-causa: "{{NOMBRE_CAUSA}}"
-ruc: "{{RUC}}"
-rol-tribunal: "{{ROL}}"
-tribunal: "{{TRIBUNAL}}"
-materia: "{{penal | civil}}"
-rol-abogado: "{{defensor | querellante | demandante | demandado}}"
-imputado: "{{NOMBRE}}"
-victima: "{{NOMBRE}}"
-fiscal: "{{NOMBRE}}"
-juez: "{{NOMBRE}}"
-fecha-inicio: {{YYYY-MM-DD}}
-proxima-audiencia: {{YYYY-MM-DD}}
-estado: "{{en-proceso | suspendida | cerrada | archivada}}"
-probabilidad-condena: {{0.0 - 1.0}}
-recomendacion-estrategia: "{{ir-a-juicio | negociar | salida-alternativa}}"
-etiquetas: [causa, {{penal|civil}}, {{defensa|acusacion}}]
+causa: "<% nombre %>"
+ruc: "<% ruc %>"
+tribunal: "<% tribunal %>"
+materia: "<% materia %>"
+rol-abogado: "<% rolAbogado %>"
+imputado: "<% imputado %>"
+victima: "<% victima %>"
+fiscal: "<% fiscal %>"
+juez: "<% juez %>"
+fecha-inicio: <% hoy %>
+proxima-audiencia: <% audPrep %>
+limite-investigacion: <% limiteInvestigacion %>
+estado: "en-proceso"
+probabilidad-condena: <% probInicial %>
+recomendacion-estrategia: ""
+etiquetas: [causa, <% materia %>, <% rolAbogado %>]
 ---
 
-# ⚖️ {{NOMBRE_CAUSA}}
+# ⚖️ <% nombre %>
 
-> **RUC**: {{RUC}} | **Tribunal**: {{TRIBUNAL}} | **Estado**: {{ESTADO}}
+> **RUC**: <% ruc %> | **Tribunal**: <% tribunal %> | **Estado**: en-proceso | **Creada**: <% hoy %>
 
 ---
 
 ## 1. Resumen Ejecutivo
 
-<!-- Una sola paragráfo: qué pasó, quién es el imputado, qué se le imputa, cuál es nuestra posición -->
+**Hecho imputado / Materia**:
 
-**Hecho imputado**: 
+**Nuestra posición**:
 
-**Nuestra posición**: 
+**Fortalezas principales**:
+-
 
-**Fortalezas principales**: 
-- 
+**Debilidades principales**:
+-
 
-**Debilidades principales**: 
-- 
-
-**Riesgo estimado**: 🟢 Bajo / 🟡 Medio / 🔴 Alto
+**Riesgo estimado**: 🟡 Por determinar
 
 ---
 
-## 2. Hechos del Caso
+## 2. Registro de Audiencias
 
-### Cronología
-
-| Fecha | Hecho | Fuente | Certeza |
-|-------|-------|--------|---------|
-| {{YYYY-MM-DD}} | | | Alto/Medio/Bajo |
-
-### Versión de la Fiscalía / Contraparte
-> *Descripción de los hechos según la contraparte*
-
-### Nuestra Versión
-> *Descripción de los hechos según nuestra defensa/posición*
-
-### Hechos Controvertidos
-- [ ] 
-
-### Hechos No Controvertidos
-- [ ] 
+*(Usa `Ctrl+Shift+A` para agregar audiencias rápido)*
 
 ---
 
-## 3. Marco Jurídico
+## 3. Plazos Procesales Críticos
 
-### Delito / Figura Jurídica Imputada
-- **Artículo**: [[02-Marco-Legal/]]
-- **Bien jurídico protegido**: 
-- **Elementos del tipo**:
-  - [ ] Elemento 1:
-  - [ ] Elemento 2:
-
-### Normas Aplicables
-| Norma | Relevancia | Favorece |
-|-------|-----------|---------|
-| [[02-Marco-Legal/]] | | Defensa/Acusación |
-
-### Jurisprudencia Relevante
-| Caso | Tribunal | Año | Holding | Relevancia |
-|------|----------|-----|---------|-----------|
-| [[02-Marco-Legal/]] | | | | |
+| Hito | Fecha estimada | Estado |
+|------|---------------|--------|
+| Inicio de la causa | <% hoy %> | ✅ |
+| Audiencia preparatoria (estimada) | <% audPrep %> | ⏳ |
+| Cierre de investigación (máximo legal) | <% limiteInvestigacion %> | ⏳ |
 
 ---
 
-## 4. Pruebas
+## 4. Tareas Pendientes
 
-### Pruebas de Cargo
-| # | Tipo | Descripción | Peso | Cuestionamiento |
-|---|------|-------------|------|----------------|
-| 1 | | | Alto/Medio/Bajo | |
-
-### Pruebas de Descargo
-| # | Tipo | Descripción | Peso | Observación |
-|---|------|-------------|------|------------|
-| 1 | | | Alto/Medio/Bajo | |
-
-### Pruebas Pendientes de Obtener
-- [ ] 
+- [ ] 📅 <% tp.date.now("YYYY-MM-DD", "+3d") %> — Revisar antecedentes iniciales
+- [ ] 📅 <% tp.date.now("YYYY-MM-DD", "+7d") %> — Reunión con cliente
+- [ ] 📅 <% tp.date.now("YYYY-MM-DD", "+14d") %> — Solicitar copia de carpeta investigativa
 
 ---
 
-## 5. Testigos
+## 5. Análisis Estratégico
 
-### Testigos de Cargo
-| Nombre | Credibilidad | Puntos a Atacar | Estrategia Cross |
-|--------|-------------|----------------|-----------------|
-| | Alta/Media/Baja | | |
+> Ejecutar desde terminal:
+> ```bash
+> python scripts/analizar_causa.py --ruc <% ruc %> --modo bayes --guardar
+> python scripts/analizar_causa.py --ruc <% ruc %> --modo juegos --guardar
+> ```
 
-### Testigos de Descargo
-| Nombre | Credibilidad | Puntos Clave | Preparación |
-|--------|-------------|-------------|------------|
-| | Alta/Media/Baja | | |
-
----
-
-## 6. Análisis Bayesiano
-
-> Ver análisis completo: [[01-Causas/{{CARPETA}}/04-Analisis-Bayes|Análisis Bayesiano Detallado]]
-
-**Probabilidad inicial P(C)**: {{%}}
-**Probabilidad posterior P(C|E)**: {{%}}
-
-### Factores que aumentan P(Condena)
-- 
-
-### Factores que disminuyen P(Condena)
-- 
-
-**Recomendación**: Si P(Condena) > 60% → evaluar salida alternativa
+**P(Condena) inicial**: <% probInicial %>
+**P(Condena) posterior**: *(se actualiza con análisis Bayesiano)*
 
 ---
 
-## 7. Análisis Teoría de Juegos
+## Referencias
 
-> Ver análisis completo: [[01-Causas/{{CARPETA}}/05-Estrategia-TJ|Análisis Teoría de Juegos]]
+- [[<% ruc %>/01-Hechos|Hechos]]
+- [[<% ruc %>/02-Pruebas|Pruebas]]
+- [[<% ruc %>/03-Testigos|Testigos]]
+- [[<% ruc %>/04-Analisis-Bayes|Análisis Bayesiano]]
+- [[<% ruc %>/05-Estrategia-TJ|Estrategia (Teoría de Juegos)]]
 
-**Tipo de juego**: Suma cero / No suma cero
-**Información**: Completa / Incompleta
-**Equilibrio Nash identificado**: 
+### Actores
+- Juez: [[<% juez %>]]
+- Fiscal: [[<% fiscal %>]]
 
-### Matriz de Pagos Simplificada
-
-|  | Fiscalía: Ir a juicio | Fiscalía: Negociar |
-|--|----------------------|-------------------|
-| **Defensa: Ir a juicio** | (?, ?) | (?, ?) |
-| **Defensa: Negociar** | (?, ?) | (?, ?) |
-
----
-
-## 8. Estrategia
-
-> Ver estrategia completa: [[04-Estrategias/]]
-
-### Estrategia Principal
-**Teoría del caso**: 
-
-**Mensaje central** (una oración que el jurado/juez debe recordar):
-> 
-
-### Plan de Audiencias
-| Audiencia | Fecha | Objetivo | Preparación |
-|-----------|-------|----------|------------|
-| Formalización | | | |
-| Preparación de Juicio | | | |
-| Juicio Oral | | | |
-
-### Salidas Alternativas Evaluadas
-- [ ] **Suspensión Condicional**: Condiciones posibles: 
-- [ ] **Acuerdo Reparatorio**: Monto estimado: 
-- [ ] **Procedimiento Abreviado**: Pena acordada: 
+### Marco legal aplicable
+- [[]]
 
 ---
-
-## 9. Registro de Audiencias
-
-### Audiencia: {{TIPO}} — {{FECHA}}
-**Tribunal**: | **Juez**: | **Duración**:
-
-**Resultado**:
-
-**Próximos pasos**:
-
----
-
-## 10. Tareas Pendientes
-
-- [ ] 📅 {{fecha}} — 
-- [ ] 📅 {{fecha}} — 
-
----
-
-## Referencias Cruzadas
-
-> Véase también:
-> - [[02-Marco-Legal/]]
-> - [[03-Biblioteca/]]
-> - [[04-Estrategias/]]
-> - [[08-Actores/]]
-
----
-
-*Creado: {{fecha}} | Última actualización: {{fecha}}*
-*[[01-Causas/MOC-Causas|← Volver a Causas]]*
+*[[01-Causas/MOC-Causas|← Causas]]*

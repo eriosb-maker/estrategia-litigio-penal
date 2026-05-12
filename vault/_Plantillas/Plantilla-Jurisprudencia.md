@@ -1,103 +1,95 @@
+<%*
+const tribunal = await tp.system.suggester(
+  ["Corte Suprema", "Corte de Apelaciones", "TOP", "TJOP", "Tribunal Constitucional", "Tribunal Civil"],
+  ["CS", "CA", "TOP", "TJOP", "TC", "TC-Civil"]
+);
+const rol = await tp.system.prompt("Rol del fallo (ej: 12345-2023)");
+const fecha = await tp.system.prompt("Fecha del fallo (YYYY-MM-DD)", tp.date.now("YYYY-MM-DD"));
+const materia = await tp.system.suggester(
+  ["penal", "civil", "procesal", "constitucional", "laboral"],
+  ["penal", "civil", "procesal", "constitucional", "laboral"]
+);
+const favorece = await tp.system.suggester(
+  ["Defensa", "Acusación / Demandante", "Neutral / Mixto"],
+  ["defensa", "acusacion", "mixto"]
+);
+const relevancia = await tp.system.suggester(["Alta", "Media", "Baja"], ["alta", "media", "baja"]);
+const hoy = tp.date.now("YYYY-MM-DD");
+await tp.file.rename(`${tribunal}-Rol-${rol}`);
+-%>
 ---
 tipo: jurisprudencia
-titulo: "{{TITULO DEL CASO}}"
-tribunal: "{{CS | CA | TOP | TJOP}}"
-sala: "{{Primera | Segunda | Constitucional}}"
-fecha-fallo: {{YYYY-MM-DD}}
-rol: "{{XXXX-YYYY}}"
-materia: "{{penal | civil | procesal}}"
-resultado: "{{acoge | rechaza | confirma | revoca}}"
+tribunal: "<% tribunal %>"
+rol: "<% rol %>"
+fecha-fallo: <% fecha %>
+materia: "<% materia %>"
+favorece: "<% favorece %>"
+relevancia: "<% relevancia %>"
 normas-aplicadas: []
-etiquetas: [jurisprudencia, {{materia}}, {{tribunal}}]
-favorece: "{{defensa | acusacion | ambos | ninguno}}"
+fecha-captura: <% hoy %>
+etiquetas: [jurisprudencia, <% materia %>, <% tribunal.toLowerCase() %>]
 ---
 
-# 🏛️ {{TÍTULO}} — {{TRIBUNAL}} {{AÑO}}
+# ⚖️ <% tribunal %> Rol <% rol %> — <% fecha %>
 
-## Datos del Fallo
-
-| Campo | Valor |
-|-------|-------|
-| **Tribunal** | {{TRIBUNAL}} |
-| **Rol** | {{ROL}} |
-| **Fecha** | {{FECHA}} |
-| **Sala** | {{SALA}} |
-| **Redactor** | {{MINISTRO}} |
+> **Materia**: <% materia %> | **Favorece**: <% favorece %> | **Relevancia**: <% relevancia %>
 
 ---
 
 ## Hechos Relevantes
 
-> *Descripción concisa de los hechos del caso*
+> *Resumen en 3-5 líneas*
 
 ---
 
-## Cuestión Jurídica
+## Cuestión Debatida
 
-> *¿Cuál fue la pregunta legal que resolvió este fallo?*
+> *¿Qué se discutía?*
 
 ---
 
-## Holding (Ratio Decidendi)
+## Holding (Regla del Caso)
 
-> **La regla del caso**:
-> 
-> *"{{CITA TEXTUAL DEL HOLDING}}"*
+> *La regla jurídica que se desprende del fallo, citada textualmente cuando sea posible*
 
 ---
 
 ## Razonamiento del Tribunal
 
-### Argumentos Principales
-1. 
-2. 
-3. 
+> *Considerandos clave*
 
-### Normas Citadas
+---
+
+## Voto Disidente (si aplica)
+
+---
+
+## Por Qué Es Relevante Para Nosotros
+
+> *¿En qué causas y argumentos podemos usarla?*
+
+---
+
+## Cómo Distinguirla (Si Perjudica)
+
+> *¿Qué hechos son distintos a los nuestros? ¿Qué hace que no aplique?*
+
+---
+
+## Normas Aplicadas
+
+- [[02-Marco-Legal/]]
 - [[02-Marco-Legal/]]
 
 ---
 
-## Obiter Dicta
-
-> *Observaciones del tribunal que no son parte del holding pero son relevantes*
-
----
-
-## Votos Disidentes / Prevenciones
-
-**Ministro {{NOMBRE}}**:
-> *"{{ARGUMENTO DISIDENTE}}"*
-
----
-
-## Análisis Crítico
-
-### Por qué es relevante para nosotros
-
-
-### Limitaciones del precedente
-
-
-### Distinguishing (cómo diferenciarlo si nos perjudica)
-
-
----
-
-## Causas Donde Aplica
+## Causas Donde la Hemos Citado
 
 ```dataview
 LIST FROM "01-Causas"
-WHERE tipo = "causa" AND contains(jurisprudencia-relevante, this.file.name)
+WHERE contains(file.outlinks, this.file.link)
 ```
 
 ---
-
-## Jurisprudencia Relacionada
-
-> Véase también:
-> - [[02-Marco-Legal/]]
-
----
-
+*Capturada: <% hoy %>*
 *[[02-Marco-Legal/MOC-Marco-Legal|← Marco Legal]]*

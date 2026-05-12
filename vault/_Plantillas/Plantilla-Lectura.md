@@ -1,27 +1,54 @@
+<%*
+const titulo = await tp.system.prompt("Título de la obra");
+const autor = await tp.system.prompt("Autor/a");
+const año = await tp.system.prompt("Año", tp.date.now("YYYY"));
+const tipoFuente = await tp.system.suggester(
+  ["Libro", "Paper / Artículo", "Sentencia comentada", "Manual", "Tesis"],
+  ["libro", "paper", "sentencia", "manual", "tesis"]
+);
+const materia = await tp.system.suggester(
+  ["penal", "civil", "procesal", "teoria-juegos", "bayes", "criminologia", "filosofia-derecho"],
+  ["penal", "civil", "procesal", "teoria-juegos", "bayes", "criminologia", "filosofia"]
+);
+const relevancia = await tp.system.suggester(["Alta", "Media", "Baja"], ["alta", "media", "baja"]);
+const hoy = tp.date.now("YYYY-MM-DD");
+const slug = titulo.replace(/[^a-zA-Z0-9áéíóúñÑ ]/g, "").replace(/\s+/g, "-");
+await tp.file.rename(slug);
+-%>
 ---
 tipo: lectura
-titulo: ""
-autor: ""
-año: <% tp.date.now("YYYY") %>
-tipo-fuente: "libro | paper | sentencia | articulo"
-materia: "penal | civil | procesal | teoria-juegos | bayes"
-relevancia: "alta | media | baja"
-etiquetas: [lectura]
+titulo: "<% titulo %>"
+autor: "<% autor %>"
+año: <% año %>
+tipo-fuente: "<% tipoFuente %>"
+materia: "<% materia %>"
+relevancia: "<% relevancia %>"
+leido: false
+fecha-captura: <% hoy %>
+etiquetas: [lectura, <% tipoFuente %>, <% materia %>]
 ---
 
-# 📚 
+# 📚 <% titulo %>
 
-**Autor**: | **Año**: | **Fuente**:
+**<% autor %>** (<% año %>) — <% tipoFuente %>
+
+> *Relevancia: <% relevancia %> | Capturada: <% hoy %>*
 
 ---
 
 ## Resumen en 3 Puntos
 
-> *Lo esencial — Progressive Summarization Nivel 3*
+> *Progressive Summarization Nivel 3 — Lo más importante*
 
 1. 
 2. 
 3. 
+
+---
+
+## Tesis Central
+
+> *¿Cuál es el argumento principal?*
 
 ---
 
@@ -37,12 +64,19 @@ etiquetas: [lectura]
 
 ---
 
+## Conceptos Clave Extraídos
+
+- [[07-Conceptos/]]
+- [[07-Conceptos/]]
+
+---
+
 ## Aplicación Práctica
 
-### ¿En qué causas aplica?
+### Causas donde aplica
 ```dataview
 LIST FROM "01-Causas"
-WHERE contains(fuentes, this.file.name)
+WHERE contains(file.outlinks, this.file.link)
 ```
 
 ### Estrategias que fundamenta
@@ -55,8 +89,8 @@ WHERE contains(fuentes, this.file.name)
 
 ## Crítica
 
-> *¿Qué limitaciones tiene? ¿En qué contextos no aplica?*
+> *¿Limitaciones? ¿Contextos donde no aplica?*
 
 ---
-*Añadido: <% tp.date.now("YYYY-MM-DD") %>*
+*Añadida: <% hoy %>*
 *[[03-Biblioteca/MOC-Biblioteca|← Biblioteca]]*
