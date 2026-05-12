@@ -1,0 +1,140 @@
+{
+  "version": "1.7.1",
+  "choices": [
+    {
+      "name": "Hecho rápido",
+      "type": "Capture",
+      "command": true,
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "captureToActiveFile": false,
+      "captureToFile": "01-Causas/{{VALUE:Causa (RUC)}}/01-Hechos.md",
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createFileWithTemplate": false,
+        "template": ""
+      },
+      "prepend": false,
+      "task": false,
+      "format": {
+        "enabled": true,
+        "format": "| {{DATE:YYYY-MM-DD}} | {{VALUE:Hecho}} | {{VALUE:Fuente}} | {{VALUE:Certeza (Alto/Medio/Bajo)}} |"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Cronología",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "insertAtEndOfSection": true
+      },
+      "appendLink": false
+    },
+    {
+      "name": "Nueva audiencia",
+      "type": "Capture",
+      "command": true,
+      "id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+      "captureToActiveFile": false,
+      "captureToFile": "01-Causas/{{VALUE:Causa (RUC)}}/00-Resumen.md",
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createFileWithTemplate": false,
+        "template": ""
+      },
+      "prepend": false,
+      "task": false,
+      "format": {
+        "enabled": true,
+        "format": "\n### Audiencia: {{VALUE:Tipo (preparatoria/JO/cautelar)}} — {{DATE:YYYY-MM-DD}}\n\n**Juez/a**: {{VALUE:Juez}} | **Fiscal**: {{VALUE:Fiscal}} | **Duración**: {{VALUE:Duración}}\n\n#### Decisiones del tribunal\n{{VALUE:Decisiones}}\n\n#### Observaciones tácticas\n{{VALUE:Observaciones}}\n\n#### Próximos pasos\n- [ ] 📅 {{VALUE:Fecha próxima acción (YYYY-MM-DD)}} — {{VALUE:Próxima acción}}\n\n---"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## 2. Registro de Audiencias",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "insertAtEndOfSection": true
+      },
+      "appendLink": false
+    },
+    {
+      "name": "Idea estrategia",
+      "type": "Capture",
+      "command": true,
+      "id": "c3d4e5f6-a7b8-9012-cdef-123456789012",
+      "captureToActiveFile": false,
+      "captureToFile": "00-Inbox/Bandeja-Ideas.md",
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createFileWithTemplate": false,
+        "template": ""
+      },
+      "prepend": false,
+      "task": false,
+      "format": {
+        "enabled": true,
+        "format": "\n## {{DATE:YYYY-MM-DD HH:mm}} — {{VALUE:Título de la idea}}\n\n**Causa relacionada**: {{VALUE:Causa (RUC o nombre)}}\n**Contexto**: {{VALUE:Contexto}}\n\n**Idea**:\n{{VALUE:Desarrolla la idea}}\n\n**Conexiones**: [[]]\n\n---"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "insertAtEndOfSection": false
+      },
+      "appendLink": false
+    },
+    {
+      "name": "Nueva norma legal",
+      "type": "Template",
+      "command": true,
+      "id": "d4e5f6a7-b8c9-0123-defa-234567890123",
+      "templatePath": "_Plantillas/Plantilla-Norma.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:Código (CP/CPP/CC)}} Art.{{VALUE:Número artículo}} - {{VALUE:Nombre corto}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folder": "02-Marco-Legal",
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "openInNewTab": {
+        "enabled": true,
+        "direction": "horizontal",
+        "focus": true
+      },
+      "openFileInNewPane": false,
+      "shouldCreateFolder": false
+    },
+    {
+      "name": "Lectura rápida",
+      "type": "Capture",
+      "command": true,
+      "id": "e5f6a7b8-c9d0-1234-efab-345678901234",
+      "captureToActiveFile": false,
+      "captureToFile": "03-Biblioteca/{{VALUE:Nombre de la obra}}.md",
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createFileWithTemplate": true,
+        "template": "_Plantillas/Plantilla-Lectura.md"
+      },
+      "prepend": false,
+      "task": false,
+      "format": {
+        "enabled": true,
+        "format": "\n### Cita — p. {{VALUE:Página}}\n\n> *\"{{VALUE:Cita textual}}\"*\n\n**Por qué importa**: {{VALUE:Relevancia}}\n\n**Conceptos relacionados**: [[{{VALUE:Concepto relacionado}}]]\n\n---"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Citas y Notas de Lectura",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "insertAtEndOfSection": true
+      },
+      "appendLink": false
+    }
+  ],
+  "macros": [],
+  "inputPrompt": "single-line"
+}

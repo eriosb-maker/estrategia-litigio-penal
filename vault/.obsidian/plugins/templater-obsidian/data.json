@@ -1,0 +1,31 @@
+{
+  "command_timeout": 5,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "templates_pairs": [],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_ribbon_icon": true,
+  "empty_file_template": "",
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "templates_folder": "_Plantillas",
+  "folder_templates": [
+    {
+      "folder": "01-Causas",
+      "template": "_Plantillas/Plantilla-Causa.md"
+    },
+    {
+      "folder": "02-Marco-Legal",
+      "template": "_Plantillas/Plantilla-Norma.md"
+    },
+    {
+      "folder": "03-Biblioteca",
+      "template": "_Plantillas/Plantilla-Lectura.md"
+    },
+    {
+      "folder": "08-Actores",
+      "template": "_Plantillas/Plantilla-Actor.md"
+    }
+  ]
+}
