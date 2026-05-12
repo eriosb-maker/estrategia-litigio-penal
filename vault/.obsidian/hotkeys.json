@@ -28,5 +28,17 @@
       "modifiers": ["Ctrl", "Shift"],
       "key": "L"
     }
+  ],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": ["Ctrl", "Shift"],
+      "key": "F"
+    }
+  ],
+  "omnisearch:show-modal-vault-only": [
+    {
+      "modifiers": ["Ctrl", "Alt"],
+      "key": "F"
+    }
   ]
 }
