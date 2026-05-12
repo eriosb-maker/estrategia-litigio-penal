@@ -8,6 +8,8 @@
 #   ./scripts/litigio.sh completo <RUC>     # Bayes + TJ encadenados (recomendado)
 #   ./scripts/litigio.sh conexiones <RUC>   # Reporte de cross-referencias
 #   ./scripts/litigio.sh buscar "término"   # Buscar en el vault
+#   ./scripts/litigio.sh importar <archivo|carpeta> [--tipo X] [--auto]
+#                                           # Importar PDFs al vault
 #   ./scripts/litigio.sh demo               # Ejecutar demo con caso ficticio
 #   ./scripts/litigio.sh setup              # Instalar dependencias Python
 
@@ -44,6 +46,10 @@ case "${cmd}" in
   buscar)
     [[ -z "$1" ]] && { echo "Uso: litigio.sh buscar <término>"; exit 1; }
     ${PY} scripts/buscar.py "$@"
+    ;;
+  importar)
+    [[ -z "$1" ]] && { echo "Uso: litigio.sh importar <archivo.pdf|carpeta> [--tipo norma|jurisprudencia|libro|paper] [--auto]"; exit 1; }
+    ${PY} scripts/importar_pdf.py "$@"
     ;;
   demo)
     ${PY} scripts/analizar_causa.py --demo
