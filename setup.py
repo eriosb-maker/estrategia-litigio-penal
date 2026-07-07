@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="estrategia-litigio-penal",
-    version="1.4.0",
+    version="2.0.0",
     author="Eduardo Ríos Briones",
     author_email="eriosb@example.com",
     description="AI-powered legal strategy analysis for criminal law cases",
