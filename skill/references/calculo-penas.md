@@ -178,11 +178,12 @@ citables sobre el texto verificado (curatoría 2026-07-07, idNorma 1195119):
      (más de 40 y hasta 400 UTM).
    - **Atenuantes muy calificadas** (art. 14): culpabilidad muy disminuida y
      cuantía de bagatela (hasta 40 UTM; hipótesis del art. 111 inc. 1° del
-     Código Tributario en delitos tributarios).
+     Código Tributario en delitos tributarios — art. 111 CT verificado en
+     `references/tributario.md`).
    - **Agravantes** (art. 15): culpabilidad elevada (posición intermedia,
      abuso de autoridad, sanción previa por delito económico, hipótesis del
-     art. 111 incs. 2° y 3° CT) y perjuicio o beneficio relevante (sobre 400 y
-     hasta 40.000 UTM).
+     art. 111 incs. 2° y 3° CT, verificado) y perjuicio o beneficio relevante
+     (sobre 400 y hasta 40.000 UTM).
    - **Agravantes muy calificadas** (art. 16): culpabilidad muy elevada
      (posición jerárquica superior, presión sobre subordinados) y perjuicio
      muy elevado (sobre 40.000 UTM, bienes de primera necesidad, grupos

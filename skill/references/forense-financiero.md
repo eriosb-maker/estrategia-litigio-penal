@@ -1,6 +1,6 @@
 # Análisis forense financiero integral — Fiat, criptoactivos y capa tributaria (LA/FT)
 
-> Módulo condicional de la fase 7. Cárgalo cuando el caso presente flujo de fondos, trazabilidad bancaria, criptoactivos, lavado de activos (Ley 19.913), delitos tributarios (art. 97 Código Tributario) o discrepancias entre patrimonio declarado y flujos reales. El análisis cruza tres capas: **cartolas bancarias (fiat)**, **criptoactivos** e **información tributaria chilena (SII)**.
+> Módulo condicional de la fase 7. Cárgalo cuando el caso presente flujo de fondos, trazabilidad bancaria, criptoactivos, lavado de activos (Ley 19.913), delitos tributarios (art. 97 Código Tributario, verificado en `references/tributario.md`) o discrepancias entre patrimonio declarado y flujos reales. El análisis cruza tres capas: **cartolas bancarias (fiat)**, **criptoactivos** e **información tributaria chilena (SII)**.
 
 ## 1. Reglas epistémicas específicas del módulo
 
@@ -33,7 +33,7 @@
 
 **Metodología**: (a) reconstrucción de la posición tributaria declarada por período (ingresos, gastos, créditos y débitos de IVA, retiros); (b) contraste con los flujos reales de las capas 1 y 2; (c) examen de la cadena de facturación: sustancia económica de proveedores y clientes relevantes.
 
-**Patrones de alerta tributarios** *(catálogo indicativo; encuadre penal en art. 97 N° 4 CT — verificar texto vigente)*:
+**Patrones de alerta tributarios** *(catálogo indicativo; encuadre penal en el catálogo verificado del art. 97 CT — `references/tributario.md`, sección 2.1)*:
 
 - **Discrepancia declarado/real**: ingresos bancarios o cripto significativamente superiores a lo declarado en renta; egresos incompatibles con la renta líquida declarada.
 - **Gasto ficticio y crédito indebido**: gastos deducidos sin correlato en cartolas; créditos de IVA elevados o devoluciones frecuentes sin operaciones reales verificables; facturación recibida de sociedades sin sustancia (sin trabajadores, sin domicilio operativo, sin actividad visible, constitución reciente y facturación inmediata de alto volumen).
@@ -51,7 +51,7 @@ Cada brecha relevante se desarrolla en prosa conforme a la secuencia: contexto �
 
 ## 6. Encuadre normativo del módulo
 
-Verificar en cada caso, conforme a `references/marco-legal.md` o con la marca de pendiente: Ley 19.913 (art. 27, lavado de activos; autolavado; comiso), art. 97 Código Tributario (en especial N° 4, declaraciones maliciosamente falsas, facturas falsas y devoluciones indebidas) como delito base idóneo, Ley 21.595 (régimen de delitos económicos, comiso de ganancias), Ley 20.393 (responsabilidad penal de la persona jurídica), y normativa UAF sobre reporte de operaciones sospechosas. Si la perspectiva es defensiva, el mismo catálogo se examina en espejo: suficiencia del delito base, dolo, atribución de las operaciones y licitud de origen alternativa.
+Verificar en cada caso, conforme a `references/marco-legal.md`, `references/leyes-especiales.md` y `references/tributario.md`, o con la marca de pendiente: Ley 19.913 (art. 27, lavado de activos; autolavado; comiso — verificado), art. 97 Código Tributario (catálogo de infracciones y delitos tributarios — verificado en `references/tributario.md`, sección 2.1; requisito de procesabilidad exclusiva del Director del SII, art. 162 CT, verificado en la sección 2.2) como delito base idóneo, Ley 21.595 (régimen de delitos económicos, comiso de ganancias — verificado), Ley 20.393 (responsabilidad penal de la persona jurídica — verificado), art. 70 Ley de Renta (justificación de inversiones e incremento patrimonial no justificado — verificado) y normativa UAF sobre reporte de operaciones sospechosas *(pendiente de verificación)*. Si la perspectiva es defensiva, el mismo catálogo se examina en espejo: suficiencia del delito base, dolo, atribución de las operaciones y licitud de origen alternativa.
 
 ## 7. Formato de entrega
 
