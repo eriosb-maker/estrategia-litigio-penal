@@ -2,7 +2,7 @@
 name: analisis-penal-chile
 description: Análisis forense experto de casos penales chilenos por abogado litigante senior. Procesa carpetas investigativas, declaraciones, evidencia documental, digital y financiera. Identifica hechos acreditados, contradicciones, vacíos probatorios y riesgos procesales; propone diligencias y teoría del caso. Úsalo cuando el usuario solicite analizar un caso penal, revisar carpeta investigativa, evaluar declaraciones, detectar contradicciones, planificar diligencias, construir o impugnar teoría del caso, estimar penas (Ley 21.595), o trabajar con delitos económicos, corrupción pública, lavado de activos (Ley 19.913), responsabilidad penal de personas jurídicas (Ley 20.393), ciberdelincuencia (Ley 21.459) o cualquier delito bajo el Código Procesal Penal chileno. Activa la skill incluso si el usuario no la nombra, cuando la consulta verse sobre un caso, RUC/RIT, carpeta de fiscalía, declaración judicial, prueba digital incautada o estrategia procesal penal.
 metadata:
-  version: "4.0"
+  version: "4.1"
 ---
 
 # Análisis Penal Chile — Experto Forense
@@ -222,7 +222,7 @@ Respecto de los archivos pendientes de construcción rige la regla de degradaci�
 
 **`examples/`**:
 
-- `ejemplo-estafa-empresarial.md` — *[pendiente de construcción]* Caso pedagógico ficticio.
+- `ejemplo-estafa-empresarial.md` — **[disponible]** Caso pedagógico íntegramente ficticio (esquema Ponzi con lavado de activos) que recorre las quince fases y ejecuta los tres motores deterministas (`curar_norma.py` indirectamente a través de las citas verificadas, `prescripcion.py` y `estrategia_litigio.py`), incluida la conclusión de que el sistema especial de la Ley 21.595 **no** resulta aplicable a la estafa/administración desleal del caso conforme al catálogo verificado, y la tesis —novedosa y sin jurisprudencia consolidada— de responsabilidad de la persona jurídica por la vía del lavado (art. 1 N° 1 Ley 20.393 en relación con el art. 4 Ley 21.595).
 
 ## 15. Auto-aprendizaje y mejora continua
 
@@ -253,6 +253,8 @@ Si en la sesión no surgió lección alguna, decláralo expresamente («la prese
 El desempeño de esta skill debe reflejar la disciplina, la sobriedad y la rigurosidad técnica propias de un despacho forense de primer nivel. Cada afirmación que produzca debe poder defenderse ante una revisión exigente. En caso de duda, prima la prudencia sobre la iniciativa, la verificación sobre la rapidez y el resguardo del secreto profesional sobre cualquier consideración de eficiencia.
 
 ---
+
+**Versión 4.1** — Julio de 2026. Construye `examples/ejemplo-estafa-empresarial.md`, el caso pedagógico ficticio anunciado desde la versión 3.0, con lo que se completa el catálogo íntegro de la skill (todos los archivos de `references/`, `assets/templates/`, `scripts/` y `examples/` pasan a **[disponible]**). El ejemplo recorre las quince fases, aplica el catálogo verificado de las Leyes 21.595/20.393/19.913 con sus consecuencias reales (incluida la conclusión de que un caso de estafa/administración desleal corriente no activa el sistema especial de la Ley 21.595) y ejecuta con parámetros de trabajo los motores `prescripcion.py` y `estrategia_litigio.py`, incorporando su salida real al informe.
 
 **Versión 4.0** — Julio de 2026. Completa la construcción de los módulos de referencia anunciados desde la versión 3.0 e incorpora los motores deterministas al paquete. Nuevos disponibles: `references/metodologia-detallada.md` (quince fases), `references/prueba-digital.md` (Ley 21.459 verificada; depurados dos roles de la Corte Suprema y un oficio FN no verificables del borrador 3.0), `references/calculo-penas.md` (algoritmo común sobre arts. 50–78 bis CP verificados y sistema especial de la Ley 21.595 verificado) y `references/leyes-especiales.md` (177 artículos de las Leyes 21.595, 20.393, 19.913, 21.459 y 20.000, curatoría del 2026-07-07 con registro de hashes; revalidación al 2027-01-07). Se incorporan `scripts/prescripcion.py` (calculadora de prescripción, 24 pruebas) y la versión corregida de `scripts/curar_norma.py` (Doble Articulado y numeración ordinal). Publicada junto al repositorio `estrategia-litigio-penal` v2.0.0. Pendiente: `examples/ejemplo-estafa-empresarial.md` (paso 6 del plan de trabajo).
 
