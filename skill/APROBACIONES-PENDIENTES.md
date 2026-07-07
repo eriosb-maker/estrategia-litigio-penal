@@ -1,11 +1,11 @@
-# Entradas de `aprendizajes.md` pendientes de aprobación
+# Entradas de `aprendizajes.md` — APROBADAS E INCORPORADAS
 
-> **Instrucción de uso**: las tres entradas siguientes fueron formuladas conforme al
-> Protocolo de Cierre y Aprendizaje (SKILL.md v3.5, sección 15.3) y quedan a la espera
-> del pronunciamiento del abogado. Nada se incorpora a `references/aprendizajes.md`
-> sin su aprobación expresa («apruebo las tres», o la indicación de cuáles aprueba,
-> modifica o descarta). Una vez aprobadas, se agregan a la sección «Aprendizajes
-> activos» del archivo y se incrementa la versión menor de la skill.
+> **Estado**: las tres entradas siguientes fueron formuladas conforme al Protocolo de
+> Cierre y Aprendizaje (SKILL.md, sección 15.3) y **aprobadas por el abogado el
+> 2026-07-07** («apruebo las tres»). Quedaron incorporadas ese mismo día a la sección
+> «Aprendizajes activos» de `references/aprendizajes.md` de la skill instalada, con
+> incremento de versión a **3.6** y constancia en el registro de cambios. Este archivo
+> se conserva como acta de la aprobación.
 
 ---
 
