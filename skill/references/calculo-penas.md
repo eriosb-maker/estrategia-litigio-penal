@@ -146,9 +146,9 @@ punible.
 
 Los plazos, el cómputo, la interrupción, la suspensión y la media prescripción
 (arts. 93 a 105 CP) constan verificados en `marco-legal.md`, sección 2.3, y su
-cálculo se ejecuta con el **motor determinístico** `src/prescripcion.py` del
-repositorio `estrategia-litigio-penal` (pruebas pytest incluidas). Reglas de
-uso:
+cálculo se ejecuta con el **motor determinístico** `scripts/prescripcion.py`
+(también publicado como `src/prescripcion.py` en el repositorio
+`estrategia-litigio-penal`, con su suite pytest). Reglas de uso:
 
 1. El motor entrega fechas y estados (vigente / suspendida / prescrita /
    imprescriptible) y la fecha de la **media prescripción** (art. 103 CP), que
