@@ -1,5 +1,14 @@
 # Perímetro propuesto — Curatoría de leyes especiales para `references/leyes-especiales.md`
 
+> **CONSTANCIA DE EJECUCIÓN (2026-07-07)**: la curatoría se ejecutó en esta
+> fecha con descarga directa desde el servicio oficial, por instrucción del
+> abogado. idNorma confirmados: 21.595 → 1195119; 20.393 → 1008668; 19.913 →
+> 219119; 21.459 → 1177743; 20.000 → 235507. Perímetros definitivos según el
+> registro de curatoría de `skill/references/leyes-especiales.md` (177
+> artículos, sin advertencias de completitud). Este documento se conserva como
+> propuesta original; las diferencias de numeración quedaron resueltas contra
+> el inventario real de cada XML.
+
 > **Naturaleza de este documento**: propuesta de alcance para la próxima sesión de
 > curatoría, elaborada para que la sesión parta con el perímetro ya definido. La
 > numeración de artículos que sigue es **indicativa y debe confirmarse contra el XML

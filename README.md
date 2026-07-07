@@ -33,6 +33,13 @@ GitHub Actions ejecuta automáticamente:
     `references/metodologia-detallada.md` — módulos construidos sobre el
     marco normativo verificado; citas no curadas marcadas «pendiente de
     verificación».
+  - `references/leyes-especiales.md` — 177 artículos verificados de las
+    Leyes 21.595, 20.393, 19.913, 21.459 y 20.000 (curatoría 2026-07-07,
+    XML oficiales en `curatoria/xml/` con SHA-256 registrado; revalidación
+    vence 2027-01-07).
+- `scripts/curar_norma.py` — motor de curatoría (v. repo: soporte de
+  «Doble Articulado» y numeración ordinal; suite en
+  `tests/test_curar_norma.py`).
 
 ## Status
 

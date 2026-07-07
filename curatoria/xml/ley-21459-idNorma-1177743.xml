@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?><Norma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.leychile.cl/esquemas" xsi:schemaLocation="http://www.leychile.cl/esquemas http://www.leychile.cl/esquemas/EsquemaIntercambioNorma-v1-0.xsd" normaId="1177743" esTratado="no tratado" fechaVersion="2222-02-02" SchemaVersion="1.0" derogado="no derogado">
+  <Identificador fechaPromulgacion="2022-06-09" fechaPublicacion="2022-06-20">
+    <TiposNumeros>
+      <TipoNumero>
+        <Tipo>Ley</Tipo>
+        <Numero>21459</Numero>
+      </TipoNumero>
+    </TiposNumeros>
+    <Organismos>
+      <Organismo>MINISTERIO DE JUSTICIA Y DERECHOS HUMANOS</Organismo>
+    </Organismos>
+  </Identificador>
+  <Metadatos>
+    <TituloNorma>ESTABLECE NORMAS SOBRE DELITOS INFORM&#193;TICOS, DEROGA LA LEY N&#176; 19.223 Y MODIFICA OTROS CUERPOS LEGALES CON EL OBJETO DE ADECUARLOS AL CONVENIO DE BUDAPEST</TituloNorma>
+    <Materias>
+      <Materia>Delitos Inform&#225;ticos</Materia>
+      <Materia>Sistemas Inform&#225;ticos</Materia>
+      <Materia>Integridad Inform&#225;tica</Materia>
+      <Materia>Interceptaci&#243;n Il&#237;cita&#160;</Materia>
+      <Materia>Falsificaci&#243;n Inform&#225;tica</Materia>
+      <Materia>Receptaci&#243;n</Materia>
+      <Materia>Fraude Inform&#225;tico</Materia>
+      <Materia>Circunstancias Atenuantes</Materia>
+      <Materia>Circunstancias Agravantes</Materia>
+      <Materia>Datos Inform&#225;ticos</Materia>
+    </Materias>
+    
+    
+    <IdentificacionFuente>Diario Oficial</IdentificacionFuente>
+    <NumeroFuente>43283</NumeroFuente>
+  </Metadatos>
+  <Encabezado fechaVersion="2022-06-20" derogado="no derogado">
+    <Texto>
+LEY N&#218;M. 21.459
+      
+ESTABLECE NORMAS SOBRE DELITOS INFORM&#193;TICOS, DEROGA LA LEY
+N&#176; 19.223 Y MODIFICA OTROS CUERPOS LEGALES CON EL OBJETO DE
+ADECUARLOS AL CONVENIO DE BUDAPEST
+ 
+     Teniendo presente que el H. Congreso Nacional ha dado
+su aprobaci&#243;n al siguiente
+      
+     Proyecto de ley:   
+
+</Texto>
+  </Encabezado>
+  <EstructurasFuncionales>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343814">
+      <Texto>      
+     "T&#205;TULO I
+     DE LOS DELITOS INFORM&#193;TICOS Y SUS SANCIONES
+
+</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">T&#205;TULO I DE LOS DELITOS INFORM&#193;TICOS Y SUS SANCIONES</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343815">
+          <Texto>      
+     Art&#237;culo 1&#176;.- Ataque a la integridad de un sistema
+inform&#225;tico. El que obstaculice o impida el normal
+funcionamiento, total o parcial, de un sistema inform&#225;tico,
+a trav&#233;s de la introducci&#243;n, transmisi&#243;n, da&#241;o,
+deterioro, alteraci&#243;n o supresi&#243;n de los datos
+inform&#225;ticos, ser&#225; castigado con la pena de presidio menor
+en sus grados medio a m&#225;ximo.
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">1&#176; </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-04-08" derogado="no derogado" idParte="10343816">
+          <Texto>      
+     Art&#237;culo 2&#176;.- Acceso il&#237;cito. El que, sin
+autorizaci&#243;n o excediendo la autorizaci&#243;n que posea y
+superando barreras t&#233;cnicas o medidas tecnol&#243;gicas de
+seguridad, acceda a un sistema inform&#225;tico ser&#225; castigado
+con la pena de presidio menor en su grado m&#237;nimo o multa de
+once a veinte unidades tributarias mensuales.
+     Si el acceso fuere realizado con el &#225;nimo de
+apoderarse o usar la informaci&#243;n contenida en el sistema
+inform&#225;tico, se aplicar&#225; la pena de presidio menor en sus
+grados m&#237;nimo a medio. Igual pena se aplicar&#225; a quien
+divulgue la informaci&#243;n a la cual se accedi&#243; de manera
+il&#237;cita, si no fuese obtenida por &#233;ste.
+     En caso de ser una misma persona la que hubiere
+obtenido y divulgado la informaci&#243;n, se aplicar&#225; la pena
+de presidio menor en sus grados medio a m&#225;ximo.
+     No ser&#225; objeto de sanci&#243;n penal por haber incurrido
+en los hechos tipificados en el inciso primero, el que
+habiendo accedido a un sistema inform&#225;tico cuyo responsable
+tenga domicilio en Chile, lo hiciera cumpliendo con las
+siguientes condiciones:
+      
+     1. Que se encuentre inscrito en el registro que al
+efecto lleve la Agencia Nacional de Ciberseguridad.
+     2. Que el acceso se haya realizado habiendo informado
+previamente de ello a la Agencia.
+     3. Que el acceso y las vulnerabilidades de seguridad
+detectadas hayan sido reportadas al responsable del sistema
+inform&#225;tico y a la Agencia, tan pronto se hubiere
+realizado.
+     4. Que el acceso no haya sido realizado con el &#225;nimo
+de apoderarse o de usar la informaci&#243;n contenida en el
+sistema inform&#225;tico, ni con intenci&#243;n fraudulenta. Tampoco
+podr&#225; haber actuado m&#225;s all&#225; de lo que era necesario para
+comprobar la existencia de una vulnerabilidad, ni habr&#225;
+utilizado m&#233;todos que pudieran conducir a denegaci&#243;n de
+servicio, a pruebas f&#237;sicas, utilizaci&#243;n de c&#243;digo
+malicioso, ingenier&#237;a social y alteraci&#243;n, eliminaci&#243;n,
+exfiltraci&#243;n o destrucci&#243;n de datos.
+     5. Que no haya divulgado p&#250;blicamente la informaci&#243;n
+relativa a la potencial vulnerabilidad.
+     6. Que se trate de un acceso a un sistema inform&#225;tico
+de los organismos de la Administraci&#243;n del Estado. En el
+resto de los casos, requerir&#225; del consentimiento del
+responsable del sistema inform&#225;tico.
+     7. Que haya dado cumplimiento a las dem&#225;s condiciones
+sobre comunicaci&#243;n responsable de vulnerabilidades que al
+efecto hubiere dictado la Agencia.
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">2&#176; </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343817">
+          <Texto>      
+     Art&#237;culo 3&#176;.- Interceptaci&#243;n il&#237;cita. El que
+indebidamente intercepte, interrumpa o interfiera, por
+medios t&#233;cnicos, la transmisi&#243;n no p&#250;blica de
+informaci&#243;n en un sistema inform&#225;tico o entre dos o m&#225;s
+de aquellos, ser&#225; castigado con la pena de presidio menor
+en su grado medio.
+     El que, sin contar con la debida autorizaci&#243;n, capte,
+por medios t&#233;cnicos, datos contenidos en sistemas
+inform&#225;ticos a trav&#233;s de las emisiones electromagn&#233;ticas
+provenientes de &#233;stos, ser&#225; castigado con la pena de
+presidio menor en sus grados medio a m&#225;ximo.
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">3&#176; </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343818">
+          <Texto>      
+     Art&#237;culo 4&#176;.- Ataque a la integridad de los datos
+inform&#225;ticos. El que indebidamente altere, da&#241;e o suprima
+datos inform&#225;ticos, ser&#225; castigado con presidio menor en
+su grado medio, siempre que con ello se cause un da&#241;o grave
+al titular de estos mismos.
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">4&#176; </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343819">
+          <Texto>      
+     Art&#237;culo 5&#176;.- Falsificaci&#243;n inform&#225;tica. El que
+indebidamente introduzca, altere, da&#241;e o suprima datos
+inform&#225;ticos con la intenci&#243;n de que sean tomados como
+aut&#233;nticos o utilizados para generar documentos
+aut&#233;nticos, ser&#225; sancionado con la pena de presidio menor
+en sus grados medio a m&#225;ximo.
+     Cuando la conducta descrita en el inciso anterior sea
+cometida por empleado p&#250;blico, abusando de su oficio, ser&#225;
+castigado con la pena de presidio menor en su grado m&#225;ximo
+a presidio mayor en su grado m&#237;nimo.
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">5&#176; </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343820">
+          <Texto>      
+     Art&#237;culo 6&#176;.- Receptaci&#243;n de datos inform&#225;ticos. El
+que conociendo su origen o no pudiendo menos que conocerlo
+comercialice, transfiera o almacene con el mismo objeto u
+otro fin il&#237;cito, a cualquier t&#237;tulo, datos inform&#225;ticos,
+provenientes de la realizaci&#243;n de las conductas descritas
+en los art&#237;culos 2&#176;, 3&#176; y 5&#176;, sufrir&#225; la pena asignada
+a los respectivos delitos, rebajada en un grado.
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">6&#176; </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343821">
+          <Texto>      
+     Art&#237;culo 7&#176;.- Fraude inform&#225;tico. El que, causando
+perjuicio a otro, con la finalidad de obtener un beneficio
+econ&#243;mico para s&#237; o para un tercero, manipule un sistema
+inform&#225;tico, mediante la introducci&#243;n, alteraci&#243;n, da&#241;o
+o supresi&#243;n de datos inform&#225;ticos o a trav&#233;s de cualquier
+interferencia en el funcionamiento de un sistema
+inform&#225;tico, ser&#225; penado:
+      
+     1) Con presidio menor en sus grados medio a m&#225;ximo y
+multa de once a quince unidades tributarias mensuales, si el
+valor del perjuicio excediera de cuarenta unidades
+tributarias mensuales.
+     2) Con presidio menor en su grado medio y multa de seis
+a diez unidades tributarias mensuales, si el valor del
+perjuicio excediere de cuatro unidades tributarias mensuales
+y no pasare de cuarenta unidades tributarias mensuales.
+     3) Con presidio menor en su grado m&#237;nimo y multa de
+cinco a diez unidades tributarias mensuales, si el valor del
+perjuicio no excediere de cuatro unidades tributarias
+mensuales.
+      
+     Si el valor del perjuicio excediere de cuatrocientas
+unidades tributarias mensuales, se aplicar&#225; la pena de
+presidio menor en su grado m&#225;ximo y multa de veintiuna a
+treinta unidades tributarias mensuales.
+     Para los efectos de este art&#237;culo se considerar&#225;
+tambi&#233;n autor al que, conociendo o no pudiendo menos que
+conocer la ilicitud de la conducta descrita en el inciso
+primero, facilita los medios con que se comete el delito.
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">7&#176; </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343822">
+          <Texto>      
+     Art&#237;culo 8&#186;.- Abuso de los dispositivos. El que para
+la perpetraci&#243;n de los delitos previstos en los art&#237;culos
+1&#176; a 4&#176; de esta ley o de las conductas se&#241;aladas en el
+art&#237;culo 7&#176; de la ley N&#176; 20.009, entregare u obtuviere
+para su utilizaci&#243;n, importare, difundiera o realizare otra
+forma de puesta a disposici&#243;n uno o m&#225;s dispositivos,
+programas computacionales, contrase&#241;as, c&#243;digos de
+seguridad o de acceso u otros datos similares, creados o
+adaptados principalmente para la perpetraci&#243;n de dichos
+delitos, ser&#225; sancionado con la pena de presidio menor en
+su grado m&#237;nimo y multa de cinco a diez unidades
+tributarias mensuales.
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">8&#186; </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-09-04" derogado="derogado" idParte="10343823">
+          <Texto>     Art&#237;culo 9&#176;.- Derogado.
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">9&#176; </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+            <FechaDerogacion>2024-09-04</FechaDerogacion>
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343824">
+          <Texto>      
+     Art&#237;culo 10.- Circunstancias agravantes. Constituyen
+circunstancias agravantes de los delitos de que trata esta
+ley:
+      
+     1) Cometer el delito abusando de una posici&#243;n de
+confianza en la administraci&#243;n del sistema inform&#225;tico o
+custodio de los datos inform&#225;ticos contenidos en &#233;l, en
+raz&#243;n del ejercicio de un cargo o funci&#243;n.
+     2) Cometer el delito abusando de la vulnerabilidad,
+confianza o desconocimiento de ni&#241;os, ni&#241;as, adolescentes
+o adultos mayores.
+      
+     Asimismo, si como resultado de la comisi&#243;n de las
+conductas contempladas en este T&#237;tulo, se afectase o
+interrumpiese la provisi&#243;n o prestaci&#243;n de servicios de
+utilidad p&#250;blica, tales como electricidad, gas, agua,
+transporte, telecomunicaciones o financieros, o el normal
+desenvolvimiento de los procesos electorales regulados en la
+ley N&#186; 18.700, org&#225;nica constitucional sobre votaciones
+populares y escrutinios, la pena correspondiente se
+aumentar&#225; en un grado.
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">10 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343825">
+      <Texto>      
+     T&#205;TULO II
+     DEL PROCEDIMIENTO
+
+</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">T&#205;TULO II DEL PROCEDIMIENTO</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2222-02-02" derogado="no derogado" idParte="10343826">
+          <Texto>      
+     Art&#237;culo 11.- Sin perjuicio de las reglas contenidas
+en el C&#243;digo Procesal Penal, las investigaciones a que
+dieren lugar los delitos previstos en esta ley tambi&#233;n
+podr&#225;n iniciarse por querella del Ministro de Seguridad
+P&#250;blica o de los secretarios o secretarias regionales
+ministeriales de seguridad p&#250;blica, cuando las conductas
+se&#241;aladas en esta ley interrumpieren el normal
+funcionamiento de un servicio de utilidad p&#250;blica.
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">11 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343827">
+          <Texto>      
+     Art&#237;culo 12.- Cuando la investigaci&#243;n de los delitos
+contemplados en los art&#237;culos 1&#176;, 2&#176;, 3&#176;, 4&#176;, 5&#176; y 7&#176;
+de esta ley lo hiciere imprescindible y existieren fundadas
+sospechas basadas en hechos determinados, de que una persona
+hubiere cometido o participado en la preparaci&#243;n o
+comisi&#243;n de algunos de los delitos contemplados en los
+preceptos precedentemente se&#241;alados, el juez de garant&#237;a,
+a petici&#243;n del Ministerio P&#250;blico, quien deber&#225; presentar
+informe previo detallado respecto de los hechos y la posible
+participaci&#243;n, podr&#225; ordenar la realizaci&#243;n de las
+t&#233;cnicas previstas y reguladas en los art&#237;culos 222 a 226
+del C&#243;digo Procesal Penal, conforme lo disponen dichas
+normas.
+     La orden que disponga la realizaci&#243;n de estas
+t&#233;cnicas deber&#225; indicar circunstanciadamente el nombre
+real o alias y direcci&#243;n f&#237;sica o electr&#243;nica del
+afectado por la medida y se&#241;alar el tipo y la duraci&#243;n de
+la misma. El juez podr&#225; prorrogar la duraci&#243;n de esta
+orden, para lo cual deber&#225; examinar cada vez la
+concurrencia de los requisitos previstos en el inciso
+precedente.
+     De igual forma, cumpli&#233;ndose los requisitos
+establecidos en el inciso anterior, el juez de garant&#237;a, a
+petici&#243;n del Ministerio P&#250;blico, podr&#225; ordenar a
+funcionarios policiales actuar bajo identidad supuesta en
+comunicaciones mantenidas en canales cerrados de
+comunicaci&#243;n, con el fin de esclarecer los hechos
+tipificados como delitos en esta ley, establecer la
+identidad y participaci&#243;n de personas determinadas en la
+comisi&#243;n de los mismos, impedirlos o comprobarlos. El
+referido agente encubierto en l&#237;nea podr&#225; intercambiar o
+enviar por s&#237; mismo archivos il&#237;citos por raz&#243;n de su
+contenido, pudiendo obtener tambi&#233;n im&#225;genes y grabaciones
+de las referidas comunicaciones. No obstar&#225; a la
+consumaci&#243;n de los delitos que se pesquisen el hecho de que
+hayan participado en su investigaci&#243;n agentes encubiertos.
+El agente encubierto en sus actuaciones estar&#225; exento de
+responsabilidad criminal por aquellos delitos en que deba
+incurrir o que no haya podido impedir, siempre que sean
+consecuencia necesaria del desarrollo de la investigaci&#243;n y
+guarden la debida proporcionalidad con la finalidad de la
+misma.
+      
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">12 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343828">
+          <Texto>
+     Art&#237;culo 13.- Sin perjuicio de las reglas generales,
+caer&#225;n especialmente en comiso los instrumentos de los
+delitos penados en esta ley, los efectos que de ellos
+provengan y las utilidades que hubieren originado,
+cualquiera que sea su naturaleza jur&#237;dica.
+     Cuando por cualquier circunstancia no sea posible
+decomisar estas especies, se podr&#225; aplicar el comiso a una
+suma de dinero equivalente a su valor, respecto de los
+responsables del delito. Si por la naturaleza de la
+informaci&#243;n contenida en las especies, &#233;stas no pueden ser
+enajenadas a terceros, se podr&#225; ordenar la destrucci&#243;n
+total o parcial de los instrumentos del delito y los efectos
+que de ellos provengan.
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">13 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343829">
+          <Texto>      
+     Art&#237;culo 14.- Sin perjuicio de las reglas generales,
+los antecedentes de investigaci&#243;n que se encuentren en
+formato electr&#243;nico y est&#233;n contenidos en documentos
+electr&#243;nicos o sistemas inform&#225;ticos o que correspondan a
+datos inform&#225;ticos, ser&#225;n tratados en conformidad a los
+est&#225;ndares definidos para su preservaci&#243;n o custodia en el
+procedimiento respectivo, de acuerdo a las instrucciones
+generales que al efecto dicte el Fiscal Nacional.
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">14 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343830">
+      <Texto>      
+     T&#205;TULO III
+     DISPOSICIONES FINALES
+
+</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">T&#205;TULO III DISPOSICIONES FINALES</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343831">
+          <Texto>      
+     Art&#237;culo 15.- Para efectos de esta ley, se entender&#225;
+por:
+      
+     a) Datos inform&#225;ticos: Toda representaci&#243;n de hechos,
+informaci&#243;n o conceptos expresados en cualquier forma que
+se preste a tratamiento inform&#225;tico, incluidos los
+programas dise&#241;ados para que un sistema inform&#225;tico
+ejecute una funci&#243;n.
+     b) Sistema inform&#225;tico: Todo dispositivo aislado o
+conjunto de dispositivos interconectados o relacionados
+entre s&#237;, cuya funci&#243;n, o la de alguno de sus elementos,
+sea el tratamiento automatizado de datos en ejecuci&#243;n de un
+programa.
+     c) Prestadores de servicios: Toda entidad p&#250;blica o
+privada que ofrezca a los usuarios de sus servicios la
+posibilidad de comunicar a trav&#233;s de un sistema
+inform&#225;tico y cualquier otra entidad que procese o almacene
+datos inform&#225;ticos para dicho servicio de comunicaci&#243;n o
+para los usuarios del mismo.
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">15 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-04-08" derogado="derogado" idParte="10343832">
+          <Texto>       
+     Art&#237;culo 16.- Derogado.
+
+
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">16 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+            <FechaDerogacion>2025-01-01</FechaDerogacion>
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343833">
+          <Texto>      
+     Art&#237;culo 17.- Sin perjuicio de lo dispuesto en el
+art&#237;culo primero transitorio de esta ley, der&#243;gase la ley
+N&#176; 19.223. Toda referencia legal o reglamentaria a dicho
+cuerpo legal debe entenderse hecha a esta ley.
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">17 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343834">
+          <Texto>      
+     Art&#237;culo 18.- Modif&#237;case el C&#243;digo Procesal Penal en
+el siguiente sentido:
+      
+     1) Agr&#233;gase el siguiente art&#237;culo 218 bis, nuevo:
+      
+     "Art&#237;culo 218 bis.- Preservaci&#243;n provisoria de datos
+inform&#225;ticos. El Ministerio P&#250;blico con ocasi&#243;n de una
+investigaci&#243;n penal podr&#225; requerir, a cualquier proveedor
+de servicio, la conservaci&#243;n o protecci&#243;n de datos
+inform&#225;ticos o informaciones concretas incluidas en un
+sistema inform&#225;tico, que se encuentren a su disposici&#243;n
+hasta que se obtenga la respectiva autorizaci&#243;n judicial
+para su entrega. Los datos se conservar&#225;n durante un
+per&#237;odo de 90 d&#237;as, prorrogable una sola vez, hasta que se
+autorice la entrega o se cumplan 180 d&#237;as. La empresa
+requerida estar&#225; obligada a prestar su colaboraci&#243;n y
+guardar secreto del desarrollo de esta diligencia.".
+      
+     2) Supr&#237;mese, en el inciso primero del art&#237;culo 223,
+la expresi&#243;n "telef&#243;nica".
+     3) Reempl&#225;zase, en el art&#237;culo 225, la voz
+"telecomunicaciones" por "comunicaciones".
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">18 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343835">
+          <Texto>      
+     Art&#237;culo 19.- Interc&#225;lase, en el literal a) del
+inciso primero del art&#237;culo 27 de la ley N&#176; 19.913, que
+crea la Unidad de An&#225;lisis Financiero y modifica diversas
+disposiciones en materia de lavado y blanqueo de activos,
+entre las expresiones "org&#225;nica constitucional del Banco
+Central de Chile;" y "en el p&#225;rrafo tercero del n&#250;mero 4&#176;
+del art&#237;culo 97 del C&#243;digo Tributario", la frase "en el
+T&#237;tulo I de la ley que sanciona los delitos
+inform&#225;ticos;".
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">19 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343836">
+          <Texto>      
+     Art&#237;culo 20.- Agr&#233;gase, en el inciso primero del
+art&#237;culo 36 B de la ley N&#176; 18.168, General de
+Telecomunicaciones, la siguiente letra f), nueva:
+      
+     "f) Los que vulneren el deber de reserva o secreto
+previsto en los art&#237;culos 218 bis, 219 y 222 del C&#243;digo
+Procesal Penal, mediante el acceso, almacenamiento o
+difusi&#243;n de los antecedentes o la informaci&#243;n se&#241;alados
+en dichas normas, ser&#225;n sancionados con la pena de presidio
+menor en su grado m&#225;ximo.".
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">20 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343837">
+          <Texto>      
+     Art&#237;culo 21.- Modif&#237;case la ley N&#176; 20.393, que
+establece la responsabilidad penal de las personas
+jur&#237;dicas en los delitos de lavado de activos,
+financiamiento del terrorismo y delitos de cohecho que
+indica, en el siguiente sentido:
+      
+     1) Interc&#225;lase, en el inciso primero del art&#237;culo 1,
+a continuaci&#243;n de la expresi&#243;n "N&#186; 18.314", la expresi&#243;n
+", en el T&#237;tulo I de la ley que sanciona delitos
+inform&#225;ticos".
+     2) Interc&#225;lase, en el inciso primero del art&#237;culo 15,
+entre "C&#243;digo Penal," y "y en el art&#237;culo 8&#176;", la
+expresi&#243;n "en el T&#237;tulo I de la ley que sanciona delitos
+inform&#225;ticos".
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">21 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343838">
+      <Texto>      
+     ART&#205;CULOS TRANSITORIOS
+
+</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">ART&#205;CULOS TRANSITORIOS</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343839">
+          <Texto>      
+     Art&#237;culo primero.- Los hechos perpetrados con
+anterioridad a la entrada en vigor de la presente ley, as&#237;
+como las penas y las dem&#225;s consecuencias que correspondiere
+imponer por ellos, ser&#225;n determinados conforme a la ley
+vigente en el momento de su perpetraci&#243;n.
+     Si la presente ley entrare en vigor durante la
+perpetraci&#243;n del hecho se estar&#225; a lo dispuesto en ella,
+siempre que en la fase de perpetraci&#243;n posterior se
+realizare &#237;ntegramente la nueva descripci&#243;n legal del
+hecho.
+     Si la aplicaci&#243;n de la presente ley resultare m&#225;s
+favorable al imputado o acusado por un hecho perpetrado con
+anterioridad a su entrada en vigor, se estar&#225; a lo
+dispuesto en ella.
+     Para determinar si la aplicaci&#243;n de esta ley resulta
+m&#225;s favorable, se deber&#225; tomar en consideraci&#243;n todas las
+normas en ella previstas que fueren pertinentes al
+juzgamiento del hecho.
+     Para efectos de lo dispuesto en los incisos primero y
+segundo precedentes, el delito se entiende perpetrado en el
+momento o durante el lapso en el cual se ejecuta la acci&#243;n
+punible o se incurre en la omisi&#243;n punible.
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">primero</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343840">
+          <Texto>      
+     Art&#237;culo segundo.- El art&#237;culo 18 de la presente ley
+comenzar&#225; a regir transcurridos seis meses desde la
+publicaci&#243;n en el Diario Oficial de un reglamento dictado
+por el Ministerio de Transportes y Telecomunicaciones,
+suscrito adem&#225;s por el Ministro del Interior y Seguridad
+P&#250;blica.
+     El reglamento se&#241;alado en el inciso anterior deber&#225;
+dictarse dentro del plazo de seis meses, contado desde la
+publicaci&#243;n de la presente ley en el Diario Oficial.
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">segundo</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-06-20" derogado="no derogado" idParte="10343841">
+          <Texto>     
+     Art&#237;culo tercero.- Los art&#237;culos 19 y 21 comenzar&#225;n
+a regir transcurridos seis meses desde la publicaci&#243;n de la
+presente ley en el Diario Oficial.".
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">tercero</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+  </EstructurasFuncionales>
+  <Promulgacion fechaVersion="2022-06-20" derogado="no derogado">
+    <Texto>      
+     Habi&#233;ndose cumplido con lo establecido en el N&#186; 1 del
+art&#237;culo 93 de la Constituci&#243;n Pol&#237;tica de la Rep&#250;blica
+y por cuanto he tenido a bien aprobarlo y sancionarlo; por
+tanto, prom&#250;lguese y ll&#233;vese a efecto como Ley de la
+Rep&#250;blica.
+      
+     Santiago, 9 de junio de 2022.- IZKIA SICHES PAST&#201;N,
+Vicepresidenta de la Rep&#250;blica.- Marcela R&#237;os Tobar,
+Ministra de Justicia y Derechos Humanos.- Manuel Monsalve
+Benavides, Ministro del Interior y Seguridad P&#250;blica (S).-
+Juan Carlos Mu&#241;oz Abogabir, Ministro de Transportes y
+Telecomunicaciones.
+     Lo que trancribo a Ud. para su conocimiento.- Saluda
+atentamente a Ud., Jaime Gajardo Falc&#243;n, Subsecretario de
+Justicia.
+
+</Texto>
+  </Promulgacion>
+  <Anexos>
+    <Anexo fechaVersion="2022-06-20" derogado="no derogado" idParte="10343843" transitorio="no transitorio">
+      <Metadatos>
+        <Titulo>Proyecto de ley que establece normas sobre delitos inform&#225;ticos, deroga la ley N&#176; 19.223 y modifica otros cuerpos legales con el objeto de adecuarlos al Convenio de Budapest, correspondiente al Bolet&#237;n N&#176; 12.192-25.</Titulo>
+        
+      </Metadatos>
+      <Texto>      
+     Tribunal Constitucional
+      
+     Proyecto de ley que establece normas sobre delitos
+inform&#225;ticos, deroga la ley N&#176; 19.223 y modifica otros
+cuerpos legales con el objeto de adecuarlos al Convenio de
+Budapest, correspondiente al Bolet&#237;n N&#176; 12.192-25.
+      
+     La Secretaria del Tribunal Constitucional, quien
+suscribe, certifica que el Honorable Senado de la Rep&#250;blica
+envi&#243; el proyecto de ley enunciado en el rubro, aprobado
+por el Congreso Nacional, a fin de que este Tribunal
+ejerciera el control de constitucionalidad respecto de sus
+art&#237;culos 9, inciso tercero; 12; 14; y 218 bis contenido en
+el numeral 1) del art&#237;culo 18 del proyecto; y por sentencia
+de 26 de mayo de 2022, en los autos Rol 13185-22- CPR.
+      
+     Se declara:
+      
+     1&#176;. Que los art&#237;culos 9, inciso tercero, 14 y 18 del
+proyecto de ley que establece normas sobre delitos
+inform&#225;ticos, deroga la Ley N&#176; 19.223 y modifica otros
+cuerpos legales con el objeto de adecuarlos al Convenio de
+Budapest, correspondiente al Bolet&#237;n N&#176; 12.192-25 son
+conformes con la Constituci&#243;n Pol&#237;tica.
+     2&#176;. Que no se emite pronunciamiento, en examen
+preventivo de constitucionalidad, de las restantes
+disposiciones del proyecto de ley, por no versar sobre
+materias reguladas en Ley Org&#225;nica Constitucional.
+      
+     Santiago, 27 de mayo de 2022.- Mar&#237;a Ang&#233;lica Barriga
+Meza, Secretaria.
+
+</Texto>
+    </Anexo>
+  </Anexos>
+</Norma>

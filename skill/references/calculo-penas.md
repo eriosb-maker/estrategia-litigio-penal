@@ -1,12 +1,12 @@
 # Cálculo de penas y marco punitivo
 
-> **Estado del módulo**: OPERATIVO en su componente de derecho común (Código
-> Penal), cuyo sustento normativo —arts. 11–13, 19–24 ter y 50–78 bis CP— consta
-> **verificado** en `references/marco-legal.md` (curatoría del 2026-07-06, XML
-> oficial LeyChile, idNorma 1984). El componente de leyes especiales (sistema de
-> la Ley 21.595 y penas sustitutivas de la Ley 18.216) permanece **pendiente de
-> verificación** hasta la curatoría de sus XML; toda cita de esos cuerpos lleva
-> la marca correspondiente y no puede fundar conclusiones en escritos.
+> **Estado del módulo**: OPERATIVO. El componente de derecho común (Código
+> Penal) —arts. 11–13, 19–24 ter y 50–78 bis CP— consta **verificado** en
+> `references/marco-legal.md` (curatoría del 2026-07-06, XML oficial LeyChile,
+> idNorma 1984). El sistema especial de la Ley 21.595 consta **verificado** en
+> `references/leyes-especiales.md` (curatoría del 2026-07-07, idNorma 1195119,
+> arts. 1–47 y 60–68). La Ley 18.216 —solo supletoria en delitos económicos
+> conforme al art. 19 de la Ley 21.595— permanece **pendiente de verificación**.
 
 Carga este archivo cuando el análisis requiera estimar pena concreta, evaluar
 circunstancias modificatorias, pronunciarse sobre concursos o dimensionar el
@@ -31,7 +31,8 @@ reglada.
 3. El sistema **especial** de determinación de penas para delitos económicos
    (Ley 21.595) se aplica con preferencia al régimen común cuando el hecho es
    posterior al 17-08-2023 y califica como delito económico. Su mecánica se
-   describe en la sección VI con marca «pendiente de verificación» integral.
+   describe en la sección VI sobre el texto verificado de
+   `references/leyes-especiales.md`.
 
 ---
 
@@ -162,35 +163,54 @@ uso:
 
 ---
 
-## VI. Sistema especial de la Ley 21.595 — delitos económicos *(íntegramente pendiente de verificación)*
+## VI. Sistema especial de la Ley 21.595 — delitos económicos *(verificado en `leyes-especiales.md`)*
 
-> **Advertencia**: esta sección describe la arquitectura del sistema para
-> efectos de planificación del análisis. Ningún artículo de la Ley 21.595 ha
-> sido curado aún; la numeración y el detalle se incorporarán desde el XML
-> oficial conforme al perímetro propuesto en `skill/perimetro-leyes-especiales.md`.
-> Hasta entonces, **no citar en escritos**.
+Para hechos que califiquen como delito económico, el algoritmo común de la
+sección II se **reemplaza** en lo pertinente por las reglas siguientes, todas
+citables sobre el texto verificado (curatoría 2026-07-07, idNorma 1195119):
 
-Para hechos posteriores al 17-08-2023 que califiquen como delito económico
-(catálogo en cuatro categorías), el análisis debe:
-
-1. Verificar la calificación del hecho en el catálogo y la calidad exigida en
-   el sujeto, según la categoría.
-2. Sustituir las modificatorias comunes por las **atenuantes y agravantes
-   especiales** de la ley (entre otras, cooperación eficaz y posición o rol en
-   la organización), con sus reglas propias de concurrencia y efecto en grados.
-3. Determinar la **multa en días-multa**, en función de la capacidad económica
-   del condenado y la gravedad del hecho.
-4. Evaluar las **inhabilitaciones especiales** y la **pena de supervisión**
-   cuando proceda.
-5. Aplicar el régimen de **comiso de ganancias** ya verificado en el CP
-   (arts. 20, 24 bis y 24 ter) y el comiso sin condena.
-6. Considerar el régimen especial de sustitución de penas privativas, más
-   restrictivo que el de la Ley 18.216 común.
+1. **Calificación** (arts. 1 a 7): verificar la pertenencia del hecho a las
+   categorías del catálogo y, en las hipótesis de los arts. 2, 3 y 4 N° 2 y 3,
+   el conocimiento exigido por el art. 8 N° 2.
+2. **Régimen especial excluyente** (art. 12): no se aplican los arts. 65 a 69
+   CP ni las modificatorias de los arts. 11 a 13 CP. En su lugar:
+   - **Atenuantes** (art. 13): culpabilidad disminuida y perjuicio limitado
+     (más de 40 y hasta 400 UTM).
+   - **Atenuantes muy calificadas** (art. 14): culpabilidad muy disminuida y
+     cuantía de bagatela (hasta 40 UTM; hipótesis del art. 111 inc. 1° del
+     Código Tributario en delitos tributarios).
+   - **Agravantes** (art. 15): culpabilidad elevada (posición intermedia,
+     abuso de autoridad, sanción previa por delito económico, hipótesis del
+     art. 111 incs. 2° y 3° CT) y perjuicio o beneficio relevante (sobre 400 y
+     hasta 40.000 UTM).
+   - **Agravantes muy calificadas** (art. 16): culpabilidad muy elevada
+     (posición jerárquica superior, presión sobre subordinados) y perjuicio
+     muy elevado (sobre 40.000 UTM, bienes de primera necesidad, grupos
+     vulnerables, hipótesis de los arts. 251 quinquies N° 2 y 260 ter CP).
+   - **Efectos sobre el marco** (art. 17): las simples operan en la
+     individualización; las muy calificadas mueven mínimum/máximum o excluyen
+     grados, y en concurrencia plural rebajan o aumentan en un grado, con
+     compensación por número entre muy calificadas.
+   - **Individualización** (art. 18): dentro del grado, según atenuantes y
+     agravantes simples, intensidad de la culpabilidad y extensión del mal.
+3. **Multa obligatoria en días-multa** (arts. 10 y 27 a 29): número de
+   días-multa correlativo a la extensión de la pena privativa y valor del
+   día-multa según capacidad económica; no es sustituible.
+4. **Inhabilitaciones y prohibiciones** (arts. 30 a 39): consecuencias
+   adicionales no sustituibles.
+5. **Comiso de ganancias** (arts. 40 a 47, en relación con los arts. 20,
+   24 bis y 24 ter CP verificados) y comiso sin condena.
+6. **Sustitución restrictiva** (arts. 19 a 26): solo remisión condicional y
+   reclusión parcial (domiciliaria o en establecimiento especial); la Ley
+   18.216 es únicamente supletoria (art. 19) *(texto de la 18.216 pendiente
+   de verificación)*.
+7. **Non bis in idem administrativo** (art. 11, en relación con el art. 78
+   bis CP verificado).
 
 Concurrencia habitual: si interviene una persona jurídica, análisis paralelo
-bajo la Ley 20.393 *(pendiente de verificación)*; si hay flujos de dinero de
-origen ilícito, encuadre bajo la Ley 19.913 *(pendiente de verificación)* con
-el módulo `references/forense-financiero.md`.
+bajo la Ley 20.393 *(verificada, texto post-21.595, en `leyes-especiales.md`)*;
+si hay flujos de origen ilícito, encuadre bajo el art. 27 de la Ley 19.913
+*(verificado)* con el módulo `references/forense-financiero.md`.
 
 ---
 
@@ -210,7 +230,7 @@ afirmarse en escritos:
 - **Prestación de servicios en beneficio de la comunidad**: penas cortas.
 
 En delitos económicos, el régimen sustitutivo especial de la Ley 21.595
-prevalece *(pendiente de verificación)*. Consigna siempre en el informe si la
+prevalece *(verificado: arts. 19 a 26, sección VI)*. Consigna siempre en el informe si la
 pena probable queda dentro o fuera del umbral de sustitución: esa frontera
 suele decidir la estrategia (juicio, abreviado o salida alternativa; ejecuta
 `scripts/estrategia_litigio.py` cuando la decisión lo amerite).

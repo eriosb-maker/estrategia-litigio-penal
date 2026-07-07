@@ -122,8 +122,8 @@ Respecto de cada delito investigado, verifica elemento por elemento:
 lo respalda** (con folio) y **prueba faltante**. Consulta
 `references/marco-legal.md` para el texto verificado; si el hecho es posterior
 al 17-08-2023 y califica como delito económico, consulta además
-`references/leyes-especiales.md` *(módulo pendiente de curatoría; rige la
-regla de degradación controlada)*.
+`references/leyes-especiales.md` *(operativo: Leyes 21.595, 20.393, 19.913,
+21.459 y 20.000 verificadas por curatoría del 2026-07-07)*.
 
 La conclusión es expresa: «todos los elementos están acreditados», «faltan los
 siguientes elementos» o «el tipo no se configura». Esa conclusión sostiene o

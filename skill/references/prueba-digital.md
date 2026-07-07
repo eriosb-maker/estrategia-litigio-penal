@@ -2,10 +2,11 @@
 
 > **Estado del módulo**: OPERATIVO en su componente metodológico. Las citas al
 > CPP marcadas como verificadas constan en `references/marco-legal.md`
-> (curatoría 2026-07-06); las citas a la Ley 21.459 y a los artículos del CPP
-> fuera del perímetro curado conservan la marca **«cita pendiente de
-> verificación»** hasta la curatoría de leyes especiales (perímetro propuesto
-> en `skill/perimetro-leyes-especiales.md`). Este módulo no contiene citas
+> (curatoría 2026-07-06); la Ley 21.459 consta **verificada** en
+> `references/leyes-especiales.md` (curatoría 2026-07-07, idNorma 1177743,
+> arts. 1–21, con los arts. 9 y 16 derogados y el art. 11 en vigencia
+> diferida). Los artículos del CPP fuera del perímetro curado conservan la
+> marca **«cita pendiente de verificación»**. Este módulo no contiene citas
 > jurisprudenciales: los fallos sobre valor probatorio de evidencia digital se
 > incorporarán solo identificados por tribunal, rol y fecha, previa
 > verificación.
@@ -169,9 +170,11 @@ autorización requerida y plazo realista:
    cooperación internacional.
 5. **Oficio a entidades bancarias** por extractos electrónicos, logs de
    acceso y transferencias.
-6. **Preservación provisoria de datos informáticos** conforme a la Ley 21.459
-   *(cita pendiente de verificación; anclar tras la curatoría de leyes
-   especiales)* — diligencia urgente por riesgo de pérdida.
+6. **Preservación provisoria de datos informáticos**: art. 218 bis CPP,
+   introducido por la Ley 21.459; el texto de inserción consta verificado en
+   el extracto de esa ley (`references/leyes-especiales.md`), sin perjuicio de
+   cotejar el texto consolidado del CPP en la próxima curatoría — diligencia
+   urgente por riesgo de pérdida.
 7. **Captura notarial** de publicaciones públicas en redes sociales.
 
 ---
@@ -186,9 +189,10 @@ autorización requerida y plazo realista:
   art. 276 CPP no integra el perímetro curado *(cita pendiente de
   verificación)*, pero la nulidad procesal y el recurso de nulidad (arts.
   372–387 CPP) constan verificados en `marco-legal.md`.
-- **Delitos informáticos y evidencia**: tipos, técnicas especiales y
-  preservación de datos de la Ley 21.459 *(pendiente de verificación
-  íntegra)*.
+- **Delitos informáticos y evidencia**: tipos (arts. 1° a 8°), reglas
+  procesales y preservación de datos de la Ley 21.459, **verificados** en
+  `references/leyes-especiales.md`; precaución con el art. 11 (vigencia
+  diferida) y los arts. 9 y 16 (derogados).
 - **Jurisprudencia**: no consta en los antecedentes examinados fallo
   verificado sobre valor probatorio de evidencia digital; toda cita se
   incorporará individualizada por tribunal, rol, fecha y considerando, previa
