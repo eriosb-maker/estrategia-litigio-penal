@@ -5,30 +5,91 @@ on:
     branches: [ main, develop ]
   pull_request:
     branches: [ main, develop ]
+  schedule:
+    # Vigilancia de revalidación normativa: primer día de cada mes, 09:00 UTC.
+    - cron: '0 9 1 * *'
+  workflow_dispatch: {}
 
 jobs:
   lint:
     name: Linting
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-      - run: pip install flake8 pylint black
-      - run: black --check src/ || true
-      - run: flake8 src/ || true
-  
+          python-version: '3.12'
+      - run: pip install flake8 black
+      - name: Formato (black --check)
+        run: black --check src/
+      - name: Estilo (flake8)
+        run: flake8 src/ --max-line-length=100
+
   test:
-    name: Tests
+    name: Suite de pruebas (incluye casos dorados)
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ['3.9', '3.10', '3.11', '3.12']
+        python-version: ['3.10', '3.11', '3.12']
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
       - run: pip install -r requirements.txt
-      - run: python -m pytest tests/ || true
+      - name: pytest (motores deterministas + casos dorados)
+        run: python -m pytest tests/ -v
+
+  sincronia-motores:
+    name: Sincronía de motores empaquetados (A-022)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verificar identidad binaria entre ruta canónica y paquete
+        run: python3 scripts/verificar_sincronia_motores.py
+
+  integridad-skill:
+    name: Integridad del paquete de la skill
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: verificar-integridad.sh contra skill/
+        run: |
+          if [ -f skill/verificar-integridad.sh ]; then
+            cd skill && bash verificar-integridad.sh
+          else
+            echo "::warning::skill/verificar-integridad.sh no está presente en este linaje del repositorio; controlar manualmente hasta la próxima sincronización con el paquete v4.5."
+          fi
+
+  vigilancia-revalidacion:
+    name: Vigilancia de plazos de revalidación normativa
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Escanear vencimientos declarados
+        run: python3 scripts/vigilar_revalidacion.py --umbral-dias 60
+      - name: Publicar o actualizar aviso (solo ejecución programada)
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          SALIDA=$(python3 scripts/vigilar_revalidacion.py --umbral-dias 60)
+          if echo "$SALIDA" | grep -qE "⚠️|⛔"; then
+            TITULO="Vigilancia de revalidación normativa — plazo próximo o vencido"
+            EXISTENTE=$(gh issue list --search "$TITULO in:title" --state open --json number --jq '.[0].number' || true)
+            CUERPO=$(printf '%s\n\n%s' "$SALIDA" "Generado automáticamente por el job \`vigilancia-revalidacion\` (schedule mensual). Ejecute la re-curación conforme a \`marco-legal.md\`, sección 1, regla 4, y cierre este aviso al concluirla.")
+            if [ -n "$EXISTENTE" ]; then
+              gh issue comment "$EXISTENTE" --body "$CUERPO"
+            else
+              gh issue create --title "$TITULO" --body "$CUERPO" --label "revalidación-normativa"
+            fi
+          else
+            echo "Sin plazos dentro del umbral; no se genera aviso."
+          fi

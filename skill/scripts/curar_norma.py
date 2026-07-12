@@ -25,6 +25,35 @@ Uso:
     python curar_norma.py --xml codigo_penal.xml --listar
         (inventaría los artículos disponibles sin generar extracto)
 
+    python curar_norma.py --resolver "Ley 21595"
+    python curar_norma.py --resolver "Codigo Tributario"
+        (resuelve el idNorma de una norma a partir de su identificador;
+        ver sección «Resolución automática de idNorma» más abajo)
+
+    python curar_norma.py --descargar 1195119 --out ley-21595.xml
+        (descarga el XML oficial desde obtxml, calcula su SHA-256 y lo
+        deja registrado en la consola para trazabilidad)
+
+Resolución automática de idNorma:
+    El identificador interno (idNorma) que exige `--idnorma` no coincide con
+    el número de la ley o decreto ley. `--resolver` lo obtiene por dos vías:
+    (a) un registro local de normas ya verificadas en esta skill (Código
+    Penal, Código Procesal Penal, Código Tributario, Leyes de Renta e IVA,
+    y las cinco leyes especiales curadas), y (b) para normas del tipo «Ley
+    N°» no registradas, consulta en línea el servicio de LeyChile
+    `nuevo.leychile.cl/servicios/Navegar?idLey=<N>` y extrae el idNorma del
+    enlace canónico de la página — mecanismo NO documentado oficialmente
+    por la BCN (el servicio `obtxml` sí admite `idLey` directamente para
+    normas de tipo «Ley», conforme al accesoLeyesChilenas4.pdf, pero ese
+    parámetro no resuelve decretos leyes ni códigos). Para decretos leyes,
+    decretos con fuerza de ley o normas ambiguas no registradas, el
+    resolver así lo advierte: no existe un servicio de búsqueda oficial
+    documentado por número+tipo, y la identificación del idNorma requiere
+    verificación manual del abogado (o del asistente mediante herramientas
+    de búsqueda web, con registro expreso de la fuente) antes de curar.
+    Requiere conexión a internet; no se ejecuta como parte de la suite
+    pytest (las pruebas de red se omiten mediante mocks).
+
 Reglas del motor:
   1. Los rangos numéricos (p. ej. "229-241") incluyen por defecto las
      variantes bis/ter/quáter/quinquies/sexies de los números comprendidos,
@@ -42,12 +71,152 @@ definitiva queda sujeta a revisión del abogado responsable.
 
 import argparse
 import datetime
+import hashlib
 import re
 import sys
 import unicodedata
+import urllib.error
+import urllib.request
 import xml.etree.ElementTree as ET
 
 NS = {"lc": "http://www.leychile.cl/esquemas"}
+
+OBTXML_URL = "https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma={idnorma}"
+NAVEGAR_IDLEY_URL = "https://nuevo.leychile.cl/servicios/Navegar?idLey={numero}"
+USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+)
+
+# Registro local de normas ya verificadas por esta skill (idNorma confirmado
+# mediante descarga real y cotejo del atributo normaId del XML). Se amplía
+# cada vez que una curatoría nueva confirma un idNorma; no reemplaza la
+# verificación documentada en `references/marco-legal.md` y
+# `references/leyes-especiales.md`, que es la fuente de trazabilidad
+# canónica.
+REGISTRO_IDNORMA = {
+    "CP": (1984, "Código", "Código Penal"),
+    "CODIGO PENAL": (1984, "Código", "Código Penal"),
+    "CPP": (176595, "Ley", "Código Procesal Penal (Ley 19.696)"),
+    "CODIGO PROCESAL PENAL": (176595, "Ley", "Código Procesal Penal (Ley 19.696)"),
+    "CT": (6374, "Decreto Ley", "Código Tributario (DL 830)"),
+    "CODIGO TRIBUTARIO": (6374, "Decreto Ley", "Código Tributario (DL 830)"),
+    "DL 830": (6374, "Decreto Ley", "Código Tributario"),
+    "DECRETO LEY 830": (6374, "Decreto Ley", "Código Tributario"),
+    "DL 824": (6368, "Decreto Ley", "Ley sobre Impuesto a la Renta"),
+    "DECRETO LEY 824": (6368, "Decreto Ley", "Ley sobre Impuesto a la Renta"),
+    "LEY DE RENTA": (6368, "Decreto Ley", "Ley sobre Impuesto a la Renta (DL 824)"),
+    "LIR": (6368, "Decreto Ley", "Ley sobre Impuesto a la Renta (DL 824)"),
+    "DL 825": (6369, "Decreto Ley", "Ley sobre Impuesto a las Ventas y Servicios"),
+    "DECRETO LEY 825": (6369, "Decreto Ley", "Ley sobre Impuesto a las Ventas y Servicios"),
+    "LEY DE IVA": (6369, "Decreto Ley", "Ley sobre Impuesto a las Ventas y Servicios (DL 825)"),
+    "IVA": (6369, "Decreto Ley", "Ley sobre Impuesto a las Ventas y Servicios (DL 825)"),
+    "LEY 21595": (1195119, "Ley", "Ley de Delitos Económicos"),
+    "LEY 20393": (1008668, "Ley", "Responsabilidad Penal de las Personas Jurídicas"),
+    "LEY 19913": (219119, "Ley", "UAF y lavado de activos"),
+    "LEY 21459": (1177743, "Ley", "Delitos Informáticos"),
+    "LEY 20000": (235507, "Ley", "Tráfico Ilícito de Estupefacientes"),
+}
+
+
+def _normalizar_clave_registro(texto):
+    t = unicodedata.normalize("NFD", texto.upper())
+    t = "".join(c for c in t if unicodedata.category(c) != "Mn")
+    # Elimina el indicador ordinal «N°»/«Nº» (p. ej. "LEY N° 21595" ->
+    # "LEY 21595"), exigiendo el símbolo de grado para no arrasar con
+    # cualquier "N" de una palabra ordinaria (p. ej. "PENAL", "RENTA").
+    t = re.sub(r"\bN[°º]\s*", "", t)
+    t = re.sub(r"[°ºª]", "", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def resolver_desde_registro(consulta):
+    """Busca la consulta en REGISTRO_IDNORMA (normas ya verificadas)."""
+    clave = _normalizar_clave_registro(consulta)
+    if clave in REGISTRO_IDNORMA:
+        idnorma, tipo, descripcion = REGISTRO_IDNORMA[clave]
+        return {
+            "idnorma": idnorma, "tipo": tipo, "descripcion": descripcion,
+            "fuente": "registro local (idNorma verificado en curatoría previa)",
+        }
+    return None
+
+
+def resolver_por_idley(numero, _opener=None):
+    """Resuelve el idNorma de una norma tipo «Ley N°» consultando LeyChile.
+
+    Consulta `nuevo.leychile.cl/servicios/Navegar?idLey=<numero>` (mecanismo
+    NO documentado oficialmente; server-side rendering observado
+    empíricamente) y extrae el idNorma del `<link rel="canonical">`. Lanza
+    ValueError si la norma no es de tipo «Ley» o no se encuentra.
+
+    `_opener` permite inyectar un abridor de URL alternativo en pruebas,
+    evitando tráfico de red real.
+    """
+    abrir = _opener or (lambda req: urllib.request.urlopen(req, timeout=30))
+    url = NAVEGAR_IDLEY_URL.format(numero=numero)
+    solicitud = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with abrir(solicitud) as respuesta:
+        html = respuesta.read().decode("utf-8", errors="replace")
+    m = re.search(r'<link rel="canonical" href="[^"]*idNorma=(\d+)', html)
+    if not m:
+        raise ValueError(
+            f"No fue posible resolver el idNorma para «Ley {numero}»: la "
+            "norma podría no ser de tipo Ley (el parámetro idLey solo "
+            "resuelve normas tipo «Ley»; para decretos leyes, DFL o "
+            "códigos, verifique el idNorma manualmente en leychile.cl y "
+            "regístrelo con --idnorma)."
+        )
+    idnorma = int(m.group(1))
+    tm = re.search(r"<title>([^<]+)</title>", html)
+    titulo = tm.group(1).strip() if tm else "s/d"
+    return {
+        "idnorma": idnorma, "tipo": "Ley", "descripcion": titulo,
+        "fuente": f"resolución en línea vía idLey={numero} (no oficial/no documentada)",
+    }
+
+
+def resolver_norma(consulta, _opener=None):
+    """Resuelve el idNorma de `consulta` (sigla, «Ley N°» o descripción).
+
+    Orden: (1) registro local de normas ya verificadas; (2) si la consulta
+    contiene un número y no fue hallada en el registro, intenta resolución
+    en línea asumiendo tipo «Ley». Lanza ValueError si ninguna vía resuelve.
+    """
+    hallazgo = resolver_desde_registro(consulta)
+    if hallazgo:
+        return hallazgo
+    m = re.search(r"(\d{3,6})", consulta)
+    if m:
+        return resolver_por_idley(int(m.group(1)), _opener=_opener)
+    raise ValueError(
+        f"No fue posible resolver «{consulta}»: no consta en el registro "
+        "local ni contiene un número identificable. Verifique manualmente "
+        "en leychile.cl y use --idnorma con el valor confirmado."
+    )
+
+
+def descargar_xml(idnorma, destino, nota_pie=False, _opener=None):
+    """Descarga el XML oficial de `idnorma` desde el servicio obtxml,
+    lo guarda en `destino` y devuelve (bytes_descargados, sha256_hex).
+
+    Requiere conexión a internet; `_opener` permite mockear en pruebas.
+    """
+    abrir = _opener or (lambda req: urllib.request.urlopen(req, timeout=60))
+    url = OBTXML_URL.format(idnorma=idnorma)
+    if nota_pie:
+        url += "&notaPIE=1"
+    solicitud = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with abrir(solicitud) as respuesta:
+        contenido = respuesta.read()
+    if b'normaId="' not in contenido[:2000]:
+        raise ValueError(
+            f"La respuesta de idNorma={idnorma} no parece un XML válido de "
+            "LeyChile (falta el atributo normaId); verifique el idNorma."
+        )
+    with open(destino, "wb") as f:
+        f.write(contenido)
+    return len(contenido), hashlib.sha256(contenido).hexdigest()
 
 SUFIJOS_VALIDOS = (
     "", "BIS", "TER", "QUATER", "QUÁTER", "QUINQUIES", "SEXIES",
@@ -127,6 +296,18 @@ def articulo_seleccionado(numero, sufijo, nombre_crudo, criterios,
     return False
 
 
+def _limpiar_disambiguador_articulado(nombre):
+    """Quita el sufijo parentético «(DEL ART. 1)» / «(DEL ART 1)» / «(ART 1)»
+    que la BCN antepone a los artículos internos de normas con estructura de
+    «Doble Articulado» (p. ej. el Código Tributario, DL 830, cuyo art. 97
+    figura en el XML como NombreParte «97 (DEL ART. 1)»). El sufijo identifica
+    el artículo promulgatorio contenedor, no el número del artículo citable;
+    se elimina para que la selección numérica y la etiqueta de salida
+    reflejen la cita real («art. 97 CT», no «art. 97 (DEL ART. 1) CT»)."""
+    return re.sub(r"\s*\(\s*DEL\s+ART\.?\s+\d+\s*\)\s*$", "", nombre,
+                  flags=re.IGNORECASE).strip()
+
+
 def recorrer_articulos(elemento, ruta=()):
     """Recorre recursivamente EstructurasFuncionales y rinde cada artículo
     junto con la ruta de agrupadores (Libro/Título/Párrafo) que lo contiene."""
@@ -141,7 +322,7 @@ def recorrer_articulos(elemento, ruta=()):
             if tp is not None and tp.get("presente") == "si" and tp.text:
                 titulo_parte = " ".join(tp.text.split())
             if np is not None and np.get("presente") == "si" and np.text:
-                nombre_parte = np.text.strip()
+                nombre_parte = _limpiar_disambiguador_articulado(np.text.strip())
         if tipo == "Artículo" or tipo == "Artículo Transitorio":
             yield ef, nombre_parte, ruta
             # Normas promulgatorias con articulado anidado («Doble
@@ -307,18 +488,58 @@ def listar_inventario(ruta_xml):
 def main(argv=None):
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("--xml", required=True, help="Ruta al XML oficial de LeyChile")
+    p.add_argument("--xml", help="Ruta al XML oficial de LeyChile")
     p.add_argument("--articulos", help="Especificación: '1-18,50-78,97 bis,FINAL'")
     p.add_argument("--sigla", default="NORMA", help="Sigla del cuerpo (CP, CPP, CT)")
     p.add_argument("--idnorma", help="idNorma esperado, para validar la fuente")
-    p.add_argument("--out", help="Archivo de salida Markdown")
+    p.add_argument("--out", help="Archivo de salida Markdown, o de destino con --descargar")
     p.add_argument("--sin-variantes", action="store_true",
                    help="Los rangos NO incluyen artículos bis/ter/quáter")
     p.add_argument("--incluir-transitorios", action="store_true")
     p.add_argument("--fecha-verificacion", help="AAAA-MM-DD (por defecto, hoy)")
     p.add_argument("--listar", action="store_true",
                    help="Solo inventaría los artículos del XML")
+    p.add_argument("--resolver",
+                   help="Resuelve el idNorma de una norma (sigla, «Ley N°» o "
+                        "descripción registrada); requiere conexión a internet "
+                        "para normas no registradas localmente")
+    p.add_argument("--descargar", type=int, metavar="IDNORMA",
+                   help="Descarga el XML oficial del idNorma indicado hacia "
+                        "--out; requiere conexión a internet")
+    p.add_argument("--nota-pie", action="store_true",
+                   help="Con --descargar: incluye notas al pie de la BCN (notaPIE=1)")
     args = p.parse_args(argv)
+
+    if args.resolver:
+        try:
+            hallazgo = resolver_norma(args.resolver)
+        except ValueError as e:
+            print(f"ERROR: {e}", file=sys.stderr)
+            return 1
+        print(f"idNorma: {hallazgo['idnorma']}")
+        print(f"Tipo: {hallazgo['tipo']}")
+        print(f"Descripción: {hallazgo['descripcion']}")
+        print(f"Fuente de la resolución: {hallazgo['fuente']}")
+        print(f"URL de descarga: {OBTXML_URL.format(idnorma=hallazgo['idnorma'])}")
+        return 0
+
+    if args.descargar is not None:
+        if not args.out:
+            p.error("--descargar requiere --out con la ruta de destino")
+        try:
+            tamano, sha256 = descargar_xml(args.descargar, args.out,
+                                           nota_pie=args.nota_pie)
+        except (ValueError, urllib.error.URLError) as e:
+            print(f"ERROR: {e}", file=sys.stderr)
+            return 1
+        print(f"Descargado: {args.out} — {tamano} bytes")
+        print(f"SHA-256: {sha256}")
+        print("Registre este hash en el módulo de referencia correspondiente, "
+              "conforme al protocolo de curatoría.")
+        return 0
+
+    if not args.xml:
+        p.error("--xml es obligatorio salvo en modo --resolver o --descargar")
 
     if args.listar:
         listar_inventario(args.xml)
