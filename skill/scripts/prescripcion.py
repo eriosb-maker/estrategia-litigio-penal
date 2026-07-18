@@ -134,7 +134,7 @@ class Suspension:
     o terminó sin condena (art. 96 CP; art. 248 letra c) CPP): la
     prescripción continúa «como si no se hubiere interrumpido», es decir,
     la suspensión se ignora retroactivamente. La verificación del supuesto
-    (paralización efectiva, no perseverar, sobreseimiento) es del abogado.
+    (paralizacion efectiva, no perseverar, sobreseimiento) es del abogado.
     """
 
     fecha: date
@@ -315,9 +315,7 @@ def _computar(
     else:
         fecha_cumplimiento_informada = fecha_cumplimiento
         estado = (
-            Estado.PRESCRITA
-            if fecha_consulta >= fecha_cumplimiento
-            else Estado.VIGENTE
+            Estado.PRESCRITA if fecha_consulta >= fecha_cumplimiento else Estado.VIGENTE
         )
 
     notas.append(
