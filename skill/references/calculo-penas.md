@@ -6,7 +6,11 @@
 > idNorma 1984). El sistema especial de la Ley 21.595 consta **verificado** en
 > `references/leyes-especiales.md` (curatoría del 2026-07-07, idNorma 1195119,
 > arts. 1–47 y 60–68). La Ley 18.216 —solo supletoria en delitos económicos
-> conforme al art. 19 de la Ley 21.595— permanece **pendiente de verificación**.
+> conforme al art. 19 de la Ley 21.595— consta **verificada** (cotejo del
+> 2026-07-11 contra el XML oficial, idNorma 29636: umbrales por artículo,
+> expulsión post-Ley 21.325 y catálogo de exclusiones del art. 1° en su
+> versión 2025-02-12; sección VII). Incorporada en la reconciliación v4.3
+> desde el linaje local v3.11.
 
 Carga este archivo cuando el análisis requiera estimar pena concreta, evaluar
 circunstancias modificatorias, pronunciarse sobre concursos o dimensionar el
@@ -23,11 +27,12 @@ reglada.
    texto verificado en `references/marco-legal.md`, sección 2.2 (arts. 50–78) y
    concordantes. No se transcribe aquí el texto legal: se remite.
 2. La **tabla demostrativa del art. 56 CP** (duración de los grados de las penas
-   divisibles) no fue capturada por el extracto XML (el servicio la omite como
-   elemento tabular). Las duraciones consignadas en la sección III provienen del
-   conocimiento consolidado de la escala y deben cotejarse **una única vez**
-   contra la edición oficial en la próxima sesión de curatoría; hasta entonces
-   conservan la marca *(tabla pendiente de cotejo)*.
+   divisibles) consta en el XML oficial como **imagen embebida** (no como texto),
+   lo que explicaba su ausencia del extracto. El **cotejo único fue practicado el
+   2026-07-17** mediante extracción del binario oficial (`Art56CP.jpeg`, SHA-256
+   registrado) y verificación visual: la tabla de la sección III **coincide
+   íntegramente** con la fuente. La transcripción completa de las cinco filas
+   oficiales consta en `marco-legal.md`, sección 2.2, art. 56, nota de curatoría.
 3. El sistema **especial** de determinación de penas para delitos económicos
    (Ley 21.595) se aplica con preferencia al régimen común cuando el hecho es
    posterior al 17-08-2023 y califica como delito económico. Su mecánica se
@@ -108,7 +113,7 @@ abonan conforme al art. 78 bis CP.
 
 ---
 
-## III. Duración de los grados *(tabla pendiente de cotejo contra el art. 56 CP)*
+## III. Duración de los grados *(cotejo conforme, 2026-07-17, contra la TABLA DEMOSTRATIVA oficial del art. 56 CP —imagen embebida en el XML de LeyChile, SHA-256 registrado en `marco-legal.md`, sección 2.2—)*
 
 | Pena | Duración |
 |---|---|
@@ -133,10 +138,18 @@ punible.
   simultáneo si es posible y, si no, sucesivo comenzando por la más grave.
 - **Concurso ideal y medial** (art. 75 CP): se impone solo «la pena mayor
   asignada al delito más grave».
-- **Reiteración de delitos de la misma especie**: la regla de acumulación
-  jurídica del art. 351 CPP queda fuera del perímetro verificado del CPP
-  *(cita pendiente de verificación)*; hasta su curatoría, se enuncia como
-  alternativa a cotejar y no como base de cálculo.
+- **Reiteración de delitos de la misma especie** (art. 351 CPP, **verificado el
+  2026-07-17**, `marco-legal.md` sección 3.7, versión del artículo 2000-10-12):
+  (i) si las diversas infracciones pueden estimarse como un solo delito, se
+  impone la pena correspondiente a ellas así estimadas, aumentada en uno o dos
+  grados; (ii) en su defecto, la pena del delito que, aisladamente considerado
+  y con las circunstancias del caso, tenga asignada pena mayor, aumentada en
+  uno o dos grados según el número de delitos; (iii) **cláusula de
+  favorabilidad**: procede el art. 74 CP si de él resulta pena menor, cotejo
+  que debe consignarse expresamente en el cálculo; (iv) son de una misma
+  especie los delitos que afectan al **mismo bien jurídico** (inciso final).
+  La regla es ahora **base de cálculo habilitada**, no mera alternativa a
+  cotejar.
 - En delitos económicos, el sistema de la Ley 21.595 contiene reglas propias de
   concurrencia *(pendiente de verificación, sección VI)*.
 
@@ -215,25 +228,22 @@ si hay flujos de origen ilícito, encuadre bajo el art. 27 de la Ley 19.913
 
 ---
 
-## VII. Penas sustitutivas — Ley 18.216 *(pendiente de verificación)*
+## VII. Penas sustitutivas — Ley 18.216 **[V — cotejo del 2026-07-11, idNorma 29636]**
 
-Verifica la procedencia conforme al siguiente cuadro de trabajo, cuyos
-umbrales deben cotejarse contra el texto vigente de la Ley 18.216 antes de
-afirmarse en escritos:
+Filtros de procedencia prima facie:
+- **Remisión condicional (art. 4)**: pena no superior a tres años; sin condenas anteriores por crimen o simple delito (no se computan las cumplidas diez o cinco años antes, respectivamente); pronóstico favorable; e innecesariedad de intervención o ejecución efectiva. Vedada para los ilícitos de los arts. 15 letra b) y 15 bis letra b), en que procede reclusión parcial o libertad vigilada.
+- **Reclusión parcial (art. 8)**: pena no superior a tres años; límites de condenas previas (ninguna, o privativas que en total no excedan de dos años, con la misma regla de descuento temporal); regla especial de improcedencia por reclusiones parciales anteriores, reforzada en delitos contra la propiedad de los Párrafos 1 a 4 bis del Título IX y 456 bis A CP.
+- **Libertad vigilada (art. 15)**: pena superior a dos y no superior a tres años, o los supuestos especiales de la letra b) (art. 4 Ley 20.000 y manejo en estado de ebriedad del art. 196 Ley de Tránsito, con pena superior a 540 días y hasta tres años); sin condenas anteriores y con pronóstico de eficacia de la intervención. **Intensiva (art. 15 bis)**: pena superior a tres y no superior a cinco años, o los delitos VIF y sexuales de su letra b) con pena superior a 540 días y hasta cinco años.
+- **Expulsión (art. 34)**: pena igual o inferior a cinco años; procede respecto del extranjero **sin residencia legal** y, tras la Ley 21.325, también del residente legal salvo arraigo calificado por el juez con informe del Servicio Nacional de Migraciones; excluida en Ley 20.000, contrabando calificado y trata/tráfico de migrantes; prohibición de regreso por diez años con revocación en caso de retorno.
+- **Prestación de servicios en beneficio de la comunidad (art. 11)**: pena igual o inferior a trescientos días, voluntad del condenado, y solo cuando los antecedentes penales hagan improcedentes las demás sustitutivas; procede por una sola vez.
 
-- **Remisión condicional**: pena que no exceda de 3 años y ausencia de condenas
-  anteriores por crimen o simple delito.
-- **Reclusión parcial**: pena que no exceda de 3 años.
-- **Libertad vigilada**: pena superior a 2 y no superior a 3 años.
-- **Libertad vigilada intensiva**: pena superior a 3 y no superior a 5 años, o
-  hipótesis especiales.
-- **Expulsión**: extranjeros, según residencia y quántum.
-- **Prestación de servicios en beneficio de la comunidad**: penas cortas.
+Advertencias: (a) el catálogo de exclusiones del art. 1° (versión 2025-02-12) es extenso y de expansión continua —comprende hoy, entre otros, el art. 293 CP (asociación criminal), figuras sexuales y de homicidio calificado, y la exclusión general de los crímenes y simples delitos de la Ley 17.798, con sustitutivas restringidas para sus simples delitos—; se verifica caso a caso contra la versión vigente a la fecha de la sentencia; (b) el abono de la privación de libertad sufrida durante el proceso se computa siempre; (c) la pena mixta y las reglas de quebrantamiento integran el escenario de riesgo, no la nota al pie.
 
 En delitos económicos, el régimen sustitutivo especial de la Ley 21.595
-prevalece *(verificado: arts. 19 a 26, sección VI)*. Consigna siempre en el informe si la
-pena probable queda dentro o fuera del umbral de sustitución: esa frontera
-suele decidir la estrategia (juicio, abreviado o salida alternativa; ejecuta
+prevalece *(verificado: arts. 19 a 26, sección VI)*; la Ley 18.216 es solo
+supletoria (art. 19 Ley 21.595). Consigna siempre en el informe si la pena
+probable queda dentro o fuera del umbral de sustitución: esa frontera suele
+decidir la estrategia (juicio, abreviado o salida alternativa; ejecuta
 `scripts/estrategia_litigio.py` cuando la decisión lo amerite).
 
 ---

@@ -30,15 +30,20 @@ GitHub Actions ejecuta automáticamente:
   canónico y su copia empaquetada en `skill/scripts/` (aprendizaje A-022).
 - `scripts/vigilar_revalidacion.py` — vigilancia de los plazos de
   revalidación semestral declarados en los módulos normativos curados.
-- `skill/` — paquete completo de la skill `analisis-penal-chile` **v4.2**
-  (SKILL.md, nueve módulos de `references/`, tres motores en `scripts/`,
-  cinco plantillas y un ejemplo trabajado). Los módulos normativos están
-  verificados contra XML oficiales de LeyChile: `marco-legal.md` (248
-  artículos CP/CPP, curatoría 2026-07-06), `leyes-especiales.md` (177
-  artículos de las Leyes 21.595, 20.393, 19.913, 21.459 y 20.000, curatoría
-  2026-07-07) y `tributario.md` (52 artículos del Código Tributario, la Ley
-  de IVA y la Ley de Renta, curatoría 2026-07-07); XML con SHA-256 en
-  `curatoria/xml/`.
+- `skill/` — paquete completo de la skill `analisis-penal-chile` **v4.9**
+  (linaje reconciliado v4.3 → v4.9 incorporado el 2026-07-17, subsanando el
+  Defecto N° 6: el directorio permanecía anclado en el linaje publicado
+  v4.2). Comprende SKILL.md, los módulos de `references/`, los motores de
+  `scripts/`, plantillas, ejemplo trabajado, `index-maestro.json`,
+  `CHANGELOG.md` y `verificar-integridad.sh`. Los módulos normativos están
+  verificados contra XML oficiales de LeyChile: `marco-legal.md` (**282
+  artículos** CP/CPP tras las curatorías v4.5 y v4.8), `leyes-especiales.md`
+  (177 artículos de las Leyes 21.595, 20.393, 19.913, 21.459 y 20.000) y
+  `tributario.md` (52 artículos del Código Tributario, la Ley de IVA y la
+  Ley de Renta); XML con SHA-256 en `curatoria/xml/`. Incluye además el
+  protocolo de curatoría de jurisprudencia (v4.6:
+  `jurisprudencia-curada.md`, `curar_jurisprudencia.py`) y la regla de
+  curatoría binaria A-023 (v4.9).
 
 Detalle de la capa de evaluación y CI: `docs/capa-evaluacion-ci.md`.
 - `scripts/curar_norma.py` — motor de curatoría, con soporte de estructura

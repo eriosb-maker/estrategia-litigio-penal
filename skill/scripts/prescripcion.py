@@ -315,7 +315,9 @@ def _computar(
     else:
         fecha_cumplimiento_informada = fecha_cumplimiento
         estado = (
-            Estado.PRESCRITA if fecha_consulta >= fecha_cumplimiento else Estado.VIGENTE
+            Estado.PRESCRITA
+            if fecha_consulta >= fecha_cumplimiento
+            else Estado.VIGENTE
         )
 
     notas.append(
@@ -414,12 +416,9 @@ if __name__ == "__main__":
         fecha_comision=date(2020, 3, 1),
         fecha_consulta=date(2026, 7, 7),
         suspensiones=[
-            Suspension(
-                date(2023, 6, 1),
-                sin_efecto=True,
-                motivo="formalización dejada sin efecto por decisión "
-                "de no perseverar (art. 248 letra c) CPP)",
-            )
+            Suspension(date(2023, 6, 1), sin_efecto=True,
+                       motivo="formalización dejada sin efecto por decisión "
+                              "de no perseverar (art. 248 letra c) CPP)")
         ],
     )
     print(demo.resumen())

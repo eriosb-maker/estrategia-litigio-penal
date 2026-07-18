@@ -1,0 +1,196 @@
+{
+  "_nota": "Indice maestro de integridad. Estados: instalado | no_propagado (construido, no instalado) | ausente (invocado o comprometido, nunca instalado). El indice y el script de verificacion se excluyen de si mismos.",
+  "skill": "analisis-penal-chile",
+  "version_skill": "4.9",
+  "fecha_indice": "2026-07-17",
+  "algoritmo": "sha256",
+  "origen_version": "v4.9: Protocolo de Cierre y Aprendizaje de la sesión v4.8 — entrada A-023 aprobada (tablas normativas como imágenes embebidas aem:ArchivoBinario en el XML de LeyChile; regla de curatoría binaria en cuatro pasos) y subsanación de la duplicación de «Histórico consolidado» en aprendizajes.md. Base: v4.8.",
+  "archivos": [
+    {
+      "ruta": "CHANGELOG.md",
+      "estado": "instalado",
+      "sha256": "71afb2863c1c5448134b1f36b96d64c9ab3b795d8b0703a675d8fb9274286ac8",
+      "bytes": 36315
+    },
+    {
+      "ruta": "SKILL.md",
+      "estado": "instalado",
+      "sha256": "d46660c8a20cdc2f968f4fbdcaf95dc6b09feca33882a2d2eaecc10f5a552593",
+      "bytes": 56205
+    },
+    {
+      "ruta": "assets/fuentes/Art56CP.jpeg",
+      "estado": "instalado",
+      "sha256": "eb7441aa9c1684e51fcc1a121c210852ca825ac2d1f5b2d31918a373753ac0fa",
+      "bytes": 294054
+    },
+    {
+      "ruta": "assets/templates/ach-hipotesis-competitivas.md",
+      "estado": "instalado",
+      "sha256": "ac8ac6c00514c0fe75f34125dc5617ac4bf0c25343d92b11536e03406889f19d",
+      "bytes": 1735
+    },
+    {
+      "ruta": "assets/templates/cronologia-hechos.md",
+      "estado": "instalado",
+      "sha256": "6e2b1ade0bad872cecba8dffb2f4de7898399a3e98806536978a6c5b96ba9402",
+      "bytes": 1414
+    },
+    {
+      "ruta": "assets/templates/estado-del-caso.md",
+      "estado": "instalado",
+      "sha256": "7c9ffcd3b347f7ba1fed0c32f9fad46a5a7e30f6a701ab00fb4fefd4d35dbd69",
+      "bytes": 2066
+    },
+    {
+      "ruta": "assets/templates/matriz-contradicciones.md",
+      "estado": "instalado",
+      "sha256": "501893ea6505737a84c6befbdad22bf117c7528b372bb0a67587cd578d778911",
+      "bytes": 1472
+    },
+    {
+      "ruta": "assets/templates/modelo-querella.md",
+      "estado": "instalado",
+      "sha256": "593a2f54d417ae8ab4085e4f5b19d713d9e9ef69664b33a224b0dff20cbe315a",
+      "bytes": 2761
+    },
+    {
+      "ruta": "examples/ejemplo-estafa-empresarial.md",
+      "estado": "instalado",
+      "sha256": "98d88ee702c159cf671bba4abbab1deae7df696df304499e3f5609a92d55e072",
+      "bytes": 41375
+    },
+    {
+      "ruta": "references/aprendizajes.md",
+      "estado": "instalado",
+      "sha256": "3b5dda3f2ae755ba15b84144714bc01c883f4ec5bf447f26cad928e671a28dfc",
+      "bytes": 29004
+    },
+    {
+      "ruta": "references/audiencia-preparacion.md",
+      "estado": "instalado",
+      "sha256": "81fbc1c95b9f27c991c80447d334789aa737e0a6d5b6504d31b249bdee122beb",
+      "bytes": 21806
+    },
+    {
+      "ruta": "references/calculo-penas.md",
+      "estado": "instalado",
+      "sha256": "b4b2c33779e77a756b20aae161adce98510b8795aec3108c5f79023034933f9b",
+      "bytes": 18305
+    },
+    {
+      "ruta": "references/contraindicaciones.md",
+      "estado": "instalado",
+      "sha256": "7d1b98e815b0e4671b8bf8343de8e52f1d828de1abeda7bd7450201b590ac282",
+      "bytes": 8150
+    },
+    {
+      "ruta": "references/decision-estrategica.md",
+      "estado": "instalado",
+      "sha256": "590d05a1c44158cd9bb399dbe52f76c65260a05dd5eb2d7afbb68268ab04ed24",
+      "bytes": 4153
+    },
+    {
+      "ruta": "references/determinacion-penas-doctrina.md",
+      "estado": "instalado",
+      "sha256": "dbca67636d125c013f0ebe605a89d02677ea54a826bcced9e0bec6ad99e20a34",
+      "bytes": 17599
+    },
+    {
+      "ruta": "references/errata-acta-auditoria.md",
+      "estado": "instalado",
+      "sha256": "c6bf5f135426772e3a4ceddb25fe51db596510cbe9e1c5d891e49ab5c549f59d",
+      "bytes": 3505
+    },
+    {
+      "ruta": "references/estrategia-litigio.md",
+      "estado": "instalado",
+      "sha256": "2a33dffbadfacc625fcd0a14fe8ae4c8bf8b181be0953094d11a7fb1e5253626",
+      "bytes": 4449
+    },
+    {
+      "ruta": "references/fiscalizacion-algoritmica.md",
+      "estado": "instalado",
+      "sha256": "e4bd9d35531a032c2bf0136f7c624c9b9dcb8beeb7563c35c04ecf60c3f2948b",
+      "bytes": 3134
+    },
+    {
+      "ruta": "references/forense-financiero.md",
+      "estado": "instalado",
+      "sha256": "c4e2acb76454f48cd1d9aa6a49ff674c226ff754e24035ae339050c35cdc7bca",
+      "bytes": 9484
+    },
+    {
+      "ruta": "references/jurisprudencia-curada.md",
+      "estado": "instalado",
+      "sha256": "afb64e08b73d9dbe45cd97006378ab594bd0f180e9d36ea4357d6779778720ec",
+      "bytes": 8703
+    },
+    {
+      "ruta": "references/leyes-especiales-extractos.md",
+      "estado": "instalado",
+      "sha256": "6a20589289f0b528fc8b9380c3a195fc085565083f8f2ce0047ed431c3e6bbff",
+      "bytes": 223876
+    },
+    {
+      "ruta": "references/leyes-especiales.md",
+      "estado": "instalado",
+      "sha256": "63c54f61676c88969e9c1c2f485c5f37f143048b5adfa906f86babe94ef538b1",
+      "bytes": 27752
+    },
+    {
+      "ruta": "references/marco-legal.md",
+      "estado": "instalado",
+      "sha256": "4277ee79a7e171a302061d6177fea7c8f54a01383f23ab76294682bb94c1f835",
+      "bytes": 314048
+    },
+    {
+      "ruta": "references/metodologia-detallada.md",
+      "estado": "instalado",
+      "sha256": "503d137e61264e159ded6a1c8993ebca15f5bae92747defc44fe0187ed100148",
+      "bytes": 10542
+    },
+    {
+      "ruta": "references/prueba-digital.md",
+      "estado": "instalado",
+      "sha256": "6105c63a10dcfb0af99bf41a178b0ba8b506be58a5de36c26cf949aec46fb548",
+      "bytes": 13134
+    },
+    {
+      "ruta": "references/razonamiento-probatorio.md",
+      "estado": "instalado",
+      "sha256": "692160e674df426ed4e5a0f182101d9b76ae716204d9f73887e63eba12e6d95b",
+      "bytes": 6192
+    },
+    {
+      "ruta": "references/tributario.md",
+      "estado": "instalado",
+      "sha256": "bcb92e18190e0052e6d4bf75abe0612ae97104344ab79c64e11d9a24547a911a",
+      "bytes": 227706
+    },
+    {
+      "ruta": "scripts/curar_jurisprudencia.py",
+      "estado": "instalado",
+      "sha256": "87ed5b703b469bf15d569b6371e461eb235dd0035b1aecb9dbf8fd9311a49dc8",
+      "bytes": 13871
+    },
+    {
+      "ruta": "scripts/curar_norma.py",
+      "estado": "instalado",
+      "sha256": "a0f8a434a862236fae1326f02180fe3c5ec0d8f567e9e6769a36b345a8d7dd4c",
+      "bytes": 26007
+    },
+    {
+      "ruta": "scripts/estrategia_litigio.py",
+      "estado": "instalado",
+      "sha256": "ee409dc1cee77807c5ddb76ac56e16e639b9452caf79e809bf9f04f9f9dcedab",
+      "bytes": 8490
+    },
+    {
+      "ruta": "scripts/prescripcion.py",
+      "estado": "instalado",
+      "sha256": "f949afc81c3ad07609b991810b6606363277ead0e2f9298537eb3fa4424f7dac",
+      "bytes": 16535
+    }
+  ]
+}

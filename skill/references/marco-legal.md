@@ -42,6 +42,16 @@
 - Arts. 19–24 ter: penas en general, incluido el comiso de ganancias
   (arts. 24 bis y 24 ter, Ley 21.595).
 
+### 2.2 Asociaciones delictivas y criminales *(insertado el 2026-07-11)*
+- Arts. 292–295 (§ 10 del Título Sexto, Libro Segundo, texto de la
+  Ley 21.577): asociación delictiva (art. 292), asociación criminal
+  (art. 293), obstrucción en procesos por asociación (art. 293 bis),
+  concurso, disolución de la persona jurídica y comiso —incluido el comiso
+  de ganancias sin condena previa y el comiso por valor equivalente—
+  (arts. 294, 294 bis y 294 ter) y atenuación o exención por delación
+  (art. 295). El art. 295 bis no consta en el XML oficial vigente.
+  Versión de los artículos: 2023-06-15.
+
 ## CÓDIGO PENAL (CP)
 
 > **Fuente oficial**: Biblioteca del Congreso Nacional — LeyChile, servicio XML `obtxml opt=7`, idNorma 1984 (Código PENAL), publicada el 1874-11-12.
@@ -893,6 +903,22 @@ siguiente:
 
      TABLA DEMOSTRATIVA
 ```
+
+> **Nota de curatoría (2026-07-17)**: en el XML oficial de LeyChile, la TABLA
+> DEMOSTRATIVA no consta como texto sino como **imagen embebida**
+> (`aem:ArchivoBinario`, `Art56CP.jpeg`, 294.054 bytes, SHA-256
+> `eb7441aa9c1684e51fcc1a121c210852ca825ac2d1f5b2d31918a373753ac0fa`),
+> extraída del XML del CP descargado el 2026-07-17 (idNorma 1984, SHA-256
+> `21fd760b636b573ee524b0903289ad994aeb2a212c89a21b29abc7e0eb578e18`).
+> Su transcripción verificada por cotejo visual contra la imagen oficial es:
+>
+> | Penas | Toda la pena | Grado mínimo | Grado medio | Grado máximo |
+> |---|---|---|---|---|
+> | Presidio, reclusión, confinamiento, extrañamiento y relegación **mayores** | 5 años y 1 día a 20 años | 5 años y 1 día a 10 años | 10 años y 1 día a 15 años | 15 años y 1 día a 20 años |
+> | Inhabilitación absoluta y especial **temporales** | 3 años y 1 día a 10 años | 3 años y 1 día a 5 años | 5 años y 1 día a 7 años | 7 años y 1 día a 10 años |
+> | Presidio, reclusión, confinamiento, extrañamiento y relegación **menores** y destierro | 61 días a 5 años | 61 a 540 días | 541 días a 3 años | 3 años y 1 día a 5 años |
+> | Suspensión de cargo y oficio público y profesión titular | 61 días a 3 años | 61 días a 1 año | 1 año y 1 día a 2 años | 2 años y 1 día a 3 años |
+> | Prisión | 1 a 60 días | 1 a 20 días | 21 a 40 días | 41 a 60 días |
 
 ### CP — Art. 57
 *LIBRO PRIMERO › TÍTULO TERCERO DE LAS PENAS. › § IV. De la aplicación de las penas.* — `idParte 9672267 · versión del artículo: 1927-10-12`
@@ -2619,6 +2645,191 @@ trata el Párrafo 10 del Título VI del Libro Segundo.
 
 ```
      ART. 260 quáter. Derogado.
+```
+
+### CP — Art. 292
+*LIBRO SEGUNDO CRÍMENES Y SIMPLES DELITOS Y SUS PENAS. › TÍTULO SEXTO DE LOS CRÍMENES Y SIMPLES DELITOS CONTRA EL ORDEN Y LA SEGURIDAD PÚBLICOS COMETIDOS POR PARTICULARES. › § 10. De las asociaciones delictivas y criminales* — `idParte 10438013 · versión del artículo: 2023-06-15`
+
+```
+     ART. 292.
+
+     Quien sea parte en una asociación delictiva será
+sancionado con presidio menor en su grado mínimo a medio.
+     La pena será de presidio menor en su grado máximo si
+la participación consiste en cumplir funciones de jefatura,
+ejercer mando en ella, financiarla o proveerle recursos o
+medios, o en haberla fundado.
+     Se entenderá por asociación delictiva toda
+organización formada por tres o más personas, con acción
+sostenida en el tiempo, que tenga entre sus fines la
+perpetración de simples delitos.
+```
+
+### CP — Art. 293
+*LIBRO SEGUNDO CRÍMENES Y SIMPLES DELITOS Y SUS PENAS. › TÍTULO SEXTO DE LOS CRÍMENES Y SIMPLES DELITOS CONTRA EL ORDEN Y LA SEGURIDAD PÚBLICOS COMETIDOS POR PARTICULARES. › § 10. De las asociaciones delictivas y criminales* — `idParte 10438014 · versión del artículo: 2023-06-15`
+
+```
+     ART. 293.
+
+     Quien sea parte en una asociación criminal será
+sancionado con presidio menor en su grado máximo.
+     La pena será presidio mayor en su grado mínimo si la
+participación consiste en cumplir funciones de jefatura,
+ejercer mando en ella, financiarla o proveerle recursos o
+medios, o en haberla fundado.
+     Se entenderá por asociación criminal toda
+organización formada por tres o más personas, con acción
+sostenida en el tiempo, que tenga entre sus fines la
+perpetración de hechos constitutivos de crímenes.
+     Si la asociación tiene entre sus fines la
+perpetración de crímenes y simples delitos se aplicarán
+las sanciones dispuestas en el inciso primero.
+```
+
+### CP — Art. 293 BIS
+*LIBRO SEGUNDO CRÍMENES Y SIMPLES DELITOS Y SUS PENAS. › TÍTULO SEXTO DE LOS CRÍMENES Y SIMPLES DELITOS CONTRA EL ORDEN Y LA SEGURIDAD PÚBLICOS COMETIDOS POR PARTICULARES. › § 10. De las asociaciones delictivas y criminales* — `idParte 10438015 · versión del artículo: 2023-06-15`
+
+```
+     ART. 293 BIS.
+
+     Será sancionado con presidio menor en su grado máximo
+el que, en un proceso por asociación delictiva o criminal:
+
+     a) Amenace a otro con el objeto de que preste una
+declaración o un testimonio falso.
+
+     b) Amenace o constriña a otro a que omita prestar
+declaración o testimonio, a que produzca o presente
+antecedentes o pruebas falsas, o a que omita producir o
+presentar antecedentes o pruebas relevantes.
+
+     c) Ofrezca o entregue a otro un beneficio económico o
+de otra naturaleza para que preste una declaración o
+testimonio falso o para que omita declarar o testificar.
+
+     d) Ofrezca o entregue a otro un beneficio económico o
+de otra naturaleza con el objeto de que produzca o presente
+antecedentes o pruebas falsas u omita producir o presentar
+antecedentes o pruebas relevantes.
+```
+
+### CP — Art. 294
+*LIBRO SEGUNDO CRÍMENES Y SIMPLES DELITOS Y SUS PENAS. › TÍTULO SEXTO DE LOS CRÍMENES Y SIMPLES DELITOS CONTRA EL ORDEN Y LA SEGURIDAD PÚBLICOS COMETIDOS POR PARTICULARES. › § 10. De las asociaciones delictivas y criminales* — `idParte 10438016 · versión del artículo: 2023-06-15`
+
+```
+     ART. 294.
+
+     Las penas de los artículos 292 y 293 se impondrán sin
+perjuicio de las que correspondan por los crímenes o
+simples delitos cometidos con motivo u ocasión de tales
+actividades.
+     Cuando la asociación se ha formado a través de una
+persona jurídica, se impondrá, además, como consecuencia
+accesoria de la pena impuesta a los responsables
+individuales, la disolución o cancelación de la
+personalidad jurídica.
+     En todo caso se impondrá el comiso de ganancias, de
+conformidad con el artículo 24 bis. Asimismo, caerán en
+comiso todos los activos vinculados a la actividad en cuyo
+contexto se haya perpetrado el delito, a menos que se
+acredite su origen lícito.
+     El comiso de ganancias será impuesto en conformidad
+con los procedimientos establecidos por la ley.
+```
+
+### CP — Art. 294 BIS
+*LIBRO SEGUNDO CRÍMENES Y SIMPLES DELITOS Y SUS PENAS. › TÍTULO SEXTO DE LOS CRÍMENES Y SIMPLES DELITOS CONTRA EL ORDEN Y LA SEGURIDAD PÚBLICOS COMETIDOS POR PARTICULARES. › § 10. De las asociaciones delictivas y criminales* — `idParte 10438017 · versión del artículo: 2023-06-15`
+
+```
+     ART. 294 BIS.
+
+     Se impondrá asimismo el comiso de las ganancias
+obtenidas por una organización delictiva o criminal, en los
+términos del artículo anterior, si se dicta:
+
+     1. Sobreseimiento temporal conforme a las letras b) y
+c) del inciso primero, y el inciso segundo del artículo 252
+del Código Procesal Penal.
+
+     2. Sentencia absolutoria fundada en la falta de
+convicción a que se refiere el artículo 340 del Código
+Procesal Penal o sobreseimiento definitivo fundado en la
+letra b) del artículo 250 del mismo Código.
+
+     3. Sobreseimiento definitivo o sentencia absolutoria
+fundados en la concurrencia de circunstancias eximentes de
+responsabilidad que no excluyen la ilicitud del hecho.
+
+     4. Sobreseimiento definitivo o sentencia absolutoria
+fundados en haberse extinguido la responsabilidad penal o en
+haber sobrevenido un hecho que, con arreglo a la ley, pone
+fin a esa responsabilidad.
+
+     El comiso de ganancias sin condena previa también
+será impuesto respecto de aquellas personas que no han
+intervenido en la realización del hecho ilícito que se
+encontraren en cualquiera de las circunstancias señaladas
+en el artículo 24 ter.
+     El comiso de ganancias sin condena previa será
+impuesto de conformidad al procedimiento especial previsto
+en el Título III bis del Libro IV del Código Procesal
+Penal.
+     La acción para obtener el comiso de ganancias en
+virtud de este artículo prescribirá en el plazo de cuatro
+años, contado desde que ha transcurrido el plazo de
+prescripción de la acción penal respectiva.
+```
+
+### CP — Art. 294 TER
+*LIBRO SEGUNDO CRÍMENES Y SIMPLES DELITOS Y SUS PENAS. › TÍTULO SEXTO DE LOS CRÍMENES Y SIMPLES DELITOS CONTRA EL ORDEN Y LA SEGURIDAD PÚBLICOS COMETIDOS POR PARTICULARES. › § 10. De las asociaciones delictivas y criminales* — `idParte 10438018 · versión del artículo: 2023-06-15`
+
+```
+     ART. 294 TER.
+
+     Cuando la cosa usada como instrumento por una
+organización delictiva o criminal o que resulte de dichos
+delitos sea dinero o haya sido enajenada, perdida u
+ocultada, el juez deberá imponer comiso sustitutivo por un
+valor equivalente.
+     El comiso por valor equivalente sólo procederá como
+consecuencia adicional a la pena. En la determinación del
+valor equivalente de la cosa a ser decomisada no podrán
+descontarse los gastos que han sido necesarios para
+perpetrar el hecho. El valor equivalente se extenderá,
+asimismo, a los frutos o utilidades de los efectos del
+hecho.
+     El Ministerio Público deberá solicitar la aplicación
+del comiso por valor equivalente en la oportunidad procesal
+prevista para solicitar el comiso de ganancias, y la
+discusión sobre el monto del valor equivalente tendrá
+lugar en la oportunidad procesal prevista para la
+determinación de la magnitud del comiso de ganancias.
+```
+
+### CP — Art. 295
+*LIBRO SEGUNDO CRÍMENES Y SIMPLES DELITOS Y SUS PENAS. › TÍTULO SEXTO DE LOS CRÍMENES Y SIMPLES DELITOS CONTRA EL ORDEN Y LA SEGURIDAD PÚBLICOS COMETIDOS POR PARTICULARES. › § 10. De las asociaciones delictivas y criminales* — `idParte 10438019 · versión del artículo: 2023-06-15`
+
+```
+     ART. 295.
+
+     El tribunal prescindirá de las penas señaladas en los
+artículos 292 y 293 o impondrá la pena inferior en uno o
+dos grados al integrante que:
+
+     1. Antes de tener lugar alguno de los hechos cuya
+perpetración constituye el fin o la actividad de la
+asociación, revele a la autoridad la existencia de la
+asociación, sus planes y propósitos o la identidad de sus
+miembros.
+
+     2. Haya o no intervenido en la perpetración de los
+delitos que constituyen el fin o la actividad de la
+asociación o que corresponden a medios de los que ella se
+vale, revele a la autoridad la existencia de la asociación,
+sus planes y propósitos o la identidad de sus miembros de
+tal modo que a juicio del tribunal la autoridad haya estado
+en condiciones de disolverla antes de la perpetración de
+hechos ulteriores.
 ```
 
 ### CP — Art. 432
@@ -5152,7 +5363,605 @@ los casos previstos por la ley.
 ```
 
 
-### 3.5 Nulidad y procedimiento abreviado *(insertado el 2026-07-06)*
+
+### 3.5 Fase intermedia: audiencia de preparación del juicio oral *(insertado el 2026-07-12)*
+- Arts. 260–280 bis: citación y plazos (arts. 260–262), facultades del acusado
+  (art. 263), excepciones de previo y especial pronunciamiento y su régimen
+  recursivo (arts. 264, 265 y 271), desarrollo de la audiencia (arts. 266–269),
+  corrección de vicios formales con sanción de sobreseimiento (art. 270),
+  debate de prueba (art. 272), conciliación civil (art. 273), unión y
+  separación de acusaciones (art. 274), convenciones probatorias con la
+  atenuante del art. 11 N° 9 CP (art. 275, versión 2024-09-04), exclusión de
+  prueba (art. 276), auto de apertura y su recurribilidad asimétrica
+  (art. 277), nuevo plazo de prueba (art. 278), prueba anticipada (art. 280)
+  y audiencia intermedia (art. 280 bis, Ley 21.394). Módulo operativo:
+  `references/audiencia-preparacion.md`.
+
+## ESTABLECE CODIGO PROCESAL PENAL (CPP)
+
+> **Fuente oficial**: Biblioteca del Congreso Nacional — LeyChile, servicio XML `obtxml opt=7`, idNorma 176595 (Ley 19696), publicada el 2000-10-12.
+> **Versión de la norma**: 2026-04-02 · **Estado**: no derogado. **SHA-256 del XML**: c7a5b75858a0ab0a3857f9e7a3f5706fd31ac3ab5cb720bd123de067e16e6469.
+> **Fecha de verificación de esta curatoría**: 2026-07-12. Todo uso posterior debe cotejar la vigencia en LeyChile.
+
+### CPP — Art. 260
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 2º Audiencia de preparación del juicio oral* — `idParte 8646825 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 260.- Citación a la audiencia. Presentada la
+acusación, el juez de garantía ordenará su notificación
+a todos los intervinientes y citará, dentro de las
+veinticuatro horas siguientes, a la audiencia de
+preparación del juicio oral, la que deberá tener lugar en
+un plazo no inferior a veinticinco ni superior a treinta y
+cinco días. Al acusado se le entregará la copia de la
+acusación, en la que se dejará constancia, además, del
+hecho de encontrarse a su disposición, en el tribunal, los
+antecedentes acumulados durante la investigación.
+```
+
+### CPP — Art. 261
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 2º Audiencia de preparación del juicio oral* — `idParte 8646827 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 261.- Actuación del querellante. Hasta
+quince días antes de la fecha fijada para la realización
+de la audiencia de preparación del juicio oral, el
+querellante, por escrito, podrá:
+     a) Adherir a la acusación del ministerio público o
+acusar particularmente. En este segundo caso, podrá
+plantear una distinta calificación de los hechos, otras
+formas de participación del acusado, solicitar otra pena o
+ampliar la acusación del fiscal, extendiéndola a hechos o
+a imputados distintos, siempre que hubieren sido objeto de
+la formalización de la investigación;
+     b) Señalar los vicios formales de que adoleciere el
+escrito de acusación, requiriendo su corrección;
+     c) Ofrecer la prueba que estimare necesaria para
+sustentar su acusación, lo que deberá hacerse en los
+mismos términos previstos en el artículo 259, y d) Deducir
+demanda civil, cuando procediere.
+```
+
+### CPP — Art. 262
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 2º Audiencia de preparación del juicio oral* — `idParte 8646828 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 262.- Plazo de notificación. Las actuaciones
+del querellante, las acusaciones particulares, adhesiones y
+la demanda civil deberán ser notificadas al acusado, a más
+tardar, diez días antes de la realización de la audiencia
+de preparación del juicio oral.
+```
+
+### CPP — Art. 263
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 2º Audiencia de preparación del juicio oral* — `idParte 8646829 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 263.- Facultades del acusado. Hasta la
+víspera del inicio de la audiencia de preparación del
+juicio oral, por escrito, o al inicio de dicha audiencia, en
+forma verbal, el acusado podrá:
+     a) Señalar los vicios formales de que adoleciere el
+escrito de acusación, requiriendo su corrección;
+     b) Deducir excepciones de previo y especial
+pronunciamiento, y
+     c) Exponer los argumentos de defensa que considere
+necesarios y señalar los medios de prueba cuyo examen en el
+juicio oral solicitare, en los mismos términos previstos en
+el artículo 259.
+```
+
+### CPP — Art. 264
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 2º Audiencia de preparación del juicio oral* — `idParte 8646830 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 264.- Excepciones de previo y especial
+pronunciamiento. El acusado podrá oponer como excepciones
+de previo y especial pronunciamiento las siguientes:
+     a) Incompetencia del juez de garantía;
+     b) Litis pendencia;
+     c) Cosa juzgada;
+     d) Falta de autorización para proceder criminalmente,
+cuando la Constitución o la ley lo exigieren, y
+     e) Extinción de la responsabilidad penal.
+```
+
+### CPP — Art. 265
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 2º Audiencia de preparación del juicio oral* — `idParte 8646831 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 265.- Excepciones en el juicio oral. No
+obstante lo dispuesto en el artículo 263, si las
+excepciones previstas en las letras c) y e) del artículo
+anterior no fueren deducidas para ser discutidas en la
+audiencia de preparación del juicio oral, ellas podrán ser
+planteadas en el juicio oral.
+```
+
+### CPP — Art. 266
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 3º Desarrollo de la audiencia de preparación del juicio oral* — `idParte 8646832 · versión del artículo: 2024-09-04`
+
+```
+     Artículo 266.- Oralidad e inmediación. La audiencia
+de preparación del juicio oral será dirigida por el juez
+de garantía, quien la presenciará en su integridad, se
+desarrollará oralmente y durante su realización no se
+admitirá la presentación de escritos.
+     Sin embargo, el juez de garantía podrá autorizar la
+comparecencia por medios tecnológicos de las víctimas, por
+motivos calificados o de seguridad. La petición deberá
+formularse hasta siete días antes de la fecha fijada para
+la audiencia.
+```
+
+### CPP — Art. 267
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 3º Desarrollo de la audiencia de preparación del juicio oral* — `idParte 8646834 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 267.- Resumen de las presentaciones de los
+intervinientes. Al inicio de la audiencia, el juez de
+garantía hará una exposición sintética de las
+presentaciones que hubieren realizado los intervinientes.
+```
+
+### CPP — Art. 268
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 3º Desarrollo de la audiencia de preparación del juicio oral* — `idParte 8646835 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 268.- Defensa oral del imputado. Si el
+imputado no hubiere ejercido por escrito las facultades
+previstas en el artículo 263, el juez le otorgará la
+oportunidad de efectuarlo verbalmente.
+```
+
+### CPP — Art. 269
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 3º Desarrollo de la audiencia de preparación del juicio oral* — `idParte 8646836 · versión del artículo: 2026-04-02`
+
+```
+     Artículo 269.- Comparecencia del fiscal y del
+defensor. La presencia del fiscal y del defensor del
+imputado durante la audiencia constituye un requisito de
+validez de la misma.
+     Si en la audiencia se ventilare la aprobación de
+convenciones probatorias, procedimiento abreviado,
+suspensión condicional del procedimiento o un acuerdo
+reparatorio, o cualquier otra actuación en que la ley
+exigiere expresamente la participación del imputado, su
+presencia constituirá un requisito de validez de aquella.
+     La inasistencia o el abandono injustificado de la
+audiencia por parte del fiscal deberá ser subsanada de
+inmediato por el tribunal, el que, además, pondrá este
+hecho en conocimiento del fiscal regional respectivo o del
+Fiscal Jefe de la Fiscalía Supraterritorial, según
+corresponda para que determine la responsabilidad del fiscal
+ausente, de conformidad a lo que disponga la ley orgánica
+constitucional del Ministerio Público. Si no compareciere
+el defensor, el tribunal declarará el abandono de la
+defensa, designará un defensor de oficio al imputado y
+dispondrá la suspensión de la audiencia por un plazo que
+no excediere de cinco días, a objeto de permitir que el
+defensor designado se interiorice del caso.
+     Inciso Suprimido.
+```
+
+### CPP — Art. 270
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 3º Desarrollo de la audiencia de preparación del juicio oral* — `idParte 8646837 · versión del artículo: 2026-04-02`
+
+```
+     Artículo 270.- Corrección de vicios formales en la
+audiencia de preparación del juicio oral. Cuando el juez
+considerare que la acusación del fiscal, la del querellante
+o la demanda civil adolecen de vicios formales, ordenará
+que los mismos sean subsanados, sin suspender la audiencia,
+si ello fuere posible.
+     En caso contrario, ordenará la suspensión de la misma
+por el período necesario para la corrección del
+procedimiento, el que en ningún caso podrá exceder de
+cinco días. Transcurrido este plazo, si la acusación del
+querellante o la demanda civil no hubieren sido
+rectificadas, se tendrán por no presentadas. Si no lo
+hubiere sido la acusación del fiscal, a petición de éste,
+el juez podrá conceder una prórroga hasta por otros cinco
+días, sin perjuicio de lo cual informará al fiscal
+regional o al Fiscal Jefe de la Fiscalía Supraterritorial,
+según corresponda.
+     Si el ministerio público no subsanare oportunamente
+los vicios, el juez procederá a decretar el sobreseimiento
+definitivo de la causa, a menos que existiere querellante
+particular, que hubiere deducido acusación o se hubiere
+adherido a la del fiscal. En este caso, el procedimiento
+continuará sólo con el querellante y el ministerio
+público no podrá volver a intervenir en el mismo.
+     La falta de oportuna corrección de los vicios de su
+acusación importará, para todos los efectos, una grave
+infracción a los deberes del fiscal.
+```
+
+### CPP — Art. 271
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 3º Desarrollo de la audiencia de preparación del juicio oral* — `idParte 8646838 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 271.- Resolución de excepciones en la
+audiencia de preparación del juicio oral. Si el imputado
+hubiere planteado excepciones de previo y especial
+pronunciamiento, el juez abrirá debate sobre la cuestión.
+Asimismo, de estimarlo pertinente, el juez podrá permitir
+durante la audiencia la presentación de los antecedentes
+que estimare relevantes para la decisión de las excepciones
+planteadas.
+     El juez resolverá de inmediato las excepciones de
+incompetencia, litis pendencia y falta de autorización para
+proceder criminalmente, si hubieren sido deducidas. La
+resolución que recayere respecto de dichas excepciones
+será apelable.
+     Tratándose de las restantes excepciones previstas en
+el artículo 264, el juez podrá acoger una o más de las
+que se hubieren deducido y decretar el sobreseimiento
+definitivo, siempre que el fundamento de la decisión se
+encontrare suficientemente justificado en los antecedentes
+de la investigación. En caso contrario, dejará la
+resolución de la cuestión planteada para la audiencia del
+juicio oral. Esta última decisión será inapelable.
+```
+
+### CPP — Art. 272
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 3º Desarrollo de la audiencia de preparación del juicio oral* — `idParte 8646839 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 272.- Debate acerca de las pruebas ofrecidas
+por las partes. Durante la audiencia de preparación del
+juicio oral cada parte podrá formular las solicitudes,
+observaciones y planteamientos que estimare relevantes con
+relación a las pruebas ofrecidas por las demás, para los
+fines previstos en los incisos segundo y tercero del
+artículo 276.
+```
+
+### CPP — Art. 273
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 3º Desarrollo de la audiencia de preparación del juicio oral* — `idParte 8646840 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 273.- Conciliación sobre la responsabilidad
+civil en la audiencia de preparación del juicio oral. El
+juez deberá llamar al querellante y al imputado a
+conciliación sobre las acciones civiles que hubiere
+deducido el primero y proponerles bases de arreglo. Regirán
+a este respecto los artículos 263 y 267 del Código de
+Procedimiento Civil.
+     Si no se produjere conciliación, el juez resolverá en
+la misma audiencia las solicitudes de medidas cautelares
+reales que la víctima hubiere formulado al deducir su
+demanda civil.
+```
+
+### CPP — Art. 274
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 3º Desarrollo de la audiencia de preparación del juicio oral* — `idParte 8646841 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 274.- Unión y separación de acusaciones.
+Cuando el ministerio público formulare diversas acusaciones
+que el juez considerare conveniente someter a un mismo
+juicio oral, y siempre que ello no perjudicare el derecho a
+defensa, podrá unirlas y decretar la apertura de un solo
+juicio oral, si ellas estuvieren vinculadas por referirse a
+un mismo hecho, a un mismo imputado o porque debieren ser
+examinadas unas mismas pruebas.
+     El juez de garantía podrá dictar autos de apertura
+del juicio oral separados, para distintos hechos o
+diferentes imputados que estuvieren comprendidos en una
+misma acusación, cuando, de ser conocida en un solo juicio
+oral, pudiere provocar graves dificultades en la
+organización o el desarrollo del juicio o detrimento al
+derecho de defensa, y siempre que ello no implicare el
+riesgo de provocar decisiones contradictorias.
+```
+
+### CPP — Art. 275
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 3º Desarrollo de la audiencia de preparación del juicio oral* — `idParte 8646842 · versión del artículo: 2024-09-04`
+
+```
+     Artículo 275.- Convenciones probatorias. Durante la
+audiencia, el fiscal, el querellante, si lo hubiere, y el
+imputado podrán solicitar en conjunto al juez de garantía
+que de por acreditados ciertos hechos, que no podrán ser
+discutidos en el juicio oral. El juez de garantía podrá
+formular proposiciones a los intervinientes sobre la
+materia.
+     Si la solicitud no mereciere reparos, por conformarse a
+las alegaciones que hubieren hecho los intervinientes, el
+juez de garantía indicará en el auto de apertura del
+juicio oral los hechos que se dieren por acreditados, a los
+cuales deberá estarse durante el juicio oral.
+     El juez de garantía, luego de examinar las pruebas
+ofrecidas y escuchar a los intervinientes que hubieren
+comparecido a la audiencia, podrá proponer a los
+intervinientes convenciones probatorias sobre los hechos
+que, de acuerdo con lo alegado en la audiencia, no fueren
+objeto de controversia, pudiendo éstos aceptarlas o
+desestimarlas. En caso de ser aceptadas, deberá dejarse
+constancia de ellas en el auto de apertura.
+     El tribunal de juicio oral en lo penal podrá
+considerar por concurrente la atenuante prevista en el
+numeral 9° del artículo 11 del Código Penal, si los
+hechos que fueron objeto de alguna convención probatoria
+hubiesen sido considerados al momento de formar la
+convicción del tribunal al dictar una sentencia
+condenatoria.
+```
+
+### CPP — Art. 276
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 3º Desarrollo de la audiencia de preparación del juicio oral* — `idParte 8646843 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 276.- Exclusión de pruebas para el juicio
+oral. El juez de garantía, luego de examinar las pruebas
+ofrecidas y escuchar a los intervinientes que hubieren
+comparecido a la audiencia, ordenará fundadamente que se
+excluyan de ser rendidas en el juicio oral aquellas que
+fueren manifiestamente impertinentes y las que tuvieren por
+objeto acreditar hechos públicos y notorios.
+     Si estimare que la aprobación en los mismos términos
+en que hubieren sido ofrecidas las pruebas testimonial y
+documental produciría efectos puramente dilatorios en el
+juicio oral, dispondrá también que el respectivo
+interviniente reduzca el número de testigos o de
+documentos, cuando mediante ellos deseare acreditar unos
+mismos hechos o circunstancias que no guardaren pertinencia
+sustancial con la materia que se someterá a conocimiento
+del tribunal de juicio oral en lo penal.
+     Del mismo modo, el juez excluirá las pruebas que
+provinieren de actuaciones o diligencias que hubieren sido
+declaradas nulas y aquellas que hubieren sido obtenidas con
+inobservancia de garantías fundamentales.
+     Las demás pruebas que se hubieren ofrecido serán
+admitidas por el juez de garantía al dictar el auto de
+apertura del juicio oral.
+```
+
+### CPP — Art. 277
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 3º Desarrollo de la audiencia de preparación del juicio oral* — `idParte 8646844 · versión del artículo: 2005-11-14`
+
+```
+     Artículo 277.- Auto de apertura del juicio oral. Al
+término de la audiencia, el juez de garantía dictará el
+auto de apertura del juicio oral. Esta resolución deberá
+indicar:
+     a) El tribunal competente para conocer el juicio
+oral;
+     b) La o las acusaciones que deberán ser objeto del
+juicio y las correcciones formales que se hubieren
+realizado en ellas;
+     c) La demanda civil;
+     d) Los hechos que se dieren por acreditados, en
+conformidad con lo dispuesto en el artículo 275;
+     e) Las pruebas que deberán rendirse en el juicio
+oral, de acuerdo a lo previsto en el artículo anterior,
+y
+     f) La individualización de quienes debieren ser
+citados a la audiencia del juicio oral, con mención de
+los testigos a los que debiere pagarse anticipadamente
+sus gastos de traslado y habitación y los montos
+respectivos.
+     El auto de apertura del juicio oral sólo será
+susceptible del recurso de apelación, cuando lo
+interpusiere el ministerio público por la exclusión de
+pruebas decretada por el juez de garantía de acuerdo a
+lo previsto en el inciso tercero del artículo
+precedente. Este recurso será concedido en ambos
+efectos. Lo dispuesto en este inciso se entenderá sin
+perjuicio de la procedencia, en su caso, del recurso de
+nulidad en contra de la sentencia definitiva que se
+dictare en el juicio oral, conforme a las reglas
+generales.
+     Si se excluyeren, por resolución firme, pruebas de
+cargo que el Ministerio Público considere esenciales
+para sustentar su acusación en el juicio oral
+respectivo, el fiscal podrá solicitar el sobreseimiento
+definitivo de la causa ante el juez competente, el que
+la decretará en audiencia convocada al efecto.
+```
+
+### CPP — Art. 278
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 3º Desarrollo de la audiencia de preparación del juicio oral* — `idParte 8646845 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 278.- Nuevo plazo para presentar prueba.
+Cuando, al término de la audiencia, el juez de garantía
+comprobare que el acusado no hubiere ofrecido oportunamente
+prueba por causas que no le fueren imputables, podrá
+suspender la audiencia hasta por un plazo de diez días.
+```
+
+### CPP — Art. 279
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 3º Desarrollo de la audiencia de preparación del juicio oral* — `idParte 8646846 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 279.- Devolución de los documentos de la
+investigación. El tribunal devolverá a los intervinientes
+los documentos que hubieren acompañado durante el
+procedimiento.
+```
+
+### CPP — Art. 280
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 3º Desarrollo de la audiencia de preparación del juicio oral* — `idParte 8646847 · versión del artículo: 2022-12-31`
+
+```
+     Artículo 280.- Prueba anticipada. Durante la audiencia
+de preparación del juicio oral también se podrá solicitar
+la prueba testimonial anticipada conforme a lo previsto en
+el artículo 191.
+     Si con posterioridad a la realización de la audiencia
+de preparación del juicio oral, sobreviniere, respecto de
+los testigos, alguna de las circunstancias señaladas en el
+inciso segundo del artículo 191, cualquiera de los
+intervinientes podrá solicitar al juez de garantía, en
+audiencia especial citada al efecto, la rendición de prueba
+anticipada.
+     Asimismo, se podrá solicitar la declaración de
+peritos en conformidad con las normas del Párrafo 6º del
+Título III del Libro Segundo, cuando fuere previsible que
+la persona de cuya declaración se tratare se encontrará en
+la imposibilidad de concurrir al juicio oral, por alguna de
+las razones contempladas en el inciso segundo del artículo
+191.
+     Para los efectos de lo establecido en los incisos
+anteriores, el juez de garantía citará a una audiencia
+especial para la recepción de la prueba anticipada.
+```
+
+### CPP — Art. 280 bis
+*Libro Segundo Procedimiento ordinario › Título II Preparación del juicio oral › Párrafo 3º Desarrollo de la audiencia de preparación del juicio oral* — `idParte 10287730 · versión del artículo: 2021-11-30`
+
+```
+     Artículo 280 bis.- Audiencia intermedia. Una vez
+fallado el recurso de apelación contra el auto de apertura
+del juicio oral o habiendo transcurrido el plazo para
+interponerlo, y antes de su envío al tribunal de juicio
+oral en lo penal competente, en conjunto con la solicitud de
+aplicación del procedimiento abreviado, la suspensión
+condicional del procedimiento, acuerdos reparatorios o el
+arribo de convenciones probatorias, se solicitará al juez
+de garantía, por una única vez, la realización de una
+nueva audiencia, a efectos de resolver la solicitud.
+     La solicitud de nueva audiencia se realizará de común
+acuerdo entre los intervinientes que correspondan, de
+conformidad a lo previsto en el artículo 237, si la
+solicitud se tratare de la aplicación de una suspensión
+condicional del procedimiento; en el artículo 241, si se
+tratare de la aplicación de un acuerdo reparatorio; en el
+artículo 275, si se tratare de convenciones probatorias; o
+en el artículo 406, si se tratare de la aplicación de un
+procedimiento abreviado.
+     La solicitud suspenderá el plazo de remisión del auto
+de apertura al tribunal de juicio oral en lo penal
+competente.
+     El juez de garantía citará a la audiencia al fiscal,
+al imputado, al defensor, a la víctima y al querellante si
+lo hubiere, dentro del plazo de cinco días contados desde
+la solicitud.
+     Finalizada la audiencia, el juez de garantía
+procederá conforme a las reglas generales. En el caso de
+arribarse a convenciones probatorias, el tribunal procederá
+a la dictación de un nuevo auto de apertura del juicio
+oral.
+```
+
+### 3.6 Disposiciones generales sobre la prueba y convicción *(insertado el 2026-07-12)*
+- Arts. 295–297: libertad de prueba, oportunidad de su recepción y valoración
+  bajo sana crítica. Art. 340: convicción más allá de toda duda razonable.
+  Encuadre de los tres momentos de la actividad probatoria empleado por
+  `references/razonamiento-probatorio.md` y `references/audiencia-preparacion.md`.
+
+## ESTABLECE CODIGO PROCESAL PENAL (CPP)
+
+> **Fuente oficial**: Biblioteca del Congreso Nacional — LeyChile, servicio XML `obtxml opt=7`, idNorma 176595 (Ley 19696), publicada el 2000-10-12.
+> **Versión de la norma**: 2026-04-02 · **Estado**: no derogado. **SHA-256 del XML**: c7a5b75858a0ab0a3857f9e7a3f5706fd31ac3ab5cb720bd123de067e16e6469.
+> **Fecha de verificación de esta curatoría**: 2026-07-12. Todo uso posterior debe cotejar la vigencia en LeyChile.
+
+### CPP — Art. 295
+*Libro Segundo Procedimiento ordinario › Título III Juicio oral › Párrafo 4º Disposiciones generales sobre la prueba* — `idParte 8646866 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 295.- Libertad de prueba. Todos los hechos y
+circunstancias pertinentes para la adecuada solución del
+caso sometido a enjuiciamiento podrán ser probados por
+cualquier medio producido e incorporado en conformidad a la
+ley.
+```
+
+### CPP — Art. 296
+*Libro Segundo Procedimiento ordinario › Título III Juicio oral › Párrafo 4º Disposiciones generales sobre la prueba* — `idParte 8646868 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 296.- Oportunidad para la recepción de la
+prueba. La prueba que hubiere de servir de base a la
+sentencia deberá rendirse durante la audiencia del juicio
+oral, salvas las excepciones expresamente previstas en la
+ley. En estos últimos casos, la prueba deberá ser
+incorporada en la forma establecida en el Párrafo 9º de
+este Título.
+```
+
+### CPP — Art. 297
+*Libro Segundo Procedimiento ordinario › Título III Juicio oral › Párrafo 4º Disposiciones generales sobre la prueba* — `idParte 8646869 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 297.- Valoración de la prueba. Los
+tribunales apreciarán la prueba con libertad, pero no
+podrán contradecir los principios de la lógica, las
+máximas de la experiencia y los conocimientos
+científicamente afianzados.
+     El tribunal deberá hacerse cargo en su fundamentación
+de toda la prueba producida, incluso de aquélla que hubiere
+desestimado, indicando en tal caso las razones que hubiere
+tenido en cuenta para hacerlo.
+     La valoración de la prueba en la sentencia requerirá
+el señalamiento del o de los medios de prueba mediante los
+cuales se dieren por acreditados cada uno de los hechos y
+circunstancias que se dieren por probados. Esta
+fundamentación deberá permitir la reproducción del
+razonamiento utilizado para alcanzar las conclusiones a que
+llegare la sentencia.
+```
+
+### CPP — Art. 340
+*Libro Segundo Procedimiento ordinario › Título III Juicio oral › Párrafo 10º Sentencia definitiva* — `idParte 8646918 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 340.- Convicción del tribunal. Nadie podrá
+ser condenado por delito sino cuando el tribunal que lo
+juzgare adquiriere, más allá de toda duda razonable, la
+convicción de que realmente se hubiere cometido el hecho
+punible objeto de la acusación y que en él hubiere
+correspondido al acusado una participación culpable y
+penada por la ley.
+     El tribunal formará su convicción sobre la base de la
+prueba producida durante el juicio oral.
+     No se podrá condenar a una persona con el solo mérito
+de su propia declaración.
+```
+
+
+### 3.7 Sentencia definitiva: reiteración de delitos de una misma especie *(insertado el 2026-07-17)*
+- Art. 351: acumulación jurídica (exasperación) por reiteración de crímenes o
+  simples delitos de una misma especie, con cláusula de favorabilidad hacia el
+  art. 74 CP y regla de identidad de especie por bien jurídico afectado. Base
+  normativa de la sección IV de `references/calculo-penas.md` y de la sección
+  2.5 de `references/determinacion-penas-doctrina.md`, cuya cita textual queda
+  habilitada desde esta curatoría.
+
+## ESTABLECE CODIGO PROCESAL PENAL (CPP)
+
+> **Fuente oficial**: Biblioteca del Congreso Nacional — LeyChile, servicio XML `obtxml opt=7`, idNorma 176595 (Ley 19696), publicada el 2000-10-12.
+> **Versión de la norma**: 2026-04-02 · **Estado**: no derogado. **SHA-256 del XML**: c7a5b75858a0ab0a3857f9e7a3f5706fd31ac3ab5cb720bd123de067e16e6469 (idéntico al registrado en la curatoría del 2026-07-12; la norma no ha variado).
+> **Fecha de verificación de esta curatoría**: 2026-07-17. Todo uso posterior debe cotejar la vigencia en LeyChile.
+
+### CPP — Art. 351
+*Libro Segundo Procedimiento ordinario › Título III Juicio oral › Párrafo 10º Sentencia definitiva* — `idParte 8646929 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 351.- Reiteración de crímenes o simples
+delitos de una misma especie. En los casos de reiteración
+de crímenes o simples delitos de una misma especie se
+impondrá la pena correspondiente a las diversas
+infracciones, estimadas como un solo delito, aumentándola
+en uno o dos grados.
+     Si, por la naturaleza de las diversas infracciones,
+éstas no pudieren estimarse como un solo delito, el
+tribunal aplicará la pena señalada a aquella que,
+considerada aisladamente, con las circunstancias del caso,
+tuviere asignada una pena mayor, aumentándola en uno o dos
+grados, según fuere el número de los delitos.
+     Podrá, con todo, aplicarse las penas en la forma
+establecida en el artículo 74 del Código Penal si, de
+seguirse este procedimiento, hubiere de corresponder al
+condenado una pena menor.
+     Para los efectos de este artículo, se considerará
+delitos de una misma especie aquellos que afectaren al mismo
+bien jurídico.
+```
+
+### 3.8 Nulidad y procedimiento abreviado *(insertado el 2026-07-06)*
 - Arts. 372–387 (recurso de nulidad, causales de los arts. 373 y 374).
 - Arts. 406–415 (procedimiento abreviado). La querella del art. 113 permanece
   cubierta por `assets/templates/modelo-querella.md`.
@@ -5961,3 +6770,7 @@ a la sección 7 del SKILL.md.)*
 |---|---|---|---|---|
 | 2026-07-06 | CP (idNorma 1984) | 1–24 ter; 50–78; 93–105; 233–241 bis; 246–260 quáter; 432; 440; 446–448; 447 bis; 456 bis A; 467–473 (131 artículos; 2 derogados marcados) | artículos hasta 2025-09-17 | curar_norma.py |
 | 2026-07-06 | CPP (idNorma 176595) | 1–13; 122–156; 229–241; 247–259; 372–387; 406–415 (117 artículos) | 2026-04-02 | curar_norma.py |
+| 2026-07-11 | CP (idNorma 1984) | 292–295 (7 artículos: 292, 293, 293 bis, 294, 294 bis, 294 ter, 295; § 10 «De las asociaciones delictivas y criminales», Ley 21.577) | artículos versión 2023-06-15 | curar_norma.py |
+| 2026-07-12 | CPP (idNorma 176595) | 260–280 bis; 295–297; 340 (26 artículos: fase intermedia, disposiciones generales sobre la prueba y convicción; XML SHA-256 c7a5b758…6469) | 2026-04-02 | curar_norma.py |
+| 2026-07-17 | CPP (idNorma 176595) | 351 (1 artículo: reiteración de delitos de una misma especie; XML SHA-256 c7a5b758…6469, idéntico al del 2026-07-12) | 2026-04-02 | curar_norma.py --descargar |
+| 2026-07-17 | CP (idNorma 1984) | Cotejo de la TABLA DEMOSTRATIVA del art. 56 (imagen oficial embebida Art56CP.jpeg, SHA-256 eb7441aa…3ac0fa, extraída del XML SHA-256 21fd760b…78e18); transcripción verificada anotada en la sección 2.2 | artículo versión 1927-10-12 | extracción binaria + cotejo visual |

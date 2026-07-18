@@ -5,7 +5,7 @@
 > (curatoría 2026-07-06); la Ley 21.459 consta **verificada** en
 > `references/leyes-especiales.md` (curatoría 2026-07-07, idNorma 1177743,
 > arts. 1–21, con los arts. 9 y 16 derogados y el art. 11 en vigencia
-> diferida). Los artículos del CPP fuera del perímetro curado conservan la
+> diferida; re-curada el 2026-07-12 con resultado concordante). Los artículos del CPP fuera del perímetro curado conservan la
 > marca **«cita pendiente de verificación»**. Este módulo no contiene citas
 > jurisprudenciales: los fallos sobre valor probatorio de evidencia digital se
 > incorporarán solo identificados por tribunal, rol y fecha, previa
@@ -180,6 +180,20 @@ autorización requerida y plazo realista:
 ---
 
 ## VII. Marco normativo y de admisibilidad
+
+### VII.a Licitud de la obtención — mapa normativo *(inyección v4.3 desde el linaje local v3.11)*
+
+1. **Autorización judicial previa** (art. 9 CPP): toda actuación que prive, restrinja o perturbe derechos garantizados por la Constitución exige autorización del juez de garantía. Es la norma de cierre: ante duda sobre si la diligencia la requería, el análisis se hace con el estándar más exigente.
+2. **Incautación de objetos y documentos** (arts. 187 y 217 CPP) y **registros** (arts. 204 y ss. CPP): título habilitante, ámbito autorizado y correspondencia entre lo autorizado y lo efectivamente incautado. El exceso sobre lo autorizado (extracción íntegra del teléfono cuando se autorizó una línea de mensajería determinada, por ejemplo) es vicio frecuente y de alto rendimiento defensivo.
+3. **Retención e incautación de correspondencia y comunicaciones** (art. 218 CPP) y **copias de comunicaciones o transmisiones** (art. 219 CPP): régimen propio, con autorización judicial.
+4. **Interceptación de comunicaciones telefónicas** (art. 222 y ss. CPP): procedencia restringida por gravedad del delito, resolución fundada, plazo y registro; la notificación posterior al afectado (art. 224 CPP) y el destino de lo irrelevante integran el control.
+5. **Entrega voluntaria y hallazgo casual**: la entrega por la víctima de sus propias conversaciones es en principio lícita; el hallazgo casual en diligencia autorizada para otro objeto exige examinar la regla de uso de la información. El consentimiento del imputado se examina con rigor: quién lo prestó, con qué información, constancia escrita.
+6. **Técnicas especiales y preservación de datos** en delitos informáticos (Ley 21.459 [V]): el art. 12 habilita, previa autorización judicial con informe previo detallado del Ministerio Público, las técnicas de los arts. 222 a 226 CPP y el agente encubierto en línea en canales cerrados; el art. 13 establece comiso especial con valor equivalente; el art. 14 sujeta la preservación y custodia de antecedentes electrónicos a las instrucciones generales del Fiscal Nacional. Verifica el estatuto especial cuando el delito investigado lo sea; el detalle está en `leyes-especiales.md`, sección IV.
+7. **Prueba proveniente de particulares** (la contraparte aporta pantallazos, un tercero grabó): la ilicitud de origen no estatal tiene tratamiento jurisprudencial no uniforme; consigna la controversia sin resolverla como si fuera pacífica [pendiente de verificación jurisprudencial].
+
+**Sanción**: la exclusión por inobservancia de garantías fundamentales se litiga en la audiencia de preparación (art. 276 CPP); su omisión allí precluye la vía ordinaria y reconduce al recurso de nulidad (art. 373 letra a) CPP). El calendario procesal de esta discusión se integra a la fase 12 (estrategia).
+
+### VII.b Reglas generales
 
 - **Libertad probatoria** *(art. 295 CPP — cita pendiente de verificación)*:
   todos los hechos pueden probarse por cualquier medio producido e

@@ -10,6 +10,12 @@ extenso de una fase determinada.
 
 ---
 
+## 0. Regla de proporcionalidad
+
+La profundidad de cada fase se calibra al caso: ejecutar las quince fases en extenso sobre una carpeta de dos declaraciones es tan defectuoso como despachar en tres párrafos una carpeta de treinta tomos. Declara al inicio del informe qué fases se ejecutaron en extenso, cuáles en forma sumaria y por qué.
+
+---
+
 ## Fase 1 — Reconocimiento inicial y metacognición
 
 Antes del análisis sustantivo, formula explícitamente:
@@ -25,6 +31,9 @@ Antes del análisis sustantivo, formula explícitamente:
 6. ¿Qué hipótesis preliminares emergen del primer cotejo?
 7. ¿Qué sesgos cognitivos podrían estar afectando la lectura inicial?
 8. ¿Cuál es el estado de la cadena de custodia de la evidencia?
+9. ¿Se ejecutó el triage de la sección 5 del SKILL.md y el Paso 2 de la
+   Cláusula de Integridad (sección 0)? Consigna qué módulos se cargaron y
+   cuáles faltan; la laguna se declara en el informe.
 
 Si el usuario adjunta un archivo `estado-del-caso-[RUC].md`, léelo antes que
 cualquier otro documento y respeta las decisiones estratégicas allí
