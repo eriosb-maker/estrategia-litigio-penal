@@ -1,5 +1,15 @@
 # Registro de cambios — `analisis-penal-chile`
 
+## v4.10 — 17 de julio de 2026
+
+**Protocolo de Cierre y Aprendizaje de la sesión de curatoría histórica.**
+
+1. **A-024 incorporada** a `references/aprendizajes.md` en estado **aprobado** (categoría Fuente-verificada; naturaleza corrección de manifiesto sometida además a aprobación expresa, obtenida del titular el 2026-07-17). Contenido: el manual oficial `accesoLeyesChilenas.pdf` (descargado desde `www.leychile.cl/esquemas/`), sección 6, establece que el servicio `obtxml` entrega siempre la versión actualizada de la norma —integración de las últimas versiones de cada una de sus partes— sin contemplar parámetro alguno de consulta histórica; la sintaxis `idVersion=<fecha>` ensayada en sesión anterior era una hipótesis del asistente desmentida por la propia fuente oficial y se descarta de plano como método futuro. Regla operativa: las consultas históricas se canalizan por el protocolo de degradación de A-025 o por descarga humana desde la interfaz web de LeyChile.
+2. **A-025 incorporada** a `references/aprendizajes.md` en estado **aprobado** (categoría Metodología; naturaleza cambio de criterio, aprobación expresa del titular el 2026-07-17). Contenido: protocolo de degradación controlada para consultas normativas históricas cuando la vía primaria de LeyChile es *estructuralmente* inviable —no meramente bloqueada o demorada—, con cinco condiciones copulativas: (1) constancia expresa de la inviabilidad y su causa; (2) pluralidad de fuentes doctrinarias o profesionales identificadas y concordantes; (3) rotulación [C] expresa con indicación de cada fuente; (4) declaración del grado de certeza y sujeción a cotejo con el texto oficial si deviene accesible; (5) prohibición de fundar un escrito judicial en la sola cita [C] sin advertencia de su estatuto. Se deja constancia expresa de que la regla A-016 permanece plenamente vigente para toda curatoría de texto normativo actual: A-025 no la excepciona, sino que regula un supuesto distinto (consulta histórica sin vía primaria disponible), diverso del error que A-016 sanciona (transcripción normativa desde la memoria del modelo sin XML de respaldo alguno).
+3. Versión de la skill incrementada a 4.10; índice maestro regenerado conforme a R-4; paquete reempaquetado y auditado con `verificar-integridad.sh` conforme a R-3.
+
+*Pendientes que subsisten*: instalación del paquete v4.10 en Claude.ai (acto del titular); **Defecto N° 6** del repositorio `estrategia-litigio-penal` (directorio `skill/` en v4.2), cuya subsanación exige ahora incorporar la cadena reconciliada **v4.3 → v4.10**.
+
 ## v4.9 — 17 de julio de 2026
 
 **Protocolo de Cierre y Aprendizaje de la sesión v4.8 (línea VI).**

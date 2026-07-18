@@ -241,6 +241,24 @@ Las entradas A-015 a A-020 provienen del linaje del repositorio `estrategia-liti
 - **Vigencia**: permanente.
 
 
+### A-024 — [2026-07-17] — Fuente-verificada — El servicio `obtxml` de LeyChile no ofrece acceso a versiones históricas; la sintaxis `idVersion=<fecha>` carece de sustento oficial
+- **Estado**: aprobado *(propuesto en el Protocolo de Cierre de la sesión de curatoría histórica y aprobado expresamente por el titular el 2026-07-17)*
+- **Naturaleza**: corrección de manifiesto *(constatación documental contra la fuente oficial del propio servicio; sometida además a aprobación expresa, obtenida)*
+- **Contexto**: diligencia de curatoría histórica destinada a verificar la versión vigente de disposiciones penales a una fecha pretérita. La sesión anterior había ensayado el parámetro `&idVersion=<fecha>` como hipótesis de acceso a versiones históricas.
+- **Lección**: el manual oficial del servicio (`accesoLeyesChilenas.pdf`, servido desde `www.leychile.cl/esquemas/`), sección 6, declara expresamente que `obtxml` entrega siempre la versión actualizada de la norma, integración de las últimas versiones de cada una de sus partes, sin contemplar parámetro alguno de consulta histórica. La sintaxis `idVersion=<fecha>` no consta en la documentación oficial y fue desmentida por ella: se trataba de una hipótesis del asistente, no de una funcionalidad del servicio.
+- **Regla operativa**: para consultas sobre versiones históricas de una norma, la vía `obtxml` se descarta de plano por inviabilidad estructural documentada, sin reiterar intentos con parámetros no oficiales. Toda necesidad de texto histórico se canaliza por el protocolo de degradación de la entrada A-025 o por descarga humana desde la interfaz web de LeyChile (que sí exhibe versiones), quedando el resultado sujeto a la disciplina de verificación general.
+- **Vigencia**: permanente, salvo que documentación oficial posterior de la BCN habilite una vía de consulta histórica, en cuyo caso se registrará como nueva entrada.
+
+
+### A-025 — [2026-07-17] — Metodología — Protocolo de degradación controlada para consultas normativas históricas estructuralmente inviables por la vía primaria
+- **Estado**: aprobado *(propuesto en el Protocolo de Cierre de la sesión de curatoría histórica y aprobado expresamente por el titular el 2026-07-17)*
+- **Naturaleza**: cambio de criterio aprobado
+- **Contexto**: misma diligencia. Constatada la inviabilidad estructural de `obtxml` para versiones históricas (A-024), la verificación se completó mediante fuentes doctrinarias y profesionales concordantes sobre la historia de la ley, con rotulación expresa de su estatuto epistémico.
+- **Lección**: existe un espacio metodológico legítimo entre la curatoría plena (XML oficial + `curar_norma.py`, marca [V]) y el error que sanciona A-016 (transcripción desde la memoria del modelo sin respaldo alguno). Cuando la vía primaria es *estructuralmente* inviable —no meramente bloqueada o demorada—, el recurso a fuentes secundarias verificables y concordantes constituye verificación degradada válida, siempre que se declare como tal.
+- **Regla operativa**: la degradación procede solo si concurren copulativamente: (1) constancia expresa de la inviabilidad estructural de la vía primaria y de su causa; (2) pluralidad de fuentes doctrinarias o profesionales identificadas y concordantes entre sí (jamás una sola, jamás anónimas); (3) rotulación [C] expresa de toda cita así obtenida, con indicación de cada fuente; (4) declaración del grado de certeza alcanzado y de que la conclusión queda sujeta a cotejo con el texto oficial si este deviene accesible; y (5) prohibición de que la cita [C] funde por sí sola un escrito judicial sin advertencia de su estatuto. La regla A-016 permanece plenamente vigente para toda curatoría de texto normativo actual: este protocolo no la excepciona, sino que regula un supuesto distinto (consulta histórica sin vía primaria disponible).
+- **Vigencia**: permanente.
+
+
 ---
 
 ## Histórico consolidado

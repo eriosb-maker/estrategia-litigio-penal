@@ -1,22 +1,22 @@
 {
   "_nota": "Indice maestro de integridad. Estados: instalado | no_propagado (construido, no instalado) | ausente (invocado o comprometido, nunca instalado). El indice y el script de verificacion se excluyen de si mismos.",
   "skill": "analisis-penal-chile",
-  "version_skill": "4.9",
+  "version_skill": "4.10",
   "fecha_indice": "2026-07-17",
   "algoritmo": "sha256",
-  "origen_version": "v4.9: Protocolo de Cierre y Aprendizaje de la sesión v4.8 — entrada A-023 aprobada (tablas normativas como imágenes embebidas aem:ArchivoBinario en el XML de LeyChile; regla de curatoría binaria en cuatro pasos) y subsanación de la duplicación de «Histórico consolidado» en aprendizajes.md. Base: v4.8.",
+  "origen_version": "v4.10: Protocolo de Cierre y Aprendizaje de la sesión de curatoría histórica — entradas A-024 (obtxml sin acceso a versiones históricas por diseño documentado en el manual oficial accesoLeyesChilenas.pdf; sintaxis idVersion sin sustento oficial, descartada) y A-025 (protocolo de degradación controlada con etiqueta [C] para consultas históricas estructuralmente inviables por la vía primaria, supuesto distinto de A-016) aprobadas por el titular el 2026-07-17. Base: v4.9.",
   "archivos": [
     {
       "ruta": "CHANGELOG.md",
       "estado": "instalado",
-      "sha256": "71afb2863c1c5448134b1f36b96d64c9ab3b795d8b0703a675d8fb9274286ac8",
-      "bytes": 36315
+      "sha256": "c94ea3438f0405b27c1ce09d9b334306cb748d5402cff5fa7dcea44233136fd1",
+      "bytes": 38924
     },
     {
       "ruta": "SKILL.md",
       "estado": "instalado",
-      "sha256": "d46660c8a20cdc2f968f4fbdcaf95dc6b09feca33882a2d2eaecc10f5a552593",
-      "bytes": 56205
+      "sha256": "52c024eb91416dfd9fcb0c6416808ceaa53e4c0ea3fe03ab87592a924192cf16",
+      "bytes": 57396
     },
     {
       "ruta": "assets/fuentes/Art56CP.jpeg",
@@ -63,8 +63,8 @@
     {
       "ruta": "references/aprendizajes.md",
       "estado": "instalado",
-      "sha256": "3b5dda3f2ae755ba15b84144714bc01c883f4ec5bf447f26cad928e671a28dfc",
-      "bytes": 29004
+      "sha256": "361700a0ee878567027697fe7ed729429432dae0e4062ccc3886119bb27cfab0",
+      "bytes": 32946
     },
     {
       "ruta": "references/audiencia-preparacion.md",
