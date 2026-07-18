@@ -1,5 +1,20 @@
 # Registro de cambios — `analisis-penal-chile`
 
+## v4.11 — 17 de julio de 2026
+
+**Versión exclusivamente registral: rectificación de manifiesto (15.3.3.a) y constancia de cierre del Defecto N° 6 en el ciclo v4.10.**
+
+1. **Rectificación de la entrada v4.10.** El apartado *«Pendientes que subsisten»* de la entrada v4.10 consignó que el directorio `skill/` del repositorio `estrategia-litigio-penal` se encontraba «en v4.2». La constancia era inexacta: a la fecha de ese cierre, `skill/` se encontraba ya en **v4.9**, por efecto del commit `e154c54` («Subsana Defecto N° 6: incorpora linaje reconciliado v4.3 → v4.9»), publicado por el titular vía bundle el 2026-07-17, con verificación posterior por clon independiente. El texto arrastró el estado de un ciclo anterior. La entrada v4.10 se conserva sin alteración, conforme a la regla de inmutabilidad del registro histórico; la presente entrada constituye su fe de erratas.
+
+2. **Cierre del Defecto N° 6 respecto del ciclo v4.10.** En sesión del 2026-07-17 se incorporó al repositorio la cadena reconciliada **v4.3 → v4.10** mediante el commit `c70d2ae` («Actualiza skill/ al linaje reconciliado v4.3 → v4.10»), publicado por el titular vía bundle (`defecto6-v410.bundle`, SHA-256 `566380c92861a8812107fea7350bb8680c217184389749634901062366037686`) y verificado por clon independiente: `skill/SKILL.md` en versión 4.10, verificador de sincronía de motores conforme, 62 pruebas conformes. Los linajes instalado y publicado convergen; **el Defecto N° 6 queda cerrado**, sin perjuicio de su reapertura natural cada vez que se cierre una versión nueva sin propagarla al repositorio.
+
+3. **Constancia de curatoría de sincronía (A-022).** La operación del numeral anterior advirtió una divergencia triple de `prescripcion.py` —tres hashes distintos entre `src/`, `skill/scripts/` y la instalación v4.10, por diferencias exclusivamente cosméticas de formato—. Se adoptó el ejemplar de la instalación v4.10 como texto único para ambas rutas del repositorio (hash convergente `f949afc81c3ad07609b991810b6606363277ead0e2f9298537eb3fa4424f7dac`), con verificador de identidad binaria conforme y suite completa conforme. Ningún cambio funcional.
+
+4. Versión incrementada a 4.11; índice maestro regenerado conforme a R-4; paquete auditado con `verificar-integridad.sh` conforme a R-3. Esta versión no altera módulo sustantivo alguno: solo `CHANGELOG.md`, `SKILL.md` (número de versión y registro) e `index-maestro.json`.
+
+*Pendientes que subsisten*: instalación del paquete v4.11 en Claude.ai (acto del titular); incorporación de la cadena v4.3 → v4.11 al directorio `skill/` del repositorio, cuyo commit acompaña esta misma sesión.
+
+
 ## v4.10 — 17 de julio de 2026
 
 **Protocolo de Cierre y Aprendizaje de la sesión de curatoría histórica.**

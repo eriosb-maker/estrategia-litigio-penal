@@ -1,22 +1,22 @@
 {
   "_nota": "Indice maestro de integridad. Estados: instalado | no_propagado (construido, no instalado) | ausente (invocado o comprometido, nunca instalado). El indice y el script de verificacion se excluyen de si mismos.",
   "skill": "analisis-penal-chile",
-  "version_skill": "4.10",
+  "version_skill": "4.11",
   "fecha_indice": "2026-07-17",
   "algoritmo": "sha256",
-  "origen_version": "v4.10: Protocolo de Cierre y Aprendizaje de la sesión de curatoría histórica — entradas A-024 (obtxml sin acceso a versiones históricas por diseño documentado en el manual oficial accesoLeyesChilenas.pdf; sintaxis idVersion sin sustento oficial, descartada) y A-025 (protocolo de degradación controlada con etiqueta [C] para consultas históricas estructuralmente inviables por la vía primaria, supuesto distinto de A-016) aprobadas por el titular el 2026-07-17. Base: v4.9.",
+  "origen_version": "v4.11: versión exclusivamente registral — fe de erratas de la entrada v4.10 (skill/ publicado en v4.9 por commit e154c54, no en v4.2) y constancia de cierre del Defecto N° 6 en el ciclo v4.10 (commit c70d2ae, publicado y verificado por clon independiente; sincronía A-022 conforme). Base: v4.10.",
   "archivos": [
     {
       "ruta": "CHANGELOG.md",
       "estado": "instalado",
-      "sha256": "c94ea3438f0405b27c1ce09d9b334306cb748d5402cff5fa7dcea44233136fd1",
-      "bytes": 38924
+      "sha256": "93ab7991b1b12900e69eafdb774af3b5c12c9364fe4c1698e3b33976869beb9a",
+      "bytes": 41610
     },
     {
       "ruta": "SKILL.md",
       "estado": "instalado",
-      "sha256": "52c024eb91416dfd9fcb0c6416808ceaa53e4c0ea3fe03ab87592a924192cf16",
-      "bytes": 57396
+      "sha256": "5417e9a975c904f99c13ab91e9d0b2f10c09b86e246332073445363fd93830e4",
+      "bytes": 57791
     },
     {
       "ruta": "assets/fuentes/Art56CP.jpeg",

@@ -30,8 +30,8 @@ GitHub Actions ejecuta automáticamente:
   canónico y su copia empaquetada en `skill/scripts/` (aprendizaje A-022).
 - `scripts/vigilar_revalidacion.py` — vigilancia de los plazos de
   revalidación semestral declarados en los módulos normativos curados.
-- `skill/` — paquete completo de la skill `analisis-penal-chile` **v4.10**
-  (linaje reconciliado v4.3 → v4.10 incorporado el 2026-07-17, subsanando el
+- `skill/` — paquete completo de la skill `analisis-penal-chile` **v4.11**
+  (linaje reconciliado v4.3 → v4.11 incorporado el 2026-07-17, subsanando el
   Defecto N° 6: el directorio permanecía anclado en el linaje publicado
   v4.2). Comprende SKILL.md, los módulos de `references/`, los motores de
   `scripts/`, plantillas, ejemplo trabajado, `index-maestro.json`,

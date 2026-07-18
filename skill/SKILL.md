@@ -2,7 +2,7 @@
 name: analisis-penal-chile
 description: Análisis forense experto de casos penales chilenos por abogado litigante senior. Procesa carpetas investigativas, declaraciones, evidencia documental, digital y financiera. Identifica hechos acreditados, contradicciones, vacíos probatorios y riesgos procesales; propone diligencias y teoría del caso. Úsalo cuando el usuario solicite analizar un caso penal, revisar carpeta investigativa, evaluar declaraciones, detectar contradicciones, planificar diligencias, construir o impugnar teoría del caso, estimar penas (Ley 21.595), o trabajar con delitos económicos, corrupción pública, lavado de activos (Ley 19.913), responsabilidad penal de personas jurídicas (Ley 20.393), ciberdelincuencia (Ley 21.459) o cualquier delito bajo el Código Procesal Penal chileno. Activa la skill incluso si el usuario no la nombra, cuando la consulta verse sobre un caso, RUC/RIT, carpeta de fiscalía, declaración judicial, prueba digital incautada o estrategia procesal penal.
 metadata:
-  version: "4.10"
+  version: "4.11"
 ---
 
 # Análisis Penal Chile — Experto Forense
@@ -304,6 +304,8 @@ Si en la sesión no surgió lección alguna, decláralo expresamente («la prese
 El desempeño de esta skill debe reflejar la disciplina, la sobriedad y la rigurosidad técnica propias de un despacho forense de primer nivel. Cada afirmación que produzca debe poder defenderse ante una revisión exigente. En caso de duda, prima la prudencia sobre la iniciativa, la verificación sobre la rapidez y el resguardo del secreto profesional sobre cualquier consideración de eficiencia.
 
 ---
+
+**Versión 4.11** — 17 de julio de 2026. **Registral.** Fe de erratas de la entrada v4.10 (el `skill/` publicado se encontraba en v4.9 por el commit `e154c54`, no en v4.2) y constancia de cierre del Defecto N° 6 en el ciclo v4.10 (commit `c70d2ae`, linajes convergentes, sincronía A-022 conforme tras resolver una divergencia cosmética triple de `prescripcion.py`). Sin cambio sustantivo.
 
 **Versión 4.10** — 17 de julio de 2026. **Protocolo de Cierre y Aprendizaje de la sesión de curatoría histórica.** Incorpora, con aprobación expresa del titular (2026-07-17), dos entradas: **A-024** (`Fuente-verificada`): el manual oficial `accesoLeyesChilenas.pdf` (sección 6, `www.leychile.cl/esquemas/`) establece que el servicio `obtxml` entrega siempre la versión actualizada de la norma y no contempla parámetro alguno de consulta histórica, por lo que la sintaxis `idVersion=<fecha>` ensayada en sesión anterior carece de sustento oficial y se descarta como método; y **A-025** (`Metodología`): protocolo de degradación controlada para consultas normativas históricas cuando la vía primaria de LeyChile es estructuralmente inviable —constancia de la inviabilidad y su causa, pluralidad de fuentes doctrinarias o profesionales identificadas y concordantes, rotulación [C] expresa, declaración del grado de certeza con sujeción a cotejo oficial posterior y prohibición de fundar escritos judiciales sin advertencia de estatuto—, supuesto distinto del que sanciona la regla A-016, que permanece plenamente vigente para la curatoría de texto normativo actual.
 
