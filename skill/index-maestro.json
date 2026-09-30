@@ -1,22 +1,22 @@
 {
   "_nota": "Indice maestro de integridad. Estados: instalado | no_propagado (construido, no instalado) | ausente (invocado o comprometido, nunca instalado). El indice y el script de verificacion se excluyen de si mismos.",
   "skill": "analisis-penal-chile",
-  "version_skill": "4.13",
+  "version_skill": "4.14",
   "fecha_indice": "2026-09-30",
   "algoritmo": "sha256",
-  "origen_version": "v4.13: curatoría normativa del 2026-09-30 — arts. 93 y 94 CPP, CPR arts. 5° y 19, COT art. 14; re-curación del art. 238 CPP por reforma (versión 2026-07-22); laguna CADH/PIDCP. Base: v4.12.",
+  "origen_version": "v4.14: A-027 (cotejo íntegro ante toda descarga oficial) y modo --tratado de curar_norma.py, aprobados por el titular el 2026-09-30; inserción de CADH art. 8 y PIDCP art. 14. Base: v4.13.",
   "archivos": [
     {
       "ruta": "CHANGELOG.md",
       "estado": "instalado",
-      "sha256": "0c1ea79890d443f6b0919d81af8146d60d84bab68ee428cf82005d0eb5e393da",
-      "bytes": 45395
+      "sha256": "e4e458c8a9e206f977d73a0548e25d7013ae8b5ae1aacd401be7b73392e11d31",
+      "bytes": 48585
     },
     {
       "ruta": "SKILL.md",
       "estado": "instalado",
-      "sha256": "a36a3fed4862ad14fcd8b1ebaf929db7bc019e0f2edf6480f8256359f9bcd62e",
-      "bytes": 59300
+      "sha256": "b38cbeaa7b1b978c34b771e89d778826b6995aea7f9c8bef02a10934cb1ab422",
+      "bytes": 60867
     },
     {
       "ruta": "assets/fuentes/Art56CP.jpeg",
@@ -63,8 +63,8 @@
     {
       "ruta": "references/aprendizajes.md",
       "estado": "instalado",
-      "sha256": "aae44ab40fd8be50a1911f9593e3f0a50f7bf607a306e8448e03088d723f48c8",
-      "bytes": 34794
+      "sha256": "0c5939353dc510659369ee4f890c49cfb071e2c603a0f4ae4fef490829cc3c23",
+      "bytes": 36467
     },
     {
       "ruta": "references/audiencia-preparacion.md",
@@ -141,8 +141,8 @@
     {
       "ruta": "references/marco-legal.md",
       "estado": "instalado",
-      "sha256": "65bc9c5817f5471d4262b3bc20f2c9f17090d7fe0a2d7719e3520f16b757c91d",
-      "bytes": 358841
+      "sha256": "6461946736e7320338fbfaefaaa5d546c0e7563866dca574111237c1f087d947",
+      "bytes": 367224
     },
     {
       "ruta": "references/metodologia-detallada.md",
@@ -177,8 +177,8 @@
     {
       "ruta": "scripts/curar_norma.py",
       "estado": "instalado",
-      "sha256": "a0f8a434a862236fae1326f02180fe3c5ec0d8f567e9e6769a36b345a8d7dd4c",
-      "bytes": 26007
+      "sha256": "87d21ba237e299a9caa0b2e37586c2236f73687b31287736ef1569dc9a5099d4",
+      "bytes": 35902
     },
     {
       "ruta": "scripts/estrategia_litigio.py",

@@ -30,6 +30,11 @@ Uso:
         (resuelve el idNorma de una norma a partir de su identificador;
         ver sección «Resolución automática de idNorma» más abajo)
 
+    python curar_norma.py --xml cadh.xml --tratado --articulos "8,25" \
+        --sigla "CADH" --idnorma 16022 --out extracto_cadh.md
+        (segmenta por artículo el texto de un tratado que LeyChile publica
+        como Anexo único del decreto promulgatorio; ver regla 5)
+
     python curar_norma.py --descargar 1195119 --out ley-21595.xml
         (descarga el XML oficial desde obtxml, calcula su SHA-256 y lo
         deja registrado en la consola para trazabilidad)
@@ -64,6 +69,21 @@ Reglas del motor:
   4. Todo extracto queda encabezado con los metadatos de la norma y la fecha
      de verificación, condición de validez de la curatoría conforme a la
      regla de cita normativa rigurosa del SKILL.md (sección 7).
+
+  5. Tratados internacionales (modo --tratado): LeyChile publica el decreto
+     promulgatorio como un único «Artículo s/n» y el texto íntegro del
+     tratado en el nodo <Anexos>/<Anexo>. En este modo el motor segmenta el
+     texto del Anexo por sus encabezados de artículo («Artículo N», con
+     título opcional, «Artículo 8. Garantías Judiciales»), registra como
+     ruta los agrupadores intermedios (Parte, Capítulo, Sección), excluye el
+     preámbulo y la fórmula final de autenticación («EN FE DE LO CUAL»), y
+     reproduce el texto tal como consta en el XML, sin corregir erratas de
+     la fuente (p. ej. caracteres dañados, que se reconocen en el
+     encabezado pero no se reparan). La trazabilidad por artículo es la del
+     Anexo (idParte y fecha de versión únicos), con indicación expresa de
+     que el artículo fue segmentado por el motor. Si la secuencia de
+     artículos detectada presenta saltos o duplicados, el extracto lo
+     advierte y la curatoría queda bloqueada hasta esclarecerlo.
 
 La salida es un INSUMO para `references/marco-legal.md`; su incorporación
 definitiva queda sujeta a revisión del abogado responsable.
@@ -116,6 +136,17 @@ REGISTRO_IDNORMA = {
     "LEY 19913": (219119, "Ley", "UAF y lavado de activos"),
     "LEY 21459": (1177743, "Ley", "Delitos Informáticos"),
     "LEY 20000": (235507, "Ley", "Tráfico Ilícito de Estupefacientes"),
+    # Verificados en la curatoría del 2026-09-30 (skill v4.13).
+    "CPR": (242302, "Decreto", "Constitución Política de la República (Decreto 100)"),
+    "CONSTITUCION POLITICA": (242302, "Decreto",
+                              "Constitución Política de la República (Decreto 100)"),
+    "COT": (25563, "Ley", "Código Orgánico de Tribunales"),
+    "CODIGO ORGANICO DE TRIBUNALES": (25563, "Ley", "Código Orgánico de Tribunales"),
+    "CADH": (16022, "Decreto", "Convención Americana sobre Derechos Humanos (D. 873)"),
+    "CONVENCION AMERICANA": (16022, "Decreto",
+                             "Convención Americana sobre Derechos Humanos (D. 873)"),
+    "PIDCP": (15551, "Decreto",
+              "Pacto Internacional de Derechos Civiles y Políticos (D. 778)"),
 }
 
 
@@ -337,6 +368,142 @@ def recorrer_articulos(elemento, ruta=()):
             yield from recorrer_articulos(ef, nueva_ruta)
 
 
+# Encabezado de artículo dentro del texto de un tratado. El título es
+# opcional y puede ir separado por punto, coma, guion o dos puntos («Artículo
+# 8. Garantías Judiciales»; «Artículo 27, Suspensión de Garantías»). Acepta «Artículo»,
+# «Articulo», «ARTICULO» y el carácter de reemplazo U+FFFD que la fuente
+# oficial contiene en algunos encabezados (p. ej. «Art\ufffdculo 43» en el
+# Anexo de la CADH, idNorma 16022). El texto se reproduce sin corregirlo.
+_RE_ENCABEZADO_TRATADO = re.compile(
+    r"^[ \t]*ART[IÍ\ufffd]CULO[ \t]+(\d+)[ \t]*(?:[.,\-–—:][ \t]*(.*?))?[ \t]*$",
+    re.IGNORECASE | re.MULTILINE)
+# Agrupadores intermedios: Parte, Capítulo, Sección (con o sin tilde).
+_RE_AGRUPADOR_TRATADO = re.compile(
+    r"^[ \t]*(PARTE|CAP[IÍ]TULO|SECCI[OÓ]N)\b[^\n]*$", re.IGNORECASE | re.MULTILINE)
+# Fórmula final de autenticación que cierra el texto del tratado.
+_RE_CIERRE_TRATADO = re.compile(r"^[ \t]*EN FE DE LO CUAL\b", re.MULTILINE)
+
+
+def _bloque_hasta_linea_en_blanco(texto, inicio):
+    """Devuelve (líneas, fin) desde `inicio` hasta la primera línea en blanco.
+    Sirve para recoger títulos de agrupadores o de artículos que la fuente
+    parte en varias líneas («Artículo 6. Prohibición de la Esclavitud y /
+    Servidumbre»)."""
+    lineas, pos = [], inicio
+    while pos < len(texto):
+        fin = texto.find("\n", pos)
+        fin = len(texto) if fin == -1 else fin
+        linea = texto[pos:fin]
+        if not linea.strip():
+            break
+        lineas.append(" ".join(linea.split()))
+        pos = fin + 1
+    return lineas, pos
+
+
+def segmentar_tratado(texto):
+    """Segmenta el texto íntegro de un tratado en artículos.
+
+    Devuelve una lista de dicts {numero, titulo, ruta, texto}, en el orden
+    del texto. Excluye el preámbulo (todo lo anterior al primer encabezado)
+    y la fórmula final de autenticación. Los agrupadores (Parte, Capítulo,
+    Sección) cierran el cuerpo del artículo precedente y se registran como
+    ruta de los siguientes.
+    """
+    cierre = _RE_CIERRE_TRATADO.search(texto)
+    if cierre:
+        texto = texto[:cierre.start()]
+    eventos = []
+    for m in _RE_ENCABEZADO_TRATADO.finditer(texto):
+        eventos.append((m.start(), "art", m))
+    for m in _RE_AGRUPADOR_TRATADO.finditer(texto):
+        eventos.append((m.start(), "agr", m))
+    eventos.sort(key=lambda e: e[0])
+
+    articulos, agrupadores, actual = [], {}, None
+    niveles = {"PARTE": 0, "CAPITULO": 1, "SECCION": 2}
+
+    def cerrar(hasta):
+        if actual is not None:
+            actual["texto"] = texto[actual.pop("_desde"):hasta]
+            articulos.append(actual)
+
+    for i, (pos, clase, m) in enumerate(eventos):
+        if clase == "agr":
+            cerrar(pos)
+            actual = None
+            # El rótulo del agrupador comprende todo el texto hasta el
+            # encabezado siguiente: la fuente parte a veces el rótulo con una
+            # línea en blanco intermedia («CAPITULO III - DERECHOS
+            # ECONOMICOS, SOCIALES Y» / «CULTURALES», CADH).
+            hasta = eventos[i + 1][0] if i + 1 < len(eventos) else len(texto)
+            rotulo = " ".join(texto[pos:hasta].split())
+            nivel = niveles[_normalizar(m.group(1))]
+            agrupadores = {k: v for k, v in agrupadores.items() if k < nivel}
+            agrupadores[nivel] = rotulo
+        else:
+            cerrar(pos)
+            lineas, cuerpo_desde = _bloque_hasta_linea_en_blanco(texto, pos)
+            titulo = " ".join([(m.group(2) or "").strip()] + lineas[1:]).strip()
+            actual = {
+                "numero": int(m.group(1)),
+                "titulo": titulo,
+                "ruta": tuple(agrupadores[k] for k in sorted(agrupadores)),
+                "_desde": cuerpo_desde,
+            }
+    cerrar(len(texto))
+    return articulos
+
+
+def recorrer_anexos_tratado(raiz):
+    """Rinde, por cada Anexo de la norma, los artículos segmentados de su
+    texto, como tuplas (atributos, nombre, ruta, texto_crudo, titulo)."""
+    for anexo in raiz.findall("lc:Anexos/lc:Anexo", NS):
+        tit = anexo.find("lc:Metadatos/lc:Titulo", NS)
+        titulo_anexo = " ".join(tit.text.split()) if tit is not None and tit.text else "Anexo"
+        texto_el = anexo.find("lc:Texto", NS)
+        texto = texto_el.text or "" if texto_el is not None else ""
+        atributos = {
+            "idParte": anexo.get("idParte", "s/d"),
+            "fechaVersion": anexo.get("fechaVersion", "s/d"),
+            "derogado": anexo.get("derogado", ""),
+            "transitorio": anexo.get("transitorio", ""),
+        }
+        for art in segmentar_tratado(texto):
+            yield (atributos, str(art["numero"]), (titulo_anexo,) + art["ruta"],
+                   art["texto"], art["titulo"])
+
+
+def anomalias_secuencia(numeros):
+    """Detecta saltos y duplicados en la numeración correlativa de un
+    tratado. Devuelve una lista de descripciones (vacía si es correlativa)."""
+    anomalias = []
+    vistos = set()
+    for n in numeros:
+        if n in vistos:
+            anomalias.append(f"artículo {n} duplicado")
+        vistos.add(n)
+    if numeros:
+        faltan = sorted(set(range(1, max(numeros) + 1)) - vistos)
+        if faltan:
+            anomalias.append("artículos no detectados: " + ", ".join(map(str, faltan)))
+    return anomalias
+
+
+def iterar_partes(raiz, tratado=False):
+    """Iterador unificado: rinde (atributos, nombre, ruta, texto_crudo, titulo)
+    para el articulado ordinario o, con `tratado`, para el Anexo segmentado."""
+    if tratado:
+        yield from recorrer_anexos_tratado(raiz)
+        return
+    for ef, nombre, ruta in recorrer_articulos(raiz):
+        texto_el = ef.find("lc:Texto", NS)
+        atributos = {k: ef.get(k, "s/d" if k in ("idParte", "fechaVersion") else "")
+                     for k in ("idParte", "fechaVersion", "derogado", "transitorio")}
+        yield (atributos, nombre, ruta,
+               texto_el.text or "" if texto_el is not None else "", "")
+
+
 def limpiar_texto(texto):
     """Normaliza el texto del artículo: quita sangría fija y marcas marginales
     de referencia interna del visor ('VER NOTA n') sin alterar el contenido."""
@@ -378,7 +545,7 @@ def cargar_norma(ruta_xml):
 
 def generar_extracto(ruta_xml, spec, sigla, idnorma_esperado=None,
                      con_variantes=True, incluir_transitorios=False,
-                     fecha_verificacion=None):
+                     fecha_verificacion=None, tratado=False):
     raiz, meta = cargar_norma(ruta_xml)
     if idnorma_esperado and str(meta["normaId"]) != str(idnorma_esperado):
         raise SystemExit(
@@ -389,8 +556,16 @@ def generar_extracto(ruta_xml, spec, sigla, idnorma_esperado=None,
 
     encontrados, faltantes = [], []
     vistos = set()
-    for ef, nombre, ruta in recorrer_articulos(raiz):
-        if ef.get("transitorio") == "transitorio" and not incluir_transitorios:
+    anomalias = []
+    if tratado:
+        numeros = [int(n) for _a, n, _r, _t, _ti in iterar_partes(raiz, tratado=True)]
+        if not numeros:
+            raise SystemExit(
+                "ERROR: modo --tratado, pero el XML no contiene un Anexo con "
+                "encabezados de artículo segmentables.")
+        anomalias = anomalias_secuencia(numeros)
+    for attrs, nombre, ruta, texto_crudo, titulo in iterar_partes(raiz, tratado):
+        if attrs.get("transitorio") == "transitorio" and not incluir_transitorios:
             continue
         numero, sufijo = parsear_nombre_parte(nombre or "")
         if sufijo not in SUFIJOS_VALIDOS and numero is not None:
@@ -400,8 +575,7 @@ def generar_extracto(ruta_xml, spec, sigla, idnorma_esperado=None,
         if not articulo_seleccionado(numero, sufijo_cmp, _normalizar(nombre or ""),
                                      criterios, con_variantes):
             continue
-        texto_el = ef.find("lc:Texto", NS)
-        texto = limpiar_texto(texto_el.text or "") if texto_el is not None else ""
+        texto = limpiar_texto(texto_crudo)
         etiqueta = (nombre or "").strip() or "s/n"
         clave = (numero, sufijo_cmp, etiqueta)
         if clave in vistos:
@@ -411,11 +585,12 @@ def generar_extracto(ruta_xml, spec, sigla, idnorma_esperado=None,
             "numero": numero,
             "sufijo": sufijo_cmp,
             "etiqueta": etiqueta,
-            "idParte": ef.get("idParte", "s/d"),
-            "fechaVersion": ef.get("fechaVersion", "s/d"),
-            "derogado": ef.get("derogado") == "derogado",
+            "idParte": attrs.get("idParte", "s/d"),
+            "fechaVersion": attrs.get("fechaVersion", "s/d"),
+            "derogado": attrs.get("derogado") == "derogado",
             "ruta": " › ".join(ruta),
             "texto": texto,
+            "titulo": titulo,
         })
 
     # Verificación de completitud: números pedidos por rango o exactos que no aparecieron.
@@ -447,10 +622,16 @@ def generar_extracto(ruta_xml, spec, sigla, idnorma_esperado=None,
     lineas.append("")
     for a in encontrados:
         encabezado = f"### {sigla} — Art. {a['etiqueta']}"
+        if a.get("titulo"):
+            encabezado += f". {a['titulo']}"
         lineas.append(encabezado)
         ubic = f"*{a['ruta']}*" if a["ruta"] else ""
-        traz = (f"`idParte {a['idParte']} · versión del artículo: "
-                f"{a['fechaVersion']}`")
+        if tratado:
+            traz = (f"`Anexo idParte {a['idParte']} · versión del Anexo: "
+                    f"{a['fechaVersion']} · artículo segmentado por curar_norma.py`")
+        else:
+            traz = (f"`idParte {a['idParte']} · versión del artículo: "
+                    f"{a['fechaVersion']}`")
         lineas.append(" ".join(x for x in (ubic, "—", traz) if x).strip(" —"))
         lineas.append("")
         if a["derogado"]:
@@ -460,6 +641,12 @@ def generar_extracto(ruta_xml, spec, sigla, idnorma_esperado=None,
             lineas.append("```")
             lineas.append(a["texto"])
             lineas.append("```")
+        lineas.append("")
+    if anomalias:
+        lineas.append("---")
+        lineas.append("**Advertencia de segmentación** — La numeración detectada en el "
+                      "Anexo no es correlativa (" + "; ".join(anomalias) + "). La "
+                      "curatoría queda bloqueada hasta cotejar el texto del Anexo.")
         lineas.append("")
     if faltantes:
         lineas.append("---")
@@ -471,18 +658,27 @@ def generar_extracto(ruta_xml, spec, sigla, idnorma_esperado=None,
     return "\n".join(lineas), encontrados, faltantes
 
 
-def listar_inventario(ruta_xml):
+def listar_inventario(ruta_xml, tratado=False):
     raiz, meta = cargar_norma(ruta_xml)
     print(f"# {meta['titulo']} — idNorma {meta['normaId']} — "
           f"versión {meta['fechaVersion']}")
-    n = 0
-    for ef, nombre, ruta in recorrer_articulos(raiz):
-        marca = " [DEROGADO]" if ef.get("derogado") == "derogado" else ""
-        marca += " [TRANSITORIO]" if ef.get("transitorio") == "transitorio" else ""
-        print(f"Art. {nombre or 's/n':<12} v.{ef.get('fechaVersion','s/d')}"
+    n, numeros = 0, []
+    for attrs, nombre, ruta, _texto, titulo in iterar_partes(raiz, tratado):
+        marca = " [DEROGADO]" if attrs.get("derogado") == "derogado" else ""
+        marca += " [TRANSITORIO]" if attrs.get("transitorio") == "transitorio" else ""
+        rotulo = f"{nombre or 's/n'}" + (f". {titulo}" if titulo else "")
+        print(f"Art. {rotulo:<12} v.{attrs.get('fechaVersion', 's/d')}"
               f"{marca}  ({' › '.join(ruta)})")
         n += 1
+        if tratado:
+            numeros.append(int(nombre))
     print(f"\nTotal de artículos inventariados: {n}")
+    if tratado:
+        anomalias = anomalias_secuencia(numeros)
+        print("Secuencia: " + ("correlativa." if not anomalias else "; ".join(anomalias)))
+    elif raiz.find("lc:Anexos/lc:Anexo", NS) is not None:
+        print("Aviso: la norma contiene Anexos. Si se trata de un tratado "
+              "publicado como Anexo del decreto promulgatorio, use --tratado.")
 
 
 def main(argv=None):
@@ -496,6 +692,9 @@ def main(argv=None):
     p.add_argument("--sin-variantes", action="store_true",
                    help="Los rangos NO incluyen artículos bis/ter/quáter")
     p.add_argument("--incluir-transitorios", action="store_true")
+    p.add_argument("--tratado", action="store_true",
+                   help="Segmenta por artículo el texto del Anexo (tratados "
+                        "publicados como Anexo del decreto promulgatorio)")
     p.add_argument("--fecha-verificacion", help="AAAA-MM-DD (por defecto, hoy)")
     p.add_argument("--listar", action="store_true",
                    help="Solo inventaría los artículos del XML")
@@ -542,7 +741,7 @@ def main(argv=None):
         p.error("--xml es obligatorio salvo en modo --resolver o --descargar")
 
     if args.listar:
-        listar_inventario(args.xml)
+        listar_inventario(args.xml, tratado=args.tratado)
         return 0
     if not args.articulos:
         p.error("--articulos es obligatorio salvo en modo --listar")
@@ -551,7 +750,8 @@ def main(argv=None):
         args.xml, args.articulos, args.sigla, args.idnorma,
         con_variantes=not args.sin_variantes,
         incluir_transitorios=args.incluir_transitorios,
-        fecha_verificacion=args.fecha_verificacion)
+        fecha_verificacion=args.fecha_verificacion,
+        tratado=args.tratado)
 
     if args.out:
         with open(args.out, "w", encoding="utf-8") as f:

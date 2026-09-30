@@ -14,6 +14,10 @@
 > oficial versión 2026-07-22: 143 idénticos y 1 reformado (art. 238, re-curado). Se insertan los
 > arts. 93 y 94 CPP (sección 3.9) y la sección 3 bis (CPR arts. 5° y 19; COT art. 14). Los
 > extractos del 2026-09-30 vencen el 2027-03-30.
+>
+> **Actualización 2026-09-30 (v4.14)**: se insertan CADH art. 8 y PIDCP art. 14 (sección 3 bis.3),
+> segmentados del Anexo de sus decretos promulgatorios con `curar_norma.py --tratado`. Corpus: 289
+> artículos. Vencen el 2027-03-30.
 
 ---
 
@@ -7494,8 +7498,61 @@ establece disposiciones especiales sobre el Sistema de
 Justicia Militar les encomienden.
 ```
 
-### 3 bis.3 Tratados internacionales — laguna consignada
-La Convención Americana sobre Derechos Humanos (Decreto N° 873, idNorma **16022**, XML SHA-256 `b5287e29…4c54`) y el Pacto Internacional de Derechos Civiles y Políticos (Decreto N° 778, idNorma **15551**, XML SHA-256 `6d857285…fe5`) constan en LeyChile como un único nodo «Artículo s/n» que contiene el texto íntegro del tratado. `curar_norma.py` no segmenta ese nodo por artículo del tratado, por lo que no se insertan extractos. Sus artículos 8.2 y 14.3 se cotejaron el 2026-09-30 contra esos XML con resultado conforme, pero conservan, respecto de este módulo, la marca **«cita pendiente de verificación»** hasta que el motor admita su segmentación.
+### 3 bis.3 Tratados internacionales *(insertado el 2026-09-30, v4.14)*
+- CADH art. 8 (garantías judiciales; en particular, 8.2: presunción de inocencia y garantías mínimas del inculpado) y PIDCP art. 14 (en particular, 14.3: garantías mínimas del acusado). LeyChile publica cada tratado como Anexo del decreto promulgatorio: el articulado de la norma contiene solo el «Artículo s/n» promulgatorio y el texto íntegro del tratado consta en el nodo `Anexo`. Los extractos se obtuvieron con `curar_norma.py --tratado` (v4.14), que segmenta el Anexo por sus encabezados de artículo con control de secuencia correlativa (CADH: 82/82; PIDCP: 53/53) y verificación de cobertura íntegra del texto. La trazabilidad es la del Anexo (idParte y versión únicos). XML oficiales conservados en `curatoria/xml/` del repositorio: CADH SHA-256 `b5287e29…4c54`; PIDCP SHA-256 `6d857285…0afe5`.
+
+> *Anotación de curatoría (2026-09-30, corrección de manifiesto)*: la versión 4.13 de esta sección describía el texto del tratado como contenido en el nodo «Artículo s/n». El examen del XML muestra que ese nodo contiene solo la fórmula promulgatoria y que el tratado consta en el nodo `Anexo`. Se deja además constancia de que el encabezado del art. 43 CADH presenta en la fuente oficial un carácter dañado —el de reemplazo U+FFFD en lugar de la «í» de «Artículo»—, que el motor reconoce sin corregir; ningún artículo insertado se ve afectado.
+
+## APRUEBA CONVENCION AMERICANA SOBRE DERECHOS HUMANOS, DENOMINADA "PACTO DE SAN JOSE DE COSTA RICA" (CADH)
+
+> **Fuente oficial**: Biblioteca del Congreso Nacional — LeyChile, servicio XML `obtxml opt=7`, idNorma 16022 (Decreto 873), publicada el 1991-01-05.
+> **Versión de la norma**: 1991-01-05 · **Estado**: no derogado.
+> **Fecha de verificación de esta curatoría**: 2026-09-30. Todo uso posterior debe cotejar la vigencia en LeyChile.
+
+### CADH — Art. 8. Garantías Judiciales
+*CONVENCION AMERICANA SOBRE DERECHOS HUMANOS › Parte I - Deberes de los Estados y Derechos Protegidos › CAPITULO II - DERECHOS CIVILES Y POLITICOS* — `Anexo idParte 7153657 · versión del Anexo: 1991-01-05 · artículo segmentado por curar_norma.py`
+
+```
+    1. Toda persona tiene derecho a ser oída, con las debidas garantías y dentro de un plazo razonable, por un juez o tribunal competente, independiente e imparcial, establecido con anterioridad por la ley, en la sustanciación de cualquier acusación penal formulada contra ella, o para la determinación de sus derechos y obligaciones de orden civil, laboral, fiscal o de cualquier otro carácter.
+    2. Toda persona inculpada de delito tiene derecho a que se presuma su inocencia mientras no se establezca legalmente su culpabilidad. Durante el proceso, toda persona tiene derecho, en plena igualdad, a las siguientes garantías mínimas:
+    a) derecho del inculpado de ser asistido gratuitamente por el traductor o intérprete, si no comprende o no habla el idioma del juzgado o tribunal;
+    b) comunicación previa y detallada al inculpado de la acusación formulada;
+    c) concesión al inculpado del tiempo y de los medios adecuados para la preparación de su defensa;
+    d) derecho del inculpado de defenderse personalmente o de ser asistido por un defensor de su elección y de comunicarse libre y privadamente con su defensor;
+    e) derecho irrenunciable de ser asistido por un defensor proporcionado por el Estado, remunerado o no según la legislación interna, si el inculpado no se defendiere por sí mismo ni nombrare defensor dentro del plazo establecido por la ley;
+    f) derecho de la defensa de interrogar a los testigos presentes en el tribunal y de obtener la comparecencia, como testigos o peritos, de otras personas que puedan arrojar luz sobre los hechos;
+    g) derecho a no ser obligado a declarar contra sí mismo ni a declararse culpable, y
+    h) derecho de recurrir del fallo ante juez o tribunal superior.
+    3. La confesión del inculpado solamente es válida si es hecha sin coacción de ninguna naturaleza.
+    4. El inculpado absuelto por una sentencia firme no podrá ser sometido a nuevo juicio por los mismos hechos.
+    5. El proceso penal debe ser público, salvo en lo que sea necesario para preservar los intereses de la justicia.
+```
+
+## PROMULGA EL PACTO INTERNACIONAL DE DERECHOS CIVILES Y POLITICOS ADOPTADO POR LA ASAMBLEA GENERAL DE LA ORGANIZACION DE LAS NACIONES UNIDAS POR RESOLUCION N° 2.200, EL 16 DE DICIEMBRE DE 1966 Y SUSCRITO POR CHILE EN ESA MISMA FECHA (PIDCP)
+
+> **Fuente oficial**: Biblioteca del Congreso Nacional — LeyChile, servicio XML `obtxml opt=7`, idNorma 15551 (Decreto 778), publicada el 1989-04-29.
+> **Versión de la norma**: 1989-04-29 · **Estado**: no derogado.
+> **Fecha de verificación de esta curatoría**: 2026-09-30. Todo uso posterior debe cotejar la vigencia en LeyChile.
+
+### PIDCP — Art. 14
+*PACTO INTERNACIONAL DE DERECHOS CIVILES Y POLITICOS › PARTE III* — `Anexo idParte 8681480 · versión del Anexo: 1989-04-29 · artículo segmentado por curar_norma.py`
+
+```
+    1. Todas las personas son iguales ante los tribunales y cortes de justicia. Toda persona tendrá derecho a ser oída públicamente y con las debidas garantías por un tribunal competente, independiente e imparcial, establecido por la ley, en la substanciación de cualquier acusación de carácter penal formulada contra ella o para la determinación de sus derechos u obligaciones de carácter civil. La prensa y el público podrán ser excluidos de la totalidad o parte de los juicios por consideraciones de mora, orden público o seguridad nacional en una sociedad democrática, o cuando lo exija el interés de la vida privada de las partes o, en la medida estrictamente necesaria en opinión del tribunal, cuando por circunstancias especiales del asunto la publicidad pudiera perjudicar a los intereses de la justicia; pero toda sentencia en materia penal o contenciosa será pública, excepto en los casos en que el interés de menores de edad exija lo contrario, o en las actuaciones referentes a pleitos matrimoniales o a la tutela de menores.
+    2. Toda persona acusada de un delito tiene derecho a que se presuma su inocencia mientras no se pruebe su culpabilidad conforme a la ley.
+    3. Durante el proceso, toda persona acusada de un delito tendrá derecho, en plena igualdad, a las siguientes garantías mínimas:
+    a) A ser informada sin demora, en un idioma que comprenda y en forma detallada, de la naturaleza y causas de la acusación formulada contra ella;
+    b) A disponer del tiempo y de los medios adecuados para la preparación de su defensa y a comunicarse con un defensor de su elección;
+    c) A ser juzgada sin dilaciones indebidas;
+    d) A hallarse presente en el proceso y a defenderse personalmente o ser asistida por un defensor de su elección; a ser informada, si no tuviera defensor, del derecho que le asiste a tenerlo y, siempre que el interés de la justicia lo exija, a que se le nombre defensor de oficio, gratuitamente, si careciere de medios suficientes para pagarlo;
+    e) A interrogar o hacer interrogar a los testigos de cargo y a obtener la comparecencia de los testigos de descargo y que éstos sean interrogados en las mismas condiciones que los testigos de cargo;
+    f) A ser asistida gratuitamente por un intérprete, si no comprende o no habla el idioma empleados en el tribunal;
+    g) A no ser obligada a declarar contra sí misma ni a confesarse culpable.
+    4. En el procedimiento aplicable a los menores de edad a efectos penales se tendrá en cuenta esta circunstancia y la importancia de estimular su readaptación social.
+    5. Toda persona declarada culpable de un delito tendrá derecho a que el fallo condenatorio y la pena que se le haya impuesto sean sometidos a un tribunal superior, conforme a lo prescrito por la ley.
+    6. Cuando una sentencia condenatoria firme haya sido ulteriormente revocada, o el condenado haya sido indultado por haberse producido o descubierto un hecho plenamente probatorio de la comisión de un error judicial, la persona que haya sufrido una pena como resultado de tal sentencia deberá ser indemnizada, conforme a la ley, a menos que se demuestre que le es imputable en todo o en parte el no haberse revelado oportunamente el hecho desconocido.
+    7. Nadie podrá ser juzgado ni sancionado por un delito por el cual haya sido ya condenado o absuelto por una sentencia firme de acuerdo con la ley y el procedimiento penal de cada país.
+```
 
 ## 4. Remisiones controladas
 
@@ -7527,3 +7584,4 @@ a la sección 7 del SKILL.md.)*
 | 2026-09-30 | CPR (idNorma 242302) | 5, 19 (2 artículos; sección 3 bis.1; XML SHA-256 f49fa004…07ab) | 2026-04-16 | curar_norma.py |
 | 2026-09-30 | COT (idNorma 25563) | 14 (1 artículo; sección 3 bis.2; XML SHA-256 6a60c46a…6d994) | 2026-04-02 | curar_norma.py |
 | 2026-09-30 | CADH (16022) · PIDCP (15551) | Sin inserción: nodo único «Artículo s/n» no segmentable por el motor (sección 3 bis.3) | 1991-01-05 · 1989-04-29 | laguna consignada |
+| 2026-09-30 | CADH (idNorma 16022) · PIDCP (idNorma 15551) | CADH 8; PIDCP 14 (2 artículos; sección 3 bis.3; modo `--tratado`; secuencia correlativa 82/82 y 53/53; XML SHA-256 b5287e29…4c54 y 6d857285…0afe5). Cotejo A-027: sin artículos previamente curados de estos cuerpos | 1991-01-05 · 1989-04-29 | curar_norma.py --tratado |

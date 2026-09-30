@@ -268,6 +268,15 @@ Las entradas A-015 a A-020 provienen del linaje del repositorio `estrategia-liti
 - **Vigencia**: permanente.
 
 
+### A-027 — [2026-09-30] — Metodología — Cotejo íntegro del módulo contra todo texto oficial descargado, sin esperar la revalidación semestral
+- **Estado**: aprobado *(propuesto en la entrega de la v4.13 y aprobado expresamente por el titular el 2026-09-30)*
+- **Naturaleza**: cambio de criterio aprobado
+- **Contexto**: curatoría del 2026-09-30. Al descargar el XML oficial del Código Procesal Penal (idNorma 176595, versión 2026-07-22) para insertar los arts. 93 y 94, el cotejo íntegro de los 144 artículos del perímetro CPP ya curados reveló que el art. 238 había sido reformado (nueva letra h sobre armas de fuego). El módulo reproducía una versión de 2005 no vigente, cuatro meses antes de la revalidación semestral prevista (2027-01-06).
+- **Lección**: la revalidación semestral fija un plazo máximo, no una periodicidad suficiente. Cada descarga oficial de un cuerpo legal ofrece, sin costo adicional, la oportunidad de detectar reformas sobre el perímetro ya curado; desaprovecharla deja en el módulo textos derogados que la skill presentaría como verificados.
+- **Regla operativa**: cada vez que se descargue el XML oficial de un cuerpo legal, cualquiera sea el motivo, se coteja íntegramente con todos los artículos de ese cuerpo que ya consten en los módulos curados, sin esperar el vencimiento semestral. Toda divergencia se re-cura como corrección de manifiesto (15.3.3.a), con anotación de la reforma fuera del bloque de texto legal, y el resultado del cotejo (idénticos / reformados) se deja en el registro de curatoría. Si el cuerpo descargado no tiene artículos curados, así se consigna.
+- **Vigencia**: permanente.
+
+
 ---
 
 ## Histórico consolidado

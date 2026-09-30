@@ -1,5 +1,18 @@
 # Registro de cambios — `analisis-penal-chile`
 
+## v4.14 — 30 de septiembre de 2026
+
+**Aprobaciones expresas del titular (2026-09-30) de las dos propuestas formuladas en la entrega de la v4.13.**
+
+1. **A-027 incorporada** a `references/aprendizajes.md` en estado **aprobado** (Metodología; cambio de criterio): cada vez que se descargue el XML oficial de un cuerpo legal se coteja íntegramente con todos los artículos de ese cuerpo ya curados, sin esperar la revalidación semestral; las divergencias se re-curan como corrección de manifiesto y el resultado del cotejo se registra. Origen: reforma del art. 238 CPP detectada en la curatoría del 2026-09-30.
+2. **`scripts/curar_norma.py`, modo `--tratado`**: segmenta por artículo el texto íntegro de los tratados que LeyChile publica en el nodo `Anexo` del decreto promulgatorio. Reconoce títulos separados por punto, coma, guion o dos puntos y partidos en varias líneas; registra como ruta Parte/Capítulo/Sección (con rótulos partidos por línea en blanco); excluye preámbulo y fórmula «EN FE DE LO CUAL»; reconoce sin corregir el encabezado dañado del art. 43 CADH (carácter U+FFFD en la fuente); emite **advertencia de segmentación** bloqueante ante saltos o duplicados. `--listar` avisa cuando la norma contiene Anexos. Registro local ampliado con CPR (242302), COT (25563), CADH (16022) y PIDCP (15551). Validación sobre los XML oficiales: CADH 82/82 y PIDCP 53/53 artículos, cobertura íntegra del texto por recuento de palabras (8.458 y 7.027). El control de secuencia detectó durante el desarrollo el separador por coma del art. 27 CADH, que un criterio sin control habría omitido.
+3. **Inserción en `references/marco-legal.md`, sección 3 bis.3**: CADH art. 8 (idNorma 16022, Anexo idParte 7153657, versión 1991-01-05, XML SHA-256 `b5287e29…4c54`) y PIDCP art. 14 (idNorma 15551, Anexo idParte 8681480, versión 1989-04-29, XML SHA-256 `6d857285…0afe5`). Corpus verificado: 289 artículos. Cierra la laguna consignada en la v4.13. Cotejo A-027: sin artículos previamente curados de estos cuerpos.
+4. **Corrección de manifiesto (15.3.3.a)**: la sección 3 bis.3 de la v4.13 y su entrada del CHANGELOG describían el texto del tratado como contenido en un único nodo «Artículo s/n»; el nodo contiene solo la fórmula promulgatoria y el tratado consta en el nodo `Anexo`. Se anota la corrección en el módulo. Se actualiza también el recuento del catálogo de `marco-legal.md` en SKILL.md.
+5. Repositorio `estrategia-litigio-penal`: XML oficiales de la CADH y del PIDCP conservados en `curatoria/xml/`; motor canónico y copia empaquetada idénticos (A-022); suite `test_curar_norma.py` ampliada a 46 pruebas.
+6. Versión incrementada a 4.14; índice maestro regenerado (R-4); auditoría `verificar-integridad.sh` conforme (R-3).
+
+*Pendientes que subsisten*: instalación de la v4.14 (acto del titular); individualización de la ley modificatoria del art. 238 CPP; incorporación a `curatoria/xml/` de los XML del CPP, la CPR y el COT descargados el 2026-09-30 en otra sesión; discordancia entre `metadata.version` del frontmatter de SKILL.md («4.11») y la versión registrada, pendiente de autorización; revalidación del perímetro CP.
+
 ## v4.13 — 30 de septiembre de 2026
 
 **Curatoría normativa derivada del escrito de entrevista telemática (instrucción del titular, 2026-09-30).**

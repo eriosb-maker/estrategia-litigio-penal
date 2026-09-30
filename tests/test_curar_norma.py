@@ -247,3 +247,155 @@ class TestDisambiguadorDobleArticulado:
     ])
     def test_limpia_sufijo_del_articulo_contenedor(self, crudo, esperado):
         assert curar_norma._limpiar_disambiguador_articulado(crudo) == esperado
+
+
+# ---------------------------------------------------------------------------
+# Modo --tratado (v4.14, aprobación del titular del 2026-09-30): tratados que
+# LeyChile publica como «Artículo s/n» promulgatorio + texto íntegro en Anexo.
+# ---------------------------------------------------------------------------
+
+XML_TRATADO = """<?xml version="1.0" encoding="UTF-8"?>
+<Norma xmlns="http://www.leychile.cl/esquemas" normaId="777" fechaVersion="1991-01-05" derogado="no derogado">
+  <Identificador fechaPublicacion="1991-01-05">
+    <TiposNumeros><TipoNumero><Tipo>Decreto</Tipo><Numero>1</Numero></TipoNumero></TiposNumeros>
+  </Identificador>
+  <Metadatos><TituloNorma>APRUEBA TRATADO DE PRUEBA</TituloNorma></Metadatos>
+  <EstructurasFuncionales>
+    <EstructuraFuncional tipoParte="Artículo" fechaVersion="1991-01-05" derogado="no derogado" idParte="1">
+      <Texto>POR TANTO, dispongo y mando que se cumpla.</Texto>
+      <Metadatos><NombreParte presente="no"></NombreParte></Metadatos>
+    </EstructuraFuncional>
+  </EstructurasFuncionales>
+  <Anexos>
+    <Anexo fechaVersion="1991-01-05" derogado="no derogado" idParte="900" transitorio="no transitorio">
+      <Metadatos><Titulo>TRATADO DE PRUEBA</Titulo></Metadatos>
+      <Texto>TRATADO DE PRUEBA
+
+    Preámbulo que menciona el artículo 2 sin ser encabezado.
+
+    Parte I - Deberes
+
+    CAPITULO I - PRIMERO Y
+
+                   SEGUNDO
+
+    Artículo 1. Obligación de Respetar
+
+    1. Texto del artículo uno.
+
+    Artículo 2, Título con Coma
+      en Dos Líneas
+
+    2. Texto del artículo dos.
+
+    Parte II - Medios
+
+    Sección 1. Organización
+
+    Art�culo 3
+
+    Texto del artículo tres, cuyo encabezado viene dañado en la fuente.
+
+    EN FE DE LO CUAL, los plenipotenciarios firman.</Texto>
+    </Anexo>
+  </Anexos>
+</Norma>
+"""
+
+
+@pytest.fixture
+def xml_tratado(tmp_path):
+    ruta = tmp_path / "tratado.xml"
+    ruta.write_text(XML_TRATADO, encoding="utf-8")
+    return str(ruta)
+
+
+class TestTratado:
+    def test_sin_modo_tratado_conserva_comportamiento(self, xml_tratado):
+        _md, encontrados, _f = curar_norma.generar_extracto(xml_tratado, "1-3", "T")
+        assert encontrados == []
+
+    def test_segmenta_articulos_del_anexo(self, xml_tratado):
+        md, encontrados, faltantes = curar_norma.generar_extracto(
+            xml_tratado, "1-3", "T", idnorma_esperado=777, tratado=True)
+        assert [a["numero"] for a in encontrados] == [1, 2, 3]
+        assert faltantes == []
+        assert "Advertencia de segmentación" not in md
+
+    def test_titulos_con_punto_coma_y_varias_lineas(self, xml_tratado):
+        _md, enc, _f = curar_norma.generar_extracto(xml_tratado, "1-3", "T", tratado=True)
+        titulos = {a["numero"]: a["titulo"] for a in enc}
+        assert titulos == {1: "Obligación de Respetar",
+                           2: "Título con Coma en Dos Líneas", 3: ""}
+
+    def test_rutas_con_agrupadores_y_rotulo_partido(self, xml_tratado):
+        _md, enc, _f = curar_norma.generar_extracto(xml_tratado, "1-3", "T", tratado=True)
+        rutas = {a["numero"]: a["ruta"] for a in enc}
+        assert rutas[1] == ("TRATADO DE PRUEBA › Parte I - Deberes › "
+                            "CAPITULO I - PRIMERO Y SEGUNDO")
+        # Una nueva Parte reinicia los niveles inferiores (Capítulo).
+        assert rutas[3] == "TRATADO DE PRUEBA › Parte II - Medios › Sección 1. Organización"
+
+    def test_excluye_preambulo_cierre_y_agrupadores_del_cuerpo(self, xml_tratado):
+        _md, enc, _f = curar_norma.generar_extracto(xml_tratado, "1-3", "T", tratado=True)
+        cuerpos = " ".join(a["texto"] for a in enc)
+        for ajeno in ("Preámbulo", "EN FE DE LO CUAL", "Parte II", "Sección 1"):
+            assert ajeno not in cuerpos
+        assert enc[2]["texto"].startswith("    Texto del artículo tres")
+
+    def test_encabezado_danado_se_reconoce_sin_corregir_la_fuente(self, xml_tratado):
+        md, enc, _f = curar_norma.generar_extracto(xml_tratado, "3", "T", tratado=True)
+        assert [a["numero"] for a in enc] == [3]
+        assert "cuyo encabezado viene dañado en la fuente" in md
+
+    def test_trazabilidad_del_anexo(self, xml_tratado):
+        md, _e, _f = curar_norma.generar_extracto(xml_tratado, "1", "T", tratado=True)
+        assert "### T — Art. 1. Obligación de Respetar" in md
+        assert "Anexo idParte 900" in md and "segmentado por curar_norma.py" in md
+
+    def test_anomalias_de_secuencia(self):
+        assert curar_norma.anomalias_secuencia([1, 2, 3]) == []
+        assert curar_norma.anomalias_secuencia([1, 3]) == ["artículos no detectados: 2"]
+        assert "artículo 2 duplicado" in curar_norma.anomalias_secuencia([1, 2, 2])
+
+    def test_xml_sin_anexo_en_modo_tratado_falla(self, xml_simple):
+        with pytest.raises(SystemExit):
+            curar_norma.generar_extracto(xml_simple, "1", "T", tratado=True)
+
+
+_XML_OFICIAL = pathlib.Path(__file__).resolve().parent.parent / "curatoria" / "xml"
+
+
+@pytest.mark.parametrize("archivo,idnorma,sha256,total", [
+    ("cadh-d873-idNorma-16022.xml", 16022,
+     "b5287e29c6026e64e5f24f798b5ea794cfe1cd0e163fed11f8a585d0ee524c54", 82),
+    ("pidcp-d778-idNorma-15551.xml", 15551,
+     "6d857285d1cf860d7d1fd74543735d63af8e2b8bbc265cd15cc059575760afe5", 53),
+])
+def test_tratados_oficiales_segmentacion_integra(archivo, idnorma, sha256, total):
+    ruta = _XML_OFICIAL / archivo
+    assert hashlib.sha256(ruta.read_bytes()).hexdigest() == sha256
+    md, enc, faltantes = curar_norma.generar_extracto(
+        str(ruta), f"1-{total}", "T", idnorma_esperado=idnorma, tratado=True)
+    assert [a["numero"] for a in enc] == list(range(1, total + 1))
+    assert faltantes == [] and "Advertencia de segmentación" not in md
+    assert all(a["texto"].strip() for a in enc)
+
+
+def test_cadh_art_8_2_y_pidcp_art_14_3():
+    cadh = curar_norma.generar_extracto(
+        str(_XML_OFICIAL / "cadh-d873-idNorma-16022.xml"), "8", "CADH", tratado=True)[1][0]
+    assert cadh["titulo"] == "Garantías Judiciales"
+    assert "2. Toda persona inculpada de delito tiene derecho a que se presuma su inocencia" \
+        in cadh["texto"]
+    pidcp = curar_norma.generar_extracto(
+        str(_XML_OFICIAL / "pidcp-d778-idNorma-15551.xml"), "14", "PIDCP", tratado=True)[1][0]
+    assert "3. Durante el proceso, toda persona acusada de un delito tendrá derecho" \
+        in pidcp["texto"]
+
+
+@pytest.mark.parametrize("consulta,idnorma", [
+    ("CPR", 242302), ("COT", 25563), ("CADH", 16022), ("PIDCP", 15551),
+])
+def test_registro_ampliado_2026_09_30(consulta, idnorma):
+    assert curar_norma.resolver_desde_registro(consulta)["idnorma"] == idnorma
