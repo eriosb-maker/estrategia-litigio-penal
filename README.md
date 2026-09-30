@@ -30,10 +30,11 @@ GitHub Actions ejecuta automáticamente:
   canónico y su copia empaquetada en `skill/scripts/` (aprendizaje A-022).
 - `scripts/vigilar_revalidacion.py` — vigilancia de los plazos de
   revalidación semestral declarados en los módulos normativos curados.
-- `skill/` — paquete completo de la skill `analisis-penal-chile` **v4.14**
+- `skill/` — paquete completo de la skill `analisis-penal-chile` **v4.15**
   (linaje reconciliado v4.3 → v4.11 incorporado el 2026-07-17, subsanando el
   Defecto N° 6; v4.12 —regla A-026—, v4.13 —curatoría normativa del
-  2026-09-30— y v4.14 —regla A-027 y modo tratado— propagadas el 2026-09-30). Comprende SKILL.md, los módulos de `references/`, los motores de
+  2026-09-30— y v4.14 —regla A-027 y modo tratado— y v4.15 —Ley 21.829 y XML
+  CPP/CPR/COT— propagadas el 2026-09-30). Comprende SKILL.md, los módulos de `references/`, los motores de
   `scripts/`, plantillas, ejemplo trabajado, `index-maestro.json`,
   `CHANGELOG.md` y `verificar-integridad.sh`. Los módulos normativos están
   verificados contra XML oficiales de LeyChile: `marco-legal.md` (**289
@@ -41,7 +42,8 @@ GitHub Actions ejecuta automáticamente:
   CPP re-curado por reforma en la versión oficial 2026-07-22), `leyes-especiales.md`
   (177 artículos de las Leyes 21.595, 20.393, 19.913, 21.459 y 20.000) y
   `tributario.md` (52 artículos del Código Tributario, la Ley de IVA y la
-  Ley de Renta); XML con SHA-256 en `curatoria/xml/`. Incluye además el
+  Ley de Renta); XML con SHA-256 en `curatoria/xml/` (leyes especiales,
+  tributarias, CPP, CPR, COT, CADH y PIDCP). Incluye además el
   protocolo de curatoría de jurisprudencia (v4.6:
   `jurisprudencia-curada.md`, `curar_jurisprudencia.py`) y la regla de
   curatoría binaria A-023 (v4.9); tablas normativas XML (v4.9–v4.10).

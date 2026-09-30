@@ -1,22 +1,22 @@
 {
   "_nota": "Indice maestro de integridad. Estados: instalado | no_propagado (construido, no instalado) | ausente (invocado o comprometido, nunca instalado). El indice y el script de verificacion se excluyen de si mismos.",
   "skill": "analisis-penal-chile",
-  "version_skill": "4.14",
+  "version_skill": "4.15",
   "fecha_indice": "2026-09-30",
   "algoritmo": "sha256",
-  "origen_version": "v4.14: A-027 (cotejo íntegro ante toda descarga oficial) y modo --tratado de curar_norma.py, aprobados por el titular el 2026-09-30; inserción de CADH art. 8 y PIDCP art. 14. Base: v4.13.",
+  "origen_version": "v4.15: individualización de la Ley N° 21.829 como modificatoria del art. 238 CPP; XML CPP/CPR/COT conservados y cotejo A-027 conforme; alineación de metadata.version. Base: v4.14.",
   "archivos": [
     {
       "ruta": "CHANGELOG.md",
       "estado": "instalado",
-      "sha256": "e4e458c8a9e206f977d73a0548e25d7013ae8b5ae1aacd401be7b73392e11d31",
-      "bytes": 48585
+      "sha256": "4322772e5248b6488715396607bff466ad292751acc40c6bcf16c68c7109b304",
+      "bytes": 50645
     },
     {
       "ruta": "SKILL.md",
       "estado": "instalado",
-      "sha256": "b38cbeaa7b1b978c34b771e89d778826b6995aea7f9c8bef02a10934cb1ab422",
-      "bytes": 60867
+      "sha256": "32a2a546d21f77f76aa068e5fdcf632191ccc25c9fa1811cd11aa4b26b7f21a5",
+      "bytes": 61491
     },
     {
       "ruta": "assets/fuentes/Art56CP.jpeg",
@@ -141,8 +141,8 @@
     {
       "ruta": "references/marco-legal.md",
       "estado": "instalado",
-      "sha256": "6461946736e7320338fbfaefaaa5d546c0e7563866dca574111237c1f087d947",
-      "bytes": 367224
+      "sha256": "c0a9ee0d6d3dcb0909781f73727b8267f94b87e1db7e811660a2aa0993743a7f",
+      "bytes": 368593
     },
     {
       "ruta": "references/metodologia-detallada.md",

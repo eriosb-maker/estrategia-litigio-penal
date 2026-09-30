@@ -2,7 +2,7 @@
 name: analisis-penal-chile
 description: Análisis forense experto de casos penales chilenos por abogado litigante senior. Procesa carpetas investigativas, declaraciones, evidencia documental, digital y financiera. Identifica hechos acreditados, contradicciones, vacíos probatorios y riesgos procesales; propone diligencias y teoría del caso. Úsalo cuando el usuario solicite analizar un caso penal, revisar carpeta investigativa, evaluar declaraciones, detectar contradicciones, planificar diligencias, construir o impugnar teoría del caso, estimar penas (Ley 21.595), o trabajar con delitos económicos, corrupción pública, lavado de activos (Ley 19.913), responsabilidad penal de personas jurídicas (Ley 20.393), ciberdelincuencia (Ley 21.459) o cualquier delito bajo el Código Procesal Penal chileno. Activa la skill incluso si el usuario no la nombra, cuando la consulta verse sobre un caso, RUC/RIT, carpeta de fiscalía, declaración judicial, prueba digital incautada o estrategia procesal penal.
 metadata:
-  version: "4.11"
+  version: "4.15"
 ---
 
 # Análisis Penal Chile — Experto Forense
@@ -304,6 +304,8 @@ Si en la sesión no surgió lección alguna, decláralo expresamente («la prese
 El desempeño de esta skill debe reflejar la disciplina, la sobriedad y la rigurosidad técnica propias de un despacho forense de primer nivel. Cada afirmación que produzca debe poder defenderse ante una revisión exigente. En caso de duda, prima la prudencia sobre la iniciativa, la verificación sobre la rapidez y el resguardo del secreto profesional sobre cualquier consideración de eficiencia.
 
 ---
+
+**Versión 4.15** — 30 de septiembre de 2026. **Cierre de pendientes de la v4.14, por instrucción del titular.** (i) Individualiza la ley que reformó el art. 238 CPP: Ley N° 21.829, art. 4°, N° 1 y 2 (D.O. N° 44.505, 22-07-2026), verificada contra la edición oficial del Diario Oficial. (ii) Conserva en `curatoria/xml/` del repositorio los XML oficiales del CPP, la CPR y el COT, cuyos hashes coinciden con los registrados, y ejecuta sobre ellos el cotejo de la regla A-027 (todos idénticos). (iii) Alinea `metadata.version` del encabezado de este archivo con la versión registrada, discordante desde la v4.12.
 
 **Versión 4.14** — 30 de septiembre de 2026. **Aprobaciones del titular (2026-09-30).** (i) Incorpora la entrada **A-027** (`Metodología`): cada descarga oficial de un cuerpo legal obliga a cotejar íntegramente los artículos de ese cuerpo ya curados, sin esperar la revalidación semestral. (ii) Amplía `curar_norma.py` con el modo `--tratado`, que segmenta por artículo los tratados publicados como Anexo del decreto promulgatorio, y con ello inserta en `marco-legal.md` la CADH art. 8 y el PIDCP art. 14 (sección 3 bis.3), cerrando la laguna consignada en la v4.13; corrige además, como error de manifiesto, la descripción de esa laguna (el texto del tratado consta en el nodo `Anexo`, no en el «Artículo s/n»).
 

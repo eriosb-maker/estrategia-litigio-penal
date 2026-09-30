@@ -1,5 +1,17 @@
 # Registro de cambios — `analisis-penal-chile`
 
+## v4.15 — 30 de septiembre de 2026
+
+**Cierre de los tres pendientes de la v4.14 (instrucción del titular, 2026-09-30).**
+
+1. **Ley modificatoria del art. 238 CPP individualizada**: Ley N° 21.829, «Modifica cuerpos legales que indica para prohibir el porte y tenencia de armas de fuego a personas procesadas o condenadas por violencia intrafamiliar», art. 4°: N° 1 sustituye en la letra g) «, y» por punto y coma; N° 2 intercala la letra h) nueva y la antigua pasa a ser i). Promulgada el 13-07-2026; publicada en el Diario Oficial N° 44.505 de 22-07-2026 (CVE 2842294). Verificada contra la edición oficial del Diario Oficial; concuerda con el texto consolidado del XML y con la fecha de versión del artículo (2026-07-22), única del CPP con esa fecha. La anotación de curatoría del art. 238 en `marco-legal.md` queda completada. Método: la ficha de LeyChile y la descarga directa del PDF no son alcanzables desde el entorno de trabajo; la lectura del Diario Oficial se hizo mediante herramienta de consulta web, por lo que no se registra hash del PDF.
+2. **XML oficiales conservados en `curatoria/xml/`** del repositorio: `cpp-ley19696-idNorma-176595.xml` (SHA-256 `890ef6a2…6390b`), `cpr-d100-idNorma-242302.xml` (`f49fa004…07ab`) y `cot-idNorma-25563.xml` (`6a60c46a…6d994`), descargados nuevamente el 2026-09-30 con hashes idénticos a los registrados en la v4.13.
+3. **Cotejo A-027** con ocasión de esa descarga: CPP 146/146, CPR 2/2 y COT 1/1 artículos curados idénticos al texto oficial vigente. Registro de curatoría ampliado.
+4. **Corrección de manifiesto (15.3.3.a)**: `metadata.version` del frontmatter de SKILL.md permanecía en «4.11» desde la v4.12; se alinea con la versión registrada («4.15»).
+5. Versión incrementada a 4.15; índice maestro regenerado (R-4); auditoría `verificar-integridad.sh` conforme (R-3).
+
+*Pendientes que subsisten*: instalación de la v4.15 (acto del titular); revalidación del perímetro CP (vence el 2027-01-06), cuyo XML (idNorma 1984) tampoco consta aún en `curatoria/xml/`.
+
 ## v4.14 — 30 de septiembre de 2026
 
 **Aprobaciones expresas del titular (2026-09-30) de las dos propuestas formuladas en la entrega de la v4.13.**

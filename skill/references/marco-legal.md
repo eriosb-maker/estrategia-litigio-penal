@@ -18,6 +18,10 @@
 > **Actualización 2026-09-30 (v4.14)**: se insertan CADH art. 8 y PIDCP art. 14 (sección 3 bis.3),
 > segmentados del Anexo de sus decretos promulgatorios con `curar_norma.py --tratado`. Corpus: 289
 > artículos. Vencen el 2027-03-30.
+>
+> **Cotejo A-027 (2026-09-30, v4.15)**: nueva descarga de los XML del CPP, la CPR y el COT, con hashes
+> idénticos a los registrados; 146/146 artículos CPP, 2/2 CPR y 1/1 COT idénticos al texto oficial.
+> Ley modificatoria del art. 238 CPP individualizada (Ley N° 21.829). XML conservados en `curatoria/xml/`.
 
 ---
 
@@ -4863,7 +4867,7 @@ ella, el juez podrá modificar una o más de las condiciones
 impuestas.
 ```
 
-> *Anotación de curatoría (2026-09-30, corrección de manifiesto)*: artículo re-curado desde el XML oficial versión 2026-07-22 (SHA-256 `890ef6a2…6390b`). La versión anterior del módulo (versión del artículo 2005-11-14) quedó desactualizada: se intercaló una nueva letra h) —prohibición de tenencia o porte de armas de fuego o su incautación, conforme a la Ley N° 17.798— y la antigua letra h) pasó a ser letra i). El XML oficial no identifica la ley modificatoria; su individualización queda pendiente de verificación en la ficha de LeyChile.
+> *Anotación de curatoría (2026-09-30, corrección de manifiesto)*: artículo re-curado desde el XML oficial versión 2026-07-22 (SHA-256 `890ef6a2…6390b`). La versión anterior del módulo (versión del artículo 2005-11-14) quedó desactualizada: se intercaló una nueva letra h) —prohibición de tenencia o porte de armas de fuego o su incautación, conforme a la Ley N° 17.798— y la antigua letra h) pasó a ser letra i). La reforma proviene del **art. 4°, N° 1 y 2, de la Ley N° 21.829** («Modifica cuerpos legales que indica para prohibir el porte y tenencia de armas de fuego a personas procesadas o condenadas por violencia intrafamiliar»), promulgada el 13-07-2026 y publicada en el Diario Oficial N° 44.505 de 22-07-2026 (CVE 2842294): el N° 1 sustituye en la letra g) la expresión «, y» por un punto y coma; el N° 2 intercala la nueva letra h) y la antigua pasa a ser i). Identificación verificada el 2026-09-30 contra la edición oficial del Diario Oficial (diariooficial.interior.gob.cl), cuyo texto concuerda con el consolidado del XML; la fecha de publicación coincide con la versión del artículo (2026-07-22), única disposición del CPP con esa fecha de versión.
 
 ### CPP — Art. 238 bis
 *Libro Segundo Procedimiento ordinario › Título I Etapa de investigación › Párrafo 6º Suspensión condicional del procedimiento y acuerdos reparatorios* — `idParte 10515446 · versión del artículo: 2024-09-04`
@@ -7585,3 +7589,4 @@ a la sección 7 del SKILL.md.)*
 | 2026-09-30 | COT (idNorma 25563) | 14 (1 artículo; sección 3 bis.2; XML SHA-256 6a60c46a…6d994) | 2026-04-02 | curar_norma.py |
 | 2026-09-30 | CADH (16022) · PIDCP (15551) | Sin inserción: nodo único «Artículo s/n» no segmentable por el motor (sección 3 bis.3) | 1991-01-05 · 1989-04-29 | laguna consignada |
 | 2026-09-30 | CADH (idNorma 16022) · PIDCP (idNorma 15551) | CADH 8; PIDCP 14 (2 artículos; sección 3 bis.3; modo `--tratado`; secuencia correlativa 82/82 y 53/53; XML SHA-256 b5287e29…4c54 y 6d857285…0afe5). Cotejo A-027: sin artículos previamente curados de estos cuerpos | 1991-01-05 · 1989-04-29 | curar_norma.py --tratado |
+| 2026-09-30 | CPP (176595) · CPR (242302) · COT (25563) | Cotejo A-027 sin inserciones: CPP 146/146, CPR 2/2 y COT 1/1 idénticos; XML con hashes idénticos a los registrados (890ef6a2…6390b; f49fa004…07ab; 6a60c46a…6d994), conservados en `curatoria/xml/`; art. 238 CPP: reforma atribuida a la Ley N° 21.829, art. 4° (D.O. 22-07-2026) | 2026-07-22 · 2026-04-16 · 2026-04-02 | curar_norma.py (A-027) |
