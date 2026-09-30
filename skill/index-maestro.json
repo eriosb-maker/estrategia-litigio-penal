@@ -1,22 +1,22 @@
 {
   "_nota": "Indice maestro de integridad. Estados: instalado | no_propagado (construido, no instalado) | ausente (invocado o comprometido, nunca instalado). El indice y el script de verificacion se excluyen de si mismos.",
   "skill": "analisis-penal-chile",
-  "version_skill": "4.11",
-  "fecha_indice": "2026-07-17",
+  "version_skill": "4.13",
+  "fecha_indice": "2026-09-30",
   "algoritmo": "sha256",
-  "origen_version": "v4.11: versión exclusivamente registral — fe de erratas de la entrada v4.10 (skill/ publicado en v4.9 por commit e154c54, no en v4.2) y constancia de cierre del Defecto N° 6 en el ciclo v4.10 (commit c70d2ae, publicado y verificado por clon independiente; sincronía A-022 conforme). Base: v4.10.",
+  "origen_version": "v4.13: curatoría normativa del 2026-09-30 — arts. 93 y 94 CPP, CPR arts. 5° y 19, COT art. 14; re-curación del art. 238 CPP por reforma (versión 2026-07-22); laguna CADH/PIDCP. Base: v4.12.",
   "archivos": [
     {
       "ruta": "CHANGELOG.md",
       "estado": "instalado",
-      "sha256": "93ab7991b1b12900e69eafdb774af3b5c12c9364fe4c1698e3b33976869beb9a",
-      "bytes": 41610
+      "sha256": "0c1ea79890d443f6b0919d81af8146d60d84bab68ee428cf82005d0eb5e393da",
+      "bytes": 45395
     },
     {
       "ruta": "SKILL.md",
       "estado": "instalado",
-      "sha256": "5417e9a975c904f99c13ab91e9d0b2f10c09b86e246332073445363fd93830e4",
-      "bytes": 57791
+      "sha256": "a36a3fed4862ad14fcd8b1ebaf929db7bc019e0f2edf6480f8256359f9bcd62e",
+      "bytes": 59300
     },
     {
       "ruta": "assets/fuentes/Art56CP.jpeg",
@@ -63,8 +63,8 @@
     {
       "ruta": "references/aprendizajes.md",
       "estado": "instalado",
-      "sha256": "361700a0ee878567027697fe7ed729429432dae0e4062ccc3886119bb27cfab0",
-      "bytes": 32946
+      "sha256": "aae44ab40fd8be50a1911f9593e3f0a50f7bf607a306e8448e03088d723f48c8",
+      "bytes": 34794
     },
     {
       "ruta": "references/audiencia-preparacion.md",
@@ -141,8 +141,8 @@
     {
       "ruta": "references/marco-legal.md",
       "estado": "instalado",
-      "sha256": "4277ee79a7e171a302061d6177fea7c8f54a01383f23ab76294682bb94c1f835",
-      "bytes": 314048
+      "sha256": "65bc9c5817f5471d4262b3bc20f2c9f17090d7fe0a2d7719e3520f16b757c91d",
+      "bytes": 358841
     },
     {
       "ruta": "references/metodologia-detallada.md",

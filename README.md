@@ -30,14 +30,15 @@ GitHub Actions ejecuta automáticamente:
   canónico y su copia empaquetada en `skill/scripts/` (aprendizaje A-022).
 - `scripts/vigilar_revalidacion.py` — vigilancia de los plazos de
   revalidación semestral declarados en los módulos normativos curados.
-- `skill/` — paquete completo de la skill `analisis-penal-chile` **v4.11**
+- `skill/` — paquete completo de la skill `analisis-penal-chile` **v4.13**
   (linaje reconciliado v4.3 → v4.11 incorporado el 2026-07-17, subsanando el
-  Defecto N° 6: el directorio permanecía anclado en el linaje publicado
-  v4.2). Comprende SKILL.md, los módulos de `references/`, los motores de
+  Defecto N° 6; v4.12 —regla A-026— y v4.13 —curatoría normativa del
+  2026-09-30— propagadas el 2026-09-30). Comprende SKILL.md, los módulos de `references/`, los motores de
   `scripts/`, plantillas, ejemplo trabajado, `index-maestro.json`,
   `CHANGELOG.md` y `verificar-integridad.sh`. Los módulos normativos están
-  verificados contra XML oficiales de LeyChile: `marco-legal.md` (**282
-  artículos** CP/CPP tras las curatorías v4.5 y v4.8), `leyes-especiales.md`
+  verificados contra XML oficiales de LeyChile: `marco-legal.md` (**287
+  artículos** CP/CPP/CPR/COT tras las curatorías v4.5, v4.8 y v4.13; art. 238
+  CPP re-curado por reforma en la versión oficial 2026-07-22), `leyes-especiales.md`
   (177 artículos de las Leyes 21.595, 20.393, 19.913, 21.459 y 20.000) y
   `tributario.md` (52 artículos del Código Tributario, la Ley de IVA y la
   Ley de Renta); XML con SHA-256 en `curatoria/xml/`. Incluye además el

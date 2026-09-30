@@ -1,5 +1,26 @@
 # Registro de cambios — `analisis-penal-chile`
 
+## v4.13 — 30 de septiembre de 2026
+
+**Curatoría normativa derivada del escrito de entrevista telemática (instrucción del titular, 2026-09-30).**
+
+1. **Inserciones en `references/marco-legal.md`** (cadena A-015/A-018/A-021 y `curar_norma.py`): sección 3.9, arts. 93 y 94 CPP (idNorma 176595, versión 2026-07-22, XML SHA-256 `890ef6a2…6390b`); sección 3 bis.1, arts. 5° y 19 CPR (idNorma 242302, versión 2026-04-16, SHA-256 `f49fa004…07ab`); sección 3 bis.2, art. 14 COT (idNorma 25563, versión 2026-04-02, SHA-256 `6a60c46a…6d994`). Corpus verificado: 287 artículos. Los extractos del 2026-09-30 vencen el 2027-03-30.
+2. **Corrección de manifiesto (15.3.3.a), aplicada e informada**: el cotejo íntegro de los 144 artículos del perímetro CPP contra la versión 2026-07-22 arrojó 143 idénticos y uno reformado. El **art. 238** incorpora una nueva letra h) —prohibición de tenencia o porte de armas de fuego o su incautación, conforme a la Ley N° 17.798— y la antigua h) pasa a ser i). Se re-curó el artículo y se anotó la reforma fuera del bloque de texto legal. El XML oficial no individualiza la ley modificatoria: queda pendiente de verificación en la ficha de LeyChile. Ningún otro módulo cita la letra afectada.
+3. **Laguna consignada**: la CADH (idNorma 16022) y el PIDCP (idNorma 15551) constan en LeyChile como un único nodo «Artículo s/n»; `curar_norma.py` no los segmenta por artículo del tratado. No se insertó texto; sus citas conservan la marca «pendiente de verificación» en el módulo (sección 3 bis.3), sin perjuicio del cotejo conforme practicado el 2026-09-30.
+4. Protocolo de curatoría del módulo: se agregan los idNorma verificados de CPR, COT, CADH y PIDCP. Registro de curatoría ampliado en cuatro filas.
+5. Versión incrementada a 4.13; índice maestro regenerado (R-4); auditoría `verificar-integridad.sh` conforme (R-3).
+
+*Pendientes que subsisten*: instalación de la v4.13 (acto del titular); propagación al repositorio `estrategia-litigio-penal` (Defecto N° 6); individualización de la ley modificatoria del art. 238 CPP; extensión del motor para tratados (propuesta, pendiente de aprobación); revalidación del perímetro CP.
+
+## v4.12 — 30 de septiembre de 2026
+
+**Protocolo de Cierre y Aprendizaje de la sesión de curatoría del escrito de entrevista telemática.**
+
+1. **A-026 incorporada** a `references/aprendizajes.md` en estado **aprobado** (categoría Metodología; naturaleza cambio de criterio; aprobación expresa del titular el 2026-09-30). Contenido: toda cita normativa incorporada a un escrito judicial se verifica mediante la cadena oficial (A-015 y `curar_norma.py`), aunque la skill no haya sido invocada; una fuente secundaria nunca reemplaza esa verificación y, a lo sumo, orienta la búsqueda. Origen: verificación inicial derivada a un agregador privado tras un HTTP 401 de `obtxml`, en desatención de A-021; la curatoría oficial posterior (CPP idNorma 176595, versión 2026-07-22; COT 25563; CPR 242302; CADH 16022; PIDCP 15551) resultó conforme y reveló los arts. 150, inciso tercero, y 151, inciso primero, CPP.
+2. Versión incrementada a 4.12; índice maestro regenerado conforme a R-4; paquete auditado con `verificar-integridad.sh` conforme a R-3. Módulos alterados: `references/aprendizajes.md`, `SKILL.md` (registro de versión) y `CHANGELOG.md`.
+
+*Pendientes que subsisten*: instalación del paquete v4.12 en Claude.ai (acto del titular); propagación de la v4.12 al directorio `skill/` del repositorio `estrategia-litigio-penal` (Defecto N° 6, reapertura natural); inserción en `marco-legal.md` de los extractos curados el 2026-09-30 (arts. 93, 94 y 151 CPP; art. 14 COT; arts. 5° y 19 CPR; art. 8.2 CADH; art. 14.3 PIDCP), no ejecutada en esta versión.
+
 ## v4.11 — 17 de julio de 2026
 
 **Versión exclusivamente registral: rectificación de manifiesto (15.3.3.a) y constancia de cierre del Defecto N° 6 en el ciclo v4.10.**

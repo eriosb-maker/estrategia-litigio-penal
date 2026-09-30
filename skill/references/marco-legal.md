@@ -1,4 +1,4 @@
-# Marco legal — Código Penal y Código Procesal Penal
+# Marco legal — Código Penal, Código Procesal Penal y normas complementarias
 
 > **Estado del módulo**: OPERATIVO — extractos verificados insertados el 2026-07-06
 > mediante `scripts/curar_norma.py` desde los XML oficiales de LeyChile
@@ -9,6 +9,11 @@
 > fecha indicada; todo artículo NO comprendido en el perímetro conserva la marca
 > **«cita pendiente de verificación»**. Revalidación semestral obligatoria
 > conforme a la regla 4 del protocolo (vence el 2027-01-06).
+>
+> **Actualización 2026-09-30**: cotejo íntegro del perímetro CPP (144 artículos) contra el XML
+> oficial versión 2026-07-22: 143 idénticos y 1 reformado (art. 238, re-curado). Se insertan los
+> arts. 93 y 94 CPP (sección 3.9) y la sección 3 bis (CPR arts. 5° y 19; COT art. 14). Los
+> extractos del 2026-09-30 vencen el 2027-03-30.
 
 ---
 
@@ -18,7 +23,10 @@
    `https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=<ID>` (opcionalmente
    `&notaPIE=1`). Identificadores verificados: Código Penal → idNorma **1984**;
    Código Procesal Penal (Ley 19.696) → idNorma **176595**; Código Tributario
-   (DL 830) → idNorma **6374**. Queda prohibido poblar este módulo desde
+   (DL 830) → idNorma **6374**; Constitución Política
+   (Decreto 100) → idNorma **242302**; Código Orgánico de Tribunales → idNorma
+   **25563**; Convención Americana (D. 873) → idNorma **16022**; Pacto
+   Internacional de Derechos Civiles y Políticos (D. 778) → idNorma **15551**. Queda prohibido poblar este módulo desde
    mirrors privados, memoria del modelo o versiones sin fecha.
 2. **Procesamiento**: `python scripts/curar_norma.py --xml <archivo> --articulos
    "<especificación>" --sigla <CP|CPP|CT> --idnorma <ID> --out <extracto.md>`.
@@ -4805,7 +4813,7 @@ hecho.
 ```
 
 ### CPP — Art. 238
-*Libro Segundo Procedimiento ordinario › Título I Etapa de investigación › Párrafo 6º Suspensión condicional del procedimiento y acuerdos reparatorios* — `idParte 8646800 · versión del artículo: 2005-11-14`
+*Libro Segundo Procedimiento ordinario › Título I Etapa de investigación › Párrafo 6º Suspensión condicional del procedimiento y acuerdos reparatorios* — `idParte 8646800 · versión del artículo: 2026-07-22`
 
 ```
      Artículo 238.- Condiciones por cumplir decretada la
@@ -4813,6 +4821,7 @@ suspensión condicional del procedimiento. El juez de
 garantía dispondrá, según correspondiere, que durante el
 período de suspensión, el imputado esté sujeto al
 cumplimiento de una o más de las siguientes condiciones:
+
      a) Residir o no residir en un lugar determinado;
      b) Abstenerse de frecuentar determinados lugares o
 personas;
@@ -4823,24 +4832,34 @@ empleo, o asistir a algún programa educacional o de
 capacitación;
      e) Pagar una determinada suma, a título de
 indemnización de perjuicios, a favor de la víctima o
-garantizar debidamente su pago. Se podrá autorizar el
-pago en cuotas o dentro de un determinado plazo, el que
-en ningún caso podrá exceder el período de suspensión
-del procedimiento;
+garantizar debidamente su pago. Se podrá autorizar el pago
+en cuotas o dentro de un determinado plazo, el que en
+ningún caso podrá exceder el período de suspensión del
+procedimiento;
      f) Acudir periódicamente ante el ministerio público
 y, en su caso, acreditar el cumplimiento de las demás
 condiciones impuestas;
-     g) Fijar domicilio e informar al ministerio público
-de cualquier cambio del mismo, y
-     h) Otra condición que resulte adecuada en
-consideración con las circunstancias del caso concreto
-de que se tratare y fuere propuesta, fundadamente, por
-el Ministerio Público.
+     g) Fijar domicilio e informar al ministerio público de
+cualquier cambio del mismo;
+     h) Prohibición de tenencia o porte de armas de fuego
+o, en su caso, incautación de armas de fuego por parte de
+la autoridad fiscalizadora, conforme a lo dispuesto en la
+ley N° 17.798, sobre Control de Armas. De ello se
+informará, según corresponda, a la Dirección General de
+Movilización Nacional, a la institución a la que pertenece
+o a la comandancia de guarnición para los fines legales y
+reglamentarios pertinentes, y
+     i) Otra condición que resulte adecuada en
+consideración con las circunstancias del caso concreto de
+que se tratare y fuere propuesta, fundadamente, por el
+Ministerio Público.
      Durante el período de suspensión y oyendo en una
 audiencia a todos los intervinientes que concurrieren a
-ella, el juez podrá modificar una o más de las
-condiciones impuestas.
+ella, el juez podrá modificar una o más de las condiciones
+impuestas.
 ```
+
+> *Anotación de curatoría (2026-09-30, corrección de manifiesto)*: artículo re-curado desde el XML oficial versión 2026-07-22 (SHA-256 `890ef6a2…6390b`). La versión anterior del módulo (versión del artículo 2005-11-14) quedó desactualizada: se intercaló una nueva letra h) —prohibición de tenencia o porte de armas de fuego o su incautación, conforme a la Ley N° 17.798— y la antigua letra h) pasó a ser letra i). El XML oficial no identifica la ley modificatoria; su individualización queda pendiente de verificación en la ficha de LeyChile.
 
 ### CPP — Art. 238 bis
 *Libro Segundo Procedimiento ordinario › Título I Etapa de investigación › Párrafo 6º Suspensión condicional del procedimiento y acuerdos reparatorios* — `idParte 10515446 · versión del artículo: 2024-09-04`
@@ -6748,6 +6767,736 @@ conforme a lo dispuesto en el artículo 468 bis.
 ```
 
 
+### 3.9 Derechos y garantías del imputado *(insertado el 2026-09-30)*
+- Arts. 93 y 94: catálogo general de derechos del imputado y garantías adicionales del imputado privado de libertad, incluida la entrevista privada con su abogado (art. 94 f), cuyo resguardo frente a la prohibición de comunicaciones consta en el art. 151 (sección 3.2). Extracto desde el XML versión 2026-07-22.
+
+## ESTABLECE CODIGO PROCESAL PENAL (CPP)
+
+> **Fuente oficial**: Biblioteca del Congreso Nacional — LeyChile, servicio XML `obtxml opt=7`, idNorma 176595 (Ley 19696), publicada el 2000-10-12.
+> **Versión de la norma**: 2026-07-22 · **Estado**: no derogado.
+> **Fecha de verificación de esta curatoría**: 2026-09-30. Todo uso posterior debe cotejar la vigencia en LeyChile.
+
+### CPP — Art. 93
+*Libro Primero Disposiciones generales › Título IV Sujetos procesales › Párrafo 4º El imputado › I.- Derechos y garantías del imputado* — `idParte 8646632 · versión del artículo: 2012-06-02`
+
+```
+     Artículo 93.- Derechos y garantías del imputado. Todo
+imputado podrá hacer valer, hasta la terminación del
+proceso, los derechos y garantías que le confieren las
+leyes.
+     En especial, tendrá derecho a:
+     a) Que se le informe de manera específica y clara
+acerca de los hechos que se le imputaren y los derechos que
+le otorgan la Constitución y las leyes;
+     b) Ser asistido por un abogado desde los actos
+iniciales de la investigación;
+     c) Solicitar de los fiscales diligencias de
+investigación destinadas a desvirtuar las imputaciones que
+se le formularen;
+     d) Solicitar directamente al juez que cite a una
+audiencia, a la cual podrá concurrir con su abogado o sin
+él, con el fin de prestar declaración sobre los hechos
+materia de la investigación;
+     e) Solicitar que se active la investigación y conocer
+su contenido, salvo en los casos en que alguna parte de ella
+hubiere sido declarada secreta y sólo por el tiempo que esa
+declaración se prolongare;
+     f) Solicitar el sobreseimiento definitivo de la causa y
+recurrir contra la resolución que lo rechazare;
+     g) Guardar silencio o, en caso de consentir en prestar
+declaración, a no hacerlo bajo juramento. Sin perjuicio de
+lo dispuesto en los artículos 91 y 102, al ser informado el
+imputado del derecho que le asiste conforme a esta letra,
+respecto de la primera declaración que preste ante el
+fiscal o la policía, según el caso, deberá señalársele
+lo siguiente: "Tiene derecho a guardar silencio. El
+ejercicio de este derecho no le ocasionará ninguna
+consecuencia legal adversa; sin embargo, si renuncia a él,
+todo lo que manifieste podrá ser usado en su contra.";
+     h) No ser sometido a tortura ni a otros tratos crueles,
+inhumanos o degradantes, e
+     i) No ser juzgado en ausencia, sin perjuicio de las
+responsabilidades que para él derivaren de la situación de
+rebeldía.
+```
+
+### CPP — Art. 94
+*Libro Primero Disposiciones generales › Título IV Sujetos procesales › Párrafo 4º El imputado › I.- Derechos y garantías del imputado* — `idParte 8646635 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 94.- Imputado privado de libertad. El
+imputado privado de libertad tendrá, además, las
+siguientes garantías y derechos:
+     a) A que se le exprese específica y claramente el
+motivo de su privación de libertad y, salvo el caso de
+delito flagrante, a que se le exhiba la orden que la
+dispusiere;
+     b) A que el funcionario a cargo del procedimiento de
+detención o de aprehensión le informe de los derechos a
+que se refiere el inciso segundo del artículo 135;
+     c) A ser conducido sin demora ante el tribunal que
+hubiere ordenado su detención;
+     d) A solicitar del tribunal que le conceda la libertad;
+     e) A que el encargado de la guardia del recinto
+policial al cual fuere conducido informe, en su presencia,
+al familiar o a la persona que le indicare, que ha sido
+detenido o preso, el motivo de la detención o prisión y el
+lugar donde se encontrare;
+     f) A entrevistarse privadamente con su abogado de
+acuerdo al régimen del establecimiento de detención, el
+que sólo contemplará las restricciones necesarias para el
+mantenimiento del orden y la seguridad del recinto;
+     g) A tener, a sus expensas, las comodidades y
+ocupaciones compatibles con la seguridad del recinto en que
+se encontrare, y
+     h) A recibir visitas y comunicarse por escrito o por
+cualquier otro medio, salvo lo dispuesto en el artículo
+151.
+```
+
+## 3 bis. Normas constitucionales y orgánicas complementarias — perímetro aprobado
+
+### 3 bis.1 Constitución Política de la República *(insertado el 2026-09-30)*
+- Arts. 5° y 19 (íntegro; el motor no segmenta por numerales): deber de los órganos del Estado de respetar y promover los derechos garantizados por la Constitución y los tratados vigentes (art. 5°, inciso segundo); derecho a defensa jurídica y debida intervención del letrado (art. 19 N° 3, inciso segundo). El texto conserva las notas marginales de la edición oficial, tal como constan en el XML.
+
+## FIJA EL TEXTO REFUNDIDO, COORDINADO Y SISTEMATIZADO DE LA CONSTITUCION POLITICA DE LA REPUBLICA DE CHILE (CPR)
+
+> **Fuente oficial**: Biblioteca del Congreso Nacional — LeyChile, servicio XML `obtxml opt=7`, idNorma 242302 (Decreto 100), publicada el 2005-09-22.
+> **Versión de la norma**: 2026-04-16 · **Estado**: no derogado.
+> **Fecha de verificación de esta curatoría**: 2026-09-30. Todo uso posterior debe cotejar la vigencia en LeyChile.
+
+### CPR — Art. 5
+*Capítulo I BASES DE LA INSTITUCIONALIDAD* — `idParte 8563472 · versión del artículo: 2005-09-22`
+
+```
+     Artículo 5º.- La soberanía reside esencialmente en
+la  Nación. Su ejercicio se realiza por el pueblo a través          CPR Art. 5° D.O.
+del plebiscito y de elecciones periódicas y, también, por           24.10.1980
+las autoridades que esta Constitución establece. Ningún
+sector del pueblo ni individuo alguno puede atribuirse su
+ejercicio.
+     El ejercicio de  la soberanía reconoce como limitación         LEY N° 18.825 Art.
+el respeto a los derechos esenciales que emanan de la               único
+naturaleza humana. Es deber de los órganos del Estado               Nº 1 D.O.
+respetar y promover tales derechos, garantizados por esta           17.08.1989
+Constitución, así como por los tratados internacionales
+ratificados por Chile y que se encuentren vigentes.
+```
+
+### CPR — Art. 19
+*Capítulo III DE LOS DERECHOS Y DEBERES CONSTITUCIONALES* — `idParte 8563487 · versión del artículo: 2023-05-03`
+
+```
+     Artículo 19.- La Constitución asegura a todas las
+personas:
+     1º.- El derecho a la vida y a la integridad         CPR Art.19° D.O.
+fís ica y psíquica de la persona.
+     La ley protege la            24.10.1980
+vida del que está por nacer.                                        CPR Art. 19° N°
+     La pena de muerte sólo podrá establecerse por delito           1°
+contemplado en ley aprobada con quórum calificado.                  D.O. 24.10.1980
+     Se prohíbe la aplicación de todo apremio ilegítimo.
+     El desarrollo científico y tecnológico estará al
+servicio de las personas y se llevará a cabo con respeto a
+la vida y a la integridad física y psíquica. La ley
+regulará los requisitos, condiciones y restricciones para
+su utilización en las personas, debiendo resguardar
+especialmente la actividad cerebral, así como la
+información proveniente de ella;
+     2º.- La igualdad ante la ley. En Chile no hay persona
+ni g rupo privilegiados. En Chile no hay esclavos y el que          CPR Art. 19° Nº 2
+pise su territorio queda libre. Hombres y mujeres son               D.O. 24.10.1980
+iguales ante la ley.                                                LEY N° 19.611 Art.
+     Ni la ley ni autoridad alg una podrán establecer               único
+                                                                    Nº 2 D.O.
+                                                                    16.06.1999
+diferencias arbitrarias;                                            CPR Art. 19° Nº 2
+     3º.- La igual protecc ión de la ley en el ejercicio de         D.O. 24.10.1980
+sus derechos.                                                       CPR Art. 19° N° 3
+     Toda persona tiene derecho a defensa jurídica en la            D.O. 24.10.1980
+forma que la ley señale y ninguna autoridad o individuo
+podrá impedir, restringir o perturbar la debida
+intervención del letrado si hubiere sido requerida.
+Tratándose de los integrantes de las Fuerzas Armadas y de
+Orden y Seguridad Pública, este derecho se regirá, en lo
+concerniente a lo administrativo y disciplinario, por las
+normas pertinentes de sus respectivos estatutos.
+     La ley arbitrará los medios para otorgar asesoramiento
+y defensa jurídica a quienes no puedan procurárselos por
+sí mismos. La ley señalará los casos y establecerá la
+forma en que las personas naturales víctimas de delitos
+dispondrán de asesoría y defensa jurídica gratuitas, a
+efecto de ejercer la acción penal reconocida por esta
+Constitución y las leyes.
+     Toda persona imputada de delito tiene derecho
+irrenunciable a ser asistida por un abogado defensor
+proporcionado por el Estado si no nombrare uno en la
+oportunidad establecida por la ley.
+     Nadie podrá ser juzgado por comisiones esp eciales,            LEY N° 20.050 Art.
+sino por el tribunal que señalare la ley y que se hallare           1° N° 10
+establecido por ésta con anterioridad a la perpetración             letra a) D.O.
+del hecho.                                                          26.08.2005
+     Toda sentencia de un órgano que ejerza jurisdi cción           LEY N° 19.519 Art.
+debe fundarse en un proceso previo legalmente tramitado.            único Nº 1
+Corresponderá al legislador establecer siempre las                  D.O. 16.09.1997
+garantías de un procedimiento y una investigación
+racionales y justos.
+     La ley no podrá presumir de de recho la responsabilidad        CPR Art. 19° N° 3
+penal.                                                              D.O. 24.10.1980
+     Ningún delito se castigará con otra pena que la que
+señale una ley promulgada con anterioridad a su
+perpetración, a menos que una nueva ley favorezca al
+afectado.
+     Ninguna ley podrá establecer penas sin que la conducta
+que se sanciona esté expresamente descrita en ella;
+     4º.- El respeto y protección a la vid a privada y a la         CPR Art. 19° Nº 4
+honra de la persona y su familia, y asimismo, la protección         D.O. 24.10.1980
+de sus datos personales. El tratamiento y protección de             LEY N° 20.050 Art.
+estos datos se efectuará en la forma y condiciones que              1° N° 10
+determine la ley;                                                   letra b) D.O.
+     5º.- La inviolabilidad del hogar y de toda f orma de           26.08.2005
+comunicación privada. El hogar sólo puede allanarse y las           CPR Art. 19° Nº
+comunicaciones y documentos privados interceptarse, abrirse         5°
+o registrarse en los casos y formas determinados por la ley;        D.O. 24.10.1980
+     6º.- La libertad de conciencia, la manifesta ción de           CPR Art. 19° Nº
+todas las creencias y el ejercicio libre de todos los cultos        6°
+que no se opongan a la moral, a las buenas costumbres o al          D.O. 24.10.1980
+orden público.
+     Las confesiones religiosas podrán erigir y conservar
+templos y sus dependencias bajo las condiciones de seguridad
+e higiene fijadas por las leyes y ordenanzas.
+     Las iglesias, las confesiones e instituciones
+religiosas de cualquier culto tendrán los derechos que
+otorgan y reconocen, con respecto a los bienes, las leyes
+actualmente en vigor. Los templos y sus dependencias,
+destinados exclusivamente al servicio de un culto, estarán
+exentos de toda clase de contribuciones;
+     7º.- El derecho a la libertad per sonal y a la                 CPR Art. 19° N° 7
+seguridad individual.                                               D.O. 24.10.1980
+     En consecuencia:
+     a) Toda persona tiene derecho de residir y permanecer
+en cualquier lugar de la República, trasladarse de uno a
+otro y entrar y salir de su territorio, a condición de que
+se guarden las normas establecidas en la ley y salvo siempre
+el perjuicio de terceros;
+     b) Nadie puede ser privado de su libertad personal ni
+ésta restringida sino en los casos y en la forma
+determinados por la Constitución y las leyes;
+     c) Nadie puede ser arrestado o detenido sino por orden
+de funcionario público expresamente facultado por la ley y
+después de que dicha orden le sea intimada en forma legal.
+Sin embargo, podrá ser detenido el que fuere sorprendido en
+delito flagrante, con el solo objeto de ser puesto a
+disposición del juez competente dentro de las veinticuatro
+horas siguientes.
+     Si la autoridad hiciere arrestar o detener a alguna
+persona, deberá, dentro de las cuarenta y ocho horas
+siguientes, dar aviso al juez competente, poniendo a su
+disposición al afectado. El juez podrá, por resolución
+fundada, ampliar este plazo hasta por cinco días, y hasta
+por diez días, en el caso que se investigaren hechos
+calificados por la ley como conductas terroristas.
+     Este lapso de cuarenta y ocho horas no se considerará
+para efectos de materialización de expulsiones
+administrativas. En este último caso, corresponderá a la
+ley fijar el plazo máximo, el que no podrá, en todo caso,
+exceder de cinco días corridos;
+     d) Nadie puede ser arrestado o detenido, sujeto a
+prisión preventiva o preso, sino en su casa o en lugares
+públicos destinados a este objeto.
+     Los encargados de las prisiones no pueden recibir en
+ellas a nadie en calidad de arrestado o detenido, procesado
+o preso, sin dejar constancia de la orden correspondiente,
+emanada de autoridad que tenga facultad legal, en un
+registro que será público.
+     Ninguna incomunicación puede impedir que el
+funcionario encargado de la casa de detención visite al
+arrestado o detenido, procesado o preso, que se encuentre en
+ella. Este funcionario está obligado, siempre que el
+arrestado o detenido lo requiera, a transmitir al juez
+competente la copia de la orden de detención, o a reclamar
+para que se le dé dicha copia, o a dar él mismo un
+certificado de hallarse detenido aquel individuo, si al
+tiempo de su detención se hubiere omitido este requisito;
+     e) La libert ad del imputado procederá a menos que la          LEY N° 19.055 Art.
+detención o prisión preventiva sea considerada por el juez          único
+como necesaria para las investigaciones o para la seguridad         Nº 2 D.O.
+del ofendido o de la sociedad. La ley establecerá los               01.04.1991
+requisitos y modalidades para obtenerla.                            LEY N° 20.050 Art.
+     La apelación de la resolución que se pronuncie sobre           1°
+la libertad del imputado por los delitos a que se refiere el        N° 10 letra c),
+artículo 9°, será conocida por el tribunal superior que             número 1
+corresponda, integrado exclusivamente por miembros
+titulares. La resolución que la apruebe u otorgue
+requerirá ser acordada por unanimidad. Mientras dure la
+libertad, el imputado quedará siempre sometido a las
+medidas de vigilancia de la autoridad que la ley contemple;
+     f) En las causas criminales n o se podrá obligar al            LEY N° 20.050 Art.
+imputado o acusado a que declare bajo juramento sobre hecho         1
+propio; tampoco podrán ser obligados a declarar en contra           N° 10 letra c),
+de éste sus ascendientes, descendientes, cónyuge y demás            número 2
+personas que, según los casos y circunstancias, señale la           D.O. 26.08.2005
+ley;
+     g) No podrá imponerse la pena de c onfiscación de              CPR Art. 19° N° 7
+bienes, sin perjuicio del comiso en los casos establecidos          D.O. 24.10.1980
+por las leyes; pero dicha pena será procedente respecto de
+las asociaciones ilícitas;
+     h) No podrá aplicarse como sanción la pérdida de los
+derechos previsionales, e
+     i) Una vez dictado sobreseimiento definitivo o
+sentencia absolutoria, el que hubiere sido sometido a
+proceso o condenado en cualquier instancia por resolución
+que la Corte Suprema declare injustificadamente errónea o
+arbitraria, tendrá derecho a ser indemnizado por el Estado
+de los perjuicios patrimoniales y morales que haya sufrido.
+La indemnización será determinada judicialmente en
+procedimiento breve y sumario y en él la prueba se
+apreciará en conciencia;
+     8º.- El derecho a vivir e n un medio ambiente libre de         CPR Art. 19° N° 8
+contaminación. Es deber del Estado velar para que este              D.O. 24.10.1980
+derecho no sea afectado y tutelar la preservación de la
+naturaleza.
+     La ley podrá establecer restricciones específicas al
+ejercicio de determinados derechos o libertades para
+proteger el medio ambiente;
+     9º.- El derec ho a la protección de la salud.
+     El          CPR Art. 19° N° 9
+Estado protege el libre e igualitario acceso a las acciones         D.O. 24.10.1980
+de promoción, protección y recuperación de la salud y de
+rehabilitación del individuo.
+     Le corresponderá, asimismo, la coordinación y control
+de las acciones relacionadas con la salud.
+     Es deber preferente del Estado garantizar la ejecución
+de las acciones de salud, sea que se presten a través de
+instituciones públicas o privadas, en la forma y
+condiciones que determine la ley, la que podrá establecer
+cotizaciones obligatorias.
+     Cada persona tendrá el derecho a elegir el sistema de
+salud al que desee acogerse, sea éste estatal o privado;
+     10º.- El d erecho a la educación.
+     La educación            CPR Art. 19° N° 10
+tiene por objeto el pleno desarrollo de la persona en las           D.O. 24.10.1980
+distintas etapas de su vida.
+     Los padres tienen el derecho preferente y el deber de
+educar a sus hijos. Corresponderá al Estado otorgar
+especial protección al ejercicio de este derecho.
+     Para el Estado es obligatorio promover la educación
+parvularia, para lo que financiará un sistema gratuito a
+partir del nivel medio menor, destinado a asegurar el acceso
+a éste y sus niveles superiores. El segundo nivel de
+transición es obligatorio, siendo requisito para el ingreso
+a la educación básica.
+     La educación básica y la educación med ia son                  LEY N° 19.876 Art.
+obligatorias, debiendo el Estado financiar un sistema               único
+gratuito con tal objeto, destinado a asegurar el acceso a           D.O. 22.05.2003
+ellas de toda la población. En el caso de la educación
+media este sistema, en conformidad a la ley, se extenderá
+hasta cumplir los 21 años de edad.
+     Corresponderá al Estado, as imismo, fomentar el                CPR Art. 19° N° 10
+desarrollo de la educación en todos sus niveles; estimular
+la investigación científica y tecnológica, la creación              D.O. 24.10.1980
+artística y la protección e incremento del patrimonio
+cultural de la Nación.
+     Es deber de la comunidad contribuir al desarrollo y
+perfeccionamiento de la educación;
+     11º.- La libertad de enseñ anza incluye el derecho de          CPR Art. 19° N° 11
+abrir, organizar y mantener establecimientos educacionales.         D.O. 24.10.1980
+     La libertad de enseñanza no tiene otras limitaciones
+que las impuestas por la moral, las buenas costumbres, el
+orden público y la seguridad nacional.
+     La enseñanza reconocida oficialmente no podrá
+orientarse a propagar tendencia político partidista alguna.
+     Los padres tienen el derecho de escoger el
+establecimiento de enseñanza para sus hijos.
+     Una ley orgánica constitucional establecerá los
+requisitos mínimos que deberán exigirse en cada uno de los
+niveles de la enseñanza básica y media y señalará las
+normas objetivas, de general aplicación, que permitan al
+Estado velar por su cumplimiento. Dicha ley, del mismo modo,
+establecerá los requisitos para el reconocimiento oficial
+de los establecimientos educacionales de todo nivel;
+     12º.- La libertad de emi tir opinión y la de informar,         CPR Art. 19° N° 12
+sin censura previa, en cualquier forma y por cualquier              D.O. 24.10.1980
+medio, sin perjuicio de responder de los delitos y abusos
+que se cometan en el ejercicio de estas libertades, en
+conformidad a la ley, la que deberá ser de quórum
+calificado.
+     La ley en ningún caso podrá establecer monopolio
+estatal sobre los medios de comunicación social.
+     Toda persona natural o jurídica ofendida o
+injustamente aludida por algún medio de comunicación
+social, tiene derecho a que su declaración o rectificación
+sea gratuitamente difundida, en las condiciones que la ley
+determine, por el medio de comunicación social en que esa
+información hubiera sido emitida.
+     Toda persona natural o jurídica tiene el derecho de
+fundar, editar y mantener diarios, revistas y periódicos,
+en las condiciones que señale la ley.
+     El Estado, aquellas universidades y demás personas o
+entidades que la ley determine, podrán establecer, operar y
+mantener estaciones de televisión.
+     Habrá un Consejo Nacion al de Televisión, autónomo y           LEY N° 18.825 Art.
+con personalidad jurídica, encargado de velar por el                único Nº 5
+correcto funcionamiento de este medio de comunicación. Una          D.O. 17.08.1989
+ley de quórum calificado señalará la organización y
+demás funciones y atribuciones del referido Consejo.
+     La le y regulará un sistema de calificación para la            LEY N° 18.825 Art.
+exhibición de la producción cinematográfica;                        único N° 6
+     13º.- El derecho a reunirse pacíficame nte sin permiso         D.O. 17.08.1989
+                                                                    LEY N° 19.742 Art.
+                                                                    único
+                                                                    letra a) D.O.
+                                                                    25.08.2001
+previo y sin armas.                                                 CPR Art. 19° N° 13
+     Las reuniones en las plazas, calles y demás lugares de
+uso público, se regirán por las disposiciones generales de          D.O. 24.10.1980
+policía;
+     14º.- El derecho de presentar petic iones a la                 CPR Art. 19° N° 14
+autoridad, sobre cualquier asunto de interés público o              D.O. 24.10.1980
+privado, sin otra limitación que la de proceder en
+términos respetuosos y convenientes;
+     15º.- El derecho de as ociarse sin permiso previo.
+            CPR Art. 19° N° 15
+Para gozar de personalidad jurídica, las asociaciones               D.O. 24.10.1980
+deberán constituirse en conformidad a la ley.
+     Nadie puede ser obligado a pertenecer a una
+asociación.
+     Prohíbense las asociaciones contrarias a la moral, al
+orden público y a la seguridad del Estado.
+     Los partidos políticos no podrán inter venir en                LEY N° 18.825 Art.
+actividades ajenas a las que les son propias ni tener               único Nº 7
+privilegio alguno o monopolio de la participación                   D.O. 17.08.1989
+ciudadana; la nómina de sus militantes se registrará en el
+servicio electoral del Estado, el que guardará reserva de
+la misma, la cual será accesible a los militantes del
+respectivo partido; su contabilidad deberá ser pública;
+las fuentes de su financiamiento no podrán provenir de
+dineros, bienes, donaciones, aportes ni créditos de origen
+extranjero; sus estatutos deberán contemplar las normas que
+aseguren una efectiva democracia interna. Una ley orgánica
+constitucional establecerá un sistema de elecciones
+primarias que podrá ser utilizado por dichos partidos para
+la nominación de candidatos a cargos de elección popular,
+cuyos resultados serán vinculantes para estas
+colectividades, salvo las excepciones que establezca dicha
+ley. Aquellos que no resulten elegidos en las elecciones
+primarias no podrán ser candidatos, en esa elección, al
+respectivo cargo. Una ley orgánica constitucional regulará
+las demás materias que les conciernan y las sanciones que
+se aplicarán por el incumplimiento de sus preceptos, dentro
+de las cuales podrá considerar su disolución. Las
+asociaciones, movimientos, organizaciones o grupos de
+personas que persigan o realicen actividades propias de los
+partidos políticos sin ajustarse a las normas anteriores
+son ilícitos y serán sancionados de acuerdo a la referida
+ley orgánica constitucional.
+     La Constitución Política garanti za el pluralismo              LEY N° 18.825 Art.
+político. Son inconstitucionales los partidos, movimientos          único Nº 8
+u otras formas de organización cuyos objetivos, actos o             D.O. 17.08.1989
+conductas no respeten los principios básicos del régimen
+democrático y constitucional, procuren el establecimiento
+de un sistema totalitario, como asimismo aquellos que hagan
+uso de la violencia, la propugnen o inciten a ella como
+método de acción política. Corresponderá al Tribunal
+Constitucional declarar esta inconstitucionalidad.
+     Sin perjuicio de las demás sanciones establecidas en
+la Constitución o en la ley, las personas que hubieren
+tenido participación en los hechos que motiven la
+declaración de inconstitucionalidad a que se refiere el
+inciso precedente, no podrán participar en la formación de
+otros partidos políticos, movimientos u otras formas de
+organización política, ni optar a cargos públicos de
+elección popular ni desempeñar los cargos que se mencionan
+en los números 1) a 6) del artículo 57, por el término de
+cinco años, contado desde la resolución del Tribunal. Si a
+esa fecha las personas referidas estuvieren en posesión de
+las funciones o cargos indicados, los perderán de pleno
+derecho.
+     Las personas sancionadas en virtud de este precepto no
+podrán ser objeto de rehabilitación durante el plazo
+señalado en el inciso anterior. La duración de las
+inhabilidades contempladas en dicho inciso se elevará al
+doble en caso de reincidencia;
+     16º.- La libertad de tr abajo y su protección.
+                CPR Art. 19° N° 16
+Toda persona tiene derecho a la libre contratación y a la
+libre elección del trabajo con una justa retribución.               D.O. 24.10.1980
+     Se prohíbe cualquiera discriminación que no se base
+en la capacidad o idoneidad personal, sin perjuicio de que
+la ley pueda exigir la nacionalidad chilena o límites de
+edad para determinados casos.
+     Ninguna clase de trabajo puede ser prohibida, salvo que
+se oponga a la moral, a la seguridad o a la salubridad
+públicas, o que lo exija el interés nacional y una ley lo
+declare así. Ninguna ley o disposición de autoridad
+pública podrá exigir la afiliación a organización o
+entidad alguna como requisito para desarrollar una
+determinada actividad o trabajo, ni la desafiliación para
+mantenerse en éstos. La ley determinará las profesiones
+que requieren grado o título universitario y las
+condiciones que deben cumplirse para ejercerlas. Los col            LEY N° 20.050 Art.
+egios profesionales constituidos en conformidad a la ley y          1°
+que digan relación con tales profesiones, estarán                   N° 10 letra d)
+facultados para conocer de las reclamaciones que se                 D.O. 26.08.2005
+interpongan sobre la conducta ética de sus miembros. Contra
+sus resoluciones podrá apelarse ante la Corte de
+Apelaciones respectiva. Los profesionales no asociados
+serán juzgados por los tribunales especiales establecidos
+en la ley.
+     La negociación colectiva con la empresa en que laboren
+es un derecho de los trabajadores, salvo los casos en que la
+ley expresamente no permita negociar. La ley establecerá
+las modalidades de la negociación colectiva y los
+procedimientos adecuados para lograr en ella una solución
+justa y pacífica. La ley señalará los casos en que la
+negociación colectiva deba someterse a arbitraje
+obligatorio, el que corresponderá a tribunales especiales
+de expertos cuya organización y atribuciones se
+establecerán en ella.
+     No podrán declararse en huelga los funcionarios del
+Estado ni de las municipalidades. Tampoco podrán hacerlo
+las personas que trabajen en corporaciones o empresas,
+cualquiera que sea su naturaleza, finalidad o función, que
+atiendan servicios de utilidad pública o cuya paralización
+cause grave daño a la salud, a la economía del país, al
+abastecimiento de la población o a la seguridad nacional.
+La ley establecerá los procedimientos para determinar las
+corporaciones o empresas cuyos trabajadores estarán
+sometidos a la prohibición que establece este inciso;
+     17º.- La admisión a todas las funciones y e mpleos             CPR Art. 19º N° 17
+públicos, sin otros requisitos que los que impongan la              D.O. 24.10.1980
+Constitución y las leyes;
+     18º.- El derecho a la segur idad social.
+     Las leyes        CPR Art 19º N° 18
+que regulen el ejercicio de este derecho serán de quórum            D.O. 24.10.1980
+calificado.
+     La acción del Estado estará dirigida a garantizar el
+acceso de todos los habitantes al goce de prestaciones
+básicas uniformes, sea que se otorguen a través de
+instituciones públicas o privadas. La ley podrá establecer
+cotizaciones obligatorias.
+     El Estado supervigilará el adecuado ejercicio del
+derecho a la seguridad social;
+     19º.- El derecho de sindicarse en los c asos y forma           CPR Art. 19º N° 19
+que señale la ley. La afiliación sindical será siempre
+voluntaria.                                                         D.O. 24.10.1980
+     Las organizaciones sindicales gozarán de personalidad
+jurídica por el solo hecho de registrar sus estatutos y
+actas constitutivas en la forma y condiciones que determine
+la ley.
+     La ley conte mplará los mecanismos que aseguren la             LEY N° 18.825 Art.
+autonomía de estas organizaciones. Las organizaciones               único Nº 9
+sindicales no podrán intervenir en actividades político             D.O. 17.08.1989
+partidistas;
+     20º.- La igual reparti ción de los tributos en                 CPR Art. 19° N° 20
+proporción a las rentas o en la progresión o forma que              24.10.1980
+fije la ley, y la igual repartición de las demás cargas
+públicas.
+     En ningún caso la ley podrá establecer tributos
+manifiestamente desproporcionados o injustos.
+     Los tributos que se recauden, cualquiera que sea su
+naturaleza, ingresarán al patrimonio de la Nación y no
+podrán estar afectos a un destino determinado.
+     Sin embargo, la ley podrá aut orizar que determinados          LEY N° 19.097 Art.
+tributos puedan estar afectados a fines propios de la               2º D.O 12.11.1991
+defensa nacional. Asimismo, podrá autorizar que los que
+gravan actividades o bienes que tengan una clara
+identificación regional o local puedan ser aplicados,
+dentro de los marcos que la misma ley señale, por las
+autoridades regionales o comunales para el financiamiento de
+obras de desarrollo;
+     21º.- El derecho a desarrollar cua lquiera actividad           CPR Art. 19° N° 21
+económica que no sea contraria a la moral, al orden
+público o a la seguridad nacional, respetando las normas            D.O. 24.10.1980
+legales que la regulen.
+     El Estado y sus organismos podrán desarrollar
+actividades empresariales o participar en ellas sólo si una
+ley de quórum calificado los autoriza. En tal caso, esas
+actividades estarán sometidas a la legislación común
+aplicable a los particulares, sin perjuicio de las
+excepciones que por motivos justificados establezca la ley,
+la que deberá ser, asimismo, de quórum calificado;
+     22º.- La no discriminación arbit raria en el trato que         CPR Art. 19 N° 22
+deben dar el Estado y sus organismos en materia económica.          D.O. 24.10.1980
+     Sólo en virtud de una ley, y siempre que no signifique
+tal discriminación, se podrán autorizar determinados
+beneficios directos o indirectos en favor de algún sector,
+actividad o zona geográfica, o establecer gravámenes
+especiales que afecten a uno u otras. En el caso de las
+franquicias o beneficios indirectos, la estimación del
+costo de éstos deberá incluirse anualmente en la Ley de
+Presupuestos;
+     23º.- La libertad para adquirir el d ominio de toda            CPR Art. 19° N° 23
+clase de bienes, excepto aquellos que la naturaleza ha hecho        D.O. 24.10.1980
+comunes a todos los hombres o que deban pertenecer a la
+Nación toda y la ley lo declare así. Lo anterior es sin
+perjuicio de lo prescrito en otros preceptos de esta
+Constitución.
+     Una ley de quórum calificado y cuando así lo exija el
+interés nacional puede establecer limitaciones o requisitos
+para la adquisición del dominio de algunos bienes;
+     24º.- El derecho de propied ad en sus diversas especies        CPR Art. 19° N° 24
+sobre toda clase de bienes corporales o incorporales.               D.O. 24.10.1980
+     Sólo la ley puede establecer el modo de adquirir la
+propiedad, de usar, gozar y disponer de ella y las
+limitaciones y obligaciones que deriven de su función
+social. Esta comprende cuanto exijan los intereses generales
+de la Nación, la seguridad nacional, la utilidad y la
+salubridad públicas y la conservación del patrimonio
+ambiental.
+     Nadie puede, en caso alguno, ser privado de su
+propiedad, del bien sobre que recae o de alguno de los
+atributos o facultades esenciales del dominio, sino en
+virtud de ley general o especial que autorice la
+expropiación por causa de utilidad pública o de interés
+nacional, calificada por el legislador. El expropiado podrá
+reclamar de la legalidad del acto expropiatorio ante los
+tribunales ordinarios y tendrá siempre derecho a
+indemnización por el daño patrimonial efectivamente
+causado, la que se fijará de común acuerdo o en sentencia
+dictada conforme a derecho por dichos tribunales.
+     A falta de acuerdo, la indemnización deberá ser
+pagada en dinero efectivo al contado.
+     La toma de posesión material del bien expropiado
+tendrá lugar previo pago del total de la indemnización, la
+que, a falta de acuerdo, será determinada provisionalmente
+por peritos en la forma que señale la ley. En caso de
+reclamo acerca de la procedencia de la expropiación, el
+juez podrá, con el mérito de los antecedentes que se
+invoquen, decretar la suspensión de la toma de posesión.
+     El Estado tiene el dominio absoluto, exclusivo,
+inalienable e imprescriptible de todas las minas,
+comprendiéndose en éstas las covaderas, las arenas
+metalíferas, los salares, los depósitos de carbón e
+hidrocarburos y las demás sustancias fósiles, con
+excepción de las arcillas superficiales, no obstante la
+propiedad de las personas naturales o jurídicas sobre los
+terrenos en cuyas entrañas estuvieren situadas. Los predios
+superficiales estarán sujetos a las obligaciones y
+limitaciones que la ley señale para facilitar la
+exploración, la explotación y el beneficio de dichas
+minas.
+     Corresponde a la ley determinar qué sustancias de
+aquellas a que se refiere el inciso precedente, exceptuados
+los hidrocarburos líquidos o gaseosos, pueden ser objeto de
+concesiones de exploración o de explotación. Dichas
+concesiones se constituirán siempre por resolución
+judicial y tendrán la duración, conferirán los derechos e
+impondrán las obligaciones que la ley exprese, la que
+tendrá el carácter de orgánica constitucional. La
+concesión minera obliga al dueño a desarrollar la
+actividad necesaria para satisfacer el interés público que
+justifica su otorgamiento. Su régimen de amparo será
+establecido por dicha ley, tenderá directa o indirectamente
+a obtener el cumplimiento de esa obligación y contemplará
+causales de caducidad para el caso de incumplimiento o de
+simple extinción del dominio sobre la concesión. En todo
+caso dichas causales y sus efectos deben estar establecidos
+al momento de otorgarse la concesión.
+     Será de competencia exclusiva de los tribunales
+ordinarios de justicia declarar la extinción de tales
+concesiones. Las controversias que se produzcan respecto de
+la caducidad o extinción del dominio sobre la concesión
+serán resueltas por ellos; y en caso de caducidad, el
+afectado podrá requerir de la justicia la declaración de
+subsistencia de su derecho.
+     El dominio del titular sobre su concesión minera está
+protegido por la garantía constitucional de que trata este
+número.
+     La exploración, la explotación o el beneficio de los
+yacimientos que contengan sustancias no susceptibles de
+concesión, podrán ejecutarse directamente por el Estado o
+por sus empresas, o por medio de concesiones administrativas
+o de contratos especiales de operación, con los requisitos
+y bajo las condiciones que el Presidente de la República
+fije, para cada caso, por decreto supremo. Esta norma se
+aplicará también a los yacimientos de cualquier especie
+existentes en las aguas marítimas sometidas a la
+jurisdicción nacional y a los situados, en todo o en parte,
+en zonas que, conforme a la ley, se determinen como de
+importancia para la seguridad nacional. El Presidente de la
+República podrá poner término, en cualquier tiempo, sin
+expresión de causa y con la indemnización que corresponda,
+a las concesiones administrativas o a los contratos de
+operación relativos a explotaciones ubicadas en zonas
+declaradas de importancia para la seguridad nacional.
+     Los derechos de los particulares sobre las aguas,
+reconocidos o constituidos en conformidad a la ley,
+otorgarán a sus titulares la propiedad sobre ellos;
+     25º.- La libertad de cr ear y difundir las artes, así          LEY N° 19.742 Art.
+como el derecho del autor sobre sus creaciones intelectuales        único
+y artísticas de cualquier especie, por el tiempo que                letra b) D.O.
+señale la ley y que no será inferior al de la vida del              25.08.2001
+titular.
+     El derecho de autor com prende la propiedad de las             CPR Art. 19º N° 25
+obras y otros derechos, como la paternidad, la edición y la         D.O. 24.10.1980
+integridad de la obra, todo ello en conformidad a la ley.
+     Se garantiza, también, la propiedad industrial sobre
+las patentes de invención, marcas comerciales, modelos,
+procesos tecnológicos u otras creaciones análogas, por el
+tiempo que establezca la ley.
+     Será aplicable a la propiedad de las creaciones
+intelectuales y artísticas y a la propiedad industrial lo
+prescrito en los incisos segundo, tercero, cuarto y quinto
+del número anterior, y
+     26º.- La seguridad de que los precep tos legales que           CPR Art. 19º Nº 26
+por mandato de la Constitución regulen o complementen las           D.O. 24.10.1980
+garantías que ésta establece o que las limiten en los
+casos en que ella lo autoriza, no podrán afectar los
+derechos en su esencia, ni im poner condiciones, tributos o         LEY N° 18.825 Art.
+requisitos que impidan su libre ejercicio.                          único Nº 10
+                                                                    D.O. 17.08.1989
+```
+
+### 3 bis.2 Código Orgánico de Tribunales *(insertado el 2026-09-30)*
+- Art. 14: atribuciones de los jueces de garantía, en especial la de asegurar los derechos del imputado (letra a).
+
+## CODIGO ORGANICO DE TRIBUNALES (COT)
+
+> **Fuente oficial**: Biblioteca del Congreso Nacional — LeyChile, servicio XML `obtxml opt=7`, idNorma 25563 (Código ORGÁNICO DE TRIBUNALES), publicada el 1943-07-09.
+> **Versión de la norma**: 2026-04-02 · **Estado**: no derogado.
+> **Fecha de verificación de esta curatoría**: 2026-09-30. Todo uso posterior debe cotejar la vigencia en LeyChile.
+
+### COT — Art. 14
+*TITULO II De los juzgados de garantía y de los tribunales de juicio oral en lo penal › § 1. De los juzgados de garantía.* — `idParte 9844146 · versión del artículo: 2010-12-30`
+
+```
+     Art. 14. Los juzgados de garantía estarán conformados
+por uno o más jueces con competencia en un mismo territorio
+jurisdiccional, que actúan y resuelven unipersonalmente los
+asuntos sometidos a su conocimiento.
+
+     Corresponderá a los jueces de garantía:
+
+     a) Asegurar los derechos del imputado y demás
+intervinientes en el proceso penal, de acuerdo a la ley
+procesal penal;
+     b) Dirigir personalmente las audiencias que procedan,
+de conformidad a la ley procesal penal;
+     c) Dictar sentencia, cuando corresponda, en el
+procedimiento abreviado que contemple la ley procesal penal;
+     d) Conocer y fallar las faltas penales de conformidad
+con el procedimiento contenido en la ley procesal penal;
+     e) Conocer y fallar, conforme a los procedimientos
+regulados en el Título I del Libro IV del Código Procesal
+Penal, las faltas e infracciones contempladas en la Ley de
+Alcoholes, cualquiera sea la pena que ella les asigne;
+     f) Hacer ejecutar las condenas criminales y las medidas
+de seguridad, y resolver las solicitudes y reclamos
+relativos a dicha ejecución, de conformidad a la ley
+procesal penal;
+     g) Conocer y resolver todas las cuestiones y asuntos
+que la ley de responsabilidad penal juvenil les encomienden,
+y
+     h) Conocer y resolver todas las cuestiones y asuntos
+que este Código, la ley procesal penal y la ley que
+establece disposiciones especiales sobre el Sistema de
+Justicia Militar les encomienden.
+```
+
+### 3 bis.3 Tratados internacionales — laguna consignada
+La Convención Americana sobre Derechos Humanos (Decreto N° 873, idNorma **16022**, XML SHA-256 `b5287e29…4c54`) y el Pacto Internacional de Derechos Civiles y Políticos (Decreto N° 778, idNorma **15551**, XML SHA-256 `6d857285…fe5`) constan en LeyChile como un único nodo «Artículo s/n» que contiene el texto íntegro del tratado. `curar_norma.py` no segmenta ese nodo por artículo del tratado, por lo que no se insertan extractos. Sus artículos 8.2 y 14.3 se cotejaron el 2026-09-30 contra esos XML con resultado conforme, pero conservan, respecto de este módulo, la marca **«cita pendiente de verificación»** hasta que el motor admita su segmentación.
+
 ## 4. Remisiones controladas
 
 Para evitar duplicación y desactualización cruzada, este módulo NO desarrolla:
@@ -6774,3 +7523,7 @@ a la sección 7 del SKILL.md.)*
 | 2026-07-12 | CPP (idNorma 176595) | 260–280 bis; 295–297; 340 (26 artículos: fase intermedia, disposiciones generales sobre la prueba y convicción; XML SHA-256 c7a5b758…6469) | 2026-04-02 | curar_norma.py |
 | 2026-07-17 | CPP (idNorma 176595) | 351 (1 artículo: reiteración de delitos de una misma especie; XML SHA-256 c7a5b758…6469, idéntico al del 2026-07-12) | 2026-04-02 | curar_norma.py --descargar |
 | 2026-07-17 | CP (idNorma 1984) | Cotejo de la TABLA DEMOSTRATIVA del art. 56 (imagen oficial embebida Art56CP.jpeg, SHA-256 eb7441aa…3ac0fa, extraída del XML SHA-256 21fd760b…78e18); transcripción verificada anotada en la sección 2.2 | artículo versión 1927-10-12 | extracción binaria + cotejo visual |
+| 2026-09-30 | CPP (idNorma 176595) | 93–94 (2 artículos; sección 3.9); re-curación del art. 238 por reforma; cotejo íntegro del perímetro CPP: 143/144 idénticos (XML SHA-256 890ef6a2…6390b) | 2026-07-22 | curar_norma.py |
+| 2026-09-30 | CPR (idNorma 242302) | 5, 19 (2 artículos; sección 3 bis.1; XML SHA-256 f49fa004…07ab) | 2026-04-16 | curar_norma.py |
+| 2026-09-30 | COT (idNorma 25563) | 14 (1 artículo; sección 3 bis.2; XML SHA-256 6a60c46a…6d994) | 2026-04-02 | curar_norma.py |
+| 2026-09-30 | CADH (16022) · PIDCP (15551) | Sin inserción: nodo único «Artículo s/n» no segmentable por el motor (sección 3 bis.3) | 1991-01-05 · 1989-04-29 | laguna consignada |

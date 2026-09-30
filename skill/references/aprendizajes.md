@@ -259,6 +259,15 @@ Las entradas A-015 a A-020 provienen del linaje del repositorio `estrategia-liti
 - **Vigencia**: permanente.
 
 
+### A-026 — [2026-09-30] — Metodología — Verificación por la cadena oficial de toda cita normativa incorporada a un escrito judicial, aunque la skill no haya sido invocada
+- **Estado**: aprobado *(propuesto en el Protocolo de Cierre de la sesión de curatoría del 2026-09-30 y aprobado expresamente por el titular el mismo día)*
+- **Naturaleza**: cambio de criterio aprobado
+- **Contexto**: redacción de un escrito judicial de defensa (solicitud de entrevista telemática con imputado privado de libertad) sin invocación expresa de la skill. La consulta a `obtxml` sin cabecera de navegador fue rechazada (HTTP 401) y, desatendida la regla A-021, la verificación se derivó a un agregador privado (leyes-cl.com), en contravención de la regla A-015. La curatoría posterior, ejecutada conforme a A-015, A-018 y A-021 con `curar_norma.py`, confirmó las citas y reveló dos preceptos pertinentes omitidos (arts. 150, inciso tercero, y 151, inciso primero, CPP).
+- **Lección**: el estándar de verificación normativa de la skill no depende de su invocación formal, sino de la naturaleza del producto: un escrito judicial compromete la responsabilidad profesional del titular con independencia de la vía por la que se haya redactado. La fuente secundaria, además de carecer de autenticidad garantizada, no revela lo que el texto oficial íntegro sí muestra.
+- **Regla operativa**: toda cita normativa incorporada a un escrito judicial se verifica mediante la cadena oficial (regla A-015 y `curar_norma.py`), aunque la skill no haya sido invocada. Una fuente secundaria nunca reemplaza esa verificación; a lo sumo, orienta la búsqueda. Si la cadena oficial no puede completarse, la cita conserva la marca «pendiente de verificación» y así se advierte en las observaciones de control del borrador.
+- **Vigencia**: permanente.
+
+
 ---
 
 ## Histórico consolidado
