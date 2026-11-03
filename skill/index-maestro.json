@@ -4,13 +4,13 @@
   "version_skill": "4.16",
   "fecha_indice": "2026-11-03",
   "algoritmo": "sha256",
-  "origen_version": "v4.16: módulo references/esquemas-argumentales.md y plantilla assets/templates/ficha-toulmin.md; curatoría de los arts. 341 y 342 CPP (marco-legal.md, sección 3.10; corpus 291 artículos); contraindicación C-016 (prohibición de exhibición del esquema argumental). Base: v4.15.",
+  "origen_version": "v4.16: módulo references/esquemas-argumentales.md y plantilla assets/templates/ficha-toulmin.md; curatoría de los arts. 341 y 342 CPP (marco-legal.md, sección 3.10; corpus 291 artículos); contraindicación C-016 (prohibición de exhibición del esquema argumental); corrección de manifiesto de formato en prescripcion.py (black), propagada al motor empaquetado por A-022. Base: v4.15.",
   "archivos": [
     {
       "ruta": "CHANGELOG.md",
       "estado": "instalado",
-      "sha256": "e8210da28ac35b523026aa937c83aef99db761e968dc106eb051966c72fdc23b",
-      "bytes": 55587
+      "sha256": "a68a2472fe958d47abc473b7f8eb0ff1c4a2d2f5f4042067f31c241c2d7aa619",
+      "bytes": 56721
     },
     {
       "ruta": "SKILL.md",
@@ -201,8 +201,8 @@
     {
       "ruta": "scripts/prescripcion.py",
       "estado": "instalado",
-      "sha256": "f949afc81c3ad07609b991810b6606363277ead0e2f9298537eb3fa4424f7dac",
-      "bytes": 16535
+      "sha256": "e9956426c78fe056cee1d889b042156f4b6c67ec6a5cc980f72120c8f7852eb5",
+      "bytes": 16537
     }
   ]
 }
