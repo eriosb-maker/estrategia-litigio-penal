@@ -1,5 +1,25 @@
 # Registro de cambios — `analisis-penal-chile`
 
+## v4.16 — 3 de noviembre de 2026
+
+**Módulo de esquemas argumentales (instrucción del titular, 2026-11-03).**
+
+1. **`references/esquemas-argumentales.md` (v1.0)**: módulo condicional de reconstrucción y ataque de la cadena inferencial. Adapta el esquema analítico del argumento —dato, afirmación, garantía, respaldo, modalizador, refutación— como instrumento **interno** de control del razonamiento probatorio, traduciendo la garantía a la máxima de la experiencia del art. 297 inc. 1° CPP y situando el punto de ataque en la ausencia de respaldo. Contiene: anclaje normativo sobre texto curado (arts. 297, 340, 341, 342 letras c) y d), y 374 letras e) y f) CPP); tabla de traducción de los seis elementos al proceso penal chileno; protocolo de reconstrucción en siete pasos, aplicado por proposición fáctica y primero sobre la tesis propia; catálogo abierto de ocho garantías habituales en delitos económicos (G-1 a G-8), cada una con el respaldo que la habilitaría y el modo de ataque; rendimiento diferenciado por etapa procesal; y tres límites declarados (no es criterio de corrección, no sustituye la dogmática, su exhaustividad es onerosa). Advierte expresamente que la representación divulgativa lineal del esquema es incorrecta —el respaldo sostiene a la garantía, no a la afirmación— y que esa deformación destruye el único elemento con rendimiento forense.
+
+2. **`assets/templates/ficha-toulmin.md` (v1.0)**: ficha de reconstrucción argumental por proposición fáctica controvertida, en ocho secciones, con control final sobre la tesis propia y casilla de traducción al lenguaje forense como única formulación habilitada para ingresar a escrito.
+
+3. **Curatoría normativa — arts. 341 y 342 CPP** (`marco-legal.md`, sección 3.10 nueva): congruencia entre acusación y sentencia y contenido obligatorio del fallo. Con esta inserción queda completa la cadena de impugnación por defecto de fundamentación (art. 297 inc. 3° → art. 342 letras c) y d) → art. 374 letras e) y f)), cuyo eslabón intermedio no integraba el perímetro curado. Corpus verificado: **291 artículos**. Procedencia: ejemplar del XML oficial conservado en `curatoria/xml/cpp-ley19696-idNorma-176595.xml`, versión de la norma 2026-07-22, SHA-256 `890ef6a2…6390b` verificado idéntico al registrado el 2026-09-30; **no hubo descarga nueva**, por lo que la regla A-027 no se activa y el perímetro CPP conserva el cotejo conforme de esa fecha. Extracto generado con `scripts/curar_norma.py`; los artículos resultaron ambos en versión 2000-10-12 (idParte 8646919 y 8646920). Los extractos del 2026-11-03 vencen el 2027-05-03.
+
+4. **Contraindicación C-016 incorporada** a `references/contraindicaciones.md`: prohibición de exhibir el esquema argumental, su nomenclatura y la atribución a autor alguno en escrito, informe, minuta de alegato o presentación ante autoridad; el producto se traduce al lenguaje del art. 297 CPP. Fundamento: la fuerza de la objeción reside en el defecto que el esquema permitió ver y no en el esquema, y su exhibición traslada el debate desde el terreno normativo —donde el art. 297 impone una obligación exigible— hacia terreno doctrinario extranjero. La aprobación del titular se prestó al autorizar la construcción del módulo en los términos propuestos, que comprendían expresamente esta entrada. La numeración corriente pasa a C-017; C-015 permanece reservada para la candidata arista/concierto, aún no incorporada.
+
+5. **Marca `[PENDIENTE-BIBLIOGRÁFICO]`**: las obras atribuidas al autor del esquema y sus años de edición no fueron verificados contra catálogo bibliográfico en esta curatoría. En consecuencia, el módulo no reproduce cita textual alguna ni consigna fechas de publicación. La marca subsiste hasta su verificación.
+
+6. **Enganches en `SKILL.md`**: fila de triage nueva (sección 5); fase 6 (reconstrucción de las proposiciones diagnósticas entre hipótesis); fase 11 (prioriza la diligencia que acredita o destruye la garantía por sobre la que acumula datos ya disponibles); fase 12 (control de garantías sobre ambas teorías del caso); entradas de catálogo en la sección 14 para el módulo y la plantilla; actualización de las entradas de `marco-legal.md` y `contraindicaciones.md`.
+
+7. Versión incrementada a 4.16 (frontmatter y registro); índice maestro regenerado (R-4); auditoría `verificar-integridad.sh` conforme (R-3).
+
+*Pendientes que subsisten*: instalación de la v4.16 (acto del titular); verificación bibliográfica de las obras del autor del esquema; propuesta de aprendizaje sobre delimitación de perímetro entre `analisis-penal-chile` y la skill `argumentacion-forense`, no incorporada a `aprendizajes.md` por tratarse de un cambio de criterio pendiente de aprobación expresa (15.3.3.b); revalidación del perímetro CP (vence el 2027-01-06), cuyo XML (idNorma 1984) no consta aún en `curatoria/xml/`.
+
 ## v4.15 — 30 de septiembre de 2026
 
 **Cierre de los tres pendientes de la v4.14 (instrucción del titular, 2026-09-30).**

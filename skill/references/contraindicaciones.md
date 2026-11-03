@@ -64,6 +64,24 @@ No se propone como contraindicación, porque no es una prohibición de uso de un
 
 Su desarrollo se encuentra obstruido por una constatación material: los artículos 292 y siguientes del Código Penal no integran el perímetro curado de `marco-legal.md`. `[VERIFICAR-LEYCHILE]`
 
-## C-016 en adelante — Numeración corriente
+## C-016 — Prohibición de exhibir el esquema argumental y su vocabulario doctrinario
 
-La primera entrada nueva que no corresponda a una recuperación de las aquí tratadas se numera `C-016`, en aplicación de la regla de no reasignación: C-001 a C-015 quedan reservados aun cuando parte de ellos permanezca sin texto.
+**Estado.** Incorporada el 2026-11-03, con aprobación del titular prestada al autorizar la construcción del módulo `esquemas-argumentales.md` en los términos propuestos, que comprendían expresamente esta entrada.
+
+**Regla.** No se exhibe en escrito judicial, informe, minuta de alegato ni presentación ante autoridad el diagrama del esquema argumental, su nomenclatura —«garantía», «respaldo», «modalizador», «refutación», «warrant», «backing»— ni la atribución del método a autor alguno. El producto del análisis ingresa al escrito traducido al lenguaje del artículo 297 del Código Procesal Penal: máximas de la experiencia, principios de la lógica y conocimientos científicamente afianzados.
+
+**Fundamento.** La fuerza de la objeción no reside en el esquema que permitió formularla, sino en el defecto que el esquema permitió ver. Exhibir el instrumento traslada el debate desde el terreno normativo —donde el art. 297 impone al tribunal una obligación exigible y el art. 342 letra c) la sanciona con nulidad— hacia un terreno doctrinario extranjero, donde el adversario queda habilitado para discutir la pertinencia del método en lugar de responder por el eslabón que calló. Es el mismo vicio que este catálogo ya proscribe respecto de la métrica de red y de la razón de verosimilitud: un instrumento de trabajo correctamente empleado hacia adentro se degrada cuando se lo presenta hacia afuera como si fuera la razón de la pretensión.
+
+A ello se agrega una consideración de estatuto: el esquema no es fuente del derecho chileno ni integra el marco normativo curado del repositorio. Citarlo ante un tribunal invita a la pregunta de con qué título obliga, cuya única respuesta honesta es que no obliga.
+
+**Alcance.** Cubre el diagrama, la nomenclatura, la cita de autor u obra y la reproducción de la ficha `ficha-toulmin.md` o de cualquiera de sus secciones. No cubre el uso interno de trabajo, la comunicación con el cliente debidamente contextualizada, ni la docencia.
+
+**Detección.** La presencia en un escrito de los términos «garantía» en sentido argumentativo, «respaldo de la máxima», «modalizador», «warrant» o «backing», o de la mención del autor del esquema, constituye infracción. La formulación conforme es la que nombra la norma y no el método: «la sentencia no explicita la máxima de la experiencia que permitiría tener por acreditado [el hecho], con lo que su fundamentación no admite la reproducción del razonamiento que exige el artículo 297, inciso tercero».
+
+**Excepción.** Ninguna en sede de exhibición.
+
+**Vigencia.** Permanente.
+
+## C-017 en adelante — Numeración corriente
+
+Incorporada C-016, la primera entrada nueva se numera `C-017`, en aplicación de la regla de no reasignación: C-001 a C-016 quedan reservados aun cuando parte de ellos permanezca sin texto y C-015 permanezca sin incorporar.

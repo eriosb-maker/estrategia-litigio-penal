@@ -19,6 +19,11 @@
 > segmentados del Anexo de sus decretos promulgatorios con `curar_norma.py --tratado`. Corpus: 289
 > artículos. Vencen el 2027-03-30.
 >
+> **Actualización 2026-11-03 (v4.16)**: se insertan los arts. 341 y 342 CPP (sección 3.10), que cierran la
+> cadena de fundamentación de la sentencia (297 inc. 3° → 342 c) y d) → 374 e) y f)) y sirven de base normativa
+> al módulo `esquemas-argumentales.md`. Corpus: 291 artículos. Extracto desde el ejemplar conservado en
+> `curatoria/xml/` (hash idéntico al registrado); vence el 2027-05-03.
+>
 > **Cotejo A-027 (2026-09-30, v4.15)**: nueva descarga de los XML del CPP, la CPR y el COT, con hashes
 > idénticos a los registrados; 146/146 artículos CPP, 2/2 CPR y 1/1 COT idénticos al texto oficial.
 > Ley modificatoria del art. 238 CPP individualizada (Ley N° 21.829). XML conservados en `curatoria/xml/`.
@@ -6862,6 +6867,74 @@ cualquier otro medio, salvo lo dispuesto en el artículo
 151.
 ```
 
+### 3.10 Contenido y fundamentación de la sentencia definitiva *(insertado el 2026-11-03)*
+- Arts. 341 y 342: congruencia entre acusación y sentencia (art. 341) y contenido obligatorio del fallo (art. 342), en particular la letra c) —exposición clara, lógica y completa de cada uno de los hechos que se dieren por probados y valoración de los medios de prueba «de acuerdo con lo dispuesto en el artículo 297»— y la letra d) —razones legales o doctrinales de la calificación jurídica—. Con esta inserción queda completa la cadena normativa de impugnación por defecto de fundamentación: art. 297, inciso tercero (sección 3.6) → art. 342, letras c) y d) → art. 374, letras e) y f) (sección 3.8). Base normativa de `references/esquemas-argumentales.md`.
+- Procedencia del extracto: ejemplar del XML oficial conservado en `curatoria/xml/cpp-ley19696-idNorma-176595.xml`, versión de la norma 2026-07-22, cuyo SHA-256 se verificó idéntico al registrado en las curatorías del 2026-09-30. No hubo descarga nueva, por lo que la regla A-027 (cotejo íntegro por descarga) no se activa; el perímetro CPP conserva el cotejo conforme de esa fecha.
+
+## ESTABLECE CODIGO PROCESAL PENAL (CPP)
+
+> **Fuente oficial**: Biblioteca del Congreso Nacional — LeyChile, servicio XML `obtxml opt=7`, idNorma 176595 (Ley 19696), publicada el 2000-10-12.
+> **Versión de la norma**: 2026-07-22 · **Estado**: no derogado. **SHA-256 del XML**: 890ef6a2704a10f956d6d9b0814613ffe141cb555f7cc639f31c078ab0a6390b (ejemplar conservado en `curatoria/xml/`, idéntico al registrado el 2026-09-30).
+> **Fecha de verificación de esta curatoría**: 2026-11-03. Todo uso posterior debe cotejar la vigencia en LeyChile.
+
+### CPP — Art. 341
+*Libro Segundo Procedimiento ordinario › Título III Juicio oral › Párrafo 10º Sentencia definitiva* — `idParte 8646919 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 341.- Sentencia y acusación. La sentencia
+condenatoria no podrá exceder el contenido de la
+acusación. En consecuencia, no se podrá condenar por
+hechos o circunstancias no contenidos en ella.
+     Con todo, el tribunal podrá dar al hecho una
+calificación jurídica distinta de aquella contenida en la
+acusación o apreciar la concurrencia de causales
+modificatorias agravantes de la responsabilidad penal no
+incluidas en ella, siempre que hubiere advertido a los
+intervinientes durante la audiencia.
+     Si durante la deliberación uno o más jueces
+consideraren la posibilidad de otorgar a los hechos una
+calificación distinta de la establecida en la acusación,
+que no hubiere sido objeto de discusión durante la
+audiencia, deberán reabrirla, a objeto de permitir a las
+partes debatir sobre ella.
+```
+
+### CPP — Art. 342
+*Libro Segundo Procedimiento ordinario › Título III Juicio oral › Párrafo 10º Sentencia definitiva* — `idParte 8646920 · versión del artículo: 2000-10-12`
+
+```
+     Artículo 342.- Contenido de la sentencia. La sentencia
+definitiva contendrá:
+     a) La mención del tribunal y la fecha de su
+dictación; la identificación del acusado y la de el o los
+acusadores;
+     b) La enunciación breve de los hechos y circunstancias
+que hubieren sido objeto de la acusación; en su caso, los
+daños cuya reparación reclamare en la demanda civil y su
+pretensión reparatoria, y las defensas del acusado;
+     c) La exposición clara, lógica y completa de cada uno
+de los hechos y circunstancias que se dieren por probados,
+fueren ellos favorables o desfavorables al acusado, y de la
+valoración de los medios de prueba que fundamentaren dichas
+conclusiones de acuerdo con lo dispuesto en el artículo
+297;
+     d) Las razones legales o doctrinales que sirvieren para
+calificar jurídicamente cada uno de los hechos y sus
+circunstancias y para fundar el fallo;
+     e) La resolución que condenare o absolviere a cada uno
+de los acusados por cada uno de los delitos que la
+acusación les hubiere atribuido; la que se pronunciare
+sobre la responsabilidad civil de los mismos y fijare el
+monto de las indemnizaciones a que hubiere lugar;
+     f) El pronunciamiento sobre las costas de la causa, y
+     g) La firma de los jueces que la hubieren dictado.
+     La sentencia será siempre redactada por uno de los
+miembros del tribunal colegiado, designado por éste, en
+tanto la disidencia o prevención será redactada por su
+autor. La sentencia señalará el nombre de su redactor y el
+del que lo sea de la disidencia o prevención.
+```
+
 ## 3 bis. Normas constitucionales y orgánicas complementarias — perímetro aprobado
 
 ### 3 bis.1 Constitución Política de la República *(insertado el 2026-09-30)*
@@ -7590,3 +7663,4 @@ a la sección 7 del SKILL.md.)*
 | 2026-09-30 | CADH (16022) · PIDCP (15551) | Sin inserción: nodo único «Artículo s/n» no segmentable por el motor (sección 3 bis.3) | 1991-01-05 · 1989-04-29 | laguna consignada |
 | 2026-09-30 | CADH (idNorma 16022) · PIDCP (idNorma 15551) | CADH 8; PIDCP 14 (2 artículos; sección 3 bis.3; modo `--tratado`; secuencia correlativa 82/82 y 53/53; XML SHA-256 b5287e29…4c54 y 6d857285…0afe5). Cotejo A-027: sin artículos previamente curados de estos cuerpos | 1991-01-05 · 1989-04-29 | curar_norma.py --tratado |
 | 2026-09-30 | CPP (176595) · CPR (242302) · COT (25563) | Cotejo A-027 sin inserciones: CPP 146/146, CPR 2/2 y COT 1/1 idénticos; XML con hashes idénticos a los registrados (890ef6a2…6390b; f49fa004…07ab; 6a60c46a…6d994), conservados en `curatoria/xml/`; art. 238 CPP: reforma atribuida a la Ley N° 21.829, art. 4° (D.O. 22-07-2026) | 2026-07-22 · 2026-04-16 · 2026-04-02 | curar_norma.py (A-027) |
+| 2026-11-03 | CPP (idNorma 176595) | 341–342 (2 artículos; sección 3.10: congruencia y contenido de la sentencia definitiva; XML SHA-256 890ef6a2…6390b, ejemplar conservado en `curatoria/xml/`, sin descarga nueva) | 2026-07-22 | curar_norma.py |
