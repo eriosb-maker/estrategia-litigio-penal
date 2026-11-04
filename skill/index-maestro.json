@@ -4,13 +4,13 @@
   "version_skill": "4.16",
   "fecha_indice": "2026-11-03",
   "algoritmo": "sha256",
-  "origen_version": "v4.16: módulo references/esquemas-argumentales.md y plantilla assets/templates/ficha-toulmin.md; curatoría de los arts. 341 y 342 CPP (marco-legal.md, sección 3.10; corpus 291 artículos); contraindicación C-016 (prohibición de exhibición del esquema argumental); corrección de manifiesto de formato en prescripcion.py (black), propagada al motor empaquetado por A-022. Base: v4.15.",
+  "origen_version": "v4.16: módulo references/esquemas-argumentales.md y plantilla assets/templates/ficha-toulmin.md; curatoría de los arts. 341 y 342 CPP (marco-legal.md, sección 3.10; corpus 291 artículos); contraindicación C-016; corrección de manifiesto de formato en prescripcion.py (black), propagada por A-022; constancia registral de instalación del 2026-11-04. Base: v4.15.",
   "archivos": [
     {
       "ruta": "CHANGELOG.md",
       "estado": "instalado",
-      "sha256": "a68a2472fe958d47abc473b7f8eb0ff1c4a2d2f5f4042067f31c241c2d7aa619",
-      "bytes": 56721
+      "sha256": "7dcb5eda3c1375abecae125f17856d06ac7e1d3a7ef83ad82b6057f703b0f0dc",
+      "bytes": 57471
     },
     {
       "ruta": "SKILL.md",
