@@ -1,22 +1,22 @@
 {
   "_nota": "Indice maestro de integridad. Estados: instalado | no_propagado (construido, no instalado) | ausente (invocado o comprometido, nunca instalado). El indice y el script de verificacion se excluyen de si mismos.",
   "skill": "analisis-penal-chile",
-  "version_skill": "4.15",
-  "fecha_indice": "2026-09-30",
+  "version_skill": "4.16",
+  "fecha_indice": "2026-11-03",
   "algoritmo": "sha256",
-  "origen_version": "v4.15: individualización de la Ley N° 21.829 como modificatoria del art. 238 CPP; XML CPP/CPR/COT conservados y cotejo A-027 conforme; alineación de metadata.version. Base: v4.14.",
+  "origen_version": "v4.16: módulo references/esquemas-argumentales.md y plantilla assets/templates/ficha-toulmin.md; curatoría de los arts. 341 y 342 CPP (marco-legal.md, sección 3.10; corpus 291 artículos); contraindicación C-016 (prohibición de exhibición del esquema argumental); corrección de manifiesto de formato en prescripcion.py (black), propagada al motor empaquetado por A-022. Base: v4.15.",
   "archivos": [
     {
       "ruta": "CHANGELOG.md",
       "estado": "instalado",
-      "sha256": "4322772e5248b6488715396607bff466ad292751acc40c6bcf16c68c7109b304",
-      "bytes": 50645
+      "sha256": "a68a2472fe958d47abc473b7f8eb0ff1c4a2d2f5f4042067f31c241c2d7aa619",
+      "bytes": 56721
     },
     {
       "ruta": "SKILL.md",
       "estado": "instalado",
-      "sha256": "32a2a546d21f77f76aa068e5fdcf632191ccc25c9fa1811cd11aa4b26b7f21a5",
-      "bytes": 61491
+      "sha256": "ce5ab85807f336004fcf586bd8071022d3c06127c9c5e743c01d41241b8a6a75",
+      "bytes": 65351
     },
     {
       "ruta": "assets/fuentes/Art56CP.jpeg",
@@ -41,6 +41,12 @@
       "estado": "instalado",
       "sha256": "7c9ffcd3b347f7ba1fed0c32f9fad46a5a7e30f6a701ab00fb4fefd4d35dbd69",
       "bytes": 2066
+    },
+    {
+      "ruta": "assets/templates/ficha-toulmin.md",
+      "estado": "instalado",
+      "sha256": "561b01a13f17a8b668ad3ff321695b22bfbcf1d88258d14f99fd8b2dba78efef",
+      "bytes": 3188
     },
     {
       "ruta": "assets/templates/matriz-contradicciones.md",
@@ -81,8 +87,8 @@
     {
       "ruta": "references/contraindicaciones.md",
       "estado": "instalado",
-      "sha256": "7d1b98e815b0e4671b8bf8343de8e52f1d828de1abeda7bd7450201b590ac282",
-      "bytes": 8150
+      "sha256": "855853eff98b32d27cd4655596d8b6abeeec29c5c39694f0d1c58915883dde61",
+      "bytes": 10867
     },
     {
       "ruta": "references/decision-estrategica.md",
@@ -101,6 +107,12 @@
       "estado": "instalado",
       "sha256": "c6bf5f135426772e3a4ceddb25fe51db596510cbe9e1c5d891e49ab5c549f59d",
       "bytes": 3505
+    },
+    {
+      "ruta": "references/esquemas-argumentales.md",
+      "estado": "instalado",
+      "sha256": "469c15de56e8c704f8a54d2884e880cc85162a0c2ce19d43f9ec2905bffb0f77",
+      "bytes": 14086
     },
     {
       "ruta": "references/estrategia-litigio.md",
@@ -141,8 +153,8 @@
     {
       "ruta": "references/marco-legal.md",
       "estado": "instalado",
-      "sha256": "c0a9ee0d6d3dcb0909781f73727b8267f94b87e1db7e811660a2aa0993743a7f",
-      "bytes": 368593
+      "sha256": "a27fc32209d23a54077302d190598ef513ada99ffa4698839977efe5e1a234a8",
+      "bytes": 373750
     },
     {
       "ruta": "references/metodologia-detallada.md",
@@ -189,8 +201,8 @@
     {
       "ruta": "scripts/prescripcion.py",
       "estado": "instalado",
-      "sha256": "f949afc81c3ad07609b991810b6606363277ead0e2f9298537eb3fa4424f7dac",
-      "bytes": 16535
+      "sha256": "e9956426c78fe056cee1d889b042156f4b6c67ec6a5cc980f72120c8f7852eb5",
+      "bytes": 16537
     }
   ]
 }
