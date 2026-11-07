@@ -1,10 +1,10 @@
 {
   "_nota": "Indice maestro de integridad. Estados: instalado | no_propagado (construido, no instalado) | ausente (invocado o comprometido, nunca instalado). El indice y el script de verificacion se excluyen de si mismos.",
   "skill": "analisis-penal-chile",
-  "version_skill": "4.16",
-  "fecha_indice": "2026-11-03",
+  "version_skill": "4.17",
+  "fecha_indice": "2026-11-07",
   "algoritmo": "sha256",
-  "origen_version": "v4.16: módulo references/esquemas-argumentales.md y plantilla assets/templates/ficha-toulmin.md; curatoría de los arts. 341 y 342 CPP (marco-legal.md, sección 3.10; corpus 291 artículos); contraindicación C-016; corrección de manifiesto de formato en prescripcion.py (black), propagada por A-022; constancia registral de instalación del 2026-11-04. Base: v4.15.",
+  "origen_version": "v4.17: arts. 182 y 183 CPP (references/marco-legal.md, sección 3.11)",
   "archivos": [
     {
       "ruta": "CHANGELOG.md",
@@ -153,8 +153,8 @@
     {
       "ruta": "references/marco-legal.md",
       "estado": "instalado",
-      "sha256": "a27fc32209d23a54077302d190598ef513ada99ffa4698839977efe5e1a234a8",
-      "bytes": 373750
+      "sha256": "9fe2b53b6b09b10d84bba5e7791a5ea445483e96c08f454010aa4106bece9ecc",
+      "bytes": 379258
     },
     {
       "ruta": "references/metodologia-detallada.md",
