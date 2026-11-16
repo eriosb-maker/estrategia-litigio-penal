@@ -4,13 +4,13 @@
   "version_skill": "4.19",
   "fecha_indice": "2026-11-16",
   "algoritmo": "sha256",
-  "origen_version": "v4.19: Protocolo de Cierre y Aprendizaje del ciclo v4.18; entrada A-029 aprobada (el número de versión se asigna contra main y consta en los cuatro lugares del manifiesto). Versión exclusivamente de memoria: no altera módulo jurídico, normativo ni de motores. Base: v4.18.",
+  "origen_version": "v4.19: Protocolo de Cierre y Aprendizaje del ciclo v4.18; entrada A-029 aprobada (el número de versión se asigna contra main y consta en los cuatro lugares del manifiesto). Versión exclusivamente de memoria: no altera módulo jurídico, normativo ni de motores. Base: v4.18. Incluye la constancia registral de instalación y verificación del 2026-11-16.",
   "archivos": [
     {
       "ruta": "CHANGELOG.md",
       "estado": "instalado",
-      "sha256": "15e4f898ea865094ecda72be5adac1263b8978cd15675fd3f249ef803d01d18c",
-      "bytes": 64735
+      "sha256": "7d52e35d52ef68bd6a256bda26472b112f98f6029a7ba59dd34403eb1043d67f",
+      "bytes": 66097
     },
     {
       "ruta": "SKILL.md",
