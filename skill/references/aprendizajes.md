@@ -286,6 +286,15 @@ Las entradas A-015 a A-020 provienen del linaje del repositorio `estrategia-liti
 - **Vigencia**: permanente.
 
 
+### A-029 — [2026-11-16] — Metodología — El número de versión se asigna contra `main`, y toda versión consta en los cuatro lugares del manifiesto
+- **Estado**: aprobado *(propuesto y aprobado expresamente por el titular el 2026-11-16)*
+- **Naturaleza**: cambio de criterio aprobado
+- **Contexto**: la entrega de la entrada A-028 fue numerada v4.17 sobre una rama cuya base era la v4.16. Entretanto, una curatoría del titular publicada directamente en `main` —arts. 182 y 183 CPP— había tomado ese mismo número. La colisión no se manifestó al trabajar ni al empujar la rama, sino al intentar la fusión, y obligó a renumerar la entrega a v4.18 y a reconciliar el registro. La misma revisión constató que el commit de origen había incrementado la versión en el índice maestro, pero no en el encabezado del `SKILL.md`, ni mediante nota de versión, ni abriendo entrada en el registro de cambios.
+- **Lección**: el número de versión es un identificador compartido y no reasignable, de la misma especie que los `A-0NN` y los `C-0NN`, pero con una diferencia que lo vuelve más frágil: nada impide que dos linajes lo reclamen a la vez, porque ninguno ve al otro mientras trabaja. La base de la rama informa de dónde se partió, no de qué número está libre. Y una versión que consta en el índice pero no en el manifiesto reproduce, en el plano de la numeración, la discordancia que la regla R-1 proscribe en el plano de los archivos: el índice declararía instalado un estado que el manifiesto desconoce.
+- **Regla operativa**: (a) antes de asignar número a una entrega, obtener el estado vigente de `main` y leer allí `metadata.version` del `SKILL.md` y `version_skill` del índice maestro; el número se asigna sobre el mayor de ambos, jamás sobre la base de la rama; (b) si las dos fuentes discrepan, se corrige la discordancia como corrección de manifiesto (15.3.3.a) antes de numerar; (c) advertida una colisión ya publicada, conserva el número la versión que consta en `main` y renumera la que no se ha fusionado, sin reasignar jamás el identificador ocupado; (d) toda versión consta en cuatro lugares: `metadata.version` del frontmatter, la nota de versión al pie del `SKILL.md`, la entrada del `CHANGELOG.md` y `version_skill` del índice; una versión presente solo en algunos de ellos es defecto de manifiesto y se subsana en la entrega siguiente, con entrada propia en el registro.
+- **Vigencia**: permanente.
+
+
 ---
 
 ## Histórico consolidado

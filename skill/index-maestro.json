@@ -1,22 +1,22 @@
 {
   "_nota": "Indice maestro de integridad. Estados: instalado | no_propagado (construido, no instalado) | ausente (invocado o comprometido, nunca instalado). El indice y el script de verificacion se excluyen de si mismos.",
   "skill": "analisis-penal-chile",
-  "version_skill": "4.18",
+  "version_skill": "4.19",
   "fecha_indice": "2026-11-16",
   "algoritmo": "sha256",
-  "origen_version": "v4.18: Protocolo de Cierre y Aprendizaje del ciclo v4.16; entrada A-028 aprobada (cotejo de descripciones entre skills de la cuenta antes de crear una nueva). Reconciliación de la numeración con la v4.17 del titular (arts. 182 y 183 CPP, sección 3.11; corpus 293 artículos), cuyo registro se practica aquí como corrección de manifiesto. Base: v4.17.",
+  "origen_version": "v4.19: Protocolo de Cierre y Aprendizaje del ciclo v4.18; entrada A-029 aprobada (el número de versión se asigna contra main y consta en los cuatro lugares del manifiesto). Versión exclusivamente de memoria: no altera módulo jurídico, normativo ni de motores. Base: v4.18.",
   "archivos": [
     {
       "ruta": "CHANGELOG.md",
       "estado": "instalado",
-      "sha256": "97d5af6aca4185e7627c164a69624c0a46565594b1202530d47e83f20ed2fe44",
-      "bytes": 61953
+      "sha256": "15e4f898ea865094ecda72be5adac1263b8978cd15675fd3f249ef803d01d18c",
+      "bytes": 64735
     },
     {
       "ruta": "SKILL.md",
       "estado": "instalado",
-      "sha256": "b91431225cff43900bc0c91173d9d0168ac547e094cd118053c702759be3411e",
-      "bytes": 67022
+      "sha256": "e4eb390bf1dc9921a941fdcd2073e0885256a5a01032d35fabbfd7672344afa0",
+      "bytes": 67827
     },
     {
       "ruta": "assets/fuentes/Art56CP.jpeg",
@@ -69,8 +69,8 @@
     {
       "ruta": "references/aprendizajes.md",
       "estado": "instalado",
-      "sha256": "2d502b17401ac04ef95a03195bf6814636723bafe27200bd4f031a76275345ea",
-      "bytes": 38572
+      "sha256": "4da6aef7c9f7b8c945f408945aeebfab9e48160c4d40c58637d2f57fc7220124",
+      "bytes": 41035
     },
     {
       "ruta": "references/audiencia-preparacion.md",
