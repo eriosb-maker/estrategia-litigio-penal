@@ -1,5 +1,19 @@
 # Registro de cambios — `analisis-penal-chile`
 
+## v4.19 — 16 de noviembre de 2026
+
+**Protocolo de Cierre y Aprendizaje del ciclo v4.18 (aprobación expresa del titular, 2026-11-16).**
+
+1. **A-029 incorporada** a `references/aprendizajes.md` en estado **aprobado** (categoría `Metodología`; naturaleza cambio de criterio). Contenido: el número de versión es un identificador compartido y no reasignable, de la misma especie que los `A-0NN` y los `C-0NN`, pero más frágil, porque nada impide que dos linajes lo reclamen a la vez; la base de la rama informa de dónde se partió, no de qué número está libre. Regla operativa en cuatro extremos: (a) numerar sobre el estado vigente de `main`, leyendo allí `metadata.version` y `version_skill`, y sobre el mayor de ambos; (b) corregir como corrección de manifiesto toda discordancia entre esas dos fuentes antes de numerar; (c) ante colisión ya publicada, conserva el número la versión que consta en `main` y renumera la no fusionada, sin reasignar jamás el identificador ocupado; (d) toda versión consta en los cuatro lugares del manifiesto —frontmatter, nota de versión, entrada del registro e índice—, y su presencia parcial es defecto de manifiesto que se subsana en la entrega siguiente, con entrada propia. Origen: la colisión de la v4.17 entre la curatoría del titular del 2026-11-07 y la entrega de A-028, advertida solo al intentar la fusión, y la constatación de que aquella versión constaba en el índice y no en el manifiesto.
+
+2. **Aplicación inmediata de la regla a esta propia entrega**: antes de numerar se leyó el estado vigente de `main`, que declaraba 4.18 en las cuatro fuentes, de modo conforme; la presente versión se numera 4.19 sobre ese estado y no sobre la base de la rama.
+
+3. **Naturaleza de la versión**: exclusivamente de memoria. No altera módulo jurídico, normativo ni de motores; los módulos modificados son `references/aprendizajes.md`, `SKILL.md` (número de versión y registro) y `CHANGELOG.md`. El corpus de `marco-legal.md` permanece en 293 artículos; la contraindicación vigente sigue siendo C-016, con numeración corriente en C-017.
+
+4. Versión incrementada a 4.19 en los cuatro lugares del manifiesto (A-029.d); índice maestro regenerado (R-4); auditoría `verificar-integridad.sh` conforme sobre el árbol de trabajo y sobre el reempaquetado (R-3); suite de pruebas y verificador de sincronía conformes.
+
+*Pendientes que subsisten*: instalación de la v4.19 (acto del titular), que comprende también la v4.17 y la v4.18 si aquéllas no fueron instaladas; verificación bibliográfica de las obras atribuidas al autor del esquema argumental (marca `[PENDIENTE-BIBLIOGRÁFICO]`); revalidación del perímetro CP, que vence el 2027-01-06 y cuyo XML (idNorma 1984) no consta aún en `curatoria/xml/`.
+
 ## v4.18 — 16 de noviembre de 2026
 
 **Protocolo de Cierre y Aprendizaje del ciclo v4.16 (aprobación expresa del titular, 2026-11-16).**

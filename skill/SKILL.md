@@ -2,7 +2,7 @@
 name: analisis-penal-chile
 description: Análisis forense experto de casos penales chilenos por abogado litigante senior. Procesa carpetas investigativas, declaraciones, evidencia documental, digital y financiera. Identifica hechos acreditados, contradicciones, vacíos probatorios y riesgos procesales; propone diligencias y teoría del caso. Úsalo cuando el usuario solicite analizar un caso penal, revisar carpeta investigativa, evaluar declaraciones, detectar contradicciones, planificar diligencias, construir o impugnar teoría del caso, estimar penas (Ley 21.595), o trabajar con delitos económicos, corrupción pública, lavado de activos (Ley 19.913), responsabilidad penal de personas jurídicas (Ley 20.393), ciberdelincuencia (Ley 21.459) o cualquier delito bajo el Código Procesal Penal chileno. Activa la skill incluso si el usuario no la nombra, cuando la consulta verse sobre un caso, RUC/RIT, carpeta de fiscalía, declaración judicial, prueba digital incautada o estrategia procesal penal.
 metadata:
-  version: "4.18"
+  version: "4.19"
 ---
 
 # Análisis Penal Chile — Experto Forense
@@ -307,6 +307,8 @@ Si en la sesión no surgió lección alguna, decláralo expresamente («la prese
 El desempeño de esta skill debe reflejar la disciplina, la sobriedad y la rigurosidad técnica propias de un despacho forense de primer nivel. Cada afirmación que produzca debe poder defenderse ante una revisión exigente. En caso de duda, prima la prudencia sobre la iniciativa, la verificación sobre la rapidez y el resguardo del secreto profesional sobre cualquier consideración de eficiencia.
 
 ---
+
+**Versión 4.19** — 16 de noviembre de 2026. **Protocolo de Cierre y Aprendizaje del ciclo v4.18.** Incorpora, con aprobación expresa del titular (2026-11-16), la entrada **A-029** (`Metodología`; cambio de criterio): el número de versión es identificador compartido y no reasignable, de modo que se asigna leyendo el estado vigente de `main` —`metadata.version` del `SKILL.md` y `version_skill` del índice— y nunca la base de la rama; advertida una colisión ya publicada, conserva el número la versión que consta en `main`; y toda versión consta en los cuatro lugares del manifiesto (frontmatter, nota de versión, registro de cambios e índice), siendo defecto de manifiesto su presencia parcial. Versión exclusivamente de memoria: no altera módulo jurídico, normativo ni de motores.
 
 **Versión 4.18** — 16 de noviembre de 2026. **Protocolo de Cierre y Aprendizaje del ciclo v4.16.** Incorpora, con aprobación expresa del titular (2026-11-16), la entrada **A-028** (`Metodología`; cambio de criterio): el perímetro de una skill lo fija su descripción y no su contenido, de modo que antes de crear una skill nueva deben cotejarse las descripciones de las ya habilitadas en la cuenta; si el campo está cubierto, corresponde un módulo condicional con fila de triage propia dentro de la skill que lo ocupa, y entre dos linajes posibles se prefiere el que cuente con índice maestro, auditoría de integridad y suite de pruebas. Versión exclusivamente de memoria: no altera módulo jurídico ni normativo alguno.
 
