@@ -4,13 +4,13 @@
   "version_skill": "4.20",
   "fecha_indice": "2026-11-16",
   "algoritmo": "sha256",
-  "origen_version": "v4.20: revalidación íntegra del perímetro del Código Penal (A-027) contra descarga oficial nueva (idNorma 1984, SHA-256 8b1ba087…d18a): 137/138 idénticos y art. 12 re-curado por la Ley N° 21.802, art. 67. Corpus sin variación (293 artículos); extractos del CP vigentes hasta 2027-05-16. Base: v4.19.",
+  "origen_version": "v4.20: revalidación íntegra del perímetro del Código Penal (A-027) contra descarga oficial nueva (idNorma 1984, SHA-256 8b1ba087…d18a): 137/138 idénticos y art. 12 re-curado por la Ley N° 21.802, art. 67. Corpus sin variación (293 artículos); extractos del CP vigentes hasta 2027-05-16. Base: v4.19. Incluye la constancia registral de instalación del 2026-11-16.",
   "archivos": [
     {
       "ruta": "CHANGELOG.md",
       "estado": "instalado",
-      "sha256": "82fe28955f16422ecb4cad6fc3239dd9dfc1a63bff248877816c3410257e5f7c",
-      "bytes": 70167
+      "sha256": "c05b9d43770be0e5c84a4074a1d3f11b882924a7a2ea9d0f8681388e16a18d70",
+      "bytes": 70890
     },
     {
       "ruta": "SKILL.md",
