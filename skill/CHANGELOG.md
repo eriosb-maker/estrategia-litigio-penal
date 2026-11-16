@@ -1,5 +1,29 @@
 # Registro de cambios — `analisis-penal-chile`
 
+## v4.18 — 16 de noviembre de 2026
+
+**Protocolo de Cierre y Aprendizaje del ciclo v4.16 (aprobación expresa del titular, 2026-11-16).**
+
+1. **A-028 incorporada** a `references/aprendizajes.md` en estado **aprobado** (categoría `Metodología`; naturaleza cambio de criterio). Contenido: el perímetro de una skill no lo fija su contenido sino su **descripción**, que es lo que el modelo lee para decidir si la activa; dos descripciones que cubren el mismo campo producen una colisión de disparadores que no arroja error alguno y solo se manifiesta como pérdida de calidad del análisis. Regla operativa en cuatro extremos: (a) inventariar las skills habilitadas y cotejar la descripción proyectada antes de crear una nueva; (b) si el campo ya está cubierto, construir un módulo condicional con fila de triage propia dentro de la skill que lo ocupa; (c) reservar la skill nueva para campos genuinamente disjuntos; (d) entre dos linajes posibles, preferir el que cuente con índice maestro, auditoría de integridad y suite de pruebas, dejando constancia de la remisión recíproca. Origen: decisión de alojar el módulo de esquemas argumentales dentro de `analisis-penal-chile` en lugar de crear una skill paralela, al constatarse que `argumentacion-forense` ya declaraba ese campo en su descripción y que carece de fuente en disco, índice maestro, auditoría y pruebas.
+
+2. **Naturaleza de la entrada A-028**: exclusivamente de memoria. No altera módulo jurídico, normativo ni de motores: los módulos que esta entrega modifica por sí misma son `references/aprendizajes.md`, `SKILL.md` (número de versión y registro) y `CHANGELOG.md`. La contraindicación vigente sigue siendo C-016, con numeración corriente en C-017.
+
+3. **Reconciliación de versiones**: la rama de trabajo había numerado esta entrega como v4.17, número que entretanto ocupó la curatoría del titular del 2026-11-07, publicada directamente en `main`. Se renumera la presente a **v4.18** y se incorpora `main` a la rama, de modo que esta versión comprende también los arts. 182 y 183 CPP y el corpus de 293 artículos. Se registra además, como corrección de manifiesto, la v4.17 que el commit de origen no había asentado en el manifiesto ni en este registro.
+
+4. Versión incrementada a 4.18 (frontmatter y registro); índice maestro regenerado (R-4); auditoría `verificar-integridad.sh` conforme sobre el árbol de trabajo y sobre el reempaquetado (R-3); suite de pruebas y verificador de sincronía conformes.
+
+*Pendientes que subsisten*: instalación de la v4.18 (acto del titular); verificación bibliográfica de las obras atribuidas al autor del esquema argumental (marca `[PENDIENTE-BIBLIOGRÁFICO]` en `esquemas-argumentales.md`); revalidación del perímetro CP, que vence el 2027-01-06 y cuyo XML (idNorma 1984) no consta aún en `curatoria/xml/`.
+
+## v4.17 — 7 de noviembre de 2026
+
+**Curatoría normativa del titular; registro practicado en la v4.18 como corrección de manifiesto (15.3.3.a).**
+
+1. **Inserción en `references/marco-legal.md`, sección 3.11 nueva**: arts. 182 (secreto de las actuaciones de investigación) y 183 (proposición de diligencias) del Código Procesal Penal, que quedaban fuera del perímetro curado pese a su uso frecuente en la investigación formalizada. Procedencia: ejemplar del XML oficial conservado en `curatoria/xml/cpp-ley19696-idNorma-176595.xml`, versión de la norma 2026-07-22, SHA-256 `890ef6a2…6390b`, verificado idéntico al registrado en las curatorías del 2026-09-30 y del 2026-11-03; sin descarga nueva, por lo que la regla A-027 no se activa. Corpus verificado: **293 artículos** (CPP: 150). Módulos alterados por el commit de origen (`bb8ecfb`): `references/marco-legal.md` e `index-maestro.json`.
+
+2. **Corrección de manifiesto (15.3.3.a), aplicada en la v4.18**: el commit de origen incrementó la versión en el índice maestro, pero no el campo `metadata.version` del encabezado del `SKILL.md` —que permanecía en «4.16»—, no agregó la nota de versión correspondiente ni abrió entrada en este registro, de modo que la versión existía en el índice y no en el manifiesto. Se subsana aquí sin alterar el contenido curado, que se verificó íntegro: sección 3.11, nota de actualización del módulo y fila de la bitácora de curatoría constan conformes. La entrada se redacta a partir del commit y del módulo, no de la declaración de su autor.
+
+*Pendientes que subsisten*: los propios de la v4.18.
+
 ## v4.16 — 3 de noviembre de 2026
 
 **Módulo de esquemas argumentales (instrucción del titular, 2026-11-03).**

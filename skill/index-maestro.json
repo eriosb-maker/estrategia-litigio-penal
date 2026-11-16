@@ -1,22 +1,22 @@
 {
   "_nota": "Indice maestro de integridad. Estados: instalado | no_propagado (construido, no instalado) | ausente (invocado o comprometido, nunca instalado). El indice y el script de verificacion se excluyen de si mismos.",
   "skill": "analisis-penal-chile",
-  "version_skill": "4.17",
-  "fecha_indice": "2026-11-07",
+  "version_skill": "4.18",
+  "fecha_indice": "2026-11-16",
   "algoritmo": "sha256",
-  "origen_version": "v4.17: arts. 182 y 183 CPP (references/marco-legal.md, sección 3.11)",
+  "origen_version": "v4.18: Protocolo de Cierre y Aprendizaje del ciclo v4.16; entrada A-028 aprobada (cotejo de descripciones entre skills de la cuenta antes de crear una nueva). Reconciliación de la numeración con la v4.17 del titular (arts. 182 y 183 CPP, sección 3.11; corpus 293 artículos), cuyo registro se practica aquí como corrección de manifiesto. Base: v4.17.",
   "archivos": [
     {
       "ruta": "CHANGELOG.md",
       "estado": "instalado",
-      "sha256": "7dcb5eda3c1375abecae125f17856d06ac7e1d3a7ef83ad82b6057f703b0f0dc",
-      "bytes": 57471
+      "sha256": "97d5af6aca4185e7627c164a69624c0a46565594b1202530d47e83f20ed2fe44",
+      "bytes": 61953
     },
     {
       "ruta": "SKILL.md",
       "estado": "instalado",
-      "sha256": "ce5ab85807f336004fcf586bd8071022d3c06127c9c5e743c01d41241b8a6a75",
-      "bytes": 65351
+      "sha256": "b91431225cff43900bc0c91173d9d0168ac547e094cd118053c702759be3411e",
+      "bytes": 67022
     },
     {
       "ruta": "assets/fuentes/Art56CP.jpeg",
@@ -69,8 +69,8 @@
     {
       "ruta": "references/aprendizajes.md",
       "estado": "instalado",
-      "sha256": "0c5939353dc510659369ee4f890c49cfb071e2c603a0f4ae4fef490829cc3c23",
-      "bytes": 36467
+      "sha256": "2d502b17401ac04ef95a03195bf6814636723bafe27200bd4f031a76275345ea",
+      "bytes": 38572
     },
     {
       "ruta": "references/audiencia-preparacion.md",

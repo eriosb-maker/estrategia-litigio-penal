@@ -277,6 +277,15 @@ Las entradas A-015 a A-020 provienen del linaje del repositorio `estrategia-liti
 - **Vigencia**: permanente.
 
 
+### A-028 — [2026-11-03] — Metodología — Cotejo de descripciones entre skills de la cuenta antes de crear una nueva
+- **Estado**: aprobado *(propuesto en la entrega de la v4.16 y aprobado expresamente por el titular el 2026-11-16)*
+- **Naturaleza**: cambio de criterio aprobado
+- **Contexto**: consulta sobre dónde alojar un módulo de análisis de la estructura del argumento. El examen previo reveló que la cuenta tenía habilitadas dos skills, y que la segunda —`argumentacion-forense`— declaraba en su descripción cubrir la construcción e impugnación de teorías del caso, la refutación de máximas de la experiencia y la valoración bajo sana crítica, esto es, el campo exacto que una skill nueva habría ocupado. El examen reveló además que esa segunda skill carece de fuente en disco, de índice maestro, de auditoría de integridad y de suite de pruebas.
+- **Lección**: el perímetro de una skill no lo fija su contenido sino su **descripción**, que es lo que el modelo lee para decidir si la activa. Dos descripciones que cubren el mismo campo producen una colisión de disparadores que no arroja error alguno: ambas se autoactivan, o se activa la menos idónea, y el defecto solo se manifiesta como pérdida de calidad en el análisis. A ello se agrega un criterio de gobernanza: un módulo alojado en un linaje sin índice maestro ni verificación de integridad no es auditable y queda fuera de la Cláusula de Integridad y Propagación.
+- **Regla operativa**: antes de proponer o construir una skill nueva, (a) inventariar las skills habilitadas en la cuenta y cotejar la descripción proyectada contra las existentes; (b) si el campo ya está cubierto, construir un **módulo condicional** dentro de la skill que lo ocupa, con fila de triage propia, en lugar de una skill paralela; (c) reservar la skill nueva para campos genuinamente disjuntos; (d) ante dos linajes posibles, preferir aquel que cuente con índice maestro, auditoría de integridad y suite de pruebas, y dejar constancia de la remisión recíproca entre ambos perímetros.
+- **Vigencia**: permanente.
+
+
 ---
 
 ## Histórico consolidado
