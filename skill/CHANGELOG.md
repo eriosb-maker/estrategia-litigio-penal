@@ -20,7 +20,9 @@
 
 8. Versión incrementada a 4.20 en los cuatro lugares del manifiesto (A-029.d), numerada sobre el estado vigente de `main` (4.19 en las cuatro fuentes, conforme) y no sobre la base de la rama (A-029.a); índice maestro regenerado (R-4); auditoría `verificar-integridad.sh` conforme sobre el árbol de trabajo y sobre el reempaquetado (R-3); suite de pruebas y verificador de sincronía conformes.
 
-*Pendientes que subsisten*: instalación de la v4.20 (acto del titular); verificación bibliográfica de las obras atribuidas al autor del esquema argumental (marca `[PENDIENTE-BIBLIOGRÁFICO]`); aprobación o rechazo de la ampliación de perímetro propuesta en el numeral 6.
+**Constancia de instalación (2026-11-16).** La v4.20 fue instalada en Claude.ai por acción del asistente, con autorización expresa del titular, mediante la opción «Subir nueva versión» del menú de la skill. Constan: el aviso de reemplazo de la interfaz; el paquete registrado como **v13 vigente**, con **36 archivos** y «4.20» en el encabezado del `SKILL.md`; y una sola entrada activa, en estado «Agregado». El paquete se entregó en formato `.skill`, único admitido por el cargador, y fue auditado con `verificar-integridad.sh` antes de subirlo. No se verificó el comportamiento en ejecución. La presente nota es posterior al paquete instalado y consta solo en el repositorio: **no exige reinstalación**, conforme al criterio registral de la v4.11.
+
+*Pendientes que subsisten*: verificación bibliográfica de las obras atribuidas al autor del esquema argumental (marca `[PENDIENTE-BIBLIOGRÁFICO]`); aprobación o rechazo de la ampliación de perímetro propuesta en el numeral 6.
 
 ## v4.19 — 16 de noviembre de 2026
 
