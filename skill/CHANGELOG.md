@@ -1,5 +1,25 @@
 # Registro de cambios — `analisis-penal-chile`
 
+## v4.21 — 16 de noviembre de 2026
+
+**Verificación bibliográfica del módulo de esquemas argumentales (instrucción del titular, 2026-11-16).**
+
+1. **Obras verificadas**. Se cotejaron las cuatro obras de Toulmin citadas en `references/esquemas-argumentales.md` contra la ficha de catálogo del propio editor, allí donde subsiste, y contra registros bibliográficos agregados: *The Uses of Argument* (Cambridge University Press, **1958**; edición actualizada 2003, ISBN 0-521-82748-5 y 0-521-53483-6); *Human Understanding*, vol. I, *The Collective Use and Evolution of Concepts* (**1972**, ±520 pp.); *Cosmopolis: The Hidden Agenda of Modernity* (The Free Press, **1990**, ISBN 0-02-932631-1; University of Chicago Press, 1992, ISBN 0-226-80838-6; 228 pp.); y *Return to Reason* (Harvard University Press, **2001**, ISBN 0-674-00495-7; rústica del 30-09-2003, ISBN 0-674-01235-6; 256 pp.). Los cuatro años que el material de origen consignaba resultaron correctos.
+
+2. **Discrepancia disuelta**. Las fuentes secundarias atribuían *Human Understanding* unas veces a Princeton University Press y otras a Clarendon Press / Oxford University Press. El cotejo mostró que no hay contradicción: hubo **doble edición simultánea**, estadounidense (Princeton, ISBN 0-691-07185-3) y británica (Clarendon/OUP, ISBN 0-19-824361-8). Ambas atribuciones son correctas, y el módulo las consigna juntas.
+
+3. **Citas: prohibición mantenida y reforzada**. La pesquisa buscó activamente las frases que circulan atribuidas al autor en materiales divulgativos —«un buen argumento no es aquel que demuestra, sino que justifica», «los argumentos no flotan en el aire» y las relativas a la adecuación al auditorio— y **no halló ninguna fuente que las identifique por obra y página**. Lo más próximo localizado es una formulación distinta, de Atienza glosando a Toulmin, que no reproduce esas frases. En consecuencia, ninguna se entrecomilla ni se atribuye al autor; quien quiera citarlo debe hacerlo desde el texto de alguna de las cuatro obras, con página. La prohibición pasa de fundarse en la omisión de verificar a fundarse en una búsqueda infructuosa, lo que la robustece.
+
+4. **Estado de la marca**: `[PENDIENTE-BIBLIOGRÁFICO]` **levantada en cuanto a las obras** y **subsistente en cuanto a las citas**, con su alcance así precisado en el propio módulo y en la ficha de catálogo del `SKILL.md`.
+
+5. **Método**. Los catálogos de la Library of Congress y de WorldCat resultaron inaccesibles por vía automatizada —403 y 429 respectivamente—, y la ficha de Harvard University Press no entrega contenido sin ejecución de scripts. La verificación se practicó mediante navegador sobre la ficha del editor y sobre registros bibliográficos agregados, dejando constancia de cada fuente en el módulo. Ninguna afirmación bibliográfica de esta versión se funda en la memoria del modelo.
+
+6. **Naturaleza de la versión**: documental. No altera módulo normativo ni de motores; el corpus de `marco-legal.md` permanece en 293 artículos y la contraindicación vigente sigue siendo C-016, con numeración corriente en C-017.
+
+7. Versión incrementada a 4.21 en los cuatro lugares del manifiesto (A-029.d), numerada sobre el estado vigente de `main` (4.20 conforme en las cuatro fuentes) y no sobre la base de la rama (A-029.a); índice maestro regenerado (R-4); auditoría `verificar-integridad.sh` conforme sobre el árbol de trabajo y sobre el reempaquetado (R-3); suite de pruebas y verificador de sincronía conformes.
+
+*Pendientes que subsisten*: instalación de la v4.21 (acto del titular); aprobación o rechazo de la ampliación de perímetro propuesta en la v4.20 (arts. 448 bis a 448 octies, 456 y 456 bis del Código Penal).
+
 ## v4.20 — 16 de noviembre de 2026
 
 **Revalidación íntegra del perímetro del Código Penal (instrucción del titular, 2026-11-16).**
