@@ -4,13 +4,13 @@
   "version_skill": "4.21",
   "fecha_indice": "2026-11-16",
   "algoritmo": "sha256",
-  "origen_version": "v4.21: verificación bibliográfica del módulo de esquemas argumentales. Cuatro obras de Toulmin cotejadas (editor, año e ISBN); marca [PENDIENTE-BIBLIOGRÁFICO] levantada en cuanto a las obras y subsistente en cuanto a las citas, que no se hallaron identificadas por obra y página. Base: v4.20.",
+  "origen_version": "v4.21: verificación bibliográfica del módulo de esquemas argumentales. Cuatro obras de Toulmin cotejadas (editor, año e ISBN); marca [PENDIENTE-BIBLIOGRÁFICO] levantada en cuanto a las obras y subsistente en cuanto a las citas, que no se hallaron identificadas por obra y página. Base: v4.20. Incluye la constancia registral de instalación del 2026-11-16.",
   "archivos": [
     {
       "ruta": "CHANGELOG.md",
       "estado": "instalado",
-      "sha256": "39b4fceb8e4e973703beda569205afb83eff8ae27b075eda20c1ad6c0607ae54",
-      "bytes": 74647
+      "sha256": "dc338003fdc184c63de8e6c12b416cae223f2a47ee63ea7b9704b413c73d2247",
+      "bytes": 75221
     },
     {
       "ruta": "SKILL.md",
