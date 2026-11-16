@@ -8,7 +8,8 @@
 > comprendidos en las secciones 2 y 3 pueden citarse como texto verificado a la
 > fecha indicada; todo artículo NO comprendido en el perímetro conserva la marca
 > **«cita pendiente de verificación»**. Revalidación semestral obligatoria
-> conforme a la regla 4 del protocolo (vence el 2027-01-06).
+> conforme a la regla 4 del protocolo. **El perímetro del Código Penal fue revalidado
+> íntegramente el 2026-11-16 y vence el 2027-05-16**; véase el cotejo A-027 de esa fecha.
 >
 > **Actualización 2026-09-30**: cotejo íntegro del perímetro CPP (144 artículos) contra el XML
 > oficial versión 2026-07-22: 143 idénticos y 1 reformado (art. 238, re-curado). Se insertan los
@@ -27,6 +28,15 @@
 > **Actualización 2026-11-07 (v4.17)**: se insertan los arts. 182 y 183 CPP (sección 3.11), sobre secreto de
 > las actuaciones de investigación y proposición de diligencias. Corpus: 293 artículos. Extracto desde el
 > ejemplar conservado en `curatoria/xml/` (hash idéntico al registrado); vence el 2027-05-07.
+>
+> **Revalidación y cotejo A-027 del Código Penal (2026-11-16, v4.20)**: descarga nueva del XML oficial del CP
+> (idNorma 1984, SHA-256 `8b1ba087…d18a`, conservado en `curatoria/xml/`) y cotejo íntegro de los 138 artículos
+> del perímetro ya curado: **137 idénticos y 1 reformado**. El art. 12 fue re-curado: la Ley N° 21.802, art. 67
+> (D.O. 11-02-2026), renumeró como 25.° la segunda circunstancia que figuraba como 24 y agregó la circunstancia
+> 26.° (víctima inspector o inspectora municipal), con vigencia del artículo desde el 2026-08-12. Los extractos
+> del CP vencen el 2027-05-16. El cotejo advirtió además nueve artículos del Código Penal situados dentro de los
+> rangos examinados y fuera del perímetro aprobado —448 bis a 448 octies, 456 y 456 bis—, cuya incorporación
+> queda propuesta y pendiente de aprobación del titular.
 >
 > **Cotejo A-027 (2026-09-30, v4.15)**: nueva descarga de los XML del CPP, la CPR y el COT, con hashes
 > idénticos a los registrados; 146/146 artículos CPP, 2/2 CPR y 1/1 COT idénticos al texto oficial.
@@ -365,7 +375,7 @@ con la ley.
 ```
 
 ### CP — Art. 12
-*LIBRO PRIMERO › TÍTULO PRIMERO DE LOS DELITOS Y DE LAS CIRCUNSTANCIAS QUE EXIMEN DE RESPONSABILIDAD CRIMINAL, LA ATENÚAN O LA AGRAVAN. › § IV. De las circunstancias que agravan la responsabilidad criminal.* — `idParte 9672213 · versión del artículo: 2024-03-21`
+*LIBRO PRIMERO › TÍTULO PRIMERO DE LOS DELITOS Y DE LAS CIRCUNSTANCIAS QUE EXIMEN DE RESPONSABILIDAD CRIMINAL, LA ATENÚAN O LA AGRAVAN. › § IV. De las circunstancias que agravan la responsabilidad criminal.* — `idParte 9672213 · versión del artículo: 2026-08-12`
 
 ```
      ART. 12.
@@ -446,14 +456,30 @@ privada, de acuerdo con la ley que regula esa materia, sea
 con motivo de su cargo o en el ejercicio de sus funciones
 cuando porte uniforme, credencial visible al público o
 cualquier otro elemento que permita acreditar su calidad.
-     24ª. Cometer el delito en el marco de conductas
+     25°. Cometer el delito en el marco de conductas
 activas constitutivas de violencia ginecobstétrica, en su
 calidad de trabajadores de salud pública o privada, durante
 la atención de la gestación, preparto, parto, postparto y
 aborto, en las causales establecidas en la ley en el marco
 de la atención de la salud sexual y reproductiva de la
 mujer.
+    26.° En los delitos contra las personas, ser la
+víctima un inspector o una inspectora municipal, sea con
+motivo de su cargo o en el ejercicio de sus funciones cuando
+porte uniforme, credencial visible al público o cualquier
+otro elemento que permita acreditar su calidad.
 ```
+
+> **Re-curación del 2026-11-16 (regla A-027).** El cotejo íntegro del perímetro CP contra la versión oficial
+> vigente detectó que este artículo fue reformado por la **Ley N° 21.802**, que regula la seguridad municipal
+> (promulgada el 2026-02-03, publicada en el Diario Oficial el 2026-02-11), cuyo **artículo 67** dispone: letra a),
+> reemplaza «la numeración de la circunstancia 24, la segunda vez que aparece, por “25.°”»; letra b), agrega la
+> circunstancia **26.°** —ser la víctima un inspector o una inspectora municipal—. La versión del artículo rige
+> desde el **2026-08-12**. La reforma confirma, además, que el texto anterior contenía dos circunstancias
+> numeradas 24, defecto que la propia ley modificatoria describe y corrige. Verificación: XML oficial de la Ley
+> 21.802, idNorma 1221320, SHA-256 `4586743a…9171`, art. 67 leído verbatim; ninguna fuente secundaria funda esta
+> anotación. Toda cita anterior a esta fecha que invoque «el N° 24 del art. 12» por la agravante de violencia
+> ginecobstétrica debe actualizarse al **N° 25**.
 
 ### CP — Art. 13
 *LIBRO PRIMERO › TÍTULO PRIMERO DE LOS DELITOS Y DE LAS CIRCUNSTANCIAS QUE EXIMEN DE RESPONSABILIDAD CRIMINAL, LA ATENÚAN O LA AGRAVAN. › § V. De las circunstancias que atenúan o agravan la responsabilidad criminal, según la naturaleza y accidentes del delito.* — `idParte 9672215 · versión del artículo: 2015-04-21`
@@ -7742,3 +7768,4 @@ a la sección 7 del SKILL.md.)*
 | 2026-09-30 | CPP (176595) · CPR (242302) · COT (25563) | Cotejo A-027 sin inserciones: CPP 146/146, CPR 2/2 y COT 1/1 idénticos; XML con hashes idénticos a los registrados (890ef6a2…6390b; f49fa004…07ab; 6a60c46a…6d994), conservados en `curatoria/xml/`; art. 238 CPP: reforma atribuida a la Ley N° 21.829, art. 4° (D.O. 22-07-2026) | 2026-07-22 · 2026-04-16 · 2026-04-02 | curar_norma.py (A-027) |
 | 2026-11-03 | CPP (idNorma 176595) | 341–342 (2 artículos; sección 3.10: congruencia y contenido de la sentencia definitiva; XML SHA-256 890ef6a2…6390b, ejemplar conservado en `curatoria/xml/`, sin descarga nueva) | 2026-07-22 | curar_norma.py |
 | 2026-11-07 | CPP (idNorma 176595) | 182–183 (2 artículos; sección 3.11: secreto de las actuaciones y proposición de diligencias; XML SHA-256 890ef6a2…6390b, ejemplar conservado en `curatoria/xml/`, sin descarga nueva) | 2026-07-22 | curar_norma.py |
+| 2026-11-16 | CP (idNorma 1984) | Revalidación íntegra del perímetro (138 artículos) contra descarga nueva del XML oficial (SHA-256 `8b1ba087…d18a`): 137 idénticos y 1 reformado. Re-curación del art. 12 por la Ley N° 21.802, art. 67 (D.O. 11-02-2026; XML de la ley idNorma 1221320, SHA-256 `4586743a…9171`, leído verbatim). Propuestos y no insertados: arts. 448 bis a 448 octies, 456 y 456 bis | artículos hasta 2026-08-12 | curar_norma.py (A-027) |

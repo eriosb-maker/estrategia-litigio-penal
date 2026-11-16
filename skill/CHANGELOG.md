@@ -1,5 +1,27 @@
 # Registro de cambios — `analisis-penal-chile`
 
+## v4.20 — 16 de noviembre de 2026
+
+**Revalidación íntegra del perímetro del Código Penal (instrucción del titular, 2026-11-16).**
+
+1. **Descarga oficial nueva**: XML del Código Penal desde el servicio `obtxml` de LeyChile (idNorma 1984), SHA-256 `8b1ba0879e76acc4b32ebbd7cef497388c491c4ca5861c105b371148495bd18a`, conservado en `curatoria/xml/cp-idNorma-1984.xml`. El servicio resultó alcanzable desde el entorno de trabajo, lo que deja sin efecto la constancia anterior de inaccesibilidad; la descarga la ejecutó el asistente conforme a la enmienda aprobada el 2026-07-07, con registro de URL, idNorma y hash.
+
+2. **Cotejo íntegro conforme a la regla A-027**: los 138 artículos del perímetro CP ya curado se compararon uno a uno, por texto completo, contra el extracto generado desde el XML vigente. Resultado: **137 idénticos y 1 reformado**. Ningún artículo del perímetro resultó ausente del texto oficial.
+
+3. **Re-curación del art. 12 CP como corrección de manifiesto (15.3.3.a)**: el artículo fue modificado por la **Ley N° 21.802**, que regula la seguridad municipal (promulgada el 2026-02-03, publicada en el Diario Oficial el 2026-02-11), cuyo **artículo 67** dispone, en su letra a), reemplazar «la numeración de la circunstancia 24, la segunda vez que aparece, por “25.°”», y en su letra b), agregar la circunstancia **26.°** —ser la víctima un inspector o una inspectora municipal, con motivo de su cargo o en el ejercicio de sus funciones, portando uniforme, credencial visible u otro elemento acreditante—. La versión del artículo rige desde el **2026-08-12**. Se insertó el texto vigente y se anotó la reforma fuera del bloque legal.
+
+4. **Individualización de la ley modificatoria por la cadena oficial**: a diferencia del precedente del art. 238 CPP, aquí no se recurrió a la edición del Diario Oficial por vía de consulta web. Se resolvió el idNorma de la Ley 21.802 (**1221320**), se descargó su XML oficial (SHA-256 `4586743a66607735e3fb7c3be2b57bd4e21f9db72fa0f8565482a317d36b9171`, conservado en `curatoria/xml/`) y se leyó su art. 67 verbatim. Una búsqueda web previa había orientado la pesquisa, pero no funda la anotación, conforme a la regla A-026.
+
+5. **Hallazgo material de interés forense**: la reforma confirma que el texto anterior del art. 12 contenía **dos circunstancias numeradas 24** —la del vigilante privado y la de violencia ginecobstétrica—, defecto que la propia ley modificatoria describe al corregirlo. En consecuencia, toda cita anterior al 2026-08-12 que invoque «el N° 24 del art. 12» por la agravante de violencia ginecobstétrica debe actualizarse al **N° 25**. La anotación del módulo lo advierte expresamente.
+
+6. **Propuesta de ampliación de perímetro, no ejecutada**: el cotejo advirtió nueve artículos del Código Penal comprendidos en los rangos examinados y ausentes del perímetro aprobado —**448 bis, 448 ter, 448 quáter, 448 quinquies, 448 sexies, 448 septies, 448 octies, 456 y 456 bis**—. No se insertaron: la ampliación del perímetro es cambio de criterio y requiere aprobación expresa (15.3.3.b). Quedan consignados en el encabezado del módulo y en la bitácora.
+
+7. **Vigencias**: los extractos del CP vencen el **2027-05-16**. Corpus sin variación: **293 artículos**, puesto que la operación revalidó y re-curó, sin insertar artículos nuevos.
+
+8. Versión incrementada a 4.20 en los cuatro lugares del manifiesto (A-029.d), numerada sobre el estado vigente de `main` (4.19 en las cuatro fuentes, conforme) y no sobre la base de la rama (A-029.a); índice maestro regenerado (R-4); auditoría `verificar-integridad.sh` conforme sobre el árbol de trabajo y sobre el reempaquetado (R-3); suite de pruebas y verificador de sincronía conformes.
+
+*Pendientes que subsisten*: instalación de la v4.20 (acto del titular); verificación bibliográfica de las obras atribuidas al autor del esquema argumental (marca `[PENDIENTE-BIBLIOGRÁFICO]`); aprobación o rechazo de la ampliación de perímetro propuesta en el numeral 6.
+
 ## v4.19 — 16 de noviembre de 2026
 
 **Protocolo de Cierre y Aprendizaje del ciclo v4.18 (aprobación expresa del titular, 2026-11-16).**

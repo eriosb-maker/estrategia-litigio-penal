@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="UTF-8"?><Norma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.leychile.cl/esquemas" xsi:schemaLocation="http://www.leychile.cl/esquemas http://www.leychile.cl/esquemas/EsquemaIntercambioNorma-v1-0.xsd" normaId="1221320" esTratado="no tratado" fechaVersion="2026-02-11" SchemaVersion="1.0" derogado="no derogado">
+  <Identificador fechaPromulgacion="2026-02-03" fechaPublicacion="2026-02-11">
+    <TiposNumeros>
+      <TipoNumero>
+        <Tipo>Ley</Tipo>
+        <Numero>21802</Numero>
+      </TipoNumero>
+    </TiposNumeros>
+    <Organismos>
+      <Organismo>MINISTERIO DE SEGURIDAD P&#218;BLICA</Organismo>
+    </Organismos>
+  </Identificador>
+  <Metadatos>
+    <TituloNorma>MODIFICA LA LEY N&#186; 18. 695, ORG&#193;NICA CONSTITUCIONAL DE MUNICIPALIDADES, Y OTROS CUERPOS LEGALES, CON EL OBJETO DE FORTALECER LA INSTITUCIONALIDAD MUNICIPAL EN MATERIA DE SEGURIDAD P&#218;BLICA Y PREVENCI&#211;N DEL DELITO</TituloNorma>
+    <Materias>
+      <Materia>Seguridad P&#250;blica</Materia>
+      <Materia>Prevenci&#243;n del Delito</Materia>
+      <Materia>Municipalidades</Materia>
+      <Materia>Seguridad Municipal</Materia>
+      <Materia>Tecnolog&#237;as</Materia>
+      <Materia>Protecci&#243;n de Datos Personales</Materia>
+      <Materia>Fiscalizaci&#243;n Municipal</Materia>
+    </Materias>
+    
+    
+    <IdentificacionFuente>Diario Oficial</IdentificacionFuente>
+    <NumeroFuente>44373</NumeroFuente>
+  </Metadatos>
+  <Encabezado fechaVersion="2026-02-11" derogado="no derogado">
+    <Texto>
+MODIFICA LA LEY N&#186; 18. 695, ORG&#193;NICA CONSTITUCIONAL DE MUNICIPALIDADES, Y OTROS CUERPOS LEGALES, CON EL OBJETO DE FORTALECER LA INSTITUCIONALIDAD MUNICIPAL EN MATERIA DE SEGURIDAD P&#218;BLICA Y PREVENCI&#211;N DEL DELITO
+     
+     Teniendo presente que el H. Congreso Nacional ha dado su aprobaci&#243;n al siguiente proyecto de ley que tuvo su origen en un mensaje y en una moci&#243;n, refundidos. La moci&#243;n, correspondiente al bolet&#237;n N&#176; 15.984-06, de las diputadas Alejandra Placencia Cabello, Lorena Fries Monle&#243;n, Ana Mar&#237;a Gazmuri Vieira, Javiera Morales Alvarado, Camila Rojas Valderrama, Marisela Santib&#225;&#241;ez Novoa, Daniela Serrano Salazar, Carolina Tello Rojas y Consuelo Veloso &#193;vila; y del diputado Luis Alberto Cuello Pe&#241;a y Lillo,
+     
+     Proyecto de ley:</Texto>
+  </Encabezado>
+  <EstructurasFuncionales>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582948">
+      <Texto>     
+     "T&#205;TULO I
+     Del rol de las municipalidades en materia de prevenci&#243;n del delito y seguridad p&#250;blica a nivel comunal
+     </Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">T&#205;TULO I      Del rol de las municipalidades en materia de prevenci&#243;n del delito y seguridad p&#250;blica a nivel comunal</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582949">
+          <Texto>     Art&#237;culo 1.- &#193;mbito de aplicaci&#243;n. Esta ley tiene por objeto regular el rol preventivo, coadyuvante, colaborativo y complementario de las municipalidades en materia de prevenci&#243;n del delito y seguridad p&#250;blica a nivel comunal.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">1 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582950">
+          <Texto>     Art&#237;culo 2.- Rol de las municipalidades en materia de prevenci&#243;n del delito y seguridad p&#250;blica. En el ejercicio de las competencias de las municipalidades, relacionadas con la seguridad p&#250;blica, la prevenci&#243;n del delito constituye la labor principal y prioritaria, sin perjuicio de las funciones del Ministerio de Seguridad P&#250;blica y los dem&#225;s &#243;rganos con atribuciones relacionadas a dicha materia.
+    </Texto>
+          <Metadatos>
+            <NombreParte presente="si">2 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582951">
+          <Texto>     Art&#237;culo 3.- Estrategias de prevenci&#243;n del delito. En el ejercicio de la atribuci&#243;n dispuesta en el literal j) del art&#237;culo 4&#176; de la Ley N&#176; 18.695, Org&#225;nica Constitucional de Municipalidades, cuyo texto refundido, coordinado y sistematizado fue fijado por el decreto con fuerza de ley N&#176; 1, de 2006, del Ministerio del Interior, y de conformidad con lo dispuesto en la presente ley, las municipalidades podr&#225;n adoptar y promover estrategias de prevenci&#243;n de tipo social, comunitaria y situacional del delito, en sus distintos niveles, de acuerdo con sus capacidades, presupuesto, cantidad de habitantes y poblaci&#243;n flotante, geograf&#237;a, problemas espec&#237;ficos en materia de seguridad p&#250;blica, y en consideraci&#243;n a cualquier otra circunstancia que pudiera ser relevante en atenci&#243;n a la realidad de cada comuna.
+     El desarrollo, implementaci&#243;n, evaluaci&#243;n, promoci&#243;n, capacitaci&#243;n y apoyo de acciones, planes, medidas y proyectos, as&#237; como la suscripci&#243;n de convenios que formen parte de las estrategias preventivas, propender&#225;n a la prevenci&#243;n social, comunitaria y situacional, en sus distintos niveles. En la Pol&#237;tica Nacional de Seguridad P&#250;blica y en otros instrumentos que emanen del Ministerio de Seguridad P&#250;blica, &#233;ste definir&#225; cada una de las finalidades y niveles de prevenci&#243;n, as&#237; como las estrategias que comprenden.
+     Las distintas finalidades y niveles de prevenci&#243;n podr&#225;n operar de manera simult&#225;nea.
+     En el dise&#241;o, aprobaci&#243;n, ejecuci&#243;n e implementaci&#243;n de las acciones necesarias para llevar a cabo las estrategias de prevenci&#243;n deber&#225;n considerarse los indicadores, lineamientos y orientaciones t&#233;cnicas elaborados por el Ministerio de Seguridad P&#250;blica, a trav&#233;s de la Subsecretar&#237;a de Prevenci&#243;n del Delito.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">3 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582952">
+          <Texto>     Art&#237;culo 4.- Labores coadyuvantes en coordinaci&#243;n con las Fuerzas de Orden y Seguridad P&#250;blica. Las municipalidades, excepcionalmente, podr&#225;n colaborar coordinadamente con las Fuerzas de Orden y Seguridad P&#250;blica en el ejercicio de funciones relacionadas con la prevenci&#243;n del delito y la seguridad p&#250;blica a nivel comunal que expresamente se se&#241;alen en la ley. Si se trata de la labor de las y los inspectores de seguridad municipal, se estar&#225; a lo dispuesto en el P&#225;rrafo 5&#176; del T&#237;tulo III.
+     Asimismo, las municipalidades y asociaciones de municipalidades podr&#225;n proporcionar o recibir informaci&#243;n de las Fuerzas de Orden y Seguridad P&#250;blica para el desarrollo de sus funciones.
+     Para ello deber&#225;n supeditarse a los principios y lineamientos estrat&#233;gicos de la Pol&#237;tica Nacional de Seguridad P&#250;blica y en los dem&#225;s instrumentos pertinentes que emanen del Ministerio de Seguridad P&#250;blica. Asimismo, se subordinar&#225; operativamente a la labor de las Fuerzas de Orden y Seguridad P&#250;blica.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">4 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582953">
+          <Texto>     Art&#237;culo 5.- Colaboraci&#243;n con el Ministerio P&#250;blico. Sin perjuicio de lo establecido en el art&#237;culo 19 del C&#243;digo Procesal Penal, las municipalidades podr&#225;n colaborar con el Ministerio P&#250;blico mediante el otorgamiento y recepci&#243;n de informaci&#243;n que sea relevante y &#250;til para el ejercicio de sus atribuciones, en el marco de sus competencias y de conformidad con las disposiciones legales aplicables.
+     En particular, dicha colaboraci&#243;n podr&#225; incluir:
+     
+     a) La entrega de la ubicaci&#243;n georreferenciada y/o geolocalizada de los sistemas de televigilancia.
+     b) La entrega de informaci&#243;n georreferenciada sobre los delitos cometidos en la comuna, incluidos datos estad&#237;sticos y an&#225;lisis locales que permitan identificar patrones delictivos.
+     c) El acceso en l&#237;nea a informaci&#243;n contenida en sistemas inform&#225;ticos o de televigilancia que puedan favorecer la persecuci&#243;n penal, como sistemas de reconocimiento facial, lectores de patentes vehiculares o plataformas de an&#225;lisis de datos.
+     d) La realizaci&#243;n de reportes peri&#243;dicos sobre los factores crimin&#243;genos identificados en la comuna, tales como &#225;reas de alta incidencia delictual, zonas de comercio informal o propiedades abandonadas utilizadas para fines il&#237;citos.
+     e) La entrega de informaci&#243;n relacionada con la identificaci&#243;n de personas o grupos que colaboren, integren o puedan integrar asociaciones delictivas o criminales que operen en la comuna o en comunas colindantes.
+     
+     La colaboraci&#243;n a que se refiere este art&#237;culo deber&#225; realizarse de manera continua, oportuna y bajo est&#225;ndares t&#233;cnicos que aseguren la calidad y utilidad de la informaci&#243;n entregada, los que deber&#225;n especificarse en el convenio que se celebre para estos efectos.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">5 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582954">
+          <Texto>     Art&#237;culo 6.- Colaboraci&#243;n de los Gobiernos Regionales con las municipalidades. Los Gobiernos Regionales podr&#225;n, en el &#225;mbito de sus competencias, colaborar con las municipalidades en la formulaci&#243;n e implementaci&#243;n de sus planes comunales de seguridad p&#250;blica o de cualquier otro proyecto o estrategia en materia de prevenci&#243;n del delito y seguridad p&#250;blica a nivel comunal. Asimismo, podr&#225;n financiar proyectos que tengan por finalidad la implementaci&#243;n de acciones y medidas que adopten las municipalidades en este &#225;mbito, de conformidad con lo establecido en sus planes comunales de seguridad p&#250;blica.
+     En cumplimiento de lo anterior, se podr&#225;n suscribir acuerdos o convenios entre los Gobiernos Regionales y las municipalidades y las asociaciones de municipalidades. Las acciones y medidas que se adopten en el marco de estos instrumentos ser&#225;n informadas por los Gobiernos Regionales al Ministerio de Seguridad P&#250;blica, a trav&#233;s de la Subsecretar&#237;a de Prevenci&#243;n del Delito.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">6 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582955">
+      <Texto>     T&#205;TULO II
+     De la directora y del director de Seguridad P&#250;blica
+     </Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">T&#205;TULO II      De la directora y del director de Seguridad P&#250;blica</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582956">
+          <Texto>     Art&#237;culo 7.- Funci&#243;n del director o directora de seguridad p&#250;blica comunal. El director o directora colaborar&#225; directamente con el alcalde en el desarrollo de las funciones contempladas en la letra j) del art&#237;culo 4&#176; de la Ley N&#176; 18.695, Org&#225;nica Constitucional de Municipalidades, y de aquellas dispuestas en la presente ley, as&#237; como en el seguimiento del plan comunal de seguridad p&#250;blica; y ejercer&#225; las funciones que le delegue el alcalde, siempre que est&#233;n vinculadas a la naturaleza de sus funciones, especialmente aquellas relacionadas con la prevenci&#243;n del delito, la atenci&#243;n y asistencia a v&#237;ctimas, la protecci&#243;n de las personas y la promoci&#243;n de la convivencia vecinal. Asimismo, podr&#225; orientar e informar a la comunidad local respecto de la normativa vigente y los servicios disponibles en materia de seguridad p&#250;blica; de atenci&#243;n y asistencia a v&#237;ctimas, especialmente de violencia intrafamiliar; de prevenci&#243;n y rehabilitaci&#243;n del consumo de drogas y alcohol; y de mecanismos alternativos de resoluci&#243;n de conflictos.
+     En el ejercicio de sus funciones, la directora o el director de seguridad p&#250;blica deber&#225; coordinarse con las dem&#225;s direcciones, unidades y departamentos competentes en el dise&#241;o, implementaci&#243;n y evaluaci&#243;n de las distintas estrategias de intervenci&#243;n en las materias se&#241;aladas en el inciso precedente.
+     A lo menos una vez al a&#241;o, el director o la directora de seguridad p&#250;blica deber&#225; remitir a la Subsecretar&#237;a de Prevenci&#243;n del Delito el diagn&#243;stico e informaci&#243;n relevante de la comuna en materia de seguridad y sobre el funcionamiento del sistema de inspectores de seguridad municipal, por el medio id&#243;neo m&#225;s expedito posible, para el dise&#241;o de pol&#237;ticas, planes y programas, en las materias de competencia de dicha Subsecretar&#237;a.
+     El director o la directora de seguridad p&#250;blica comunal, en su calidad de colaborador directo del alcalde, podr&#225; representar a &#233;ste en las tareas de coordinaci&#243;n con las Fuerzas de Orden y Seguridad P&#250;blica, en el &#225;mbito de sus competencias.
+     En las comunas en las que no exista un director o una directora de seguridad p&#250;blica, la secretaria o el secretario ejecutivo del consejo comunal de seguridad p&#250;blica deber&#225; ejercer las funciones establecidas en los dos incisos precedentes. Asimismo, cuando la o el inspector de seguridad municipal dependa de una jefa o de un jefe de unidad distinto del director o directora de seguridad p&#250;blica, dicha jefatura deber&#225; ser designada siempre como secretaria o secretario ejecutivo del consejo comunal de seguridad p&#250;blica y cumplir con los requisitos de los literales b), c), d), e), f), g) y h) del art&#237;culo 12.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">7 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582957">
+          <Texto>     Art&#237;culo 8.- Requisitos de las directoras y los directores de seguridad p&#250;blica. La persona que sea designada como director o directora de seguridad p&#250;blica comunal deber&#225; cumplir los requisitos establecidos en el art&#237;culo 16 bis de la Ley N&#176; 18.695, Org&#225;nica Constitucional de Municipalidades, contar con un curso de especialidad en seguridad y materias afines cuando la comuna cuente con m&#225;s de 85.000 habitantes y, en todo caso, cumplir aquellos se&#241;alados en el art&#237;culo 12.
+     Adem&#225;s, deber&#225; sujetarse a lo dispuesto en el art&#237;culo 52.
+     En cualquier caso, quedar&#225;n eximidos de los requisitos contemplados en los art&#237;culos 12, literal a), y 52, quienes hayan ejercido funciones por veinticinco a&#241;os, a lo menos, como integrantes de las Fuerzas Armadas o de Orden y Seguridad P&#250;blica.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">8 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582958">
+          <Texto>     Art&#237;culo 9.- Colaboraci&#243;n y asesor&#237;a t&#233;cnica. La municipalidad podr&#225; requerir a la Subsecretar&#237;a de Prevenci&#243;n del Delito que provea colaboraci&#243;n y asesor&#237;a t&#233;cnica a la secretaria o secretario ejecutivo del consejo de seguridad municipal, o bien al director o directora de seguridad p&#250;blica municipal, seg&#250;n corresponda, en el cumplimiento de estas funciones, previa celebraci&#243;n de un convenio de colaboraci&#243;n entre ambas instituciones.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">9 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582959">
+          <Texto>     Art&#237;culo 10.- Supresi&#243;n del cargo de director o directora de seguridad p&#250;blica comunal. El alcalde s&#243;lo podr&#225; suprimir el cargo de director o directora de seguridad p&#250;blica comunal con acuerdo de la mayor&#237;a absoluta del concejo municipal.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">10 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582960">
+      <Texto>     
+     T&#205;TULO III
+     De las Inspectoras y los Inspectores de Seguridad Municipal
+     </Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">T&#205;TULO III      De las Inspectoras y los Inspectores de Seguridad Municipal</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582961">
+          <Texto>     P&#225;rrafo 1&#176;
+     Nombramiento de Inspectoras e Inspectores de Seguridad Municipal</Texto>
+          <Metadatos>
+            <NombreParte presente="no">&#160;</NombreParte>
+            <TituloParte presente="si">P&#225;rrafo 1&#176;      Nombramiento de Inspectoras e Inspectores de Seguridad Municipal</TituloParte>
+            
+          </Metadatos>
+          <EstructurasFuncionales>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582962">
+              <Texto>     Art&#237;culo 11.- Nombramiento y dependencia de las inspectoras y los inspectores de seguridad municipal. El alcalde podr&#225; nombrar personal en calidad de inspector o inspectora de seguridad municipal, con el objeto de dar cumplimiento a las atribuciones que regula el presente T&#237;tulo.
+     Las inspectoras y los inspectores de seguridad municipal depender&#225;n del director o de la directora de seguridad p&#250;blica que haya en las municipalidades. En su defecto, depender&#225;n de la jefa o del jefe de unidad que determine el alcalde, quien considerar&#225; los requisitos establecidos en el art&#237;culo 8.
+     Las inspectoras y los inspectores de seguridad municipal y quienes sean contratados para ejercer funciones de seguridad municipal de acuerdo con el P&#225;rrafo 9&#176; del T&#237;tulo III, se regir&#225;n por las normas del presente T&#237;tulo. En lo no previsto por &#233;l, se regir&#225;n por las normas de la ley N&#176; 18.883, que aprueba estatuto administrativo para funcionarios municipales, o del C&#243;digo del Trabajo, seg&#250;n corresponda.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">11 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582963">
+              <Texto>     Art&#237;culo 12.- Requisitos para el nombramiento. La persona que fuere nombrada por el alcalde como inspector o inspectora de seguridad municipal y las personas contratadas de acuerdo con el P&#225;rrafo 9&#176; del T&#237;tulo III deber&#225;n cumplir con lo dispuesto en los art&#237;culos 10 y 11 de la ley N&#176; 18.883, y con los siguientes requisitos:
+     
+     a) Haber cursado la educaci&#243;n media completa o su equivalente, lo que se acreditar&#225; mediante el certificado correspondiente, emitido por el Ministerio de Educaci&#243;n o a trav&#233;s de cualquier documento oficial que permita demostrarlo de manera fehaciente.
+     b) Contar con la idoneidad f&#237;sica y psicol&#243;gica para desempe&#241;ar sus funciones, lo que se acreditar&#225; sobre la base de un informe emitido por el Servicio de Salud correspondiente.
+     La evaluaci&#243;n correspondiente podr&#225; realizarse de forma anual, conforme lo disponga el reglamento.
+     c) No haber sido condenado por crimen o simple delito, lo que se acreditar&#225; con el correspondiente certificado de antecedentes, que ser&#225; expedido en los t&#233;rminos dispuestos en el inciso final del art&#237;culo 38 de la ley N&#176; 18.216, que establece penas que indica como sustitutivas a las penas privativas o restrictivas de libertad.
+     d) No haber sido condenado por actos de violencia intrafamiliar de competencia de los juzgados de familia, de acuerdo con la ley N&#176; 20.066, que establece Ley de Violencia Intrafamiliar.
+     e) No haber sido condenado a la pena de inhabilitaci&#243;n absoluta perpetua o temporal para cargos, empleos, oficios o profesiones ejercidos en &#225;mbitos educacionales, de la salud o que involucren una relaci&#243;n directa y habitual con personas menores de dieciocho a&#241;os, adultos mayores o personas en situaci&#243;n de discapacidad, lo que se acreditar&#225; mediante certificado otorgado por el Servicio de Registro Civil e Identificaci&#243;n.
+     f) No haber cesado en un cargo en las Fuerzas Armadas, de Orden y Seguridad P&#250;blica o Gendarmer&#237;a de Chile, en los &#250;ltimos diez a&#241;os, a causa de la aplicaci&#243;n de sanciones o medidas disciplinarias, lo que se acreditar&#225; por medio del certificado emitido por una de estas instituciones, seg&#250;n corresponda.
+     g) No estar cumpliendo sanci&#243;n de conformidad a la ley N&#176; 19.327, de derechos y deberes en los espect&#225;culos de f&#250;tbol profesional, y haber transcurrido al menos tres a&#241;os desde el cumplimiento efectivo de la correspondiente sanci&#243;n.
+     h) No ser parte de los registros a los que refieren los art&#237;culos 24 inciso segundo y 60 inciso segundo.
+     i) Contar con la licencia de conductor correspondiente, de acuerdo con lo dispuesto en la ley N&#176;18.290, de Tr&#225;nsito, cuyo texto refundido, coordinado y sistematizado fue fijado por el decreto con fuerza de ley N&#176; 1, de 2007, del Ministerio de Transportes y Telecomunicaciones y del Ministerio de Justicia, en caso de que deba desempe&#241;ar funciones que lo requieran.
+     j) Efectuar la declaraci&#243;n de intereses y patrimonio de acuerdo a lo dispuesto en la ley N&#176; 20.880, sobre probidad en la funci&#243;n p&#250;blica y prevenci&#243;n de los conflictos de intereses.
+     
+     Quienes cumplan con los requisitos anteriores ser&#225;n nombrados por el alcalde con la calidad de inspector o inspectora de seguridad.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">12 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582964">
+              <Texto>     Art&#237;culo 13.- Requisitos para el ejercicio de funciones. Adem&#225;s de lo dispuesto en el art&#237;culo anterior, quienes sean nombrados inspectoras o inspectores de seguridad municipal deber&#225;n, en el plazo de un a&#241;o contado desde su nombramiento, cursar y aprobar las capacitaciones establecidas en el P&#225;rrafo 8&#176; de este T&#237;tulo. Si transcurrido dicho plazo no se cumple con lo anterior, el alcalde podr&#225; remover de su cargo al inspector o inspectora de seguridad municipal o mantenerlo en &#233;l para que cumpla con el deber de cursar y aprobar las capacitaciones durante el a&#241;o siguiente. Si a los dos a&#241;os contados desde su nombramiento, el inspector o la inspectora no ha aprobado las capacitaciones, cesar&#225; en su cargo.
+     Mientras no haya aprobado las capacitaciones se&#241;aladas en el P&#225;rrafo 8&#176; de este T&#237;tulo, el inspector o la inspectora de seguridad municipal estar&#225; facultado para ejercer las funciones reguladas en el art&#237;culo 20 y en el P&#225;rrafo 4&#176; de este T&#237;tulo.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">13 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582965">
+              <Texto>     Art&#237;culo 14.- Incompatibilidades para directoras y directores de seguridad municipal e inspectoras e inspectores de seguridad municipal. Sin perjuicio de lo dispuesto en el P&#225;rrafo 6&#176; del T&#237;tulo III de la ley N&#176; 18.883, que aprueba Estatuto Administrativo para Funcionarios Municipales, ser&#225; incompatible con el ejercicio de funciones de director de seguridad municipal e inspector de seguridad municipal ser due&#241;o, poseer, mantener, o desempe&#241;arse por s&#237; o a trav&#233;s de terceras personas en negocios, empresas comerciales o cualquiera otra actividad incompatible con la fiscalizaci&#243;n que les corresponda realizar en la comuna o comunas en que se ejerce. Se incluye en esta incompatibilidad el ejercicio de labores y la prestaci&#243;n de servicios regulados en la ley N&#176; 21.659, sobre Seguridad Privada.
+     Asimismo, esta incompatibilidad ser&#225; aplicable en el caso que el inspector o inspectora de seguridad municipal se encuentre ligado por matrimonio o uni&#243;n civil, por parentesco de consanguinidad hasta el segundo grado inclusive, o adopci&#243;n, a una persona que sea due&#241;a, posea o mantenga negocios, empresas comerciales o cualquier otra actividad incompatible con la fiscalizaci&#243;n que le corresponda realizar.
+     La incompatibilidad referida al &#225;mbito de la seguridad privada ser&#225; extensiva a las y los funcionarios de exclusiva confianza del alcalde, a las y los funcionarios directivos de las municipalidades, sus corporaciones y asociaciones municipales en las que participe y a las personas que tengan la calidad de c&#243;nyuge, convivientes civiles, hijos adoptados o parientes hasta tercer grado de consanguinidad y segundo de afinidad de dichos funcionarios.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">14 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582966">
+              <Texto>     Art&#237;culo 15.- P&#233;rdida sobreviniente de requisitos de nombramiento de las inspectoras y los inspectores de seguridad municipal. La municipalidad deber&#225; requerir anualmente la acreditaci&#243;n de los requisitos de nombramiento del art&#237;culo 12 a las inspectoras y los inspectores de seguridad municipal. En el caso de comprobarse la p&#233;rdida de alg&#250;n requisito el inspector o la inspectora de seguridad cesar&#225; en sus funciones.
+     En el caso de la p&#233;rdida del requisito dispuesto en el literal b) del art&#237;culo 12, s&#243;lo se podr&#225; declarar la vacancia en caso de salud irrecuperable o incompatible con el cargo.
+     Respecto del requisito dispuesto en el literal i) del art&#237;culo 12, se proceder&#225; del siguiente modo:
+     
+     a) En caso de cancelaci&#243;n de la licencia de conducir, la municipalidad podr&#225; reubicar al inspector o a la inspectora de seguridad o declarar la vacancia del cargo.
+     b) En caso de suspensi&#243;n de la licencia de conducir, la municipalidad podr&#225; reubicar o suspender de funciones al inspector o a la inspectora de seguridad municipal.
+     c) En caso de no renovaci&#243;n de la licencia de conducir, la municipalidad reubicar&#225; al inspector o a la inspectora de seguridad municipal.
+     
+     Si se trata de alguna causal subsanable, la suspensi&#243;n durar&#225; el tiempo necesario para volver a cumplir con el requisito de que se trate, el cual en ning&#250;n caso podr&#225; exceder de seis meses, contados desde la verificaci&#243;n de la imposibilidad sobreviniente. De no ser posible subsanar la imposibilidad sobreviniente, la municipalidad estar&#225; habilitada para reubicar a la funcionaria o al funcionario municipal o declarar la vacancia del cargo.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">15 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582967">
+              <Texto>     Art&#237;culo 16.- Ex&#225;menes de drogas. Quien ejerza el cargo de director de seguridad municipal y las inspectoras y los inspectores de seguridad municipal, antes de asumir sus cargos, deber&#225;n efectuar una declaraci&#243;n jurada que no son consumidores de sustancias o drogas estupefacientes o sicotr&#243;picas ilegales o, si lo son, que ello est&#225; justificado por un tratamiento m&#233;dico.
+     En el reglamento de esta ley se contendr&#225;n normas para prevenir el consumo indebido de sustancias o drogas estupefacientes o sicotr&#243;picas. La municipalidad y las asociaciones de municipalidades contar&#225;n con un procedimiento de control de consumo aplicable al director o directora y a los inspectores e inspectoras de seguridad municipal. Dicho procedimiento de control deber&#225; ser universal o aleatorio, se aplicar&#225; en forma reservada y resguardar&#225; la dignidad e intimidad de ellos, con observancia de lo dispuesto en la ley N&#176; 19.628, sobre protecci&#243;n de la vida privada. Los resultados positivos deber&#225;n ser informados en el m&#225;s breve plazo a la Contralor&#237;a General de la Rep&#250;blica.
+     En caso de acreditarse el consumo no justificado por un tratamiento m&#233;dico, el funcionario cesar&#225; en sus funciones.
+     Asimismo, el alcalde estar&#225; obligado a someterse, a lo menos una vez al a&#241;o, a un examen de consumo de sustancias o drogas estupefacientes o sicotr&#243;picas ilegales, conforme al procedimiento que establezca el reglamento de esta ley, el que deber&#225; asegurar su car&#225;cter t&#233;cnico, objetivo, reservado y respetuoso de la dignidad e intimidad del examinado, de conformidad con lo dispuesto en la ley N&#176; 19.628.
+     El resultado positivo, no justificado en un tratamiento m&#233;dico debidamente acreditado, constituir&#225; causal de cesaci&#243;n en el cargo conforme a lo establecido en el art&#237;culo 60 de la Ley N&#176; 18.695, Org&#225;nica Constitucional de Municipalidades, de acuerdo al procedimiento contemplado para su letra a).
+     Del mismo modo, los integrantes del concejo comunal deber&#225;n suscribir la declaraci&#243;n se&#241;alada en el inciso primero y someterse al control establecido en el reglamento mencionado en el inciso segundo.</Texto>
+              <Metadatos>
+                <NombreParte presente="si">16 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+          </EstructurasFuncionales>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582968">
+          <Texto>     P&#225;rrafo 2&#176;
+     Funciones, atribuciones y deberes generales de las inspectoras y los inspectores de seguridad municipal y de las municipalidades en materias de seguridad p&#250;blica
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="no">&#160;</NombreParte>
+            <TituloParte presente="si">P&#225;rrafo 2&#176;            Funciones, atribuciones y deberes generales de las inspectoras y los inspectores de seguridad municipal y de las municipalidades en materias de seguridad p&#250;blica</TituloParte>
+            
+          </Metadatos>
+          <EstructurasFuncionales>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582969">
+              <Texto>     Art&#237;culo 17.- Funciones de las inspectoras y los inspectores de seguridad municipal. Las inspectoras y los inspectores de seguridad municipal tendr&#225;n como funci&#243;n principal el ejercicio de actividades de prevenci&#243;n del delito, protecci&#243;n de personas y promoci&#243;n de la convivencia vecinal, de conformidad con el literal j) del art&#237;culo 4&#176; de la Ley N&#176; 18.695, Org&#225;nica Constitucional de Municipalidades.
+     En igual calidad podr&#225;n colaborar en las emergencias a que se refiere el art&#237;culo 31, y velar&#225;n siempre por prestar apoyo a las instituciones intervinientes.
+     Para el cumplimiento de estas funciones, las inspectoras y los inspectores de seguridad municipal s&#243;lo podr&#225;n ejercer las actividades establecidas en el P&#225;rrafo 4&#176; de este T&#237;tulo, cuya forma de ejecuci&#243;n ser&#225; regulada a trav&#233;s de un reglamento municipal. Este reglamento deber&#225; ser elaborado en base a las orientaciones t&#233;cnicas dictadas por la Subsecretar&#237;a de Prevenci&#243;n del Delito, a trav&#233;s de resoluci&#243;n fundada publicada en el Diario Oficial, las que considerar&#225;n indicadores tales como el &#237;ndice de vulnerabilidad socio-delictual y capacidades, presupuesto, cantidad de habitantes y poblaci&#243;n flotante, geograf&#237;a, problemas espec&#237;ficos en materia de seguridad p&#250;blica, y cualquier otra circunstancia relevante de cada comuna.
+     Adem&#225;s, las inspectoras y los inspectores de seguridad municipal podr&#225;n colaborar, en calidad de coadyuvantes, con las labores propias de las Fuerzas de Orden y Seguridad P&#250;blica en materia de prevenci&#243;n del delito y resguardo de la seguridad p&#250;blica.
+     Para los efectos de este T&#237;tulo se entender&#225; como actividad coadyuvante de las labores propias de las Fuerzas de Orden y Seguridad P&#250;blica en materia de prevenci&#243;n del delito y resguardo de la seguridad p&#250;blica, las atribuciones y funciones reguladas en el P&#225;rrafo 5&#176; de este T&#237;tulo.
+     El reglamento municipal a que hace referencia el inciso tercero no podr&#225; regular ninguna de las actividades se&#241;aladas en el P&#225;rrafo 5&#176; de este T&#237;tulo, ni actos que por ley se encuentran reservados a las Fuerzas de Orden y Seguridad P&#250;blica.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">17 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582970">
+              <Texto>     Art&#237;culo 18.- Prohibici&#243;n de las inspectoras y los inspectores de seguridad municipal de realizar actos propios de las Fuerzas de Orden y Seguridad P&#250;blica. Sin perjuicio de las funciones preventivas y coadyuvantes que establezca la ley, les est&#225; estrictamente prohibido a las inspectoras y los inspectores de seguridad municipal el ejercicio de cualquier atribuci&#243;n propia de las Fuerzas de Orden y Seguridad P&#250;blica de conformidad con la Constituci&#243;n Pol&#237;tica de la Rep&#250;blica y las leyes pertinentes. El quebrantamiento de este deber estar&#225; sujeto a eventuales responsabilidades administrativas y penales, seg&#250;n corresponda, conforme a las leyes pertinentes.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">18 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582971">
+              <Texto>     Art&#237;culo 19.- Deber de coordinaci&#243;n y comunicaci&#243;n con las Fuerzas de Orden y Seguridad P&#250;blica y otros organismos de emergencia. Las inspectoras y los inspectores de seguridad municipal deber&#225;n desarrollar un trabajo territorial en coordinaci&#243;n con las Fuerzas de Orden y Seguridad P&#250;blica, el Sistema Nacional de Protecci&#243;n Ciudadana, y con otros organismos vinculados a las emergencias y desastres, tanto en sus funciones preventivas como coadyuvantes. Para ello, la municipalidad deber&#225; mantener mecanismos id&#243;neos que permitan una comunicaci&#243;n eficiente entre las inspectoras y los inspectores de seguridad municipal con las referidas instituciones.
+     Adicionalmente, para el ejercicio de las funciones coadyuvantes del P&#225;rrafo 5&#176; de este T&#237;tulo, la coordinaci&#243;n entre la municipalidad y las Fuerzas de Orden y Seguridad P&#250;blica se especificar&#225; en un reglamento expedido por el Ministerio de Seguridad P&#250;blica, previo informe favorable de Carabineros de Chile. Dicho reglamento deber&#225; considerar indicadores que permitan la adecuaci&#243;n a la realidad territorial, tales como capacitaciones, presupuesto, cantidad de habitantes, poblaci&#243;n flotante, geograf&#237;a, problemas espec&#237;ficos en materia de seguridad p&#250;blica, y cualquier otra circunstancia relevante de cada comuna.
+     Con todo, para la ejecuci&#243;n de las actividades del P&#225;rrafo 5&#176; de este T&#237;tulo, las municipalidades y las Fuerzas de Orden y Seguridad P&#250;blica podr&#225;n celebrar un convenio, que contenga:
+     
+     a) La determinaci&#243;n de las actividades del se&#241;alado P&#225;rrafo 5&#176; que se ejecutar&#225;n en el territorio.
+     b) La forma de ejecuci&#243;n de las actividades referidas, en coherencia con lo dispuesto en el art&#237;culo 37.
+     c) La disponibilidad de veh&#237;culos y personal municipal para ejercer las actividades del mencionado P&#225;rrafo 5&#176;.
+     d) La determinaci&#243;n de los mecanismos id&#243;neos que permitan una comunicaci&#243;n eficiente entre las inspectoras y los inspectores de seguridad municipal y las Fuerzas de Orden y Seguridad P&#250;blica.
+     e) Los dem&#225;s aspectos operativos necesarios para la ejecuci&#243;n de las actividades del P&#225;rrafo 5&#176; de este T&#237;tulo.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">19 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582972">
+              <Texto>     Art&#237;culo 20.- Detenci&#243;n en caso de flagrancia. Las inspectoras y los inspectores de seguridad municipal podr&#225;n detener a quien sorprendan en delito flagrante durante el ejercicio de sus funciones, en los t&#233;rminos del inciso primero del art&#237;culo 129 del C&#243;digo Procesal Penal.
+     Cuando las inspectoras y los inspectores de seguridad municipal se encuentren en persecuci&#243;n de quien sorprendan en delito flagrante en los casos se&#241;alados en el art&#237;culo 130 del C&#243;digo Procesal Penal, deber&#225;n comunicar lo antes posible esta situaci&#243;n a las Fuerzas de Orden y Seguridad P&#250;blica con la finalidad de que procuren intervenir en dicha persecuci&#243;n y que &#233;stas asuman la custodia y los procedimientos legales correspondientes. Si se trata del literal f) de dicha norma, las inspectoras y los inspectores de seguridad municipal podr&#225;n intervenir en calidad de coadyuvantes.
+     Para efectos de lo dispuesto en las letras d), e) y f) del inciso primero del art&#237;culo 130 del C&#243;digo Procesal Penal, se entender&#225; por "tiempo inmediato" el lapso comprendido desde la comisi&#243;n del hecho hasta la captura del imputado, siempre que, en caso de que la detenci&#243;n sea efectuada por inspectores de seguridad municipal, no haya transcurrido un plazo superior a doce horas desde la comisi&#243;n del hecho.
+     Adem&#225;s, en los casos de persecuci&#243;n a que se refiere el inciso segundo, y solo para efectos de practicar la detenci&#243;n, las inspectoras y los inspectores de seguridad municipal estar&#225;n autorizados para traspasar los respectivos l&#237;mites territoriales de la comuna en la que desempe&#241;an sus funciones.
+     Las municipalidades podr&#225;n celebrar convenios de colaboraci&#243;n entre s&#237;, con el objeto de disponer las facilidades necesarias para el adecuado ejercicio de la facultad a que se refiere este art&#237;culo.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">20 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582973">
+              <Texto>     Art&#237;culo 21.- Coordinaci&#243;n intercomunal para eventos masivos. Dos o m&#225;s municipalidades colindantes entre s&#237; o afectadas por un mismo evento masivo podr&#225;n coordinarse para el despliegue de las inspectoras y los inspectores de seguridad municipal cuando en una o m&#225;s de ellas se desarrolle un evento masivo que pueda tener un impacto en otra comuna, en los t&#233;rminos de lo dispuesto en el T&#237;tulo IV de la Ley N&#176; 21.659, sobre Seguridad Privada. La municipalidad deber&#225; informar a la delegaci&#243;n presidencial regional, en la oportunidad a que se refiere el numeral 2 del inciso segundo del art&#237;culo 74 de la referida ley N&#176; 21.659, la o las municipalidades con las que se coordinar&#225; para efectos de la realizaci&#243;n del evento masivo y, en caso que una municipalidad requiera que inspectores de seguridad municipal de otra municipalidad cumplan las funciones establecidas en esta ley en la comuna de aquella, esta coordinaci&#243;n deber&#225; regularse mediante un convenio entre &#233;stas. Este convenio podr&#225; ser espec&#237;fico para un &#250;nico evento o general si la recurrencia de los eventos lo aconseja.
+     La municipalidad, al momento de pronunciarse respecto del evento masivo, deber&#225; informar a la delegaci&#243;n presidencial regional los t&#233;rminos del convenio, el que se considerar&#225; como medidas adicionales para la realizaci&#243;n de un evento masivo, de conformidad con lo dispuesto en el inciso tercero del art&#237;culo 74 de la ley N&#176; 21.659.
+     Las orientaciones t&#233;cnicas referidas en el inciso tercero del art&#237;culo 17 y el reglamento se&#241;alado en el inciso segundo del art&#237;culo 37 precisar&#225;n las condiciones para la coordinaci&#243;n entre la municipalidad solicitante y las municipalidades colindantes colaboradoras.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">21 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582974">
+              <Texto>     Art&#237;culo 22.- Deber de reserva o secreto de la informaci&#243;n. Las inspectoras y los inspectores de seguridad municipal, las personas que sean contratadas para ejercer funciones de seguridad municipal de acuerdo con lo dispuesto en el P&#225;rrafo 9&#176; del T&#237;tulo III, el director o la directora de seguridad p&#250;blica comunal y, en general, todo el personal municipal relacionado con labores de prevenci&#243;n del delito y seguridad p&#250;blica a nivel comunal deber&#225;n mantener bajo reserva o secreto, seg&#250;n corresponda, la informaci&#243;n de que dispongan o que les sea proporcionada en raz&#243;n de sus cargos, cuando su publicidad pueda afectar el debido cumplimiento de las funciones de la municipalidad en materia de prevenci&#243;n del delito y seguridad p&#250;blica a nivel comunal o derechos de terceros. Esta obligaci&#243;n se mantendr&#225; aun despu&#233;s del t&#233;rmino de sus funciones.
+     La infracci&#243;n a este deber se sancionar&#225; de acuerdo con lo dispuesto en el art&#237;culo 246 del C&#243;digo Penal.
+     Se exceptuar&#225;n de esta obligaci&#243;n aquellos requerimientos de informaci&#243;n realizados por los tribunales de justicia o por el Ministerio P&#250;blico, previa orden judicial o requerimiento seg&#250;n lo dispuesto en el art&#237;culo 19 del C&#243;digo Procesal Penal. El Ministerio de Seguridad P&#250;blica tambi&#233;n podr&#225;, por cualquier medio id&#243;neo, requerir esta informaci&#243;n cuando ello sea necesario para el adecuado cumplimiento de la presente ley.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">22 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582975">
+              <Texto>     Art&#237;culo 23.- Deber de denuncia. Las inspectoras y los inspectores de seguridad municipal deber&#225;n denunciar los delitos de que tomen conocimiento en el ejercicio de sus funciones dentro del plazo establecido en el art&#237;culo 176 del C&#243;digo Procesal Penal. El incumplimiento del deber de denuncia por parte de las inspectoras y los inspectores de seguridad municipal ser&#225; sancionado con la pena prevista en el art&#237;culo 177 del C&#243;digo Procesal Penal.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">23 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582976">
+              <Texto>     Art&#237;culo 24.- Deber de remitir la n&#243;mina de inspectoras e inspectores de seguridad municipal. Las municipalidades deber&#225;n remitir trimestralmente a Carabineros de Chile y a la Subsecretar&#237;a de Prevenci&#243;n del Delito la n&#243;mina actualizada del personal que ejerce funciones como inspectora o inspector de seguridad municipal.
+     Asimismo, las municipalidades deber&#225;n informar, en el plazo m&#225;ximo de cinco d&#237;as, a la Subsecretar&#237;a de Prevenci&#243;n del Delito cuando una inspectora o un inspector de seguridad municipal sea desvinculado debido a una falta a la probidad administrativa, de acuerdo con la ley N&#176; 20.880, sobre probidad en la funci&#243;n p&#250;blica y prevenci&#243;n de los conflictos de intereses, o a alguna contravenci&#243;n a lo dispuesto en el T&#237;tulo V de la ley N&#176; 18.883, que aprueba Estatuto Administrativo para Funcionarios Municipales. La Subsecretar&#237;a de Prevenci&#243;n del Delito deber&#225; llevar un registro de las inspectoras y los inspectores de seguridad municipal que hayan sido desvinculados por estos motivos. Dicho registro deber&#225; estar a disposici&#243;n de las municipalidades para efectos de verificar el cumplimiento de los requisitos de designaci&#243;n. El contenido espec&#237;fico y las caracter&#237;sticas de este registro se determinar&#225; mediante el reglamento de la presente ley.
+     Una vez transcurridos cinco a&#241;os desde que se hizo efectiva la desvinculaci&#243;n de la persona, sus datos deber&#225;n ser eliminados del registro referido en el inciso anterior.
+     La informaci&#243;n contenida en las n&#243;minas y registros de este art&#237;culo y del art&#237;culo 60 ser&#225; compartida entre la Subsecretar&#237;a de Prevenci&#243;n del Delito, las municipalidades y las Fuerzas de Orden y Seguridad P&#250;blica, a trav&#233;s de la plataforma electr&#243;nica interconectada establecida en el literal p) del art&#237;culo 63 de la Ley N&#176; 18.695, Org&#225;nica Constitucional de Municipalidades, de conformidad con lo dispuesto en la ley N&#176; 19.628, sobre Protecci&#243;n de la Vida Privada.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">24 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582977">
+              <Texto>     Art&#237;culo 25.- Sistemas de televigilancia e infraestructura de prevenci&#243;n situacional. Las municipalidades estar&#225;n facultadas para implementar sistemas de televigilancia y prevenci&#243;n situacional a trav&#233;s de la instalaci&#243;n de dispositivos o medios tecnol&#243;gicos operados a distancia, tales como c&#225;maras, aeronaves pilotadas a distancia, sem&#225;foros, luminarias y otras infraestructuras o dispositivos de captaci&#243;n de im&#225;genes y de transmisi&#243;n de sonidos o se&#241;ales, destinadas a la prevenci&#243;n y seguimiento de hechos violentos, delictivos e incivilidades.
+     A trav&#233;s de estos medios tecnol&#243;gicos s&#243;lo podr&#225;n grabarse im&#225;genes. No podr&#225;n grabarse sonidos de ninguna naturaleza y su captaci&#243;n tendr&#225; por &#250;nica finalidad la generaci&#243;n de alertas.
+     Las municipalidades deber&#225;n informar al Ministerio P&#250;blico y a las Fuerzas de Orden y Seguridad sobre la ubicaci&#243;n de los dispositivos de televigilancia instalados, para asegurar una adecuada coordinaci&#243;n y el uso eficiente de los recursos.</Texto>
+              <Metadatos>
+                <NombreParte presente="si">25 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+          </EstructurasFuncionales>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582978">
+          <Texto>     P&#225;rrafo 3&#176;
+     De los recursos tecnol&#243;gicos y materiales de las municipalidades
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="no">&#160;</NombreParte>
+            <TituloParte presente="si">P&#225;rrafo 3&#176;      De los recursos tecnol&#243;gicos y materiales de las municipalidades</TituloParte>
+            
+          </Metadatos>
+          <EstructurasFuncionales>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582979">
+              <Texto>     Art&#237;culo 26.- Sistemas de alerta ciudadana y an&#225;lisis de datos. Las municipalidades podr&#225;n disponer de sistemas de alerta ciudadana y an&#225;lisis de datos, implementados por ellas, por otros &#243;rganos de la Administraci&#243;n del Estado o por privados. Para este &#250;ltimo caso, las municipalidades deber&#225;n licitar el servicio seg&#250;n lo dispuesto en la ley N&#176; 19.886, de Bases sobre Contratos Administrativos de Suministro y Prestaci&#243;n de Servicios.
+     Dichas empresas podr&#225;n tratar los datos que obtengan para generar informaci&#243;n que contribuya a la toma de decisiones en materia de prevenci&#243;n del delito, seguridad p&#250;blica y desarrollo comunitario. En cualquier caso, las municipalidades deber&#225;n remitir los informes generados por estas aplicaciones al Ministerio de Seguridad P&#250;blica, a trav&#233;s de la Subsecretar&#237;a de Prevenci&#243;n del Delito, y a las Fuerzas de Orden y Seguridad P&#250;blica de manera gratuita y a la mayor brevedad posible.</Texto>
+              <Metadatos>
+                <NombreParte presente="si">26 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+          </EstructurasFuncionales>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582980">
+          <Texto>     P&#225;rrafo 4&#176;
+     Funciones de prevenci&#243;n del delito, fiscalizaci&#243;n, protecci&#243;n de personas y promoci&#243;n de la convivencia vecinal
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="no">&#160;</NombreParte>
+            <TituloParte presente="si">P&#225;rrafo 4&#176;            Funciones de prevenci&#243;n del delito, fiscalizaci&#243;n, protecci&#243;n de personas y promoci&#243;n de la convivencia vecinal</TituloParte>
+            
+          </Metadatos>
+          <EstructurasFuncionales>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582981">
+              <Texto>     Art&#237;culo 27.- Vinculaci&#243;n con la comunidad. En cumplimiento de lo dispuesto en el literal j) del art&#237;culo 4&#176; de la Ley N&#176; 18.695, Org&#225;nica Constitucional de Municipalidades, las inspectoras y los inspectores de seguridad municipal deber&#225;n, de acuerdo con las necesidades de cada comuna, promover y difundir medidas de seguridad p&#250;blica y prevenci&#243;n del delito entre sus habitantes y conocer el espacio local, y sus din&#225;micas y riesgos en estas materias. Adem&#225;s, podr&#225;n informar sobre las ordenanzas municipales relacionadas con su labor y las sanciones en caso de incumplimiento.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">27 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582982">
+              <Texto>     Art&#237;culo 28.- Patrullaje preventivo. Las inspectoras y los inspectores de seguridad municipal podr&#225;n ejecutar labores de patrullaje preventivo, esto es, vigilar el espacio local para detectar las din&#225;micas delictuales del sector y los riesgos en materia de seguridad p&#250;blica y prevenci&#243;n del delito.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">28 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582983">
+              <Texto>     Art&#237;culo 29.- Labores de inspecci&#243;n y fiscalizaci&#243;n. Las inspectoras y los inspectores de seguridad municipal podr&#225;n ejecutar tareas de inspecci&#243;n y fiscalizaci&#243;n a cargo de inspectores municipales, tales como las relativas a la ley N&#176; 19.925, sobre Expendio y Consumo de Bebidas Alcoh&#243;licas, a la ley N&#176; 21.426, sobre Comercio Ilegal y a la ley N&#176; 18.290, de Tr&#225;nsito. En este &#250;ltimo caso, estar&#225;n, asimismo, facultados para dirigir el tr&#225;nsito con las limitaciones establecidas en esa ley.
+     Asimismo, podr&#225;n ejercer tareas de inspecci&#243;n y fiscalizaci&#243;n en materias reguladas a trav&#233;s de ordenanzas municipales, tales como las relativas a acomodadores de veh&#237;culos estacionados en la v&#237;a p&#250;blica, venta de productos o prestaci&#243;n de servicios en la v&#237;a p&#250;blica y el cumplimiento de la contribuci&#243;n de patentes municipales, se&#241;alada en el art&#237;culo 23 de la ley sobre rentas municipales, de conformidad con lo dispuesto en su T&#237;tulo V.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">29 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582984">
+              <Texto>     Art&#237;culo 30.- Prestaci&#243;n de auxilio. En el ejercicio de sus funciones las inspectoras y los inspectores de seguridad municipal estar&#225;n facultados para prestar auxilio inmediato a quienes hayan sufrido alguna afectaci&#243;n a su integridad f&#237;sica y a las v&#237;ctimas en caso de delito flagrante.
+    </Texto>
+              <Metadatos>
+                <NombreParte presente="si">30 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582985">
+              <Texto>     Art&#237;culo 31.- Medidas de seguridad en emergencias. Las medidas de seguridad necesarias para enfrentar una emergencia y prevenir da&#241;os en los casos previstos en el art&#237;culo 187 de la ley N&#176; 18.290, de Tr&#225;nsito, tambi&#233;n podr&#225;n ser adoptadas por las inspectoras y los inspectores de seguridad municipal, siempre y cuando concurran antes que Carabineros, Bomberos, ambulancias y otras instituciones competentes al lugar del incendio, siniestro o emergencia de tr&#225;nsito o de manera coadyuvante o en apoyo de &#233;stos, seg&#250;n corresponda. Ello, sin perjuicio del deber de comunicar a la referida instituci&#243;n policial la ocurrencia del hecho tan pronto tengan conocimiento de &#233;l, para que realicen las gestiones especializadas correspondientes.
+     En tales circunstancias, las inspectoras y los inspectores de seguridad municipal estar&#225;n habilitados para:
+    
+     a) Establecer un per&#237;metro de seguridad para el resguardo del &#225;rea donde ocurra la emergencia, previo a la llegada de Carabineros u otras instituciones competentes. En esta labor, no podr&#225;n en caso alguno manipular los rastros y vestigios del hecho y deber&#225;n realizar su actuaci&#243;n evitando que se alteren, modifiquen o borren de cualquier forma.
+     b) Facilitar el acceso y la salida del &#225;rea resguardada a Carabineros, Bomberos, ambulancias o miembros de otras instituciones competentes.
+     c) Registrar los datos personales de quienes manifiesten expresamente su voluntad de aportar antecedentes, para efectos de su posterior identificaci&#243;n, y remitir a la brevedad dicha informaci&#243;n a Carabineros.
+     d) Entregar informaci&#243;n a los familiares de las v&#237;ctimas o personas afectadas y a las autoridades, previa coordinaci&#243;n con las instituciones competentes.
+     e) Restablecer la normalidad en el &#225;rea donde ocurra la emergencia.
+     
+     Para efectos de lo se&#241;alado en este art&#237;culo, las inspectoras e inspectores de seguridad municipal tendr&#225;n las facultades a que se refiere el art&#237;culo 185 de la ley referida en el inciso primero y su desobediencia ser&#225; castigada como una infracci&#243;n o contravenci&#243;n grave de ella.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">31 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582986">
+              <Texto>     Art&#237;culo 32.- Labores de televigilancia. Para implementar los sistemas a que se refiere el art&#237;culo 25, las inspectoras y los inspectores de seguridad municipal podr&#225;n desarrollar labores de televigilancia.
+     El uso de estos medios deber&#225; respetar el derecho a la vida privada y la honra de las personas, observar un adecuado tratamiento de datos de car&#225;cter personal obtenidos a partir de tecnolog&#237;as y sistemas de captaci&#243;n de imagen, sonido o se&#241;ales, automatizados o no, creados o aplicados para el cumplimiento de esta ley, los cuales se someter&#225;n a lo dispuesto en la normativa sobre protecci&#243;n de datos personales.
+     El personal que desempe&#241;e labores de televigilancia deber&#225; contar con las acreditaciones o autorizaciones respectivas, seg&#250;n corresponda, en los t&#233;rminos del P&#225;rrafo 8&#176; de este T&#237;tulo.
+     La informaci&#243;n recopilada a trav&#233;s de estos medios tecnol&#243;gicos ser&#225; custodiada por la municipalidad y, en caso de que pueda resultar de utilidad en el marco de una investigaci&#243;n penal, deber&#225; ser remitida a la brevedad al Ministerio P&#250;blico, cuando lo requiera, en los t&#233;rminos del art&#237;culo 19 del C&#243;digo Procesal Penal.
+     Asimismo, las municipalidades podr&#225;n comunicar o ceder a Carabineros de Chile, a la Polic&#237;a de Investigaciones y a la Autoridad Mar&#237;tima, cuando corresponda, la informaci&#243;n obtenida en el ejercicio de labores de televigilancia, en l&#237;nea y en tiempo real, para prevenir la ocurrencia de hechos violentos, delictivos o de incivilidades. En este caso, las municipalidades deber&#225;n cumplir las especificaciones t&#233;cnicas que establezcan las Fuerzas de Orden y Seguridad o la Autoridad Mar&#237;tima.
+     Las municipalidades podr&#225;n entregar la informaci&#243;n obtenida a trav&#233;s de sus sistemas de televigilancia al Ministerio de Seguridad P&#250;blica, para que &#233;ste desarrolle programas de innovaci&#243;n tecnol&#243;gica, que permitan la integraci&#243;n e interoperabilidad de datos con los organismos establecidos en el inciso precedente, en especial, relacionados con materias tales como denuncias de veh&#237;culos objeto de robo. En el ejercicio de esta atribuci&#243;n, dicho Ministerio deber&#225; emplear los mecanismos de seguridad adecuados al tipo de datos personales que se trate en cumplimiento de lo dispuesto en la ley N&#176; 19.628, sobre protecci&#243;n de la vida privada, y establecer criterios, a trav&#233;s de un reglamento, para la integraci&#243;n de capacidades y el tratamiento de im&#225;genes, sonidos y se&#241;ales.
+     Las im&#225;genes o se&#241;ales obtenidas deber&#225;n ser conservadas por el plazo m&#237;nimo de quince d&#237;as. En todo caso, deber&#225;n ser destruidas una vez transcurridos ciento ochenta d&#237;as contados desde su captaci&#243;n, salvo que la informaci&#243;n haya sido requerida por el Ministerio P&#250;blico en virtud de lo dispuesto en el inciso cuarto de este art&#237;culo y su entrega se encuentre pendiente. No se podr&#225;n grabar sonidos de ninguna naturaleza en la v&#237;a p&#250;blica y su captaci&#243;n tendr&#225; por &#250;nica finalidad generar las alertas correspondientes.
+    </Texto>
+              <Metadatos>
+                <NombreParte presente="si">32 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582987">
+              <Texto>     Art&#237;culo 33.- Tratamiento masivo de informaci&#243;n sobre veh&#237;culos motorizados. Las municipalidades podr&#225;n suscribir convenios con el Servicio de Registro Civil e Identificaci&#243;n para realizar tratamiento masivo de la informaci&#243;n relativa a la placa patente &#250;nica, n&#250;mero de motor, n&#250;mero de chasis, modelo, color, a&#241;o y a la denuncia por apropiaci&#243;n, si la hay, de los veh&#237;culos que circulen por sus comunas y que conste en el Registro de Veh&#237;culos Motorizados, con fines de prevenci&#243;n del delito, de incivilidades y de seguimiento mediante sistemas de televigilancia de hechos delictivos en flagrancia.
+    </Texto>
+              <Metadatos>
+                <NombreParte presente="si">33 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582988">
+              <Texto>     Art&#237;culo 34.- Control e incautaci&#243;n de especies del comercio ambulante o estacionado en la v&#237;a p&#250;blica. Las inspectoras y los inspectores municipales podr&#225;n controlar el comercio, ambulante o estacionado, en la v&#237;a p&#250;blica e incautar las mercanc&#237;as que sean comercializadas sin cumplir con la normativa vigente y aquellas que se encuentren en situaci&#243;n de abandono en la v&#237;a p&#250;blica.
+     El ejercicio de esta funci&#243;n ser&#225; analizado y planificado a nivel estrat&#233;gico por el comit&#233; de coordinaci&#243;n operativa.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">34 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582989">
+              <Texto>     Art&#237;culo 35.- Requerimiento de identidad. Para cursar las infracciones que correspondan en el ejercicio de sus labores de inspecci&#243;n y fiscalizaci&#243;n, las inspectoras y los inspectores de seguridad municipal estar&#225;n facultados para requerir la exhibici&#243;n de documentos que acrediten fehacientemente la identidad de las personas mayores de 18 a&#241;os, tales como c&#233;dula de identidad, licencia de conducir, pasaporte o tarjeta estudiantil o mediante la utilizaci&#243;n de cualquier medio tecnol&#243;gico id&#243;neo para tal efecto.
+     En aquellos casos en que no sea posible verificar la identidad de la persona en el mismo lugar en que se encuentre, o &#233;sta se niegue a acreditar su identidad, el inspector o la inspectora de seguridad municipal deber&#225; comunicarse inmediatamente con Carabineros de Chile, para que &#233;stos conduzcan a la persona infractora a la unidad policial m&#225;s cercana para el solo fin de lograr su identificaci&#243;n.
+     El conjunto de procedimientos detallados en el presente art&#237;culo deber&#225; limitarse al tiempo estrictamente necesario para los fines antes se&#241;alados y en ning&#250;n caso podr&#225; extenderse m&#225;s all&#225; de una hora desde su inicio.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">35 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582990">
+              <Texto>     Art&#237;culo 36.- Rescate de animales. Las inspectoras y los inspectores de seguridad municipal estar&#225;n facultados para colaborar con las tareas de rescate de animales, en virtud de lo establecido en los art&#237;culos 3, 7 y 12 de la ley N&#176; 21.020, sobre Tenencia Responsable de Mascotas y Animales de Compa&#241;&#237;a, as&#237; como denunciar, en su caso, las infracciones a dicha normativa a la autoridad correspondiente.
+     Adem&#225;s, las inspectoras y los inspectores de seguridad municipal deber&#225;n informar al Servicio Agr&#237;cola y Ganadero, a las instituciones de rescate o refugio animal o a los equipos de emergencia, seg&#250;n corresponda, los rescates de animales en que &#233;stas deban intervenir, con el objeto de que adopten las medidas correspondientes, en el &#225;mbito de sus respectivas funciones y atribuciones.</Texto>
+              <Metadatos>
+                <NombreParte presente="si">36 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+          </EstructurasFuncionales>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582991">
+          <Texto>     P&#225;rrafo 5&#176;
+     Funciones y atribuciones coadyuvantes de las inspectoras y los inspectores de seguridad municipal en coordinaci&#243;n con las Fuerzas de Orden y Seguridad P&#250;blica
+     
+</Texto>
+          <Metadatos>
+            <NombreParte presente="no">&#160;</NombreParte>
+            <TituloParte presente="si">P&#225;rrafo 5&#176;            Funciones y atribuciones coadyuvantes de las inspectoras y los inspectores de seguridad municipal en coordinaci&#243;n con las Fuerzas de Orden y Seguridad P&#250;blica</TituloParte>
+            
+          </Metadatos>
+          <EstructurasFuncionales>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582992">
+              <Texto>     Art&#237;culo 37.- Intervenci&#243;n en procedimientos policiales en calidad de coadyuvantes. Las inspectoras y los inspectores de seguridad municipal solo podr&#225;n intervenir en calidad de coadyuvantes en las actividades que regula este P&#225;rrafo y siempre que cuenten con los elementos defensivos y de protecci&#243;n que permitan resguardar su vida e integridad f&#237;sica, de conformidad con lo dispuesto en el inciso primero del art&#237;culo 43.
+     Un reglamento expedido por intermedio del Ministerio de Seguridad P&#250;blica establecer&#225; la forma de intervenci&#243;n de las inspectoras y los inspectores de seguridad municipal en los procedimientos policiales se&#241;alados en este P&#225;rrafo, seg&#250;n sus distintos niveles de riesgo. Para la determinaci&#243;n del nivel de riesgo el reglamento deber&#225; considerar, al menos, criterios tales como la gravedad del delito, la utilizaci&#243;n de armas o no por parte de los delincuentes, y el hecho de actuar en grupo o pandilla, entre otros.
+     El referido reglamento deber&#225; ser revisado y actualizado, a lo menos, cada cuatro a&#241;os por el Ministerio de Seguridad P&#250;blica, previo informe de Carabineros de Chile, relativo a los resultados de las labores ejecutadas en ejercicio de sus funciones preventivas y los niveles de riesgo de ellas.
+     Asimismo, para la ejecuci&#243;n de los procedimientos se&#241;alados en este P&#225;rrafo, el Ministerio de Seguridad P&#250;blica elaborar&#225; protocolos a los que deber&#225;n someterse las inspectoras y los inspectores en el ejercicio de su funci&#243;n coadyuvante. Para su elaboraci&#243;n, dicho Ministerio deber&#225; actuar en colaboraci&#243;n con el Ministerio P&#250;blico, para los casos en que sea necesario, y consultar a las Fuerzas de Orden y Seguridad P&#250;blica, quienes adem&#225;s estar&#225;n a cargo de velar por el cumplimiento de los protocolos.
+     Los protocolos para la intervenci&#243;n de las inspectoras y los inspectores de seguridad municipal y los convenios a que se refiere el inciso tercero del art&#237;culo 19 deber&#225;n elaborarse sobre la base del reglamento expedido por el Ministerio de Seguridad P&#250;blica.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">37 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582993">
+              <Texto>     Art&#237;culo 38.- Patrullaje mixto. Las inspectoras y los inspectores de seguridad municipal podr&#225;n coordinarse con las Fuerzas de Orden y Seguridad P&#250;blica para realizar patrullajes conjuntos en el territorio municipal, con el objeto de prevenir la comisi&#243;n de delitos. Dichos procedimientos deber&#225;n realizarse siguiendo los protocolos elaborados por el Ministerio de Seguridad P&#250;blica.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">38 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582994">
+              <Texto>     Art&#237;culo 39.- Colaboraci&#243;n en medidas de protecci&#243;n de v&#237;ctimas de violencia intrafamiliar. Cuando se trate de v&#237;ctimas de violencia intrafamiliar, las inspectoras y los inspectores de seguridad municipal podr&#225;n colaborar en su labor de coadyuvantes con las Fuerzas de Orden y Seguridad P&#250;blica en la implementaci&#243;n de medidas de protecci&#243;n ordenadas por el Ministerio P&#250;blico o los tribunales de familia.
+    </Texto>
+              <Metadatos>
+                <NombreParte presente="si">39 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582995">
+              <Texto>     Art&#237;culo 40.- Control de medidas cautelares personales y medidas accesorias en contextos de violencia intrafamiliar. Las inspectoras y los inspectores de seguridad municipal podr&#225;n colaborar con las Fuerzas de Orden y Seguridad P&#250;blica en el control del cumplimiento de las medidas cautelares se&#241;aladas en los literales a) y g) del art&#237;culo 155 del C&#243;digo Procesal Penal, cuando se trate de imputados por los delitos de violencia intrafamiliar o por los delitos contemplados en los T&#237;tulos IV, V y VII del Libro Segundo del C&#243;digo Penal y de las medidas accesorias contenidas en el art&#237;culo 9 literales a) y b) de la ley N&#176; 20.066.
+     Para los efectos de este art&#237;culo, se entender&#225; por control el desarrollo de acciones destinadas a verificar el cumplimiento de las medidas se&#241;aladas en el inciso anterior, a trav&#233;s de patrullaje preventivo o mixto, visitas al domicilio o al lugar de estudio o trabajo de la v&#237;ctima, o cualquier otro medio id&#243;neo para tal fin, de acuerdo al nivel de riesgo del procedimiento, seg&#250;n lo dispuesto en el reglamento respectivo. En cualquier caso, estos mecanismos de control deber&#225;n ejecutarse con sujeci&#243;n estricta a lo dispuesto por los tribunales de justicia.
+     El Ministerio de Seguridad P&#250;blica, en conjunto con el Ministerio de Justicia y Derechos Humanos, dictar&#225; un reglamento que determinar&#225; la forma, alcance y dem&#225;s requisitos para el ejercicio de esta facultad. El convenio a que hace referencia el inciso tercero del art&#237;culo 19, que contemple la posibilidad que las inspectoras y los inspectores de seguridad municipal ejerzan esta facultad se regir&#225;, asimismo, por las normas establecidas en dicho reglamento.
+     En caso de que las inspectoras y los inspectores tomen conocimiento de la circunstancia de haberse quebrantado la medida cautelar o accesoria, ya sea durante el proceso de fiscalizaci&#243;n o en cualquier otra situaci&#243;n, podr&#225;n detener a la persona infractora en los mismos t&#233;rminos que lo dispuesto en el inciso primero del art&#237;culo 129 del C&#243;digo Procesal Penal. Al momento de efectuar la detenci&#243;n se le informar&#225; a la persona infractora verbalmente del motivo de &#233;sta y de los derechos que lo amparan.
+     Las polic&#237;as deber&#225;n proporcionar a la Direcci&#243;n de Seguridad P&#250;blica o, en caso de que no exista, a la unidad que determine el alcalde, la informaci&#243;n y datos indispensables para el cumplimiento de la orden judicial que disponga tales medidas, de conformidad con las funciones se&#241;aladas precedentemente.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">40 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582996">
+              <Texto>     Art&#237;culo 41.- Controles de alcohol y drogas en la v&#237;a p&#250;blica. Las inspectoras e inspectores de seguridad municipal podr&#225;n colaborar, bajo la direcci&#243;n de Carabineros de Chile, en la realizaci&#243;n de las pruebas a que se refiere el inciso primero del art&#237;culo 182 de la ley N&#176; 18.290, de Tr&#225;nsito.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">41 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582997">
+              <Texto>     Art&#237;culo 42.- Colaboraci&#243;n en control de identidad. Las inspectoras e inspectores de seguridad municipal podr&#225;n colaborar con las polic&#237;as para efectos de lo dispuesto en el art&#237;culo 12 de la ley N&#176; 20.931, que facilita la aplicaci&#243;n efectiva de las penas establecidas para los delitos de robo, hurto y receptaci&#243;n y mejora la persecuci&#243;n penal en dichos delitos.</Texto>
+              <Metadatos>
+                <NombreParte presente="si">42 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+          </EstructurasFuncionales>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582998">
+          <Texto>     P&#225;rrafo 6&#176;
+     Elementos defensivos y de protecci&#243;n de las inspectoras y los inspectores en seguridad municipal
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="no">&#160;</NombreParte>
+            <TituloParte presente="si">P&#225;rrafo 6&#176;      Elementos defensivos y de protecci&#243;n de las inspectoras y los inspectores en seguridad municipal</TituloParte>
+            
+          </Metadatos>
+          <EstructurasFuncionales>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10582999">
+              <Texto>     Art&#237;culo 43.- Elementos defensivos y de protecci&#243;n para inspectoras e inspectores de seguridad municipal. La municipalidad deber&#225; proporcionar a las inspectoras y los inspectores de seguridad municipal los elementos defensivos necesarios para dar cumplimiento a sus funciones.
+     La Subsecretar&#237;a de Prevenci&#243;n del Delito podr&#225; proveer estos elementos, con cargo a los recursos contemplados en el art&#237;culo 44, si la municipalidad en que el inspector o la inspectora presta servicios no cuenta con los recursos para proveerlos.
+     Estos elementos ser&#225;n de uso exclusivo para el ejercicio de funciones de las inspectoras y los inspectores de seguridad municipal. En ning&#250;n caso se podr&#225;n usar para labores de control del orden p&#250;blico. Asimismo, mientras no sean utilizados por las inspectoras e inspectores deber&#225;n mantenerse en resguardo en el espacio que la municipalidad determine, seg&#250;n las condiciones que establezca el reglamento de la presente ley.
+     En el caso de que la municipalidad otorgue los elementos regulados en este art&#237;culo, las inspectoras y los inspectores de seguridad municipal deber&#225;n ser debidamente capacitados en, a lo menos, las materias mencionadas en las letras a), b), c) y e) del art&#237;culo 50.
+     Un reglamento expedido por intermedio del Ministerio de Seguridad P&#250;blica establecer&#225; los elementos defensivos y de protecci&#243;n personal que podr&#225;n usar las inspectoras e inspectores de seguridad municipal, tales como cascos, chalecos antibalas, chalecos anticortes, lentes de protecci&#243;n, elementos lum&#237;nicos y sonoros, esposas o bastones retr&#225;ctiles; las condiciones para su uso adecuado, los requisitos de formaci&#243;n, capacitaci&#243;n y entrenamiento continuo que deber&#225;n cumplirse para su empleo y sus requisitos de calidad, certificaci&#243;n y actualizaci&#243;n. El referido reglamento tambi&#233;n normar&#225; el uso de elementos de efecto lacrim&#243;geno elaborados sobre la base de productos naturales y elementos de pulsaci&#243;n el&#233;ctrica. Las municipalidades no podr&#225;n proporcionar otros elementos regulados en la ley N&#176; 17.798, sobre Control de Armas, distintos de los se&#241;alados anteriormente.
+     El quebrantamiento de las prohibiciones se&#241;aladas en este art&#237;culo dar&#225; lugar a responsabilidad administrativa, sin perjuicio de la responsabilidad penal o civil que corresponda.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">43 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583000">
+              <Texto>     Art&#237;culo 44.- Transferencia de recursos para el financiamiento de elementos defensivos y de protecci&#243;n personal. La Subsecretar&#237;a de Prevenci&#243;n del Delito podr&#225; celebrar convenios de transferencia de recursos con las municipalidades para facilitar la compra de elementos de protecci&#243;n y defensa para las inspectoras y los inspectores de seguridad municipal, de acuerdo con lo establecido en el art&#237;culo anterior, y del personal contratado por las asociaciones de municipalidades, de conformidad con el art&#237;culo 61.
+     Los recursos se&#241;alados en el inciso precedente se asignar&#225;n de conformidad con un programa elaborado por la Subsecretar&#237;a de Prevenci&#243;n del Delito, el que deber&#225; contener un diagn&#243;stico del estado de situaci&#243;n de las comunas en materia de seguridad, y determinar los objetivos, cobertura y resultados esperados de las transferencias de recursos. Asimismo, este programa deber&#225; contener, a lo menos, los siguientes criterios para la asignaci&#243;n de recursos:
+     
+     a) de equidad territorial.
+     b) demogr&#225;ficos.
+     c) de vulnerabilidad socio-delictual.
+     
+     Mediante resoluci&#243;n de la Subsecretaria o del Subsecretario de Prevenci&#243;n del Delito se determinar&#225;n las municipalidades beneficiadas en virtud de lo dispuesto en el inciso anterior, los elementos de protecci&#243;n y defensa que &#233;stas podr&#225;n adquirir con los recursos transferidos y las formas de rendir cuenta de su uso a la Subsecretar&#237;a de Prevenci&#243;n del Delito.
+     La Ley de Presupuestos del Sector P&#250;blico de cada a&#241;o podr&#225; destinar recursos para este fin. Para lo anterior, el programa deber&#225; haber sido previamente sometido al proceso de evaluaci&#243;n establecido en el literal c) del art&#237;culo 3 de la ley N&#176; 20.530, que crea el Ministerio de Desarrollo Social y Familia y modifica cuerpos legales que indica.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">44 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583001">
+              <Texto>     Art&#237;culo 45.- Seguro de vida. La municipalidad podr&#225; contratar un seguro de vida en favor de las inspectoras e inspectores de seguridad municipal, as&#237; como en favor de otros inspectores que desempe&#241;en otras funciones que impliquen un riesgo para su vida e integridad f&#237;sica. Para ello, priorizar&#225; a quienes realizan labores de patrullaje o fiscalizaci&#243;n, y a quienes realicen actividades coadyuvantes de las que regula el P&#225;rrafo 5&#186; del presente T&#237;tulo. La cifra asegurada no podr&#225; ser inferior a doscientas cincuenta unidades de fomento.
+     La Subsecretar&#237;a de Prevenci&#243;n del Delito, a trav&#233;s del programa se&#241;alado en el art&#237;culo 44, podr&#225; transferir recursos mediante la suscripci&#243;n de convenios seg&#250;n su disponibilidad presupuestaria, en caso de que la municipalidad no cuente con disponibilidad presupuestaria para proveer los seguros de vida de que trata este art&#237;culo.
+    </Texto>
+              <Metadatos>
+                <NombreParte presente="si">45 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583002">
+              <Texto>     Art&#237;culo 46.- Elementos defensivos y de protecci&#243;n para otros inspectores municipales. La municipalidad tambi&#233;n podr&#225; proporcionar los elementos defensivos y de protecci&#243;n a las inspectoras y los inspectores municipales que desarrollen funciones en cualquier otra &#225;rea diferente de la seguridad municipal, tales como las de la ley N&#176; 19.925, sobre Expendio y Consumo de Bebidas Alcoh&#243;licas, o de la ley N&#176; 18.290, de Tr&#225;nsito, siempre que a juicio del alcalde desempe&#241;en funciones que impliquen un riesgo para su vida e integridad f&#237;sica.
+     Con todo, la municipalidad s&#243;lo podr&#225; proporcionar dichos elementos defensivos y de protecci&#243;n a inspectores municipales que se desempe&#241;en en otras &#225;reas distintas de la prevenci&#243;n del delito y de la seguridad municipal, cuando &#233;stos acrediten haber cursado y aprobado, a lo menos, aquellas capacitaciones estipuladas en los literales a), b), c) y d) del art&#237;culo 50.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">46 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583003">
+              <Texto>     Art&#237;culo 47.- Sistemas de registro y almacenamiento audiovisual. Las inspectoras y los inspectores de seguridad municipal podr&#225;n contar con sistemas de registro y almacenamiento audiovisual para el cumplimiento de sus funciones, en los casos, la forma y la periodicidad que determine el reglamento.
+     Los sistemas de registro y almacenamiento audiovisual deber&#225;n garantizar la integridad de los registros para su posterior tratamiento en una eventual investigaci&#243;n. La informaci&#243;n que se obtenga a trav&#233;s de estos sistemas ser&#225; custodiada por la municipalidad y entregada a la brevedad al Ministerio P&#250;blico, cuando &#233;ste lo requiera en los t&#233;rminos del art&#237;culo 19 del C&#243;digo Procesal Penal, y a los tribunales de justicia y a los juzgados de polic&#237;a local de la comuna o asociaci&#243;n de comunas en que se generen u obtengan los registros, siempre que la informaci&#243;n contenida en &#233;stos se relacione con las causas que est&#233;n conociendo. Quien tenga inter&#233;s en que se aporte dicha informaci&#243;n a alg&#250;n procedimiento, ya sea por tener la calidad de v&#237;ctima o imputado en un proceso penal, o por tener la calidad de parte en alguna causa para la cual dicha informaci&#243;n pueda ser relevante, podr&#225; requerir al Ministerio P&#250;blico o al tribunal correspondiente que soliciten dicha informaci&#243;n a la municipalidad, la que deber&#225; entregarla a la brevedad.
+     Las im&#225;genes o se&#241;ales obtenidas s&#243;lo podr&#225;n ser tratadas dando estricto cumplimiento a lo dispuesto en la ley N&#176; 19.628, sobre protecci&#243;n a la vida privada. &#201;stas deber&#225;n ser conservadas por el plazo m&#237;nimo de quince d&#237;as. En todo caso, deber&#225;n ser destruidas una vez transcurridos ciento ochenta d&#237;as contados desde su captaci&#243;n, salvo que la informaci&#243;n haya sido requerida en los t&#233;rminos del inciso anterior.
+     Las inspectoras y los inspectores de seguridad municipal que oculten o alteren de cualquier forma los sistemas de registro y almacenamiento ser&#225;n sancionados con la pena de suspensi&#243;n del empleo en su grado medio y multa de quince a veinte unidades tributarias mensuales, adem&#225;s de las penas que correspondan por los delitos cometidos. Si la infracci&#243;n la comete el personal contratado por las asociaciones de municipalidades conforme al P&#225;rrafo 9&#176; de este T&#237;tulo, adem&#225;s de las penas que correspondan por los delitos cometidos, solo se aplicar&#225; la multa referida.</Texto>
+              <Metadatos>
+                <NombreParte presente="si">47 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+          </EstructurasFuncionales>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583004">
+          <Texto>     P&#225;rrafo 7&#176;
+     Respeto y protecci&#243;n de los derechos humanos en el ejercicio de las atribuciones y funciones de las inspectoras y los inspectores de seguridad municipal
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="no">&#160;</NombreParte>
+            <TituloParte presente="si">P&#225;rrafo 7&#176;            Respeto y protecci&#243;n de los derechos humanos en el ejercicio de las atribuciones y funciones de las inspectoras y los inspectores de seguridad municipal</TituloParte>
+            
+          </Metadatos>
+          <EstructurasFuncionales>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583005">
+              <Texto>     Art&#237;culo 48.- Respeto y protecci&#243;n de los derechos humanos. Las inspectoras y los inspectores de seguridad municipal, sin distinci&#243;n, en el ejercicio de las funciones y atribuciones que regula la presente ley, deben respetar y proteger los derechos humanos y las libertades fundamentales, especialmente si se trata de personas en situaci&#243;n de vulnerabilidad, ni&#241;os, ni&#241;as o adolescentes y personas en situaci&#243;n de discapacidad, en cumplimiento de los tratados internacionales de derechos humanos, ratificados por Chile y que se encuentren vigentes, los que proh&#237;ben cualquier acto constitutivo de tortura u otros tratos crueles, inhumanos o degradantes.</Texto>
+              <Metadatos>
+                <NombreParte presente="si">48 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+          </EstructurasFuncionales>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583006">
+          <Texto>     P&#225;rrafo 8&#176;
+     Capacitaciones de inspectoras e inspectores de seguridad municipal
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="no">&#160;</NombreParte>
+            <TituloParte presente="si">P&#225;rrafo 8&#176;      Capacitaciones de inspectoras e inspectores de seguridad municipal</TituloParte>
+            
+          </Metadatos>
+          <EstructurasFuncionales>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583007">
+              <Texto>     Art&#237;culo 49.- Obligaci&#243;n de cursar y aprobar capacitaciones. Las municipalidades y las asociaciones de municipalidades deber&#225;n capacitar al personal que cumpla funciones en materias de prevenci&#243;n del delito y seguridad p&#250;blica. Dichas capacitaciones ser&#225;n impartidas por Carabineros de Chile, especialmente si se trata de labores coadyuvantes a su funci&#243;n. Sin perjuicio de lo anterior, tambi&#233;n podr&#225;n ser impartidas por instituciones o personas jur&#237;dicas, tales como organismos t&#233;cnicos de capacitaci&#243;n, p&#250;blicos o privados y dem&#225;s instituciones de educaci&#243;n superior acreditadas por el Estado y que, adem&#225;s, se encuentren autorizadas por la Subsecretar&#237;a de Prevenci&#243;n del Delito, seg&#250;n determine el reglamento de capacitaciones.
+     Los distintos tipos de capacitaciones propender&#225;n a la formaci&#243;n y perfeccionamiento y ser&#225;n diferenciados al menos seg&#250;n el tipo de funciones y actividades a realizar y los niveles de riesgo de los distintos procedimientos. El reglamento establecer&#225; los contenidos, la actualizaci&#243;n de &#233;stos, modalidades, duraci&#243;n, certificaci&#243;n y especializaciones de los distintos programas de capacitaci&#243;n. Asimismo, el reglamento podr&#225; detallar los requisitos que deber&#225;n cumplir las instituciones o personas jur&#237;dicas que impartan capacitaciones en este &#225;mbito. 
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">49 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583008">
+              <Texto>     Art&#237;culo 50.- Contenido de las capacitaciones. Las capacitaciones a que hace referencia el art&#237;culo anterior deber&#225;n abordar, a lo menos, las siguientes materias:
+     
+     a) Respeto y protecci&#243;n de los derechos humanos y las libertades fundamentales, as&#237; como la igualdad y no discriminaci&#243;n, especialmente si se trata de personas en situaci&#243;n de vulnerabilidad, ni&#241;os, ni&#241;as y adolescentes y personas en situaci&#243;n de discapacidad.
+     b) Instrucci&#243;n en seguridad p&#250;blica y eficacia en el ejercicio de sus funciones, as&#237; como en el dise&#241;o o ejecuci&#243;n de pr&#225;cticas efectivas en prevenci&#243;n del delito.
+     c) Primeros auxilios y gesti&#243;n de emergencias.
+     d) Correcto uso de elementos defensivos bajo est&#225;ndares de derechos humanos.
+     e) Perspectiva de g&#233;nero.
+     f) Probidad y transparencia.
+     g) Aspectos generales del sistema de justicia penal y coordinaci&#243;n con instituciones policiales y dem&#225;s relevantes, en el &#225;mbito de sus competencias.
+     h) Defensa personal.
+     i) Resoluci&#243;n alternativa y mediaci&#243;n de conflictos.
+     j) Comunicaciones y sistema de comando de incidentes.
+     k) Capacitaciones sobre t&#233;cnicas de conducci&#243;n y estrategias de seguimiento vehicular para las y los inspectores municipales que desarrollen labores de conducci&#243;n en materia de patrullaje preventivo o mixto. 
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">50 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583009">
+              <Texto>     Art&#237;culo 51.- Programas de capacitaci&#243;n y perfeccionamiento. Las municipalidades deber&#225;n considerar como prioritarias las &#225;reas de seguridad p&#250;blica y prevenci&#243;n del delito dentro del respectivo Plan Anual de Capacitaciones, establecido en el art&#237;culo 9&#176; de la ley N&#176; 20.742, que perfecciona el rol fiscalizador del concejo; fortalece la transparencia y probidad en las municipalidades; crea cargos y modifica normas sobre personal y finanzas municipales. Asimismo, estas materias podr&#225;n ser contempladas en los programas de capacitaci&#243;n y perfeccionamiento a que alude el art&#237;culo 25 de la ley N&#176; 18.883.
+    </Texto>
+              <Metadatos>
+                <NombreParte presente="si">51 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583010">
+              <Texto>     Art&#237;culo 52.- Formaci&#243;n del director o de la directora de seguridad municipal. El director o la directora de seguridad p&#250;blica comunal deber&#225; cursar y aprobar las capacitaciones que determine el reglamento. En caso de que cuente con un t&#237;tulo profesional o t&#233;cnico de nivel superior o post&#237;tulo relacionado con las materias de prevenci&#243;n del delito o seguridad p&#250;blica, seg&#250;n se determine mediante resoluci&#243;n de la Subsecretar&#237;a de Prevenci&#243;n del Delito, no requerir&#225; capacitarse en forma adicional.</Texto>
+              <Metadatos>
+                <NombreParte presente="si">52 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+          </EstructurasFuncionales>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583011">
+          <Texto>     P&#225;rrafo 9&#176;
+     De la contrataci&#243;n de personal que ejerza funciones de inspectora o inspector de seguridad municipal por asociaciones de municipalidades
+    </Texto>
+          <Metadatos>
+            <NombreParte presente="no">&#160;</NombreParte>
+            <TituloParte presente="si">P&#225;rrafo 9&#176;           De la contrataci&#243;n de personal que ejerza funciones de inspectora o inspector de seguridad municipal por asociaciones de municipalidades</TituloParte>
+            
+          </Metadatos>
+          <EstructurasFuncionales>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583012">
+              <Texto>     Art&#237;culo 53.- Habilitaci&#243;n para la contrataci&#243;n de personal por las asociaciones de municipalidades. Las municipalidades podr&#225;n celebrar convenios con las asociaciones de municipalidades a las que pertenezcan, constituidas de conformidad a las normas del P&#225;rrafo 3&#176; del T&#237;tulo VI de la ley N&#176; 18.695, con el objeto de que las trabajadoras y los trabajadores contratados por &#233;stas colaboren en el ejercicio de las funciones de seguridad que le corresponden a la municipalidad conforme a la ley, previo acuerdo del concejo municipal, sin perjuicio de la responsabilidad que a &#233;sta le compete en su ejercicio. Dicha modalidad de contrataci&#243;n proceder&#225; &#250;nicamente ante la imposibilidad de incorporar inspectoras o inspectores de seguridad municipal en calidad de planta o a contrata, lo que deber&#225; acreditarse y verificarse por el respectivo concejo municipal, o cuando los datos socio-delictuales de la comuna lo justifiquen.
+     En los convenios suscritos deber&#225;n constar, a lo menos, las actividades a ejecutar por el personal contratado por la asociaci&#243;n de municipalidades; los mecanismos de planificaci&#243;n, dise&#241;o, coordinaci&#243;n, implementaci&#243;n y control necesarios para su adecuado ejercicio, de conformidad a lo dispuesto en el art&#237;culo 56; y la forma de asignaci&#243;n de las trabajadoras y los trabajadores a los equipos de seguridad municipal.
+     Para la celebraci&#243;n y ejecuci&#243;n de estos convenios, la secretar&#237;a ejecutiva de la asociaci&#243;n respectiva ser&#225; la contraparte del director o de la directora de seguridad p&#250;blica de la municipalidad, en caso de que exista, o de la jefa o el jefe de unidad que determine cada alcalde.
+     Cualquier ejercicio de funciones de seguridad municipal por parte de personal contratado por asociaciones de municipalidades sin la suscripci&#243;n del referido convenio o en contravenci&#243;n a los t&#233;rminos del presente P&#225;rrafo estar&#225; prohibida y acarrear&#225; las responsabilidades penales, civiles y administrativas que correspondan.
+    </Texto>
+              <Metadatos>
+                <NombreParte presente="si">53 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583013">
+              <Texto>     Art&#237;culo 54.- Objeto social exclusivo de las asociaciones de municipalidades. Las municipalidades podr&#225;n utilizar el mecanismo de contrataci&#243;n mencionado en el art&#237;culo anterior s&#243;lo cuando las asociaciones de municipalidades tengan por finalidad u objetivo la realizaci&#243;n de programas vinculados a la seguridad p&#250;blica, en el marco de lo dispuesto en la letra j) del art&#237;culo 4 de la Ley N&#176; 18.695, Org&#225;nica Constitucional de Municipalidades. Lo anterior se verificar&#225; seg&#250;n lo preceptuado en su estatuto.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">54 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583014">
+              <Texto>     Art&#237;culo 55.- Requisitos de contrataci&#243;n. Las personas contratadas de conformidad con las reglas de este P&#225;rrafo deber&#225;n cumplir con los requisitos se&#241;alados en el inciso primero del art&#237;culo 12.
+     No podr&#225;n ser contratadas por las asociaciones municipales reguladas en el presente P&#225;rrafo las personas que hayan sido desvinculadas por haber infringido lo dispuesto en el inciso primero del art&#237;culo 59, salvo que hayan transcurrido m&#225;s de cinco a&#241;os desde la fecha del cese de funciones.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">55 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583015">
+              <Texto>     Art&#237;culo 56.- Coordinaci&#243;n de la Direcci&#243;n de Seguridad P&#250;blica con la asociaci&#243;n de municipalidades. El director o directora de seguridad p&#250;blica del respectivo municipio o, en caso de que no exista, la jefa o el jefe de la unidad que determine el respectivo alcalde, dise&#241;ar&#225;, en representaci&#243;n de la municipalidad, las directrices que permitan al personal contratado por las asociaciones municipales ejercer sus actividades. Estas directrices deber&#225;n informarse a la secretar&#237;a ejecutiva, y se coordinar&#225; y controlar&#225; que &#233;sta las implemente, en consideraci&#243;n a criterios tales como el personal disponible y su especializaci&#243;n, entre otros. Dichas directrices ser&#225;n impartidas al personal de la asociaci&#243;n por la respectiva secretar&#237;a ejecutiva.
+     Para la adecuada funci&#243;n estrat&#233;gica y operativa ejercida en virtud de este P&#225;rrafo, el director o la directora de seguridad p&#250;blica tendr&#225; siempre las atribuciones para requerir medidas y acciones a la secretaria o al secretario ejecutivo de la asociaci&#243;n de municipalidades.
+     Asimismo, el director o la directora de seguridad p&#250;blica del municipio deber&#225; requerir a la asociaci&#243;n de municipalidades que informe semestralmente el cumplimiento de los requisitos del inciso primero del art&#237;culo 12 por parte del personal contratado por &#233;sta para el ejercicio de las funciones de seguridad municipal en la comuna respectiva.
+     En el dise&#241;o, coordinaci&#243;n, implementaci&#243;n y control del cumplimiento de las directrices en materia de seguridad municipal en el contexto de los convenios suscritos con asociaciones de municipalidades, as&#237; como en el oportuno requerimiento del informe sobre cumplimiento de los requisitos de contrataci&#243;n y aquellos necesarios para el ejercicio de las funciones del personal contratado por la asociaci&#243;n de municipalidades, el director o la directora o la jefa o el jefe de unidad, en su caso, quedar&#225; sujeto a responsabilidad administrativa, de acuerdo a las reglas generales establecidas en la ley N&#176; 18.883, sin perjuicio de la responsabilidad civil o penal que corresponda.
+    </Texto>
+              <Metadatos>
+                <NombreParte presente="si">56 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583016">
+              <Texto>     Art&#237;culo 57.- Funciones. El personal contratado por las asociaciones de municipalidades podr&#225; ejercer la facultad del art&#237;culo 20 y las funciones se&#241;aladas en el P&#225;rrafo 4&#176; del presente T&#237;tulo, en el marco del reglamento municipal se&#241;alado en el art&#237;culo 17.
+     El personal contratado por las asociaciones de municipalidades podr&#225; ejercer las funciones del P&#225;rrafo 5&#176; de este T&#237;tulo, cuando Carabineros de Chile lo autorice y cuente con las capacitaciones requeridas, en base a las indicaciones dispuestas en el reglamento del art&#237;culo 19, y cumplan los dem&#225;s requisitos establecidos en ese art&#237;culo.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">57 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583017">
+              <Texto>     Art&#237;culo 58.- Deber de probidad por parte de las asociaciones de municipalidades. En la contrataci&#243;n del personal regulado en este P&#225;rrafo, la asociaci&#243;n de municipalidades respectiva deber&#225; dar cumplimiento al principio de probidad, de acuerdo con lo dispuesto en el inciso segundo del art&#237;culo 52, y quedar&#225;n sujetas a lo establecido en el art&#237;culo 62, ambos de la Ley N&#176; 18.575, Org&#225;nica Constitucional de Bases Generales de la Administraci&#243;n del Estado. Lo anterior, sin perjuicio del deber de observar los principios de publicidad de la funci&#243;n p&#250;blica y de acceso a la informaci&#243;n de la Administraci&#243;n del Estado, de conformidad a lo dispuesto en el art&#237;culo 149 de la Ley N&#176; 18.695, Org&#225;nica Constitucional de Municipalidades.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">58 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583018">
+              <Texto>     Art&#237;culo 59.- Modalidad de contrataci&#243;n por asociaciones de municipalidades. Los contratos de trabajo suscritos entre la asociaci&#243;n de municipalidades respectiva y el personal contratado de conformidad con las reglas de este P&#225;rrafo, deber&#225;n incorporar en sus cl&#225;usulas el deber de trabajadoras y trabajadores de observar las normas de probidad contenidas en el inciso segundo del art&#237;culo 52 y en el art&#237;culo 62 de la Ley N&#176; 18.575, Org&#225;nica Constitucional de Bases Generales de la Administraci&#243;n del Estado, y la publicidad del monto de las remuneraciones que reciban. Asimismo, deber&#225;n incorporar las obligaciones establecidas en los literales g), h), i), k) y l) del art&#237;culo 58 de la ley N&#176; 18.883, que aprueba Estatuto Administrativo para Funcionarios Municipales, y la sujeci&#243;n a las prohibiciones se&#241;aladas en los literales a), b), f), g), j) y k) del art&#237;culo 82 de esta &#250;ltima ley.
+     La infracci&#243;n a las cl&#225;usulas referidas en el inciso precedente podr&#225;n ser consideradas un incumplimiento grave de las obligaciones que impone el contrato, en virtud de lo dispuesto en el n&#250;mero 7 del art&#237;culo 160 del C&#243;digo del Trabajo, o bien, en el caso de infracciones a la probidad, una conducta indebida de car&#225;cter grave, debidamente comprobada, de acuerdo a lo establecido en el n&#250;mero 1 del art&#237;culo 160 de ese c&#243;digo; sin perjuicio de las dem&#225;s causales que pueda invocar el empleador de conformidad a las reglas generales de la legislaci&#243;n laboral.
+     Las asociaciones de municipalidades que, de conformidad con el presente P&#225;rrafo, contraten personal que ejerza funciones de inspector o inspectora de seguridad municipal, deber&#225;n, adicionalmente, incorporar en sus reglamentos internos de orden, higiene y seguridad, en conformidad a lo dispuesto en el art&#237;culo 154 del C&#243;digo del Trabajo, las sanciones por el incumplimiento de las obligaciones referidas en el inciso anterior cuando la conducta no revista la suficiente gravedad para poner t&#233;rmino al contrato de trabajo, y deber&#225;n incorporar un procedimiento para la aplicaci&#243;n de las sanciones que asegure la debida celeridad y el derecho a un debido proceso de la persona involucrada, que deber&#225;, a lo menos, permitir acreditar la ocurrencia de los hechos que configuran el motivo de la denuncia, o&#237;r a la persona investigada y otorgarle la oportunidad de defensa, as&#237; como observar los principios de escrituraci&#243;n, la reserva de la investigaci&#243;n y la proporcionalidad de la sanci&#243;n.
+     La municipalidad, a trav&#233;s de su contraparte, podr&#225; sugerir a la asociaci&#243;n correspondiente el inicio del procedimiento se&#241;alado en el inciso anterior, cuando conozca de hechos que puedan implicar infracci&#243;n a lo dispuesto en el inciso primero.
+    </Texto>
+              <Metadatos>
+                <NombreParte presente="si">59 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583019">
+              <Texto>     Art&#237;culo 60.- Deber de remitir n&#243;mina del personal. Las municipalidades deber&#225;n remitir trimestralmente a Carabineros de Chile y a la Subsecretar&#237;a de Prevenci&#243;n del Delito la n&#243;mina actualizada de las personas contratadas por una asociaci&#243;n de municipalidades, de conformidad con las reglas de este P&#225;rrafo, y que desarrollen labores en su comuna.
+     Asimismo, las municipalidades deber&#225;n informar, en el m&#225;s breve plazo, a la Subsecretar&#237;a de Prevenci&#243;n del Delito cuando estas personas, contratadas de conformidad con las reglas de este P&#225;rrafo, sean desvinculadas por la asociaci&#243;n debido a una infracci&#243;n a lo dispuesto en el inciso primero del art&#237;culo 59. Con todo, la Subsecretar&#237;a de Prevenci&#243;n del Delito deber&#225; llevar un registro de las personas contratadas de conformidad con las reglas de este P&#225;rrafo que hayan sido desvinculadas por estos motivos. Dicho registro deber&#225; estar a disposici&#243;n de las municipalidades y asociaciones de municipalidades para que puedan verificar el cumplimiento de los requisitos de contrataci&#243;n. El contenido de este registro se determinar&#225; mediante el reglamento de la presente ley.
+     La informaci&#243;n contenida en las n&#243;minas y registros de este art&#237;culo ser&#225; compartida entre la Subsecretar&#237;a de Prevenci&#243;n del Delito, las municipalidades y las Fuerzas de Orden y Seguridad P&#250;blica, en la forma establecida en el inciso final del art&#237;culo 24.
+     Una vez transcurridos cinco a&#241;os desde la desvinculaci&#243;n de la persona, sus datos deber&#225;n ser eliminados del registro regulado en el presente art&#237;culo.
+    </Texto>
+              <Metadatos>
+                <NombreParte presente="si">60 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583020">
+              <Texto>     Art&#237;culo 61.- Elementos defensivos y de protecci&#243;n. La asociaci&#243;n respectiva deber&#225; proporcionar al personal contratado por las asociaciones de municipalidades elementos defensivos y de protecci&#243;n cuando &#233;ste ejerza las funciones se&#241;aladas en el inciso segundo del art&#237;culo 57 de acuerdo con los protocolos que se elaboren de conformidad con lo dispuesto en el art&#237;culo 56. Trat&#225;ndose de las funciones del inciso primero del art&#237;culo 57, la asociaci&#243;n respectiva podr&#225; proporcionar estos elementos siempre que as&#237; lo establezca el director o la directora de seguridad p&#250;blica comunal respectivo, en caso de que exista, o la jefa o jefe de unidad que determine el alcalde, seg&#250;n lo se&#241;alado en el presente P&#225;rrafo.
+     La determinaci&#243;n de estos elementos y su entrega se sujetar&#225; a lo dispuesto en el art&#237;culo 43.
+     El incumplimiento de las prohibiciones establecidas en el art&#237;culo 43 deber&#225; consignarse en los contratos de trabajo de las trabajadoras y los trabajadores de la asociaci&#243;n de municipalidades como un incumplimiento grave de las obligaciones que impone el contrato.
+     Lo anterior, sin perjuicio de la responsabilidad penal o civil que corresponda.
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">61 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583021">
+              <Texto>     Art&#237;culo 62.- Respeto y protecci&#243;n de los derechos humanos. El personal contratado por las asociaciones de municipalidades que ejerza funciones de seguridad municipal deber&#225; respetar y proteger los derechos humanos y las libertades fundamentales, especialmente de personas en situaci&#243;n de vulnerabilidad, ni&#241;os, ni&#241;as y adolescentes y personas en situaci&#243;n de discapacidad, y se deber&#225; incorporar en los contratos de trabajo la prohibici&#243;n de cualquier acto constitutivo de tortura u otros tratos crueles, inhumanos o degradantes.
+    </Texto>
+              <Metadatos>
+                <NombreParte presente="si">62 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583022">
+              <Texto>     Art&#237;culo 63.- Capacitaciones. El personal contratado por las asociaciones de municipalidades que ejerza funciones de seguridad municipal deber&#225; cursar y aprobar capacitaciones que demuestren que cuenta con las competencias necesarias para cumplir correctamente las atribuciones, funciones y deberes que le asistan, las que deber&#225;n ce&#241;irse a las condiciones establecidas en el P&#225;rrafo 8&#176; de este T&#237;tulo, en los casos que corresponda.</Texto>
+              <Metadatos>
+                <NombreParte presente="si">63 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+          </EstructurasFuncionales>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583023">
+      <Texto>     
+     T&#205;TULO IV
+     Adecuaciones normativas
+     </Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">T&#205;TULO IV      Adecuaciones normativas</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583024">
+          <Texto>     P&#225;rrafo 1&#176; 
+     Adecuaciones a la Ley N&#176; 18.695, Org&#225;nica Constitucional de Municipalidades
+</Texto>
+          <Metadatos>
+            <NombreParte presente="no">&#160;</NombreParte>
+            <TituloParte presente="si">P&#225;rrafo 1&#176;       Adecuaciones a la Ley N&#176; 18.695, Org&#225;nica Constitucional de Municipalidades</TituloParte>
+            
+          </Metadatos>
+          <EstructurasFuncionales>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583025">
+              <Texto>     Art&#237;culo 64.- Introd&#250;cense las siguientes modificaciones en la Ley N&#176; 18.695, Org&#225;nica Constitucional de Municipalidades, cuyo texto refundido, coordinado y sistematizado fue fijado por el decreto con fuerza de ley N&#176; 1, de 2006, del Ministerio del Interior:
+     
+     1. Reempl&#225;zase el literal j) del art&#237;culo 4 por el siguiente:
+     
+     "j) El desarrollo, implementaci&#243;n, evaluaci&#243;n, promoci&#243;n, capacitaci&#243;n y apoyo de acciones, planes, medidas y proyectos, as&#237; como la celebraci&#243;n de convenios con otras entidades p&#250;blicas en el &#225;mbito de la seguridad p&#250;blica, la prevenci&#243;n del delito, la reinserci&#243;n social y la asistencia a v&#237;ctimas, a nivel comunal, con el objeto de proteger a las personas y promover la convivencia vecinal. Lo anterior, sin perjuicio de las funciones del Ministerio de Seguridad P&#250;blica, de las instituciones policiales o de otros organismos que tengan competencia en estas materias, de conformidad con la ley.
+     Asimismo, deber&#225; desarrollar un trabajo territorial coordinado con las Fuerzas de Orden y Seguridad P&#250;blica, con el Ministerio P&#250;blico y con las dem&#225;s instituciones p&#250;blicas o privadas cuyas funciones se vinculen con la seguridad p&#250;blica y la prevenci&#243;n del delito en el &#225;mbito local. Deber&#225; procurar la participaci&#243;n activa de las organizaciones sociales y vecinales en estas materias.".
+     
+     2. Incorp&#243;rase, a continuaci&#243;n del art&#237;culo 39, el siguiente art&#237;culo 39 bis:
+     
+     "Art&#237;culo 39 bis.- Podr&#225;n destinarse provisionalmente a las municipalidades, para satisfacer las necesidades de la comunidad local, los inmuebles que se encuentren en la comuna y hayan sido incautados por delitos a los que se refiere la ley N&#186; 20.000, que sustituye la ley N&#186; 19.366, que sanciona el tr&#225;fico il&#237;cito de estupefacientes y sustancias sicotr&#243;picas, en aplicaci&#243;n de lo dispuesto en el art&#237;culo 40 de dicho cuerpo legal.
+     Para efectos de lo dispuesto en el inciso anterior, el Ministerio P&#250;blico deber&#225; informar trimestralmente a las municipalidades sobre los inmuebles incautados en la comuna. A su vez, las municipalidades se&#241;alar&#225;n al Ministerio P&#250;blico los inmuebles cuya destinaci&#243;n provisional pretendan que &#233;ste solicite al juez de garant&#237;a, as&#237; como los fines a los cuales dichos bienes ser&#237;an destinados. Para ello, el alcalde requerir&#225; el acuerdo del concejo, y deber&#225; certificarse que existen recursos suficientes para hacerse cargo de los costos de conservaci&#243;n, los que se financiar&#225;n con cargo al presupuesto de la municipalidad requirente.
+     Una vez decretado el comiso de un bien inmueble que le haya sido destinado provisionalmente, la municipalidad podr&#225; solicitar al juez de garant&#237;a que le sea transferido su dominio para satisfacer las necesidades de la comunidad local, de conformidad con lo dispuesto en el inciso segundo del art&#237;culo 46 de la ley N&#186; 20.000.
+     Mientras dure la destinaci&#243;n provisional y hasta tres a&#241;os despu&#233;s de la transferencia del inmueble de que se trate, la municipalidad deber&#225; informar trimestralmente a la Contralor&#237;a General de la Rep&#250;blica los inmuebles que en virtud de lo dispuesto en este art&#237;culo le hayan sido destinados provisionalmente o transferidos, la finalidad para la cual se destinaron o transfirieron y el uso que se les ha dado, con el objeto de que esta &#250;ltima pueda ejercer su labor de fiscalizaci&#243;n.".
+     
+     3. En el literal p) del art&#237;culo 63:
+     
+     a) Reempl&#225;zase en el p&#225;rrafo primero la frase "durante el mes anterior, con el objetivo de dar cumplimiento a la funci&#243;n establecida en la letra j) del art&#237;culo 4 de la presente ley" por la siguiente: ", los servicios policiales disponibles en el territorio, as&#237; como cualquier otro que fuere necesario para dar cumplimiento a la funci&#243;n establecida en el literal j) del art&#237;culo 4.".
+     
+     b) Reempl&#225;zase el p&#225;rrafo segundo por el siguiente:
+     
+     "La funcionaria o el funcionario policial de m&#225;s alto rango en la unidad policial requerida y el o la fiscal jefe de la fiscal&#237;a local correspondiente, o en quien &#233;stos o &#233;stas hayan delegado su funci&#243;n, deber&#225;n enviar dicha informaci&#243;n al alcalde o a la funcionaria o al funcionario municipal que &#233;ste o &#233;sta designe, a trav&#233;s de un medio electr&#243;nico que habilitar&#225;n para estos efectos, dentro de los diez d&#237;as h&#225;biles siguientes a la recepci&#243;n de la solicitud.".
+     
+     c) Agr&#233;ganse los siguientes p&#225;rrafos tercero, cuarto, quinto, sexto y s&#233;ptimo:
+     
+     "Sin perjuicio de lo se&#241;alado en el p&#225;rrafo anterior, para efectos de colaborar con la seguridad p&#250;blica y la prevenci&#243;n del delito, el Ministerio P&#250;blico, Carabineros de Chile y las municipalidades deber&#225;n intercambiar los datos correspondientes a la comuna en que se encuentren, respectivamente, en el banco de datos establecido en el art&#237;culo 11 de la ley N&#176; 20.931 y en el Sistema T&#225;ctico de Operaci&#243;n Policial regulado en la ley N&#176; 21.332. Lo anterior, mediante una plataforma electr&#243;nica interconectada, coordinada y administrada por la Subsecretar&#237;a de Prevenci&#243;n del Delito, instituci&#243;n que deber&#225; mantenerla unificada y actualizada. La informaci&#243;n contenida en esta plataforma podr&#225; ser consultada en todo momento por las instituciones referidas, en el &#225;mbito de sus respectivas competencias.
+     La informaci&#243;n a la que se refiere el presente literal se remitir&#225; en forma anonimizada y en ning&#250;n caso podr&#225; ser intercambiada, remitida ni revelada si se trata de una materia que est&#225; sujeta a reserva de investigaci&#243;n de conformidad con el art&#237;culo 182 del C&#243;digo Procesal Penal. Asimismo, le ser&#225;n aplicables las dem&#225;s normas especiales que se refieran al secreto de las investigaciones penales, las disposiciones referidas a la protecci&#243;n de datos personales de la ley N&#176; 19.628, sobre Protecci&#243;n de la Vida Privada, y lo dispuesto en la ley N&#176; 20.285, sobre acceso a la informaci&#243;n p&#250;blica.
+     Con todo, la informaci&#243;n sobre dotaci&#243;n policial tendr&#225; car&#225;cter secreto, y podr&#225; ser conocida &#250;nicamente por el alcalde, el director o la directora de seguridad y las funcionarias y los funcionarios que se determine a trav&#233;s de un decreto alcaldicio. La municipalidad adoptar&#225; las medidas pertinentes para resguardar la confidencialidad de la informaci&#243;n.
+     Todo personal municipal, en su calidad de empleado p&#250;blico y cualquiera sea su calidad contractual, que tenga acceso a la informaci&#243;n contenida en este art&#237;culo, deber&#225; guardar secreto de la informaci&#243;n referida en los incisos anteriores. El quebrantamiento de este deber supondr&#225; responsabilidades administrativas y penales de conformidad con las leyes pertinentes.
+     Un reglamento expedido por el Ministerio de Seguridad P&#250;blica, suscrito adem&#225;s por el Ministerio de Justicia y Derechos Humanos, se&#241;alar&#225; en detalle los datos anonimizados que las instituciones participantes deber&#225;n intercambiar, el tipo y la manera en que cada instituci&#243;n podr&#225; acceder a la informaci&#243;n, de conformidad con sus competencias, as&#237; como cualquier otro aspecto necesario para el adecuado funcionamiento de la plataforma establecida en el p&#225;rrafo tercero del presente literal.".
+     
+     4. En el art&#237;culo 104 B:
+     
+     a) Modif&#237;case el inciso primero de la siguiente forma:
+     
+     i. Reempl&#225;zase el literal a) por el siguiente:
+     
+     "a) La o el secretario regional ministerial de seguridad p&#250;blica o, en subsidio, el director o directora del departamento provincial de seguridad p&#250;blica y, en defecto de la o el segundo, la o el funcionario que la o el primero designe.".
+     
+     ii. Reempl&#225;zase en el literal b) la palabra "Dos" por los vocablos "Hasta dos".
+     iii. Sustit&#250;yese en el literal f) la voz "Dos" por las palabras "Hasta dos".
+     iv. Reempl&#225;zase en el literal i) la expresi&#243;n "Servicio Nacional de Menores" por "Servicio Nacional de Reinserci&#243;n Social Juvenil".
+     v. Agr&#233;gase el siguiente literal k):
+     
+     "k) Un o una representante de la uni&#243;n comunal de organizaciones comunitarias funcionales en materia de seguridad p&#250;blica, en caso de que exista. Si hay m&#225;s de una uni&#243;n comunal, la o el representante ser&#225; designado de com&#250;n acuerdo entre todas ellas; en caso de que exista una sola ser&#225; representante quien &#233;sta designe.".
+     
+     vi. Agr&#233;gase el siguiente literal l):
+     
+     "l) Un juez o una jueza de polic&#237;a local de la comuna.".
+     
+     vii. Agr&#233;gase el siguiente literal m):
+     
+     "m) La jefa o el jefe del Departamento Provincial de Educaci&#243;n que corresponda a la comuna respectiva.".
+     
+     b) Reempl&#225;zase en el inciso segundo la frase "el consejo ser&#225; integrado, adem&#225;s, por un" por la siguiente: "el consejo podr&#225; acordar que en su integraci&#243;n permanente se incluya, adem&#225;s, un o una".
+     c) Reempl&#225;zase en el inciso tercero la frase "el consejo ser&#225; integrado, adem&#225;s, por un" por la siguiente: "el consejo podr&#225; acordar que en su integraci&#243;n permanente se incluya, adem&#225;s, un o una".
+     d) Reempl&#225;zase en el inciso cuarto la frase "el consejo ser&#225; integrado, adem&#225;s, por un" por la siguiente: "el consejo podr&#225; acordar que en su integraci&#243;n permanente se incluya, adem&#225;s, un o una".
+     e) Sustit&#250;yese el inciso sexto por el siguiente:
+     
+     "Sin perjuicio de lo anterior, el consejo podr&#225; invitar, especialmente si se trata del dise&#241;o, aprobaci&#243;n, ejecuci&#243;n e implementaci&#243;n de las acciones necesarias para llevar a cabo las estrategias preventivas, a un o una representante del Servicio Local de Educaci&#243;n P&#250;blica, de la Direcci&#243;n de Educaci&#243;n o de la Corporaci&#243;n Municipal de Educaci&#243;n, seg&#250;n corresponda; a la o al coordinador de la Oficina Local de la Ni&#241;ez de la comuna respectiva; a los jueces y las juezas de garant&#237;a o de familia que tengan competencia sobre el territorio de la comuna correspondiente; a otras autoridades; a funcionarias p&#250;blicas o funcionarios p&#250;blicos, incluidos un director o una directora, funcionaria o funcionario, asesor o asesora, trabajador o trabajadora del municipio; o a representantes de organizaciones de la sociedad civil cuya opini&#243;n considere relevante para las materias que le corresponda abordar en una o m&#225;s sesiones determinadas del consejo.".
+     
+     5. En el art&#237;culo 104 C:
+     
+     a) En el inciso segundo:
+     
+     i. Reempl&#225;zase el literal b) por el siguiente:
+     
+     "b) Las o los secretarios regionales ministeriales de seguridad p&#250;blica o, en subsidio, las directoras o directores de los departamentos provinciales de seguridad p&#250;blica y, en defecto de las o los segundos, las o los funcionarios que las o los primeros designen, de las respectivas comunas que conforman el consejo.".
+     
+     ii. Agr&#233;ganse los siguientes literales e) y f), nuevos, pasando los actuales literales e) y f) a ser literales g) y h), respectivamente:
+     
+     "e) Un o una representante de las uniones comunales de organizaciones comunitarias funcionales en materia de seguridad p&#250;blica de las comunas participantes, en caso de que existan. Si hay m&#225;s de una uni&#243;n comunal, el o la representante ser&#225; designado o designada de com&#250;n acuerdo entre todas ellas. En caso de que exista una sola ser&#225; representante quien designe la propia uni&#243;n.
+     f) Un juez o una jueza de polic&#237;a local correspondiente a alguna de las comunas participantes, elegida o elegido de com&#250;n acuerdo entre los alcaldes.".
+     
+     iii. Incorp&#243;rase en el literal f), que ha pasado a ser literal h), antes del punto final, la siguiente frase: ", incluidos tanto aquellos cuya integraci&#243;n es facultativa como obligatoria".".
+     
+     b) Incorp&#243;rase el siguiente inciso tercero, nuevo, readecu&#225;ndose el orden correlativo de los incisos siguientes:
+     
+     "Sin perjuicio de lo anterior, el consejo intercomunal podr&#225; convocar a los mismos invitados se&#241;alados en el art&#237;culo precedente, que tengan competencia sobre una o m&#225;s de las comunas que conforman dicho consejo; y a otras autoridades, funcionarias p&#250;blicas o funcionarios p&#250;blicos, incluidos un director o una directora, asesor o asesora, trabajador o trabajadora del municipio; o a representantes de organizaciones de la sociedad civil cuya opini&#243;</Texto>
+              <Metadatos>
+                <NombreParte presente="si">64 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+          </EstructurasFuncionales>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583026">
+          <Texto>     P&#225;rrafo 2&#176;
+     Adecuaciones a otros cuerpos normativos
+    </Texto>
+          <Metadatos>
+            <NombreParte presente="no">&#160;</NombreParte>
+            <TituloParte presente="si">P&#225;rrafo 2&#176;      Adecuaciones a otros cuerpos normativos</TituloParte>
+            
+          </Metadatos>
+          <EstructurasFuncionales>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583027">
+              <Texto>     Art&#237;culo 65.- Introd&#250;cense las siguientes modificaciones en el decreto con fuerza de ley N&#176; 458, de 1975, del Ministerio de Vivienda y Urbanismo, que aprueba Nueva Ley General de Urbanismo y Construcciones:
+    
+     a) Agr&#233;gase en el art&#237;culo 105 el siguiente literal j):
+    
+     "j) Caracter&#237;sticas y condiciones tendientes a prevenir los delitos y garantizar la seguridad de las personas y sus bienes en el espacio p&#250;blico.".
+    
+     b) En el inciso primero del art&#237;culo 176:
+    
+     i. Interc&#225;lase, entre las frases "as&#237; como la calidad" y "de sus espacios p&#250;blicos y la cohesi&#243;n social y sustentabilidades urbanas", los vocablos "y seguridad".
+     ii. Interc&#225;lase, entre la frase "y del Programa de Vialidad y Transporte Urbano del Ministerio de Transportes y Telecomunicaciones" y el punto que inmediatamente le sigue, la siguiente frase: "y de la Subsecretar&#237;a de Prevenci&#243;n del Delito".
+    </Texto>
+              <Metadatos>
+                <NombreParte presente="si">65 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583028">
+              <Texto>     Art&#237;culo 66.- Agr&#233;ganse en el art&#237;culo 11 de la ley N&#176; 20.931, que facilita la aplicaci&#243;n efectiva de las penas establecidas para los delitos de robo, hurto y receptaci&#243;n y mejora la persecuci&#243;n penal en dichos delitos, los siguientes incisos tercero y cuarto:
+    
+     "Sin perjuicio de lo anterior, para efectos de colaborar con la seguridad p&#250;blica y la prevenci&#243;n del delito, el Ministerio P&#250;blico deber&#225; aportar a la Subsecretar&#237;a de Prevenci&#243;n del Delito y a las municipalidades del pa&#237;s la informaci&#243;n contenida en el banco de datos regulado en el presente art&#237;culo. Lo anterior, en forma anonimizada y mediante la plataforma electr&#243;nica interconectada establecida en el literal p) del art&#237;culo 63 de la Ley N&#176; 18.695, Org&#225;nica Constitucional de Municipalidades.
+     El decreto supremo al que hace referencia el inciso primero se&#241;alar&#225; en detalle los datos que el Ministerio P&#250;blico deber&#225; aportar, de conformidad con lo dispuesto en el inciso anterior, as&#237; como cualquier otro aspecto necesario para el adecuado cumplimiento de dicha obligaci&#243;n.".
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">66 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583029">
+              <Texto>     Art&#237;culo 67.- Introd&#250;cense en el art&#237;culo 12 del C&#243;digo Penal, las siguientes modificaciones:
+     
+     a) Reempl&#225;zase la numeraci&#243;n de la circunstancia 24, la segunda vez que aparece, por "25.&#176;".
+     b) Agr&#233;gase la siguiente circunstancia:
+     
+     "26.&#176; En los delitos contra las personas, ser la v&#237;ctima un inspector o una inspectora municipal, sea con motivo de su cargo o en el ejercicio de sus funciones cuando porte uniforme, credencial visible al p&#250;blico o cualquier otro elemento que permita acreditar su calidad.".
+     </Texto>
+              <Metadatos>
+                <NombreParte presente="si">67 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583030">
+              <Texto>     Art&#237;culo 68.- Interc&#225;lase en el numeral 47) del art&#237;culo 2 de la ley N&#176; 18.290, de Tr&#225;nsito, cuyo texto refundido, coordinado y sistematizado fue fijado por el decreto con fuerza de ley N&#176; 1, de 2007, del Ministerio de Transportes y Telecomunicaciones y del Ministerio de Justicia, entre las expresiones "a las Fuerzas Armadas," y "al Servicio de Seguridad", lo siguiente: "veh&#237;culos que cumplen funciones de seguridad municipal pertenecientes tanto a las municipalidades como a las asociaciones de municipalidades,".</Texto>
+              <Metadatos>
+                <NombreParte presente="si">68 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+          </EstructurasFuncionales>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583031">
+      <Texto>     
+     Disposiciones transitorias
+     </Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">Disposiciones transitorias</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583032">
+          <Texto>     Art&#237;culo primero.- La presente ley entrar&#225; en vigencia transcurridos seis meses desde su publicaci&#243;n en el Diario Oficial, a excepci&#243;n de las disposiciones que se regulan especialmente en los art&#237;culos transitorios siguientes.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">primero</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583033">
+          <Texto>     Art&#237;culo segundo.- Los reglamentos a los que hace referencia esta ley deber&#225;n ser dictados dentro del plazo de un a&#241;o, contado desde la publicaci&#243;n de &#233;sta en el Diario Oficial.
+    </Texto>
+          <Metadatos>
+            <NombreParte presente="si">segundo</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583034">
+          <Texto>     Art&#237;culo tercero.- Mientras no se encuentre vigente el reglamento se&#241;alado en el art&#237;culo 37 de la presente ley, referido a la forma de intervenci&#243;n de las inspectoras y los inspectores de seguridad municipal en procedimientos policiales en calidad de coadyuvantes y el protocolo a adoptar, las municipalidades se regir&#225;n seg&#250;n su normativa interna.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">tercero</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583035">
+          <Texto>     Art&#237;culo cuarto.- Dentro del plazo de tres meses contado desde la entrada en vigencia de la ley, el Ministerio de Seguridad P&#250;blica deber&#225; modificar el reglamento se&#241;alado en el inciso final del art&#237;culo 40 de la ley N&#176; 20.000, que sustituye la ley N&#186; 19.366, que sanciona el tr&#225;fico il&#237;cito de estupefacientes y sustancias sicotr&#243;picas, en virtud de lo establecido en el numeral 2 del art&#237;culo 64 de la presente ley.".
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">cuarto</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583036">
+          <Texto>     Art&#237;culo quinto.- El alcalde deber&#225; citar a los nuevos integrantes del consejo comunal de seguridad p&#250;blica o del consejo intercomunal de seguridad p&#250;blica, seg&#250;n corresponda, a la sesi&#243;n cuya celebraci&#243;n tenga lugar inmediatamente despu&#233;s de la entrada en vigencia de la presente ley, con la finalidad de conocer las obligaciones correlativas y dem&#225;s reglas de funcionamiento del consejo comunal de seguridad p&#250;blica.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">quinto</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583037">
+          <Texto>     Art&#237;culo sexto.- Dentro del plazo de sesenta d&#237;as contado desde la entrada en vigencia de esta ley se deber&#225; dar cumplimiento a las siguientes obligaciones:
+     
+     a) La presidenta o el presidente del comit&#233; de coordinaci&#243;n operativa establecido en el art&#237;culo 104 E bis de la Ley N&#176; 18.695, Org&#225;nica Constitucional de Municipalidades, deber&#225; convocar por primera vez a sus integrantes.
+     b) Las municipalidades deber&#225;n remitir la primera n&#243;mina actualizada de las inspectoras y los inspectores de seguridad municipal, as&#237; como del personal contratado por asociaciones de municipalidades, de conformidad con el P&#225;rrafo 9&#176; del T&#237;tulo III de la presente ley, que ejerza funciones en su comuna, a Carabineros de Chile y a la Subsecretar&#237;a de Prevenci&#243;n del Delito, de acuerdo con lo dispuesto en los art&#237;culos 24 y 60.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">sexto</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583038">
+          <Texto>     Art&#237;culo s&#233;ptimo.- Dentro del plazo de seis meses contado desde la entrada en vigencia de esta ley, las municipalidades deber&#225;n confeccionar y publicar en su sitio web el registro de asistencia contemplado en el art&#237;culo 104 D de la Ley N&#176; 18.695, Org&#225;nica Constitucional de Municipalidades.
+     Asimismo, dentro del plazo se&#241;alado en el inciso anterior, la Subsecretar&#237;a de Prevenci&#243;n del Delito deber&#225; dictar, mediante resoluci&#243;n exenta fundada, las orientaciones t&#233;cnicas referidas en los art&#237;culos 3 y 17 de la presente ley. Este instrumento deber&#225; ser publicado en el Diario Oficial y en su sitio web institucional.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">s&#233;ptimo</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583039">
+          <Texto>     Art&#237;culo octavo.- La plataforma que permite la interconexi&#243;n entre las municipalidades, el Ministerio P&#250;blico y Carabineros de Chile deber&#225; estar operativa dentro del plazo de un a&#241;o contado desde la entrada en vigencia de la presente ley. Asimismo, dentro de dicho plazo deber&#225; dictarse el reglamento se&#241;alado en el literal p) del art&#237;culo 63 de la Ley N&#176; 18.695, Org&#225;nica Constitucional de Municipalidades, y deber&#225;n modificarse los reglamentos del banco de datos a que se refiere el art&#237;culo 11 de la ley N&#176; 20.931, que facilita la aplicaci&#243;n efectiva de las penas establecidas para los delitos de robo, hurto y receptaci&#243;n y mejora la persecuci&#243;n penal en dichos delitos, y del Sistema T&#225;ctico de Operaci&#243;n Policial, contemplado en la ley N&#176; 21.332, con el objeto de ajustar su contenido a lo dispuesto en la presente ley.
+     Dentro del plazo de tres meses contado desde que se encuentre en funcionamiento la plataforma referida en el inciso anterior, comenzar&#225;n a regir los deberes de intercambiar datos entre las municipalidades, el Ministerio P&#250;blico y Carabineros de Chile, establecidos en el p&#225;rrafo tercero del literal p) del art&#237;culo 63 de la Ley N&#176; 18.695 Org&#225;nica Constitucional de Municipalidades, y las disposiciones sobre traspaso de informaci&#243;n a las municipalidades y a la Subsecretar&#237;a de Prevenci&#243;n del Delito, establecidas en el art&#237;culo 11 de la ley N&#176; 20.931.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">octavo</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583040">
+          <Texto>     Art&#237;culo noveno.- La municipalidad podr&#225; contratar inspectoras e inspectores de seguridad municipal bajo las normas del C&#243;digo del Trabajo.
+     El personal contratado tendr&#225; la calidad de funcionario p&#250;blico. Asimismo, a este personal le ser&#225;n aplicables las reglas sobre responsabilidad administrativa. Para efectos de determinar la infracci&#243;n a sus deberes y obligaciones por actos realizados en el ejercicio de sus funciones, la o el alcalde instruir&#225; una investigaci&#243;n sumaria. Si como resultado de la indagaci&#243;n, se determinara el incumplimiento grave de sus deberes y obligaciones, la municipalidad aplicar&#225; lo dispuesto en el art&#237;culo 160 del C&#243;digo del Trabajo.
+     No se podr&#225; pactar el pago de indemnizaciones por causas distintas de las indicadas en los art&#237;culos 161, 162 y 163 del C&#243;digo del Trabajo, y en caso alguno se podr&#225; alterar el monto que entregue la base de c&#225;lculo dispuesta en dichas normas. En ning&#250;n caso se podr&#225;n convenir indemnizaciones cuyo l&#237;mite m&#225;ximo exceda aquel establecido en el inciso segundo del art&#237;culo 163 del C&#243;digo del Trabajo.
+    </Texto>
+          <Metadatos>
+            <NombreParte presente="si">noveno</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583041">
+          <Texto>     Art&#237;culo d&#233;cimo.- Las nuevas contrataciones de las municipalidades y de las asociaciones de municipalidades deber&#225;n cumplir con todos los requisitos dispuestos en el T&#237;tulo III.
+     Asimismo, las municipalidades deber&#225;n capacitar, en los t&#233;rminos dispuestos en el P&#225;rrafo 8&#186; del T&#237;tulo III y dentro del plazo de cuatro a&#241;os contado desde la publicaci&#243;n en el Diario Oficial del reglamento de capacitaciones, a quienes, con anterioridad a la entrada en vigencia de la presente ley, desempe&#241;en todas o algunas de las funciones que regula la presente ley.
+     Las personas que se encuentren desempe&#241;ando en la municipalidad todas o algunas de las funciones que regula el T&#237;tulo III con anterioridad a su entrada en vigencia deber&#225;n denominarse inspectoras o inspectores de seguridad municipal y otorg&#225;rseles tal calidad mediante decreto alcaldicio. En este caso, se aplicar&#225;n todas las normas del se&#241;alado T&#237;tulo III, sin perjuicio de lo dispuesto en el inciso anterior, salvo a aquellos que se encuentren realizando labores de inspecci&#243;n y fiscalizaci&#243;n en materias distintas a seguridad y prevenci&#243;n del delito.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">d&#233;cimo</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583042">
+          <Texto>     Art&#237;culo und&#233;cimo.- Las municipalidades tendr&#225;n el plazo de un a&#241;o contado desde la entrada en vigencia de la presente ley para actualizar o presentar sus planes comunales y ajustar su contenido a las nuevas normas establecidas.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">und&#233;cimo</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583043">
+          <Texto>     Art&#237;culo duod&#233;cimo.- Los contratos que se encuentren en ejecuci&#243;n con anterioridad a la entrada en vigencia de esta ley en virtud de los cuales se haya convenido entre las municipalidades y privados la implementaci&#243;n de sistemas de alerta ciudadana se sujetar&#225;n a lo dispuesto en el inciso segundo del art&#237;culo 26.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">duod&#233;cimo</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583044">
+          <Texto>     Art&#237;culo decimotercero.- Las municipalidades que al 1 de enero de 2025, y hasta la publicaci&#243;n de esta ley, mantuvieron contratos o convenios con empresas, corporaciones u otras instituciones distintas de las asociaciones de municipalidades comprendidas en su T&#237;tulo III, cuyo personal desempe&#241;e funciones equivalentes a las reguladas en esta ley, mantendr&#225;n su vigencia hasta su t&#233;rmino, siempre que &#233;ste no fuere superior a un a&#241;o contado desde la entrada en vigencia de esta ley.
+     Los contratos referidos en este art&#237;culo no podr&#225;n ser renovados, y se les deber&#225;n aplicar las obligaciones establecidas y reguladas en la presente ley.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">decimotercero</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583045">
+          <Texto>     Art&#237;culo decimocuarto.- El Ministerio de Vivienda y Urbanismo deber&#225; basarse en las orientaciones t&#233;cnicas se&#241;aladas en el inciso segundo del art&#237;culo s&#233;ptimo transitorio para efectuar, dentro del plazo de nueve meses contado desde la publicaci&#243;n de las referidas orientaciones t&#233;cnicas, las modificaciones correspondientes a la Ordenanza General de Urbanismo y Construcciones.
+     Una vez transcurridos tres meses desde la aprobaci&#243;n de las modificaciones a la Ordenanza General de Urbanismo y Construcciones, comenzar&#225;n a regir las modificaciones introducidas por esta ley en el decreto con fuerza de ley N&#176; 458, de 1975, que aprueba Nueva Ley General de Urbanismo y Construcciones.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">decimocuarto</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583046">
+          <Texto>     Art&#237;culo decimoquinto.- Dentro del plazo de un a&#241;o contado desde la entrada en vigencia de la presente ley, el Ministerio de Seguridad P&#250;blica deber&#225; actualizar la Pol&#237;tica Nacional de Seguridad P&#250;blica y ajustar su contenido a lo dispuesto en esta ley de conformidad con lo establecido en el literal c) del art&#237;culo 5&#176; de la ley N&#176; 21.730, que crea el Ministerio de Seguridad P&#250;blica.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">decimoquinto</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-11" derogado="no derogado" idParte="10583047">
+          <Texto>     Art&#237;culo decimosexto.- El mayor gasto fiscal que represente la aplicaci&#243;n de la presente ley durante el primer a&#241;o presupuestario de su entrada en vigencia se financiar&#225; con cargo al presupuesto de la Subsecretar&#237;a de Prevenci&#243;n del Delito y, en lo que falte, con recursos provenientes de la partida presupuestaria Tesoro P&#250;blico. En los a&#241;os siguientes, se estar&#225; a lo que considere la Ley de Presupuestos del Sector P&#250;blico respectiva.".</Texto>
+          <Metadatos>
+            <NombreParte presente="si">decimosexto</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+  </EstructurasFuncionales>
+  <Promulgacion fechaVersion="2026-02-11" derogado="no derogado">
+    <Texto>     Habi&#233;ndose cumplido con lo establecido en el N&#186; 1 del Art&#237;culo 93 de la Constituci&#243;n Pol&#237;tica de la Rep&#250;blica y por cuanto he tenido a bien aprobarlo y sancionarlo; por tanto, prom&#250;lguese y ll&#233;vese a efecto como Ley de la Rep&#250;blica.
+    
+     Santiago, 3 de febrero de 2026.- GABRIEL BORIC FONT, Presidente de la Rep&#250;blica.- Luis Cordero Vega, Ministro de Seguridad P&#250;blica.- &#193;lvaro Elizalde Soto, Ministro del Interior.- Nicol&#225;s Grau Veloso, Ministro de Hacienda.- Macarena Lobos Palacios, Ministra Secretaria General de la Presidencia.- Jaime Gajardo Falc&#243;n, Ministro de Justicia y Derechos Humanos.- Claudio Reyes Barrientos, Ministro del Trabajo y Previsi&#243;n Social (S).- Carlos Montes Cisternas, Ministro de Vivienda y Urbanismo.- Juan Carlos Mu&#241;oz Abogabir, Ministro de Transportes y Telecomunicaciones.
+     Lo que transcribe a Ud. para su conocimiento.- Iv&#225;n Alejandro Heredia Riquelme, Encargado Unidad de Gesti&#243;n Documental y Archivo Central, Subsecretar&#237;a de Prevenci&#243;n del Delito, Ministerio de Seguridad P&#250;blica.</Texto>
+  </Promulgacion>
+  <Anexos>
+    <Anexo fechaVersion="2026-02-11" derogado="no derogado" idParte="10583049" transitorio="no transitorio">
+      <Metadatos>
+        <Titulo>Proyecto de ley que modifica la Ley N&#176; 18.695, Org&#225;nica Constitucional de Municipalidades, y otros cuerpos legales, con el objeto de fortalecer la institucionalidad municipal en materia de seguridad p&#250;blica y prevenci&#243;n del delito, correspondiente a los boletines N&#176;s 15.940-25 y 15.984-06, refundidos</Titulo>
+        
+      </Metadatos>
+      <Texto>     Tribunal Constitucional
+     
+Proyecto de ley que modifica la Ley N&#176; 18.695, Org&#225;nica Constitucional de Municipalidades, y otros cuerpos legales, con el objeto de fortalecer la institucionalidad municipal en materia de seguridad p&#250;blica y prevenci&#243;n del delito, correspondiente a los boletines N&#176;s 15.940-25 y 15.984-06, refundidos
+     
+     El Secretario Interino del Tribunal Constitucional, quien suscribe, certifica que la H. C&#225;mara de Diputadas y Diputados envi&#243; el proyecto de ley enunciado en el rubro, aprobado por el Congreso Nacional, a fin de que este Tribunal ejerciera el control de constitucionalidad respecto de los art&#237;culos 6; 7; 10; 12, inciso primero, letra j); 16, inciso quinto; 53, inciso primero, y 64, permanentes, y del art&#237;culo noveno transitorio del proyecto de ley; y por sentencia de 26 de enero de 2026, en los autos Rol N&#186; 17.209-25-CPR.
+     
+     Se declara:
+     
+     1. Que las siguientes disposiciones del proyecto de ley que modifica la Ley N&#176; 18.695, Org&#225;nica Constitucional de Municipalidades, y otros cuerpos legales, con el objeto de fortalecer la institucionalidad municipal en materia de seguridad p&#250;blica y prevenci&#243;n del delito, correspondiente a los Boletines N&#176;s 15.940-25 y 15.984-06, refundidos son conformes con la Constituci&#243;n Pol&#237;tica:
+     
+     1. Art&#237;culo 10;
+     2. Art&#237;culo 12, inciso primero, letra j);
+     3. Art&#237;culo 16, inciso quinto;
+     4. Art&#237;culo 53, inciso primero;
+     5. Art&#237;culo 64 N&#176; 1;
+     6. Art&#237;culo 64 N&#176; 2, respecto de los incisos primero y segundo del nuevo art&#237;culo 39 bis;
+     7. Art&#237;culo 64 N&#176; 3, letras a) y b);
+     8. Art&#237;culo 64 N&#176; 4, literal a), ordinal v. y el literal e) en la frase "representantes de organizaciones de la sociedad civil cuya opini&#243;n considere relevante para las materias que le corresponda abordar en una o m&#225;s sesiones determinadas del consejo".
+     9. Art&#237;culo 64 N&#176; 5, el literal a), ordinal i., ordinal ii. letra e. y ordinal iii.
+     10. Art&#237;culo 64 N&#176; 6, literal a), ordinal ii. en la frase "De igual forma, al menos semestralmente deber&#225; realizarse una sesi&#243;n cuya convocatoria sea abierta a representantes de la sociedad civil y de las organizaciones comunitarias, especialmente aquellas dedicadas a materias relacionadas con seguridad p&#250;blica y prevenci&#243;n del delito."
+     11. Art&#237;culo 64 N&#176; 7, literal a), ordinal i.
+     12. Art&#237;culo 64 N&#176; 9, literal g), y
+     13. Art&#237;culo noveno transitorio.
+     
+     2. Que no se emite pronunciamiento, en examen preventivo de constitucionalidad, de las restantes disposiciones del proyecto de ley, por no versar sobre materias que inciden en Ley Org&#225;nica Constitucional.
+     
+     Santiago, 26 de enero de 2026.- Sebasti&#225;n Andr&#233;s L&#243;pez Magnasco, Secretario (I), Tribunal Constitucional.</Texto>
+    </Anexo>
+  </Anexos>
+</Norma>
