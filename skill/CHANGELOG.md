@@ -1,5 +1,17 @@
 # Registro de cambios — `analisis-penal-chile`
 
+## v4.17 — 16 de noviembre de 2026
+
+**Protocolo de Cierre y Aprendizaje del ciclo v4.16 (aprobación expresa del titular, 2026-11-16).**
+
+1. **A-028 incorporada** a `references/aprendizajes.md` en estado **aprobado** (categoría `Metodología`; naturaleza cambio de criterio). Contenido: el perímetro de una skill no lo fija su contenido sino su **descripción**, que es lo que el modelo lee para decidir si la activa; dos descripciones que cubren el mismo campo producen una colisión de disparadores que no arroja error alguno y solo se manifiesta como pérdida de calidad del análisis. Regla operativa en cuatro extremos: (a) inventariar las skills habilitadas y cotejar la descripción proyectada antes de crear una nueva; (b) si el campo ya está cubierto, construir un módulo condicional con fila de triage propia dentro de la skill que lo ocupa; (c) reservar la skill nueva para campos genuinamente disjuntos; (d) entre dos linajes posibles, preferir el que cuente con índice maestro, auditoría de integridad y suite de pruebas, dejando constancia de la remisión recíproca. Origen: decisión de alojar el módulo de esquemas argumentales dentro de `analisis-penal-chile` en lugar de crear una skill paralela, al constatarse que `argumentacion-forense` ya declaraba ese campo en su descripción y que carece de fuente en disco, índice maestro, auditoría y pruebas.
+
+2. **Naturaleza de la versión**: exclusivamente de memoria. No altera módulo jurídico, normativo ni de motores; los módulos modificados son `references/aprendizajes.md`, `SKILL.md` (número de versión y registro) y `CHANGELOG.md`. El corpus de `marco-legal.md` permanece en 291 artículos y la contraindicación vigente sigue siendo C-016, con numeración corriente en C-017.
+
+3. Versión incrementada a 4.17 (frontmatter y registro); índice maestro regenerado (R-4); auditoría `verificar-integridad.sh` conforme sobre el árbol de trabajo y sobre el reempaquetado (R-3); suite de pruebas y verificador de sincronía conformes.
+
+*Pendientes que subsisten*: instalación de la v4.17 (acto del titular); verificación bibliográfica de las obras atribuidas al autor del esquema argumental (marca `[PENDIENTE-BIBLIOGRÁFICO]` en `esquemas-argumentales.md`); revalidación del perímetro CP, que vence el 2027-01-06 y cuyo XML (idNorma 1984) no consta aún en `curatoria/xml/`.
+
 ## v4.16 — 3 de noviembre de 2026
 
 **Módulo de esquemas argumentales (instrucción del titular, 2026-11-03).**

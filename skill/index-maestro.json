@@ -1,22 +1,22 @@
 {
   "_nota": "Indice maestro de integridad. Estados: instalado | no_propagado (construido, no instalado) | ausente (invocado o comprometido, nunca instalado). El indice y el script de verificacion se excluyen de si mismos.",
   "skill": "analisis-penal-chile",
-  "version_skill": "4.16",
-  "fecha_indice": "2026-11-03",
+  "version_skill": "4.17",
+  "fecha_indice": "2026-11-16",
   "algoritmo": "sha256",
-  "origen_version": "v4.16: módulo references/esquemas-argumentales.md y plantilla assets/templates/ficha-toulmin.md; curatoría de los arts. 341 y 342 CPP (marco-legal.md, sección 3.10; corpus 291 artículos); contraindicación C-016; corrección de manifiesto de formato en prescripcion.py (black), propagada por A-022; constancia registral de instalación del 2026-11-04. Base: v4.15.",
+  "origen_version": "v4.17: Protocolo de Cierre y Aprendizaje del ciclo v4.16; entrada A-028 aprobada (cotejo de descripciones entre skills de la cuenta antes de crear una nueva). Versión exclusivamente de memoria: no altera módulo jurídico, normativo ni de motores. Base: v4.16.",
   "archivos": [
     {
       "ruta": "CHANGELOG.md",
       "estado": "instalado",
-      "sha256": "7dcb5eda3c1375abecae125f17856d06ac7e1d3a7ef83ad82b6057f703b0f0dc",
-      "bytes": 57471
+      "sha256": "26994cf5aa704615e14ecf12a1efc0a7eabbefe7374fee2fd214e8c0ef3b1249",
+      "bytes": 59836
     },
     {
       "ruta": "SKILL.md",
       "estado": "instalado",
-      "sha256": "ce5ab85807f336004fcf586bd8071022d3c06127c9c5e743c01d41241b8a6a75",
-      "bytes": 65351
+      "sha256": "35c2dec2883812273f664a4b790276d700d3ddabe1da07c5fa23e22b9b436476",
+      "bytes": 66085
     },
     {
       "ruta": "assets/fuentes/Art56CP.jpeg",
@@ -69,8 +69,8 @@
     {
       "ruta": "references/aprendizajes.md",
       "estado": "instalado",
-      "sha256": "0c5939353dc510659369ee4f890c49cfb071e2c603a0f4ae4fef490829cc3c23",
-      "bytes": 36467
+      "sha256": "2d502b17401ac04ef95a03195bf6814636723bafe27200bd4f031a76275345ea",
+      "bytes": 38572
     },
     {
       "ruta": "references/audiencia-preparacion.md",
