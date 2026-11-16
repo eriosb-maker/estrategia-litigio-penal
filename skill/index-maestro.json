@@ -1,22 +1,22 @@
 {
   "_nota": "Indice maestro de integridad. Estados: instalado | no_propagado (construido, no instalado) | ausente (invocado o comprometido, nunca instalado). El indice y el script de verificacion se excluyen de si mismos.",
   "skill": "analisis-penal-chile",
-  "version_skill": "4.20",
+  "version_skill": "4.21",
   "fecha_indice": "2026-11-16",
   "algoritmo": "sha256",
-  "origen_version": "v4.20: revalidación íntegra del perímetro del Código Penal (A-027) contra descarga oficial nueva (idNorma 1984, SHA-256 8b1ba087…d18a): 137/138 idénticos y art. 12 re-curado por la Ley N° 21.802, art. 67. Corpus sin variación (293 artículos); extractos del CP vigentes hasta 2027-05-16. Base: v4.19. Incluye la constancia registral de instalación del 2026-11-16.",
+  "origen_version": "v4.21: verificación bibliográfica del módulo de esquemas argumentales. Cuatro obras de Toulmin cotejadas (editor, año e ISBN); marca [PENDIENTE-BIBLIOGRÁFICO] levantada en cuanto a las obras y subsistente en cuanto a las citas, que no se hallaron identificadas por obra y página. Base: v4.20.",
   "archivos": [
     {
       "ruta": "CHANGELOG.md",
       "estado": "instalado",
-      "sha256": "c05b9d43770be0e5c84a4074a1d3f11b882924a7a2ea9d0f8681388e16a18d70",
-      "bytes": 70890
+      "sha256": "39b4fceb8e4e973703beda569205afb83eff8ae27b075eda20c1ad6c0607ae54",
+      "bytes": 74647
     },
     {
       "ruta": "SKILL.md",
       "estado": "instalado",
-      "sha256": "7e12755cc439f76c346d1986b8f4fb9a3e4b5edaaa8896a232fc3b237ea7780e",
-      "bytes": 68910
+      "sha256": "3b3705e2d4246aa9b4cb62fd9b80df792081d052400669a7eec67198b5dffed4",
+      "bytes": 70093
     },
     {
       "ruta": "assets/fuentes/Art56CP.jpeg",
@@ -111,8 +111,8 @@
     {
       "ruta": "references/esquemas-argumentales.md",
       "estado": "instalado",
-      "sha256": "469c15de56e8c704f8a54d2884e880cc85162a0c2ce19d43f9ec2905bffb0f77",
-      "bytes": 14086
+      "sha256": "7025431a0b114a220dc203bbf9d54170b81c7e8647e574d92273c66a2a51c1fc",
+      "bytes": 16311
     },
     {
       "ruta": "references/estrategia-litigio.md",

@@ -6,7 +6,18 @@
 
 Este módulo adapta el esquema analítico del argumento propuesto por Stephen Toulmin —datos, afirmación, garantía, respaldo, modalizador y refutación— como **instrumento interno de control del razonamiento probatorio**. El esquema no es categoría del derecho chileno ni fuente de obligación alguna: es una herramienta de disección cuyo rendimiento es crítico, no constructivo. Su utilidad consiste en obligar a explicitar el enunciado general que un argumento mantiene tácito, y en señalar el punto donde ese enunciado debe acreditarse o se desploma.
 
-**Procedencia bibliográfica**: las obras de Toulmin y sus fechas de edición **no han sido verificadas** contra catálogo bibliográfico en esta curatoría, y ninguna cita textual suya se tiene por auténtica. Mientras subsista esta marca, el módulo no atribuye frases entrecomilladas al autor ni consigna años de publicación. `[PENDIENTE-BIBLIOGRÁFICO]`
+**Procedencia bibliográfica** *(verificada el 2026-11-16; la marca `[PENDIENTE-BIBLIOGRÁFICO]` queda levantada en cuanto a las obras y subsistente en cuanto a las citas)*:
+
+| Obra | Edición original | Edición posterior | Extensión |
+|---|---|---|---|
+| *The Uses of Argument* | Cambridge University Press, **1958** | Edición actualizada, Cambridge University Press, 2003 (ISBN 0-521-82748-5 tapa dura; 0-521-53483-6 rústica) | — |
+| *Human Understanding*, vol. I, *The Collective Use and Evolution of Concepts* | **1972**, en edición simultánea de **Princeton University Press** (ISBN 0-691-07185-3) y **Clarendon Press / Oxford University Press** (ISBN 0-19-824361-8) | Rústica, Princeton, 1977 | ±520 pp. |
+| *Cosmopolis: The Hidden Agenda of Modernity* | The Free Press, **1990** (ISBN 0-02-932631-1) | University of Chicago Press, 1992 (ISBN 0-226-80838-6) | 228 pp. |
+| *Return to Reason* | Harvard University Press, **2001** (ISBN 0-674-00495-7) | Rústica, Harvard University Press, 30-09-2003 (ISBN 0-674-01235-6) | 256 pp. |
+
+Fuentes del cotejo: página de catálogo del propio editor para *Return to Reason* (Harvard University Press, ficha del ISBN 9780674012356, leída el 2026-11-16); página de créditos de la edición actualizada de *The Uses of Argument* publicada por Cambridge University Press; y registros bibliográficos agregados de Open Library para las cuatro obras. La aparente discrepancia sobre el editor de *Human Understanding* —unas fuentes indican Princeton y otras Clarendon— resultó inexistente: hubo **doble edición simultánea**, estadounidense y británica, y ambas atribuciones son correctas.
+
+**Las citas atribuidas al autor no son auténticas mientras no se acrediten.** La pesquisa del 2026-11-16 buscó activamente las frases que circulan atribuidas a Toulmin en materiales divulgativos —entre ellas «un buen argumento no es aquel que demuestra, sino que justifica», «los argumentos no flotan en el aire» y las relativas a la fuerza del argumento según su adecuación al auditorio— y **no halló ninguna fuente que las identifique por obra y página**. Lo más próximo localizado es una formulación distinta, de Atienza glosando a Toulmin, que no reproduce esas frases. En consecuencia, y con independencia de que la idea subyacente sea fiel al autor, **ninguna de esas frases se entrecomilla ni se atribuye a Toulmin** en escrito, informe, minuta ni presentación. Quien quiera citarlo debe hacerlo desde el texto de alguna de las cuatro obras de la tabla, con página, lo que exige tener el ejemplar a la vista.
 
 **Advertencia sobre representaciones corrientes del esquema.** Las versiones divulgativas suelen disponer los seis elementos como una cadena lineal —dato → afirmación → respaldo → modalizador → refutación—. La disposición es incorrecta y destruye el único elemento con rendimiento forense: el **respaldo sostiene a la garantía**, no a la afirmación; el modalizador y la refutación penden de la afirmación. Quien trabaje con la figura lineal perderá exactamente aquello que este módulo persigue.
 
