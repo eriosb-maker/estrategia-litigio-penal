@@ -1,22 +1,22 @@
 {
   "_nota": "Indice maestro de integridad. Estados: instalado | no_propagado (construido, no instalado) | ausente (invocado o comprometido, nunca instalado). El indice y el script de verificacion se excluyen de si mismos.",
   "skill": "analisis-penal-chile",
-  "version_skill": "4.19",
+  "version_skill": "4.20",
   "fecha_indice": "2026-11-16",
   "algoritmo": "sha256",
-  "origen_version": "v4.19: Protocolo de Cierre y Aprendizaje del ciclo v4.18; entrada A-029 aprobada (el número de versión se asigna contra main y consta en los cuatro lugares del manifiesto). Versión exclusivamente de memoria: no altera módulo jurídico, normativo ni de motores. Base: v4.18. Incluye la constancia registral de instalación y verificación del 2026-11-16.",
+  "origen_version": "v4.20: revalidación íntegra del perímetro del Código Penal (A-027) contra descarga oficial nueva (idNorma 1984, SHA-256 8b1ba087…d18a): 137/138 idénticos y art. 12 re-curado por la Ley N° 21.802, art. 67. Corpus sin variación (293 artículos); extractos del CP vigentes hasta 2027-05-16. Base: v4.19.",
   "archivos": [
     {
       "ruta": "CHANGELOG.md",
       "estado": "instalado",
-      "sha256": "7d52e35d52ef68bd6a256bda26472b112f98f6029a7ba59dd34403eb1043d67f",
-      "bytes": 66097
+      "sha256": "82fe28955f16422ecb4cad6fc3239dd9dfc1a63bff248877816c3410257e5f7c",
+      "bytes": 70167
     },
     {
       "ruta": "SKILL.md",
       "estado": "instalado",
-      "sha256": "e4eb390bf1dc9921a941fdcd2073e0885256a5a01032d35fabbfd7672344afa0",
-      "bytes": 67827
+      "sha256": "7e12755cc439f76c346d1986b8f4fb9a3e4b5edaaa8896a232fc3b237ea7780e",
+      "bytes": 68910
     },
     {
       "ruta": "assets/fuentes/Art56CP.jpeg",
@@ -153,8 +153,8 @@
     {
       "ruta": "references/marco-legal.md",
       "estado": "instalado",
-      "sha256": "9fe2b53b6b09b10d84bba5e7791a5ea445483e96c08f454010aa4106bece9ecc",
-      "bytes": 379258
+      "sha256": "570b56754b9e4f1a54bdeea2c4c0a9e45db8c6674a92227ec19a7147f16b479b",
+      "bytes": 382072
     },
     {
       "ruta": "references/metodologia-detallada.md",
