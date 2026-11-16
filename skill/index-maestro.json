@@ -1,22 +1,22 @@
 {
   "_nota": "Indice maestro de integridad. Estados: instalado | no_propagado (construido, no instalado) | ausente (invocado o comprometido, nunca instalado). El indice y el script de verificacion se excluyen de si mismos.",
   "skill": "analisis-penal-chile",
-  "version_skill": "4.17",
+  "version_skill": "4.18",
   "fecha_indice": "2026-11-16",
   "algoritmo": "sha256",
-  "origen_version": "v4.17: Protocolo de Cierre y Aprendizaje del ciclo v4.16; entrada A-028 aprobada (cotejo de descripciones entre skills de la cuenta antes de crear una nueva). Versión exclusivamente de memoria: no altera módulo jurídico, normativo ni de motores. Base: v4.16.",
+  "origen_version": "v4.18: Protocolo de Cierre y Aprendizaje del ciclo v4.16; entrada A-028 aprobada (cotejo de descripciones entre skills de la cuenta antes de crear una nueva). Reconciliación de la numeración con la v4.17 del titular (arts. 182 y 183 CPP, sección 3.11; corpus 293 artículos), cuyo registro se practica aquí como corrección de manifiesto. Base: v4.17.",
   "archivos": [
     {
       "ruta": "CHANGELOG.md",
       "estado": "instalado",
-      "sha256": "26994cf5aa704615e14ecf12a1efc0a7eabbefe7374fee2fd214e8c0ef3b1249",
-      "bytes": 59836
+      "sha256": "97d5af6aca4185e7627c164a69624c0a46565594b1202530d47e83f20ed2fe44",
+      "bytes": 61953
     },
     {
       "ruta": "SKILL.md",
       "estado": "instalado",
-      "sha256": "35c2dec2883812273f664a4b790276d700d3ddabe1da07c5fa23e22b9b436476",
-      "bytes": 66085
+      "sha256": "b91431225cff43900bc0c91173d9d0168ac547e094cd118053c702759be3411e",
+      "bytes": 67022
     },
     {
       "ruta": "assets/fuentes/Art56CP.jpeg",
@@ -153,8 +153,8 @@
     {
       "ruta": "references/marco-legal.md",
       "estado": "instalado",
-      "sha256": "a27fc32209d23a54077302d190598ef513ada99ffa4698839977efe5e1a234a8",
-      "bytes": 373750
+      "sha256": "9fe2b53b6b09b10d84bba5e7791a5ea445483e96c08f454010aa4106bece9ecc",
+      "bytes": 379258
     },
     {
       "ruta": "references/metodologia-detallada.md",

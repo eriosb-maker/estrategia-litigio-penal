@@ -24,6 +24,10 @@
 > al módulo `esquemas-argumentales.md`. Corpus: 291 artículos. Extracto desde el ejemplar conservado en
 > `curatoria/xml/` (hash idéntico al registrado); vence el 2027-05-03.
 >
+> **Actualización 2026-11-07 (v4.17)**: se insertan los arts. 182 y 183 CPP (sección 3.11), sobre secreto de
+> las actuaciones de investigación y proposición de diligencias. Corpus: 293 artículos. Extracto desde el
+> ejemplar conservado en `curatoria/xml/` (hash idéntico al registrado); vence el 2027-05-07.
+>
 > **Cotejo A-027 (2026-09-30, v4.15)**: nueva descarga de los XML del CPP, la CPR y el COT, con hashes
 > idénticos a los registrados; 146/146 artículos CPP, 2/2 CPR y 1/1 COT idénticos al texto oficial.
 > Ley modificatoria del art. 238 CPP individualizada (Ley N° 21.829). XML conservados en `curatoria/xml/`.
@@ -6935,6 +6939,79 @@ autor. La sentencia señalará el nombre de su redactor y el
 del que lo sea de la disidencia o prevención.
 ```
 
+### 3.11 Actuaciones de la investigación: secreto y proposición de diligencias *(insertado el 2026-11-07)*
+- Arts. 182 y 183: régimen del secreto de las actuaciones de investigación (art. 182) —acceso del imputado y demás intervinientes a los registros, facultad del fiscal de decretar secreto con plazo máximo de cuarenta días ampliable por una sola vez, inoponibilidad de la ampliación a la defensa, núcleo no susceptible de reserva del inciso quinto y reclamo ante el juez de garantía del inciso cuarto— y proposición de diligencias por los intervinientes (art. 183), con plazo de diez días para el pronunciamiento del fiscal y cinco días para reclamar ante las autoridades del Ministerio Público. Completan, junto con la sección 3.3, el perímetro de la etapa de investigación formalizada.
+- Procedencia del extracto: ejemplar del XML oficial conservado en `curatoria/xml/cpp-ley19696-idNorma-176595.xml`, versión de la norma 2026-07-22, cuyo SHA-256 se verificó idéntico al registrado en las curatorías del 2026-09-30 y del 2026-11-03. No hubo descarga nueva, por lo que la regla A-027 (cotejo íntegro por descarga) no se activa; el perímetro CPP conserva el cotejo conforme de esa fecha.
+
+## ESTABLECE CODIGO PROCESAL PENAL (CPP)
+
+> **Fuente oficial**: Biblioteca del Congreso Nacional — LeyChile, servicio XML `obtxml opt=7`, idNorma 176595 (Ley 19696), publicada el 2000-10-12.
+> **Versión de la norma**: 2026-07-22 · **Estado**: no derogado. **SHA-256 del XML**: 890ef6a2704a10f956d6d9b0814613ffe141cb555f7cc639f31c078ab0a6390b (ejemplar conservado en `curatoria/xml/`, idéntico al registrado el 2026-09-30).
+> **Fecha de verificación de esta curatoría**: 2026-11-07. Todo uso posterior debe cotejar la vigencia en LeyChile.
+
+### CPP — Art. 182
+*Libro Segundo Procedimiento ordinario › Título I Etapa de investigación › Párrafo 3º Actuaciones de la investigación* — `idParte 8646741 · versión del artículo: 2016-07-05`
+
+```
+     Artículo 182.- Secreto de las actuaciones de
+investigación. Las actuaciones de investigación realizadas
+por el ministerio público y por la policía serán secretas
+para los terceros ajenos al procedimiento.
+     El imputado y los demás intervinientes en el
+procedimiento podrán examinar y obtener copias, a su cargo,
+de los registros y documentos de la investigación fiscal y
+podrán examinar los de la investigación policial.
+     El fiscal podrá disponer que determinadas actuaciones,
+registros o documentos sean mantenidas en secreto respecto
+del imputado o de los demás intervinientes, cuando lo
+considerare necesario para la eficacia de la investigación.
+En tal caso deberá identificar las piezas o actuaciones
+respectivas, de modo que no se vulnere la reserva y fijar un
+plazo no superior a cuarenta días para la mantención del
+secreto, el cual podrá ser ampliado por el mismo período,
+por una sola vez, con motivos fundados. Esta ampliación no
+será oponible ni al imputado ni a su defensa.
+     El imputado o cualquier otro interviniente podrá
+solicitar del juez de garantía que ponga término al
+secreto o que lo limite, en cuanto a su duración, a las
+piezas o actuaciones abarcadas por él, o a las personas a
+quienes afectare.
+     Sin perjuicio de lo dispuesto en los incisos
+anteriores, no se podrá decretar el secreto sobre la
+declaración del imputado o cualquier otra actuación en que
+hubiere intervenido o tenido derecho a intervenir, las
+actuaciones en las que participare el tribunal, ni los
+informes evacuados por peritos, respecto del propio imputado
+o de su defensor.
+     Los funcionarios que hubieren participado en la
+investigación y las demás personas que, por cualquier
+motivo, tuvieren conocimiento de las actuaciones de la
+investigación estarán obligados a guardar secreto respecto
+de ellas.
+```
+
+### CPP — Art. 183
+*Libro Segundo Procedimiento ordinario › Título I Etapa de investigación › Párrafo 3º Actuaciones de la investigación* — `idParte 8646742 · versión del artículo: 2016-07-05`
+
+```
+     Artículo 183.- Proposición de diligencias. Durante la
+investigación, tanto el imputado como los demás
+intervinientes en el procedimiento podrán solicitar al
+fiscal todas aquellas diligencias que consideraren
+pertinentes y útiles para el esclarecimiento de los hechos.
+El fiscal deberá pronunciarse dentro de los diez días
+siguientes a la solicitud y ordenará que se lleven a efecto
+aquellas que estimare conducentes.
+     Si el fiscal rechazare la solicitud o no se pronunciare
+dentro del plazo establecido en el inciso anterior, se
+podrá reclamar ante las autoridades del Ministerio Público
+según lo disponga la ley orgánica constitucional
+respectiva, dentro del plazo de cinco días contado desde el
+rechazo o desde el vencimiento del señalado plazo, con el
+propósito de obtener un pronunciamiento definitivo acerca
+de la procedencia de la diligencia.
+```
+
 ## 3 bis. Normas constitucionales y orgánicas complementarias — perímetro aprobado
 
 ### 3 bis.1 Constitución Política de la República *(insertado el 2026-09-30)*
@@ -7664,3 +7741,4 @@ a la sección 7 del SKILL.md.)*
 | 2026-09-30 | CADH (idNorma 16022) · PIDCP (idNorma 15551) | CADH 8; PIDCP 14 (2 artículos; sección 3 bis.3; modo `--tratado`; secuencia correlativa 82/82 y 53/53; XML SHA-256 b5287e29…4c54 y 6d857285…0afe5). Cotejo A-027: sin artículos previamente curados de estos cuerpos | 1991-01-05 · 1989-04-29 | curar_norma.py --tratado |
 | 2026-09-30 | CPP (176595) · CPR (242302) · COT (25563) | Cotejo A-027 sin inserciones: CPP 146/146, CPR 2/2 y COT 1/1 idénticos; XML con hashes idénticos a los registrados (890ef6a2…6390b; f49fa004…07ab; 6a60c46a…6d994), conservados en `curatoria/xml/`; art. 238 CPP: reforma atribuida a la Ley N° 21.829, art. 4° (D.O. 22-07-2026) | 2026-07-22 · 2026-04-16 · 2026-04-02 | curar_norma.py (A-027) |
 | 2026-11-03 | CPP (idNorma 176595) | 341–342 (2 artículos; sección 3.10: congruencia y contenido de la sentencia definitiva; XML SHA-256 890ef6a2…6390b, ejemplar conservado en `curatoria/xml/`, sin descarga nueva) | 2026-07-22 | curar_norma.py |
+| 2026-11-07 | CPP (idNorma 176595) | 182–183 (2 artículos; sección 3.11: secreto de las actuaciones y proposición de diligencias; XML SHA-256 890ef6a2…6390b, ejemplar conservado en `curatoria/xml/`, sin descarga nueva) | 2026-07-22 | curar_norma.py |
