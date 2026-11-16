@@ -18,7 +18,9 @@
 
 7. Versión incrementada a 4.21 en los cuatro lugares del manifiesto (A-029.d), numerada sobre el estado vigente de `main` (4.20 conforme en las cuatro fuentes) y no sobre la base de la rama (A-029.a); índice maestro regenerado (R-4); auditoría `verificar-integridad.sh` conforme sobre el árbol de trabajo y sobre el reempaquetado (R-3); suite de pruebas y verificador de sincronía conformes.
 
-*Pendientes que subsisten*: instalación de la v4.21 (acto del titular); aprobación o rechazo de la ampliación de perímetro propuesta en la v4.20 (arts. 448 bis a 448 octies, 456 y 456 bis del Código Penal).
+**Constancia de instalación (2026-11-16).** La v4.21 fue instalada en Claude.ai por acción del asistente, con autorización expresa del titular, mediante la opción «Subir nueva versión». Constan: el aviso de reemplazo de la interfaz; el paquete registrado como **v14 vigente**, con **36 archivos** y «4.21» en el encabezado del `SKILL.md`; y una sola entrada activa, en estado «Agregado». El paquete, en formato `.skill`, fue auditado con `verificar-integridad.sh` antes de subirlo. No se verificó el comportamiento en ejecución. Nota registral posterior al paquete instalado: **no exige reinstalación**.
+
+*Pendientes que subsisten*: aprobación o rechazo de la ampliación de perímetro propuesta en la v4.20 (arts. 448 bis a 448 octies, 456 y 456 bis del Código Penal).
 
 ## v4.20 — 16 de noviembre de 2026
 
